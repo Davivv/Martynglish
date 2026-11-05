@@ -2,7 +2,15 @@ import { describe, expect, it } from 'vitest'
 import { PICTURE_WORDS, pictureOf } from '../data/wordPictures'
 import type { Story, WordToken } from '../types/story'
 import type { VocabEntry } from '../types/vocabulary'
-import { type GameWord, buildListeningRound, pickGameWords, pickListeningWords } from './games'
+import {
+  type GameWord,
+  buildListeningRound,
+  isNextBlock,
+  pickGameWords,
+  pickListeningWords,
+  pickSentences,
+  shuffleBlocks,
+} from './games'
 
 const tok = (word: string, isKeyword = true): WordToken => ({
   word,
@@ -122,5 +130,69 @@ describe('pickListeningWords', () => {
   it('respects the story filter', () => {
     const keys = pickListeningWords({}, [...mixed, story('z', ['dog'])], 6, Math.random, 'z').map((w) => w.key)
     expect(keys).toEqual(['dog'])
+  })
+})
+
+const mkPage = (n: number, text: string, count = 4) =>
+  ({
+    pageNumber: n,
+    sentenceEn: text,
+    words: Array.from({ length: count }, (_, i) => tok(`w${n}${i}`)),
+  }) as unknown as Story['pages'][number]
+const sStory = (id: string, pages: Story['pages']): Story => ({ id, pages }) as unknown as Story
+const sStories = [
+  sStory('a', [mkPage(1, 'A one'), mkPage(2, 'A two', 2), mkPage(3, 'A three', 9), mkPage(4, 'A four', 8)]),
+  sStory('b', [mkPage(1, 'B one'), mkPage(2, 'B two'), mkPage(3, 'A one')]),
+  sStory('c', [mkPage(1, 'C one', 3)]),
+]
+
+describe('pickSentences', () => {
+  it('keeps only pages with 3-8 blocks, unique by text', () => {
+    const all = pickSentences(sStories, {}, 99, seqRng()).map((p) => p.page.sentenceEn)
+    expect(all.sort()).toEqual(['A four', 'A one', 'B one', 'B two', 'C one'])
+  })
+
+  it('puts read stories first and pads in story order', () => {
+    const picked = pickSentences(sStories, { b: 1 }, 4, seqRng())
+    expect(picked.slice(0, 3).every((p) => p.storyId === 'b')).toBe(true)
+    expect(picked.map((p) => p.storyId).slice(3)).toEqual(['a'])
+    expect(pickSentences(sStories, { b: 1 }, 1, seqRng())[0].storyId).toBe('b')
+  })
+
+  it('filters by story', () => {
+    const picked = pickSentences(sStories, {}, 10, seqRng(), 'a')
+    expect(picked.every((p) => p.storyId === 'a')).toBe(true)
+    expect(picked).toHaveLength(2)
+  })
+})
+
+describe('shuffleBlocks', () => {
+  const words = ['a', 'b', 'c', 'd'].map((w) => tok(w))
+  const original = (o: number[]) => o.every((v, i) => v === i)
+
+  it('is a permutation and never the original order', () => {
+    for (let i = 0; i < 200; i++) {
+      const order = shuffleBlocks(words, seqRng())
+      expect([...order].sort()).toEqual([0, 1, 2, 3])
+      expect(original(shuffleBlocks(words))).toBe(false)
+      expect(original(order)).toBe(false)
+    }
+    expect(original(shuffleBlocks(words, () => 0))).toBe(false)
+    expect(original(shuffleBlocks(words.slice(0, 2), () => 0))).toBe(false)
+  })
+
+  it('handles identical blocks without hanging', () => {
+    const same3 = [tok('go'), tok('Go'), tok('go')]
+    expect([...shuffleBlocks(same3)].sort()).toEqual([0, 1, 2])
+    expect(shuffleBlocks([tok('x')])).toEqual([0])
+  })
+})
+
+describe('isNextBlock', () => {
+  const words = [tok('I'), tok('see'), tok('i')]
+  it('accepts the same text in either slot and ignores case', () => {
+    expect(isNextBlock(words, 0, 2)).toBe(true)
+    expect(isNextBlock(words, 2, 0)).toBe(true)
+    expect(isNextBlock(words, 1, 0)).toBe(false)
   })
 })

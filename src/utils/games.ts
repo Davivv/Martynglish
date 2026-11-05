@@ -1,11 +1,11 @@
 // Pure game logic (D33). `rng` is injectable so tests are deterministic.
 import { PICTURE_WORDS, type PictureSpec, pictureOf } from '../data/wordPictures'
-import type { Story } from '../types/story'
+import type { Story, StoryPage, WordToken } from '../types/story'
 import { buildQuizOptions, same, shuffle } from './quiz'
 import { flashcardOf } from './storyGuardian'
 import { type Vocabulary, makeEntry } from './vocabulary'
 
-export type GameId = 'listening'
+export type GameId = 'listening' | 'sentence'
 
 export interface GameWord {
   key: string
@@ -132,4 +132,64 @@ export function buildListeningRound(
     options.push({ answerPl: candidate.answerPl, picture: candidate.picture, correct: false })
   }
   return shuffle(options, rng)
+}
+
+const MIN_BLOCKS = 3
+const MAX_BLOCKS = 8
+
+/**
+ * Pages for the sentence game (D34): 3-8 blocks, unique by sentence text. Without `storyId`,
+ * pages of stories read at least once come first, the rest pads in story order.
+ */
+export function pickSentences(
+  stories: readonly Story[],
+  progress: Record<string, number>,
+  count: number,
+  rng: () => number = Math.random,
+  storyId?: string,
+): { storyId: string; page: StoryPage }[] {
+  const pagesOf = (list: readonly Story[]) =>
+    list.flatMap((story) =>
+      story.pages
+        .filter((p) => p.words.length >= MIN_BLOCKS && p.words.length <= MAX_BLOCKS)
+        .map((page) => ({ storyId: story.id, page })),
+    )
+  const seen = new Set<string>()
+  const unique = (items: { storyId: string; page: StoryPage }[]) =>
+    items.filter(({ page }) => {
+      const text = page.sentenceEn.trim().toLowerCase()
+      if (seen.has(text)) return false
+      seen.add(text)
+      return true
+    })
+  if (storyId) return unique(shuffle(pagesOf(stories.filter((s) => s.id === storyId)), rng)).slice(0, count)
+  const read = unique(shuffle(pagesOf(stories.filter((s) => (progress[s.id] ?? 0) > 0)), rng))
+  if (read.length >= count) return read.slice(0, count)
+  const rest = unique(pagesOf(stories.filter((s) => !((progress[s.id] ?? 0) > 0))))
+  return [...read, ...rest].slice(0, count)
+}
+
+/** Block indexes in random order; never the original order when two blocks differ. */
+export function shuffleBlocks(words: readonly WordToken[], rng: () => number = Math.random): number[] {
+  const identity = words.map((_, i) => i)
+  const distinct = new Set(words.map((w) => w.word.toLowerCase())).size > 1
+  if (!distinct) return shuffle(identity, rng)
+  const isOriginal = (order: number[]) => order.every((v, i) => words[v].word.toLowerCase() === words[i].word.toLowerCase())
+  for (let attempt = 0; attempt < 20; attempt++) {
+    const order = shuffle(identity, rng)
+    if (!isOriginal(order)) return order
+  }
+  // Guaranteed fallback: rotate by one step until the text order differs.
+  for (let shift = 1; shift < identity.length; shift++) {
+    const order = identity.map((_, i) => (i + shift) % identity.length)
+    if (!isOriginal(order)) return order
+  }
+  return identity
+}
+
+/** True when block `index` may fill slot `placed`: equal text counts, so a repeated word fits either slot. */
+export function isNextBlock(words: readonly WordToken[], placed: number, index: number): boolean {
+  const target = words[placed]
+  const tapped = words[index]
+  return !!target && !!tapped && same(tapped.word, target.word)
 }

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { BottomNav, type MainView } from './components/nav/BottomNav'
 import { GamesView } from './components/games/GamesView'
+import { SentenceGame } from './components/games/SentenceGame'
 import { ListeningGame } from './components/games/ListeningGame'
 import { LibraryView } from './components/library/LibraryView'
 import { ReaderView } from './components/reader/ReaderView'
@@ -21,7 +22,8 @@ export default function App() {
   }
 
   if (playing) {
-    return <ListeningGame storyId={playing.storyId} onExit={() => setPlaying(null)} />
+    const Game = playing.game === 'sentence' ? SentenceGame : ListeningGame
+    return <Game storyId={playing.storyId} onExit={() => setPlaying(null)} />
   }
 
   return (

@@ -7,6 +7,7 @@ import { flashcardOf } from '../../utils/storyGuardian'
 import { getVocabulary, trackWordClick } from '../../utils/vocabulary'
 import { InteractiveStoryStage } from '../stage/InteractiveStoryStage'
 import { WordBlock } from './WordBlock'
+import { blockSizeClass } from './blockSize'
 
 type Speech = ReturnType<typeof useSpeech>
 
@@ -14,13 +15,6 @@ interface ReaderPageProps {
   storyId: string
   page: StoryPage
   speech: Speech
-}
-
-/** Block text size by sentence length; the longest sentences (8-9 blocks) must fit 360x640 (D20). */
-function blockSizeClass(count: number): string {
-  if (count <= 5) return 'text-2xl'
-  if (count <= 7) return 'text-xl'
-  return 'text-lg'
 }
 
 /**
