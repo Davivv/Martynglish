@@ -46,7 +46,7 @@ function SentenceSession({ storyId, onExit, onAgain }: SentenceGameProps & { onA
   if (finished || !page) {
     return (
       <GameShell total={total} done={total} onExit={exit}>
-        <GameFinish stars={perfect} total={total} onAgain={onAgain} onExit={exit} />
+        <GameFinish stars={perfect} total={total} onAgain={onAgain} onExit={exit} exitLabel={storyId ? '📚 Do bajek' : undefined} />
       </GameShell>
     )
   }

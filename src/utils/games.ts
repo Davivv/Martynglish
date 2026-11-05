@@ -5,7 +5,7 @@ import { buildQuizOptions, same, shuffle } from './quiz'
 import { flashcardOf } from './storyGuardian'
 import { type Vocabulary, makeEntry } from './vocabulary'
 
-export type GameId = 'listening' | 'sentence'
+export type GameId = 'listening' | 'sentence' | 'memory'
 
 export interface GameWord {
   key: string
@@ -192,4 +192,51 @@ export function isNextBlock(words: readonly WordToken[], placed: number, index: 
   const target = words[placed]
   const tapped = words[index]
   return !!target && !!tapped && same(tapped.word, target.word)
+}
+
+export interface MemoryCard {
+  id: string
+  word: GameWord
+  side: 'word' | 'meaning'
+  /** Only on the meaning side. */
+  picture?: PictureSpec
+}
+
+/**
+ * Words for the memory game (D35): pictured words first, one word per Polish meaning,
+ * padded from PICTURE_WORDS when the pool is too small (also in story mode).
+ */
+export function pickMemoryWords(
+  vocab: Vocabulary,
+  stories: readonly Story[],
+  count: number,
+  rng: () => number = Math.random,
+  storyId?: string,
+): GameWord[] {
+  const chosen: GameWord[] = []
+  const add = (word: GameWord) => {
+    if (chosen.length >= count) return
+    if (chosen.some((c) => c.key === word.key || same(c.answerPl, word.answerPl))) return
+    chosen.push(word)
+  }
+  // Dictionary words keep their priority, pictured words first within it.
+  const pool = pickGameWords(vocab, stories, Number.MAX_SAFE_INTEGER, rng, storyId)
+  ;[...pool.filter((w) => pictureOf(w.key)), ...pool.filter((w) => !pictureOf(w.key))].forEach(add)
+  for (const w of shuffle(PICTURE_WORDS, rng)) {
+    add({ key: w.key, answerPl: w.answerPl, phoneticsPl: w.phoneticsPl, ttsText: w.key })
+  }
+  return chosen
+}
+
+/** Two cards per word, shuffled. */
+export function buildMemoryDeck(words: readonly GameWord[], rng: () => number = Math.random): MemoryCard[] {
+  const cards = words.flatMap((word): MemoryCard[] => [
+    { id: `${word.key}:word`, word, side: 'word' },
+    { id: `${word.key}:meaning`, word, side: 'meaning', picture: pictureOf(word.key) },
+  ])
+  return shuffle(cards, rng)
+}
+
+export function isPair(a: MemoryCard, b: MemoryCard): boolean {
+  return a.word.key === b.word.key && a.side !== b.side
 }

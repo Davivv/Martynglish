@@ -87,7 +87,7 @@ function ListeningSession({ storyId, onExit, onAgain }: SessionProps) {
   if (finished || !round) {
     return (
       <GameShell total={total} done={total} onExit={exit}>
-        <GameFinish stars={firstTry} total={total} onAgain={onAgain} onExit={exit} />
+        <GameFinish stars={firstTry} total={total} onAgain={onAgain} onExit={exit} exitLabel={storyId ? '📚 Do bajek' : undefined} />
       </GameShell>
     )
   }

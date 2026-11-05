@@ -42,6 +42,19 @@ export function GamesView({ onPlay }: GamesViewProps) {
           <span className="block text-sm text-slate-600">Układasz klocki w dobrej kolejności.</span>
         </span>
       </button>
+      <button
+        type="button"
+        onClick={() => onPlay('memory')}
+        className="flex min-h-24 items-center gap-4 rounded-3xl bg-white p-4 text-left shadow-md ring-1 ring-violet-100 active:scale-95"
+      >
+        <span className="text-4xl" aria-hidden="true">
+          🃏
+        </span>
+        <span className="min-w-0">
+          <span className="block text-lg font-bold text-slate-800">Pary</span>
+          <span className="block text-sm text-slate-600">Szukasz słowa i jego obrazka.</span>
+        </span>
+      </button>
     </div>
   )
 }

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { BottomNav, type MainView } from './components/nav/BottomNav'
 import { GamesView } from './components/games/GamesView'
 import { SentenceGame } from './components/games/SentenceGame'
+import { MemoryGame } from './components/games/MemoryGame'
 import { ListeningGame } from './components/games/ListeningGame'
 import { LibraryView } from './components/library/LibraryView'
 import { ReaderView } from './components/reader/ReaderView'
@@ -18,11 +19,21 @@ export default function App() {
 
   const reading = readingId ? getAllStories().find((s) => s.id === readingId) : undefined
   if (reading) {
-    return <ReaderView key={reading.id} story={reading} onExit={() => setReadingId(null)} />
+    return (
+      <ReaderView
+        key={reading.id}
+        story={reading}
+        onExit={() => setReadingId(null)}
+        onPlay={(game) => {
+          setReadingId(null)
+          setPlaying({ game, storyId: reading.id })
+        }}
+      />
+    )
   }
 
   if (playing) {
-    const Game = playing.game === 'sentence' ? SentenceGame : ListeningGame
+    const Game = { listening: ListeningGame, sentence: SentenceGame, memory: MemoryGame }[playing.game]
     return <Game storyId={playing.storyId} onExit={() => setPlaying(null)} />
   }
 

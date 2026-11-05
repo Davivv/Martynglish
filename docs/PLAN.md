@@ -79,8 +79,8 @@ Dziecko nie czyta jeszcze po angielsku, więc pierwszeństwo mają: powroty do s
 - [x] Zabawy: obrazki słów i nowa zakładka 🎮
 - [x] Zabawa „Posłuchaj i znajdź”: słowo ze słuchu, odpowiedź obrazkiem
 - [x] Zabawa „Ułóż zdanie”: klocki w dobrej kolejności
-- [ ] Zabawa „Pary”: memory ze słowem i obrazkiem
-- [ ] Po bajce: zabawa ze słówkami z tej bajki
+- [x] Zabawa „Pary”: memory ze słowem i obrazkiem
+- [x] Po bajce: zabawa ze słówkami z tej bajki
 - [ ] Dzienna misja i album naklejek, w którym naklejka uczy słowa
 - [ ] Nowe bajki z rysunków, które już istnieją (`panda`, `bunny`, `beach`)
 - [ ] Audyt całości na 360×640 i aktualizacja strony testowej

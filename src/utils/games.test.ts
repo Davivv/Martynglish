@@ -5,7 +5,10 @@ import type { VocabEntry } from '../types/vocabulary'
 import {
   type GameWord,
   buildListeningRound,
+  buildMemoryDeck,
   isNextBlock,
+  isPair,
+  pickMemoryWords,
   pickGameWords,
   pickListeningWords,
   pickSentences,
@@ -194,5 +197,77 @@ describe('isNextBlock', () => {
     expect(isNextBlock(words, 0, 2)).toBe(true)
     expect(isNextBlock(words, 2, 0)).toBe(true)
     expect(isNextBlock(words, 1, 0)).toBe(false)
+  })
+})
+
+describe('pickMemoryWords', () => {
+  const mStories = [
+    {
+          id: 'm',
+          pages: [
+            {
+              pageNumber: 1,
+              sentenceEn: 'x',
+              words: [
+                { word: 'little', translationPl: 'mały', phoneticsPl: 'li-tl', isKeyword: true },
+                { word: 'small', translationPl: 'mały', phoneticsPl: 'smol', isKeyword: true },
+                { word: 'zzz', translationPl: 'chrap', phoneticsPl: 'zzz', isKeyword: true },
+                { word: 'sun', translationPl: 'słońce', phoneticsPl: 'san', isKeyword: true },
+              ],
+            },
+          ],
+    } as unknown as Story,
+  ]
+
+  it('keeps one word per meaning, pictured words first', () => {
+    const words = pickMemoryWords({}, mStories, 6, seqRng())
+    expect(words).toHaveLength(6)
+    expect(new Set(words.map((w) => w.answerPl)).size).toBe(6)
+    expect(new Set(words.map((w) => w.key)).size).toBe(6)
+    expect(words[0].key).toBe('sun')
+  })
+
+  it('pads to count in story mode too', () => {
+    const words = pickMemoryWords({}, mStories, 6, seqRng(), 'm')
+    expect(words).toHaveLength(6)
+    expect(words.filter((w) => w.answerPl === 'mały')).toHaveLength(1)
+    expect(new Set(words.map((w) => w.key)).size).toBe(6)
+  })
+})
+
+describe('buildMemoryDeck', () => {
+  const words = ['sun', 'cat', 'red'].map((k) => {
+    const w = PICTURE_WORDS.find((p) => p.key === k)!
+    return { key: k, answerPl: w.answerPl, phoneticsPl: w.phoneticsPl, ttsText: k }
+  })
+  const deck = buildMemoryDeck(words, seqRng())
+
+  it('has two unique cards per word', () => {
+    expect(deck).toHaveLength(6)
+    expect(new Set(deck.map((c) => c.id)).size).toBe(6)
+    for (const w of words) expect(deck.filter((c) => c.word.key === w.key).map((c) => c.side).sort()).toEqual(['meaning', 'word'])
+  })
+
+  it('puts the picture only on the meaning side', () => {
+    for (const c of deck) expect(c.picture !== undefined).toBe(c.side === 'meaning')
+  })
+
+  it('isPair needs one word and different sides', () => {
+    const [a, b] = deck.filter((c) => c.word.key === 'sun')
+    const other = deck.find((c) => c.word.key === 'cat' && c.side !== a.side)!
+    expect(isPair(a, b)).toBe(true)
+    expect(isPair(a, a)).toBe(false)
+    expect(isPair(a, other)).toBe(false)
+  })
+})
+
+describe('pickMemoryWords priority', () => {
+  it('prefers words from the dictionary over words from the stories', () => {
+    const many = [story('p', ['sun', 'moon', 'star', 'cat', 'dog', 'flower', 'tree', 'ball', 'apple'])]
+    for (let i = 0; i < 30; i++) {
+      const keys = pickMemoryWords({ tree: entry('tree', 'learning'), ball: entry('ball', 'known') }, many, 3).map((w) => w.key)
+      expect(keys).toContain('tree')
+      expect(keys).toContain('ball')
+    }
   })
 })

@@ -3,6 +3,7 @@ import { ArrowLeft, ArrowRight, Home, Star } from 'lucide-react'
 import { useState } from 'react'
 import { useSpeech } from '../../hooks/useSpeech'
 import type { Story } from '../../types/story'
+import type { GameId } from '../../utils/games'
 import { recordCompletion } from '../../utils/progress'
 import { playFanfare } from '../../utils/soundEffects'
 import { ReaderPage } from './ReaderPage'
@@ -10,9 +11,11 @@ import { ReaderPage } from './ReaderPage'
 interface ReaderViewProps {
   story: Story
   onExit: () => void
+  /** Starts a game with this story's words (D35). */
+  onPlay: (game: GameId) => void
 }
 
-export function ReaderView({ story, onExit }: ReaderViewProps) {
+export function ReaderView({ story, onExit, onPlay }: ReaderViewProps) {
   const speech = useSpeech()
   const [index, setIndex] = useState(0)
   const [finishedCount, setFinishedCount] = useState<number | null>(null)
@@ -40,7 +43,7 @@ export function ReaderView({ story, onExit }: ReaderViewProps) {
 
   if (finishedCount !== null) {
     return (
-      <div className="flex h-dvh flex-col items-center justify-center gap-5 bg-paper p-6 text-center">
+      <div className="flex h-dvh flex-col items-center justify-center gap-4 bg-paper p-6 text-center">
         <Star size={96} className="animate-pop fill-yellow-300 text-amber-400" aria-hidden="true" />
         <h1 className="text-3xl font-bold text-violet-700">Brawo, Martynko!</h1>
         <p className="text-lg text-slate-700">Masz nową gwiazdkę ⭐</p>
@@ -50,10 +53,20 @@ export function ReaderView({ story, onExit }: ReaderViewProps) {
         <button
           type="button"
           onClick={() => {
+            speech.stop()
+            onPlay('sentence')
+          }}
+          className="min-h-14 w-full max-w-xs rounded-3xl bg-violet-500 px-6 text-lg font-bold text-white shadow-md active:scale-95"
+        >
+          🧩 Ułóż zdania z tej bajki
+        </button>
+        <button
+          type="button"
+          onClick={() => {
             setFinishedCount(null)
             setIndex(0)
           }}
-          className="min-h-14 w-full max-w-xs rounded-3xl bg-violet-500 px-6 text-lg font-bold text-white shadow-md active:scale-95"
+          className="min-h-14 w-full max-w-xs rounded-3xl bg-white px-6 text-lg font-bold text-violet-700 shadow-md ring-1 ring-violet-200 active:scale-95"
         >
           🔄 Czytam jeszcze raz
         </button>

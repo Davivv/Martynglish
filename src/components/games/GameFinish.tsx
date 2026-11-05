@@ -9,9 +9,11 @@ interface GameFinishProps {
   total: number
   onAgain: () => void
   onExit: () => void
+  /** Label of the exit button. */
+  exitLabel?: string
 }
 
-export function GameFinish({ stars, total, onAgain, onExit }: GameFinishProps) {
+export function GameFinish({ stars, total, onAgain, onExit, exitLabel = '🎮 Do zabaw' }: GameFinishProps) {
   const celebrated = useRef(false)
   useEffect(() => {
     if (celebrated.current) return // StrictMode runs effects twice in development
@@ -43,7 +45,7 @@ export function GameFinish({ stars, total, onAgain, onExit }: GameFinishProps) {
         onClick={onExit}
         className="min-h-14 w-full max-w-xs rounded-3xl bg-white px-6 text-lg font-bold text-violet-700 shadow-md ring-1 ring-violet-200 active:scale-95"
       >
-        🎮 Do zabaw
+        {exitLabel}
       </button>
     </div>
   )
