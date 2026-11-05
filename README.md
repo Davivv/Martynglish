@@ -2,6 +2,14 @@
 
 Aplikacja do nauki angielskiego przez czytanie bajek, dla 7-letniej Martynki. Działa w przeglądarce, offline i bez logowania. Postępy zapisuje na urządzeniu.
 
+## Co jest w aplikacji
+
+- **Bajki:** 7 bajek z lektorem, karaoke i tłumaczeniem słów. Po bajce można ułożyć jej zdania.
+- **Skarby:** fiszki ze słów z bajek. Słowa wracają w odstępach, a dzienna porcja to 8 kart. Odpowiadać można po polsku albo po angielsku.
+- **Zabawy:** „Posłuchaj i znajdź”, „Ułóż zdanie” i „Pary”.
+- **Dzienna misja:** bajka, fiszki i zabawa. Nagrodą jest naklejka, która po dotknięciu mówi swoją angielską nazwę.
+- **Strefa Wujka:** statystyki, kreator bajek i bajki dodane z telefonu.
+
 ## Uruchomienie
 
 Potrzebny jest Node.js w wersji 22.12 lub nowszej.
@@ -41,8 +49,11 @@ Tych rzeczy nie da się sprawdzić na komputerze:
 - [ ] Czy lektor mówi po angielsku. Jeśli pojawi się komunikat o braku głosu, doinstaluj angielski w ustawieniach mowy Androida.
 - [ ] Czy lektor działa w trybie samolotowym.
 - [ ] Czy karaoke podświetla klocki równo z głosem, a Żółwik czyta słowo po słowie.
-- [ ] Czy zapis wymowy pasuje do głosu, np. `per-pl`, `kat`, `ha-pi`, `pou-ni`.
+- [ ] Czy zapis wymowy pasuje do głosu, np. `per-pl`, `kat`, `ha-pi`, `pou-ni`, `bicz`, `o-rindż`, `be-lun`.
 - [ ] Czy słowo `a` brzmi dobrze po dotknięciu klocka.
+- [ ] Czy w „Posłuchaj i znajdź” słowo słychać od razu po wejściu, bez dodatkowego dotknięcia.
+- [ ] Czy w „Parach” słowo słychać przy każdym odkryciu karty, a karty obracają się płynnie.
+- [ ] Czy nowa naklejka mówi swoją nazwę od razu po odebraniu.
 - [ ] Czy efekty dźwiękowe mają dobrą głośność.
 - [ ] Czy pociągnięcie w dół nie odświeża strony.
 

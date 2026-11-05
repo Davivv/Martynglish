@@ -83,4 +83,6 @@ Dziecko nie czyta jeszcze po angielsku, więc pierwszeństwo mają: powroty do s
 - [x] Po bajce: zabawa ze słówkami z tej bajki
 - [x] Dzienna misja i album naklejek, w którym naklejka uczy słowa
 - [x] Nowe bajki z rysunków, które już istnieją (`panda`, `bunny`, `beach`)
-- [ ] Audyt całości na 360×640 i aktualizacja strony testowej
+- [x] Audyt całości na 360×640 i aktualizacja strony testowej
+- [ ] Wujek czyta bajki 5–7 przed pokazaniem ich dziecku (D37)
+- [ ] Lektor, autostart słów w zabawach i wymowa nowych słów na prawdziwym telefonie: lista w README.md
