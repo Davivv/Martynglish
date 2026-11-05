@@ -43,10 +43,12 @@ src/utils/storyGuardianCore.mjs  logika Strażnika, bez fs i DOM (D15)
 src/utils/storyGuardian.ts       typowany eksport Strażnika dla aplikacji
 scripts/story-guardian.mjs       CLI Strażnika
 src/data/stories.ts              typowane bajki: wbudowane i dodane z telefonu
+src/data/wordPictures.ts         słowa z obrazkami do zabaw (D33)
 src/hooks/useSpeech.ts           mowa i karaoke
 src/utils/soundEffects.ts        efekty dźwiękowe z Web Audio API
 src/utils/storage.ts             jedyny dostęp do localStorage (D24)
 src/utils/vocabulary.ts          logika słownika i fiszek
+src/utils/games.ts               dobór słów i opcji do zabaw
 src/utils/review.ts              powtórki: pudełka Leitnera i dzienna porcja (D32)
 src/utils/storyPrompt.ts         prompt kreatora bajek
 src/components/stage/            InteractiveStoryStage i rysunki
@@ -54,6 +56,8 @@ src/components/nav/              dolny pasek
 src/components/library/          biblioteka bajek
 src/components/reader/           czytnik
 src/components/treasures/        Skarby i quiz
+src/components/pictures/         WordPicture: obrazek słowa
+src/components/games/            zakładka Zabawy, rama gry i gry
 src/components/uncle/            Strefa Wujka
 ```
 
@@ -73,7 +77,7 @@ Kod, nazwy i komentarze techniczne po angielsku, chyba że komentarz tłumaczy d
 ## Zasady interfejsu
 
 - Strona bajki mieści się na ekranie 360×640 bez przewijania i bez ucinania przycisków (D20). Układ opieraj na `dvh`, nie `vh`.
-- Dolna nawigacja znika w czytniku.
+- Dolna nawigacja znika w czytniku i w zabawach.
 - Cele dotykowe mają co najmniej 48 px, bo obsługują je palce dziecka.
 - Reguł `user-select` i `overscroll-behavior` z `src/index.css` nie przenoś niżej niż `html`/`body`. Pola `input` i `textarea` muszą pozostać zaznaczalne (D21).
 - Zasoby z `public/` adresuj przez `import.meta.env.BASE_URL`, nie przez sztywne `/` (D8).

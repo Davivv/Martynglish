@@ -57,7 +57,7 @@ export function shuffle<T>(items: readonly T[], rng: () => number = Math.random)
   return result
 }
 
-const same = (a: string, b: string) => a.trim().toLowerCase() === b.trim().toLowerCase()
+export const same = (a: string, b: string) => a.trim().toLowerCase() === b.trim().toLowerCase()
 
 /**
  * One correct answer plus distractors, shuffled. A distractor never repeats the correct

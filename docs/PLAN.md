@@ -76,8 +76,8 @@ Praca autonomiczna zlecona przez wujka 2026-11-05: „wzbogacić aplikację o fu
 Dziecko nie czyta jeszcze po angielsku, więc pierwszeństwo mają: powroty do słów, osłuchanie i obrazki zamiast tekstu.
 
 - [x] Powtórki: słowa wracają w odstępach (pudełka Leitnera) i dzienna porcja fiszek
-- [ ] Zabawy: obrazki słów i nowa zakładka 🎮
-- [ ] Zabawa „Posłuchaj i znajdź”: słowo ze słuchu, odpowiedź obrazkiem
+- [x] Zabawy: obrazki słów i nowa zakładka 🎮
+- [x] Zabawa „Posłuchaj i znajdź”: słowo ze słuchu, odpowiedź obrazkiem
 - [ ] Zabawa „Ułóż zdanie”: klocki w dobrej kolejności
 - [ ] Zabawa „Pary”: memory ze słowem i obrazkiem
 - [ ] Po bajce: zabawa ze słówkami z tej bajki
