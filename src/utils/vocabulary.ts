@@ -1,7 +1,8 @@
 // Dictionary logic from SPEC 3.C. Pure functions first, thin persistence wrappers at the bottom.
 import type { Story, WordToken } from '../types/story'
 import type { VocabEntry, VocabStatus } from '../types/vocabulary'
-import { clearProgress, clearVocabulary, loadVocabulary, saveVocabulary } from './storage'
+import { isDue, withAnswer } from './review'
+import { clearDaily, clearProgress, clearVocabulary, loadDaily, loadVocabulary, saveDaily, saveVocabulary } from './storage'
 import { flashcardOf } from './storyGuardian'
 import { wordSpeechText } from './speechLogic'
 
@@ -42,7 +43,13 @@ export function recordWordClick(
   const key = flashcardOf(token).key
   const existing = vocab[key]
   if (existing) {
-    return { ...vocab, [key]: { ...existing, clickCount: existing.clickCount + 1, status: 'learning' } }
+    const next: VocabEntry = { ...existing, clickCount: existing.clickCount + 1, status: 'learning' }
+    if (existing.status === 'known') {
+      // A forgotten word is due again right away.
+      next.box = 0
+      delete next.dueAt
+    }
+    return { ...vocab, [key]: next }
   }
   if (!token.isKeyword && !force) return vocab
   return { ...vocab, [key]: makeEntry(token, ctx, 1) }
@@ -109,6 +116,19 @@ export function changeEntryStatus(key: string, status: VocabStatus): void {
   saveVocabulary(setEntryStatus(loadVocabulary(), key, status))
 }
 
+/**
+ * Records a flashcard answer. A due card moves in the schedule and counts towards today's goal;
+ * a card that is not due (free practice) changes nothing, so early practice cannot push the schedule.
+ */
+export function recordAnswer(key: string, firstTry: boolean, now = Date.now()): void {
+  const vocab = loadVocabulary()
+  const entry = vocab[key]
+  if (!entry || !isDue(entry, now)) return
+  saveVocabulary({ ...vocab, [key]: withAnswer(entry, firstTry, now) })
+  const daily = loadDaily(now)
+  saveDaily({ ...daily, cards: daily.cards + 1 })
+}
+
 export function loadColdStartWords(stories: Story[], count = 6): void {
   const vocab = loadVocabulary()
   saveVocabulary(addEntries(vocab, pickColdStartEntries(stories, vocab, count)))
@@ -118,4 +138,5 @@ export function loadColdStartWords(stories: Story[], count = 6): void {
 export function resetAllProgress(): void {
   clearVocabulary()
   clearProgress()
+  clearDaily()
 }

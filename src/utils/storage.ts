@@ -2,7 +2,8 @@
 // Missing access (private mode, blocked storage) or corrupted data never throws:
 // reads fall back to defaults and writes fall back to an in-memory copy.
 import type { Story } from '../types/story'
-import type { QuizDirection, VocabEntry } from '../types/vocabulary'
+import type { DailyState, QuizDirection, VocabEntry } from '../types/vocabulary'
+import { localDay } from './review'
 
 const PREFIX = 'martynka:v1:'
 export const STORAGE_KEYS = {
@@ -10,6 +11,7 @@ export const STORAGE_KEYS = {
   vocabulary: `${PREFIX}vocabulary`,
   customStories: `${PREFIX}custom-stories`,
   quizDirection: `${PREFIX}quiz-direction`,
+  daily: `${PREFIX}daily`,
 } as const
 
 const memory = new Map<string, string>()
@@ -56,6 +58,10 @@ function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === 'object' && value !== null && !Array.isArray(value)
 }
 
+function isOptionalNumber(value: unknown): boolean {
+  return value === undefined || typeof value === 'number'
+}
+
 export function isVocabEntry(value: unknown): value is VocabEntry {
   return (
     isRecord(value) &&
@@ -67,7 +73,9 @@ export function isVocabEntry(value: unknown): value is VocabEntry {
     typeof value.pageNumber === 'number' &&
     typeof value.sentenceEn === 'string' &&
     typeof value.clickCount === 'number' &&
-    (value.status === 'learning' || value.status === 'known')
+    (value.status === 'learning' || value.status === 'known') &&
+    isOptionalNumber(value.box) &&
+    isOptionalNumber(value.dueAt)
   )
 }
 
@@ -137,4 +145,22 @@ export function loadQuizDirection(): QuizDirection {
 
 export function saveQuizDirection(direction: QuizDirection): void {
   writeRaw(STORAGE_KEYS.quizDirection, direction)
+}
+
+/** Today's counter. A missing, corrupted or stale (other day) value gives a fresh day. */
+export function loadDaily(now: number): DailyState {
+  const today = localDay(now)
+  const data = readJson(STORAGE_KEYS.daily)
+  if (isRecord(data) && data.day === today && typeof data.cards === 'number' && Number.isFinite(data.cards)) {
+    return { ...data, day: today, cards: Math.max(0, Math.floor(data.cards)) }
+  }
+  return { day: today, cards: 0 }
+}
+
+export function saveDaily(daily: DailyState): void {
+  writeRaw(STORAGE_KEYS.daily, JSON.stringify(daily))
+}
+
+export function clearDaily(): void {
+  removeRaw(STORAGE_KEYS.daily)
 }

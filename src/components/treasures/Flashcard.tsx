@@ -15,12 +15,14 @@ interface FlashcardProps {
   direction: QuizDirection
   stories: Story[]
   speech: ReturnType<typeof useSpeech>
-  /** Card comes from the "known" tab. */
-  knownTab: boolean
+  /** A "known" word that came back on schedule (D32). */
+  review: boolean
+  /** Called once, at the correct tap. `firstTry` is true when there was no mistake before. */
+  onAnswered: (firstTry: boolean) => void
   onDecide: (status: VocabStatus) => void
 }
 
-export function Flashcard({ entry, options, direction, stories, speech, knownTab, onDecide }: FlashcardProps) {
+export function Flashcard({ entry, options, direction, stories, speech, review, onAnswered, onDecide }: FlashcardProps) {
   const [wrong, setWrong] = useState<string[]>([])
   const [shaking, setShaking] = useState<string | null>(null)
   const [solved, setSolved] = useState(false)
@@ -35,6 +37,7 @@ export function Flashcard({ entry, options, direction, stories, speech, knownTab
     if (option.label === correct) {
       playSuccess()
       setSolved(true)
+      onAnswered(wrong.length === 0)
       void confetti({ particleCount: 90, spread: 70, origin: { y: 0.55 } })
       if (answerEn) speech.speakText(entry.ttsText)
     } else {
@@ -54,6 +57,11 @@ export function Flashcard({ entry, options, direction, stories, speech, knownTab
       >
         {found && (
           <div className="relative h-24 overflow-hidden rounded-2xl">
+            {review && (
+              <span className="absolute top-1 left-1 z-10 rounded-full bg-violet-500 px-2 py-0.5 text-xs font-bold text-white shadow">
+                🔁 Powtórka
+              </span>
+            )}
             <div className="absolute inset-0">
               <InteractiveStoryStage
                 visualConfig={found.page.visualConfig}
@@ -135,7 +143,7 @@ export function Flashcard({ entry, options, direction, stories, speech, knownTab
             onClick={() => onDecide('known')}
             className="min-h-12 flex-1 rounded-3xl bg-emerald-500 px-2 text-base font-bold text-white shadow-md active:scale-95"
           >
-            ✅ {knownTab ? 'Nadal umiem!' : 'Już umiem na pamięć!'}
+            ✅ {entry.status === 'known' ? 'Nadal umiem!' : 'Już umiem na pamięć!'}
           </button>
         </div>
       )}

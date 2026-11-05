@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { getAllStories } from '../../data/stories'
 import type { VocabStatus } from '../../types/vocabulary'
+import { reviewLabel } from '../../utils/review'
 import { countStars, loadProgress } from '../../utils/progress'
 import { changeEntryStatus, getVocabularyList, resetAllProgress } from '../../utils/vocabulary'
 
@@ -10,6 +11,7 @@ function load() {
   const stories = getAllStories()
   return {
     entries: getVocabularyList(),
+    now: Date.now(),
     titles: new Map(stories.map((s) => [s.id, s.titlePl])),
     stars: countStars(loadProgress(), stories),
     storyCount: stories.length,
@@ -19,7 +21,7 @@ function load() {
 export function StatsPanel() {
   const [data, setData] = useState(load)
   const [confirming, setConfirming] = useState(false)
-  const { entries, titles, stars, storyCount } = data
+  const { entries, now, titles, stars, storyCount } = data
 
   const toggle = (key: string, status: VocabStatus) => {
     changeEntryStatus(key, status === 'known' ? 'learning' : 'known')
@@ -46,16 +48,18 @@ export function StatsPanel() {
       ) : (
         <table className="w-full table-fixed border-collapse overflow-hidden rounded-xl bg-white text-xs shadow-sm">
           <colgroup>
-            <col className="w-[34%]" />
-            <col className="w-[13%]" />
-            <col className="w-[27%]" />
-            <col className="w-[26%]" />
+            <col className="w-[30%]" />
+            <col className="w-[11%]" />
+            <col className="w-[25%]" />
+            <col className="w-[16%]" />
+            <col className="w-[18%]" />
           </colgroup>
           <thead className="bg-slate-100 text-left text-slate-600">
             <tr>
               <th className="px-2 py-2 font-semibold">Słowo</th>
               <th className="px-1 py-2 text-center font-semibold">Kliki</th>
               <th className="px-2 py-2 font-semibold">Bajka</th>
+              <th className="px-1 py-2 font-semibold">Wraca</th>
               <th className="px-2 py-2 font-semibold">Status</th>
             </tr>
           </thead>
@@ -71,6 +75,7 @@ export function StatsPanel() {
                   {titles.get(entry.storyId) ?? entry.storyId}
                   <span className="text-slate-400">, str. {entry.pageNumber}</span>
                 </td>
+                <td className="px-1 py-2 text-slate-600">{reviewLabel(entry, now)}</td>
                 <td className="px-1 py-1">
                   <button
                     type="button"

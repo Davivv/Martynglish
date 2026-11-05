@@ -5,9 +5,12 @@ import {
   entriesByStatus,
   listEntries,
   pickColdStartEntries,
+  recordAnswer,
   recordWordClick,
   setEntryStatus,
 } from './vocabulary'
+import { addDays, startOfDay } from './review'
+import { loadDaily, loadVocabulary, saveVocabulary } from './storage'
 
 const tok = (word: string, extra: Partial<WordToken> = {}): WordToken => ({
   word,
@@ -92,5 +95,37 @@ describe('ttsText', () => {
   it('reads the dictionary form, not the inflected word', () => {
     expect(recordWordClick({}, tok('sees', { lemmaEn: 'see' }), ctx).see.ttsText).toBe('see')
     expect(recordWordClick({}, tok('a', { isKeyword: false, ttsOverride: 'uh' }), ctx, true).a.ttsText).toBe('uh')
+  })
+})
+
+describe('schedule', () => {
+  const now = new Date(2026, 10, 5, 12).getTime()
+  const seed = (extra: object) => {
+    const v = recordWordClick({}, tok('cat'), ctx)
+    saveVocabulary({ ...v, cat: { ...v.cat, ...extra } })
+  }
+
+  it('recordAnswer updates a due card and the daily count', () => {
+    seed({})
+    recordAnswer('cat', true, now)
+    expect(loadVocabulary().cat).toMatchObject({ box: 1, dueAt: addDays(startOfDay(now), 1) })
+    expect(loadDaily(now).cards).toBe(1)
+  })
+  it('recordAnswer leaves a not-due card alone', () => {
+    const dueAt = addDays(startOfDay(now), 3)
+    seed({ box: 2, dueAt })
+    const before = loadDaily(now).cards
+    recordAnswer('cat', true, now)
+    expect(loadVocabulary().cat).toMatchObject({ box: 2, dueAt })
+    expect(loadDaily(now).cards).toBe(before)
+  })
+  it('tapping a known word resets its schedule, tapping a learning word does not', () => {
+    const dueAt = addDays(startOfDay(now), 7)
+    const known = setEntryStatus({ cat: { ...recordWordClick({}, tok('cat'), ctx).cat, box: 3, dueAt } }, 'cat', 'known')
+    const back = recordWordClick(known, tok('cat'), ctx).cat
+    expect(back.box).toBe(0)
+    expect(back.dueAt).toBeUndefined()
+    const learning = { cat: { ...known.cat, status: 'learning' as const } }
+    expect(recordWordClick(learning, tok('cat'), ctx).cat).toMatchObject({ box: 3, dueAt })
   })
 })

@@ -47,6 +47,7 @@ src/hooks/useSpeech.ts           mowa i karaoke
 src/utils/soundEffects.ts        efekty dźwiękowe z Web Audio API
 src/utils/storage.ts             jedyny dostęp do localStorage (D24)
 src/utils/vocabulary.ts          logika słownika i fiszek
+src/utils/review.ts              powtórki: pudełka Leitnera i dzienna porcja (D32)
 src/utils/storyPrompt.ts         prompt kreatora bajek
 src/components/stage/            InteractiveStoryStage i rysunki
 src/components/nav/              dolny pasek
