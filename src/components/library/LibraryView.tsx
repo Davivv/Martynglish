@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { getAllStories } from '../../data/stories'
+import { pluralPl } from '../../utils/pluralPl'
 import { countStars, loadProgress } from '../../utils/progress'
 import { getVocabulary } from '../../utils/vocabulary'
 import { InteractiveStoryStage } from '../stage/InteractiveStoryStage'
@@ -21,11 +22,11 @@ export function LibraryView({ onOpen }: LibraryViewProps) {
         <div className="flex gap-3">
           <div className="flex flex-1 items-center justify-center gap-2 rounded-3xl bg-yellow-100 py-2 text-lg font-bold text-amber-800 shadow-sm">
             <span aria-hidden="true">⭐</span> {countStars(progress, stories)}
-            <span className="text-sm font-medium">bajek</span>
+            <span className="text-sm font-medium">{pluralPl(countStars(progress, stories), 'bajka', 'bajki', 'bajek')}</span>
           </div>
           <div className="flex flex-1 items-center justify-center gap-2 rounded-3xl bg-sky-100 py-2 text-lg font-bold text-sky-800 shadow-sm">
             <span aria-hidden="true">💎</span> {wordCount}
-            <span className="text-sm font-medium">słówek</span>
+            <span className="text-sm font-medium">{pluralPl(wordCount, 'słówko', 'słówka', 'słówek')}</span>
           </div>
         </div>
       </header>

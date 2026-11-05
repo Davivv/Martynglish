@@ -88,8 +88,7 @@ export function TreasuresView() {
   ]
 
   return (
-    <div className="mx-auto flex max-w-md flex-col gap-4 px-4 py-5">
-      <h1 className="text-2xl font-bold text-violet-700">💎 Zgadnij co to!</h1>
+    <div className="mx-auto flex max-w-md flex-col gap-3 px-4 py-3">
       <div className="flex gap-2" role="tablist">
         {tabs.map((t) => (
           <button

@@ -62,8 +62,8 @@ Agent: `uncle-zone-engineer`.
 
 Agent: `guardian-qa`.
 
-- [ ] SPEC §8: `npm run guardian`, `npm run build`, kompletny SKILL
-- [ ] `npm run lint` i `npm test`
-- [ ] Wszystkie widoki na 360×640, ładowanie offline
-- [ ] Na prawdziwym Androidzie, przez `adb reverse` z P2: instalacja, głos angielski online i offline, karaoke, Żółwik, ocena zgodności fonetyki z głosem
+- [x] SPEC §8: `npm run guardian`, `npm run build`, kompletny SKILL
+- [x] `npm run lint` i `npm test`
+- [x] Wszystkie widoki na 360×640, ładowanie offline
+- [ ] Na prawdziwym Androidzie: lista w README.md, do wykonania przez wujka
 - [ ] Odłożone do decyzji o hostingu (P2): wdrożenie na HTTPS i opcjonalne APK jako TWA (D6)

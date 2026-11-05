@@ -33,7 +33,7 @@ Vite 8, React 19, TypeScript 7, Tailwind CSS 4, vite-plugin-pwa, Vitest, oxlint,
 - Tailwind 4 nie ma `tailwind.config.js`. Motyw jest w `@theme` w [src/index.css](src/index.css).
 - Manifest PWA utrzymujemy ręcznie w [public/manifest.json](public/manifest.json). Plugin PWA generuje tylko Service Worker.
 
-## Struktura docelowa
+## Struktura
 
 ```text
 src/types/story.ts               kontrakt danych (SPEC §5)
@@ -46,7 +46,10 @@ src/data/stories.ts              typowane bajki: wbudowane i dodane z telefonu
 src/hooks/useSpeech.ts           mowa i karaoke
 src/utils/soundEffects.ts        efekty dźwiękowe z Web Audio API
 src/utils/storage.ts             jedyny dostęp do localStorage (D24)
+src/utils/vocabulary.ts          logika słownika i fiszek
+src/utils/storyPrompt.ts         prompt kreatora bajek
 src/components/stage/            InteractiveStoryStage i rysunki
+src/components/nav/              dolny pasek
 src/components/library/          biblioteka bajek
 src/components/reader/           czytnik
 src/components/treasures/        Skarby i quiz
