@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/lexend';
+
+@theme {
+  --font-sans: 'Lexend Variable', system-ui, sans-serif;
+  --color-paper: #fffdf7;
+}
+
+@layer base {
+  /* Gest "pociągnij w dół" odświeża stronę, jeśli reguła nie obejmuje korzenia dokumentu */
+  html,
+  body {
+    overscroll-behavior-y: contain;
+    background-color: var(--color-paper);
+  }
+
+  body {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+  }
+
+  /* Bez tego w Strefie Wujka nie da się wkleić ani zaznaczyć JSON-a */
+  input,
+  textarea {
+    -webkit-user-select: text;
+    user-select: text;
+  }
+}

@@ -1,0 +1,30 @@
+# Zależności i build
+node_modules
+dist
+dist-ssr
+dev-dist
+coverage
+*.tsbuildinfo
+
+# Logi
+*.log
+
+# Sekrety i ustawienia lokalne
+.env
+.env.*
+!.env.example
+*.local
+.claude/settings.local.json
+
+# Podpisywanie APK (TWA)
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Edytory i system
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db

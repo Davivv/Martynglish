@@ -1,0 +1,151 @@
+[
+  {
+    "id": "purple-cat",
+    "titleEn": "The Purple Cat",
+    "titlePl": "Fioletowy Kotek",
+    "coverVisualConfig": {
+      "backgroundTheme": "meadow",
+      "primaryCharacter": "cat",
+      "primaryColor": "#9333EA",
+      "secondaryColor": "#FACC15",
+      "props": ["flower-pink", "butterfly-blue"],
+      "characterMood": "happy"
+    },
+    "characterVisualAnchor": "Cute little purple kitten named Mia with big green eyes and a small yellow star collar, soft children's book watercolor style",
+    "themeColor": "#9333EA",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "visualConfig": {
+          "backgroundTheme": "meadow",
+          "primaryCharacter": "cat",
+          "primaryColor": "#9333EA",
+          "secondaryColor": "#FACC15",
+          "props": ["cloud-white"],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Cute little purple kitten named Mia with big green eyes and a small yellow star collar, soft children's book watercolor style. Scene: the kitten sits on a sunny green meadow under one white cloud.",
+        "imageAltPl": "Mały fioletowy kotek siedzi na słonecznej łące.",
+        "interactiveSoundText": "Meow! I am Mia!",
+        "sentenceEn": "Mia is a little purple cat.",
+        "phoneticsPl": "mi-a iz e li-tl per-pl kat",
+        "sentencePl": "Mia to mały fioletowy kotek.",
+        "words": [
+          { "word": "Mia", "translationPl": "Mia", "phoneticsPl": "mi-a", "isKeyword": false },
+          { "word": "is", "translationPl": "to", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "a", "translationPl": "jakiś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "little", "translationPl": "mały", "phoneticsPl": "li-tl", "isKeyword": true },
+          { "word": "purple", "translationPl": "fioletowy", "phoneticsPl": "per-pl", "isKeyword": true },
+          { "word": "cat", "punctuation": ".", "translationPl": "kotek", "phoneticsPl": "kat", "isKeyword": true }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "visualConfig": {
+          "backgroundTheme": "meadow",
+          "primaryCharacter": "cat",
+          "primaryColor": "#9333EA",
+          "secondaryColor": "#FACC15",
+          "props": ["flower-pink"],
+          "characterMood": "curious"
+        },
+        "imagePrompt": "Cute little purple kitten named Mia with big green eyes and a small yellow star collar, soft children's book watercolor style. Scene: the kitten looks at one pink flower on a sunny meadow.",
+        "imageAltPl": "Fioletowy kotek patrzy na różowy kwiatek.",
+        "interactiveSoundText": "Meow! I see a pink flower!",
+        "sentenceEn": "The purple cat sees a pink flower.",
+        "phoneticsPl": "de per-pl kat siz e pink fla-łer",
+        "sentencePl": "Fioletowy kotek widzi różowy kwiatek.",
+        "words": [
+          { "word": "The", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "purple", "translationPl": "fioletowy", "phoneticsPl": "per-pl", "isKeyword": true },
+          { "word": "cat", "translationPl": "kotek", "phoneticsPl": "kat", "isKeyword": true },
+          { "word": "sees", "translationPl": "widzi", "phoneticsPl": "siz", "isKeyword": true, "lemmaEn": "see", "lemmaPl": "widzieć", "lemmaPhoneticsPl": "si" },
+          { "word": "a", "translationPl": "jakiś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "pink", "translationPl": "różowy", "phoneticsPl": "pink", "isKeyword": true },
+          { "word": "flower", "punctuation": ".", "translationPl": "kwiatek", "phoneticsPl": "fla-łer", "isKeyword": true }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "visualConfig": {
+          "backgroundTheme": "meadow",
+          "primaryCharacter": "cat",
+          "primaryColor": "#9333EA",
+          "secondaryColor": "#FACC15",
+          "props": ["butterfly-blue"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Cute little purple kitten named Mia with big green eyes and a small yellow star collar, soft children's book watercolor style. Scene: the kitten looks up at one blue butterfly on a sunny meadow.",
+        "imageAltPl": "Fioletowy kotek patrzy na niebieskiego motylka.",
+        "interactiveSoundText": "Meow! I see a blue butterfly!",
+        "sentenceEn": "The purple cat sees a blue butterfly.",
+        "phoneticsPl": "de per-pl kat siz e blu ba-ter-flaj",
+        "sentencePl": "Fioletowy kotek widzi niebieskiego motylka.",
+        "words": [
+          { "word": "The", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "purple", "translationPl": "fioletowy", "phoneticsPl": "per-pl", "isKeyword": true },
+          { "word": "cat", "translationPl": "kotek", "phoneticsPl": "kat", "isKeyword": true },
+          { "word": "sees", "translationPl": "widzi", "phoneticsPl": "siz", "isKeyword": true, "lemmaEn": "see", "lemmaPl": "widzieć", "lemmaPhoneticsPl": "si" },
+          { "word": "a", "translationPl": "jakiegoś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "blue", "translationPl": "niebieskiego", "phoneticsPl": "blu", "isKeyword": true, "lemmaPl": "niebieski" },
+          { "word": "butterfly", "punctuation": ".", "translationPl": "motylka", "phoneticsPl": "ba-ter-flaj", "isKeyword": true, "lemmaPl": "motylek" }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "visualConfig": {
+          "backgroundTheme": "meadow",
+          "primaryCharacter": "cat",
+          "primaryColor": "#9333EA",
+          "secondaryColor": "#FACC15",
+          "props": ["sun-yellow"],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Cute little purple kitten named Mia with big green eyes and a small yellow star collar, soft children's book watercolor style. Scene: the happy kitten sits in warm light under one big yellow sun.",
+        "imageAltPl": "Wesoła Mia siedzi w promieniach żółtego słońca.",
+        "interactiveSoundText": "Meow! I am happy!",
+        "sentenceEn": "The yellow sun is warm. Mia is happy.",
+        "phoneticsPl": "de je-lou san iz łorm mi-a iz ha-pi",
+        "sentencePl": "Żółte słońce jest ciepłe. Mia jest wesoła.",
+        "words": [
+          { "word": "The", "translationPl": "to", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "yellow", "translationPl": "żółte", "phoneticsPl": "je-lou", "isKeyword": true, "lemmaPl": "żółty" },
+          { "word": "sun", "translationPl": "słońce", "phoneticsPl": "san", "isKeyword": true },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "warm", "punctuation": ".", "translationPl": "ciepłe", "phoneticsPl": "łorm", "isKeyword": true, "lemmaPl": "ciepły" },
+          { "word": "Mia", "translationPl": "Mia", "phoneticsPl": "mi-a", "isKeyword": false },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "happy", "punctuation": ".", "translationPl": "wesoła", "phoneticsPl": "ha-pi", "isKeyword": true, "lemmaPl": "wesoły" }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "visualConfig": {
+          "backgroundTheme": "night-sky",
+          "primaryCharacter": "cat",
+          "primaryColor": "#9333EA",
+          "secondaryColor": "#FACC15",
+          "props": ["moon-yellow", "star-yellow"],
+          "characterMood": "sleepy"
+        },
+        "imagePrompt": "Cute little purple kitten named Mia with big green eyes and a small yellow star collar, soft children's book watercolor style. Scene: the sleepy kitten curls up under a night sky with one yellow moon and one yellow star.",
+        "imageAltPl": "Śpiący kotek zwinięty w kłębek pod nocnym niebem.",
+        "interactiveSoundText": "Meow! Good night!",
+        "sentenceEn": "The little purple cat is sleepy. Good night!",
+        "phoneticsPl": "de li-tl per-pl kat iz sli-pi gud najt",
+        "sentencePl": "Mały fioletowy kotek jest śpiący. Dobranoc!",
+        "words": [
+          { "word": "The", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "little", "translationPl": "mały", "phoneticsPl": "li-tl", "isKeyword": true },
+          { "word": "purple", "translationPl": "fioletowy", "phoneticsPl": "per-pl", "isKeyword": true },
+          { "word": "cat", "translationPl": "kotek", "phoneticsPl": "kat", "isKeyword": true },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "sleepy", "punctuation": ".", "translationPl": "śpiący", "phoneticsPl": "sli-pi", "isKeyword": true },
+          { "word": "Good night", "punctuation": "!", "translationPl": "dobranoc", "phoneticsPl": "gud najt", "isKeyword": true }
+        ]
+      }
+    ]
+  }
+]
