@@ -68,3 +68,19 @@ Agent: `guardian-qa`.
 - [x] Wszystkie widoki na 360×640, ładowanie offline
 - [ ] Na prawdziwym Androidzie: lista w README.md, do wykonania przez wujka
 - [ ] Odłożone do decyzji o hostingu (P2): wdrożenie na HTTPS i opcjonalne APK jako TWA (D6)
+
+## Faza 7: Rozszerzenia do nauki
+
+Praca autonomiczna zlecona przez wujka 2026-11-05: „wzbogacić aplikację o funkcje, które pomogą Martynce w nauce angielskiego”. Kolejność to priorytet, każdy punkt to osobny commit, a przerwanie po dowolnym punkcie zostawia działającą aplikację.
+
+Dziecko nie czyta jeszcze po angielsku, więc pierwszeństwo mają: powroty do słów, osłuchanie i obrazki zamiast tekstu.
+
+- [ ] Powtórki: słowa wracają w odstępach (pudełka Leitnera) i dzienna porcja fiszek
+- [ ] Zabawy: obrazki słów i nowa zakładka 🎮
+- [ ] Zabawa „Posłuchaj i znajdź”: słowo ze słuchu, odpowiedź obrazkiem
+- [ ] Zabawa „Ułóż zdanie”: klocki w dobrej kolejności
+- [ ] Zabawa „Pary”: memory ze słowem i obrazkiem
+- [ ] Po bajce: zabawa ze słówkami z tej bajki
+- [ ] Dzienna misja i album naklejek, w którym naklejka uczy słowa
+- [ ] Nowe bajki z rysunków, które już istnieją (`panda`, `bunny`, `beach`)
+- [ ] Audyt całości na 360×640 i aktualizacja strony testowej
