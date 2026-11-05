@@ -1,5 +1,8 @@
 export type VocabStatus = 'learning' | 'known'
 
+/** Which language the child answers in on a flashcard (D31). */
+export type QuizDirection = 'answer-pl' | 'answer-en'
+
 /** One flashcard in the child's dictionary (SPEC 3.C, D27). Uncle Zone reads these. */
 export interface VocabEntry {
   /** Normalized dictionary form: `flashcardOf(token).key`. */

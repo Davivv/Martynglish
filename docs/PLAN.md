@@ -49,6 +49,7 @@ Agent: `mobile-audio-engineer`.
 
 - [x] Zapis słów, `clickCount`, powrót do „Uczę się”
 - [x] Cold-start i quiz z 3 odpowiedziami
+- [x] Kierunek fiszek: odpowiedź po polsku albo po angielsku (D31)
 
 ## Faza 5: Strefa Wujka
 

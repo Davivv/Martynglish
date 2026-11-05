@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import { useSpeech } from '../../hooks/useSpeech'
 import { getAllStories } from '../../data/stories'
-import type { VocabStatus } from '../../types/vocabulary'
-import { buildQuizOptions, pickNextCard } from '../../utils/quiz'
+import type { QuizDirection, VocabEntry, VocabStatus } from '../../types/vocabulary'
+import { type QuizOption, buildEnglishOptions, buildQuizOptions, pickNextCard } from '../../utils/quiz'
+import { loadQuizDirection, saveQuizDirection } from '../../utils/storage'
 import {
   type Vocabulary,
   changeEntryStatus,
@@ -14,25 +15,42 @@ import { Flashcard } from './Flashcard'
 
 interface QuizCard {
   key: string
-  options: string[]
+  options: QuizOption[]
   /** Changes with every new card so the flashcard resets its local state, even for the same word. */
   round: number
 }
 
-function makeCard(vocab: Vocabulary, status: VocabStatus, lastKey: string | null, round: number): QuizCard | null {
+function buildCard(entry: VocabEntry, vocab: Vocabulary, direction: QuizDirection, round: number): QuizCard {
+  const others = Object.values(vocab).filter((e) => e.key !== entry.key)
+  const options =
+    direction === 'answer-en'
+      ? buildEnglishOptions(entry, others)
+      : buildQuizOptions(
+          entry.answerPl,
+          others.map((e) => e.answerPl),
+        ).map((label) => ({ label }))
+  return { key: entry.key, options, round }
+}
+
+function makeCard(
+  vocab: Vocabulary,
+  status: VocabStatus,
+  lastKey: string | null,
+  round: number,
+  direction: QuizDirection,
+): QuizCard | null {
   const entry = pickNextCard(entriesByStatus(vocab, status), lastKey)
-  if (!entry) return null
-  const pool = Object.values(vocab)
-    .filter((e) => e.key !== entry.key)
-    .map((e) => e.answerPl)
-  return { key: entry.key, options: buildQuizOptions(entry.answerPl, pool), round }
+  return entry ? buildCard(entry, vocab, direction, round) : null
 }
 
 export function TreasuresView() {
   const [stories] = useState(getAllStories)
   const [vocab, setVocab] = useState(getVocabulary)
   const [tab, setTab] = useState<VocabStatus>('learning')
-  const [card, setCard] = useState<QuizCard | null>(() => makeCard(getVocabulary(), 'learning', null, 0))
+  const [direction, setDirection] = useState(loadQuizDirection)
+  const [card, setCard] = useState<QuizCard | null>(() =>
+    makeCard(getVocabulary(), 'learning', null, 0, loadQuizDirection()),
+  )
   const speech = useSpeech()
 
   const total = Object.keys(vocab).length
@@ -40,7 +58,16 @@ export function TreasuresView() {
   const switchTab = (next: VocabStatus) => {
     speech.stop()
     setTab(next)
-    setCard(makeCard(vocab, next, null, (card?.round ?? 0) + 1))
+    setCard(makeCard(vocab, next, null, (card?.round ?? 0) + 1, direction))
+  }
+
+  const switchDirection = (next: QuizDirection) => {
+    if (next === direction) return
+    speech.stop()
+    saveQuizDirection(next)
+    setDirection(next)
+    const current = card ? vocab[card.key] : undefined
+    if (card && current) setCard(buildCard(current, vocab, next, card.round + 1))
   }
 
   const coldStart = () => {
@@ -48,7 +75,7 @@ export function TreasuresView() {
     const next = getVocabulary()
     setVocab(next)
     setTab('learning')
-    setCard(makeCard(next, 'learning', null, 1))
+    setCard(makeCard(next, 'learning', null, 1, direction))
   }
 
   const decide = (status: VocabStatus) => {
@@ -57,7 +84,7 @@ export function TreasuresView() {
     changeEntryStatus(card.key, status)
     const next = getVocabulary()
     setVocab(next)
-    setCard(makeCard(next, tab, card.key, card.round + 1))
+    setCard(makeCard(next, tab, card.key, card.round + 1, direction))
   }
 
   if (total === 0) {
@@ -87,6 +114,11 @@ export function TreasuresView() {
     { id: 'known', label: '🏆 Już umiem!' },
   ]
 
+  const directions: { id: QuizDirection; label: string }[] = [
+    { id: 'answer-pl', label: 'po polsku' },
+    { id: 'answer-en', label: 'po angielsku' },
+  ]
+
   return (
     <div className="mx-auto flex max-w-md flex-col gap-3 px-4 py-3">
       <div className="flex gap-2" role="tablist">
@@ -106,11 +138,31 @@ export function TreasuresView() {
         ))}
       </div>
 
+      {card && entry && (
+        <div className="flex items-center gap-2" role="group" aria-label="Język odpowiedzi">
+          <span className="text-sm font-bold text-slate-600">Odpowiadam:</span>
+          {directions.map((d) => (
+            <button
+              key={d.id}
+              type="button"
+              aria-pressed={direction === d.id}
+              onClick={() => switchDirection(d.id)}
+              className={`min-h-12 flex-auto rounded-2xl px-2 text-sm font-bold whitespace-nowrap shadow-sm transition active:scale-95 ${
+                direction === d.id ?'bg-violet-500 text-white' : 'bg-white text-slate-600 ring-1 ring-violet-100'
+              }`}
+            >
+              {d.label}
+            </button>
+          ))}
+        </div>
+      )}
+
       {card && entry ? (
         <Flashcard
           key={`${card.key}-${card.round}`}
           entry={entry}
           options={card.options}
+          direction={direction}
           stories={stories}
           speech={speech}
           knownTab={tab === 'known'}

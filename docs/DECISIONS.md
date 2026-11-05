@@ -61,6 +61,8 @@ Końcowe `-l` po spółgłosce tworzy własną sylabę (`li-tl`). Zwroty zachowu
 
 **D29. Zwroty jako jeden klocek.** Klocek obejmuje zwrot, gdy jego słowa osobno dałyby złe tłumaczenie: `ice cream` (lody), `Good night` (dobranoc).
 
+**D31. Kierunek fiszek.** Zatwierdzone przez wujka 2026-11-05. Rozszerza SPEC 3.C o drugi kierunek: `answer-pl` (domyślny, zachowanie ze SPEC) i `answer-en` (duże polskie słowo i 3 angielskie odpowiedzi). Jeden przełącznik dla wszystkich kart, zapamiętany w `martynka:v1:quiz-direction`. To ustawienie, nie postęp, więc reset postępów go nie czyści. Przed poprawną odpowiedzią karta `answer-en` ukrywa zdanie i 🔊, bo zdradzają odpowiedź. Angielskie opcje mają fonetykę pod słowem, bo dziecko jeszcze nie czyta po angielsku. Zły wybór czyta wybrane słowo, a nie słowo z karty (inaczej lektor podałby odpowiedź); to świadome odstępstwo od SPEC. Słowa o tym samym polskim znaczeniu (`little`, `small`) nigdy nie występują razem w opcjach. Każde słowo ma jeden status (`learning` albo `known`) dla obu kierunków.
+
 ## Strażnik
 
 **D15. Jedna logika, dwa wejścia.** SPEC każe mieć tę samą walidację w `.mjs` i `.ts`, co przy dwóch kopiach skończy się rozjazdem. Logika jest w `src/utils/storyGuardianCore.mjs`: czysty JS z typami w JSDoc, bez `fs` i DOM. `scripts/story-guardian.mjs` (CLI) i `src/utils/storyGuardian.ts` (aplikacja) tylko ją wywołują. Sprawdzanie plików obrazów wchodzi jako wstrzykiwana funkcja.

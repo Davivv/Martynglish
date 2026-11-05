@@ -2,13 +2,14 @@
 // Missing access (private mode, blocked storage) or corrupted data never throws:
 // reads fall back to defaults and writes fall back to an in-memory copy.
 import type { Story } from '../types/story'
-import type { VocabEntry } from '../types/vocabulary'
+import type { QuizDirection, VocabEntry } from '../types/vocabulary'
 
 const PREFIX = 'martynka:v1:'
 export const STORAGE_KEYS = {
   progress: `${PREFIX}progress`,
   vocabulary: `${PREFIX}vocabulary`,
   customStories: `${PREFIX}custom-stories`,
+  quizDirection: `${PREFIX}quiz-direction`,
 } as const
 
 const memory = new Map<string, string>()
@@ -127,4 +128,13 @@ export function loadCustomStories(): Story[] {
 
 export function saveCustomStories(stories: Story[]): void {
   writeRaw(STORAGE_KEYS.customStories, JSON.stringify(stories))
+}
+
+/** A setting, not progress: progress reset leaves it alone (D31). */
+export function loadQuizDirection(): QuizDirection {
+  return readRaw(STORAGE_KEYS.quizDirection) === 'answer-en' ? 'answer-en' : 'answer-pl'
+}
+
+export function saveQuizDirection(direction: QuizDirection): void {
+  writeRaw(STORAGE_KEYS.quizDirection, direction)
 }

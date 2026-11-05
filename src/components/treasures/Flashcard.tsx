@@ -4,13 +4,15 @@ import { useState } from 'react'
 import type { useSpeech } from '../../hooks/useSpeech'
 import { findStoryPage } from '../../data/stories'
 import type { Story } from '../../types/story'
-import type { VocabEntry, VocabStatus } from '../../types/vocabulary'
+import type { QuizDirection, VocabEntry, VocabStatus } from '../../types/vocabulary'
+import type { QuizOption } from '../../utils/quiz'
 import { playError, playSuccess } from '../../utils/soundEffects'
 import { InteractiveStoryStage } from '../stage/InteractiveStoryStage'
 
 interface FlashcardProps {
   entry: VocabEntry
-  options: string[]
+  options: QuizOption[]
+  direction: QuizDirection
   stories: Story[]
   speech: ReturnType<typeof useSpeech>
   /** Card comes from the "known" tab. */
@@ -18,23 +20,30 @@ interface FlashcardProps {
   onDecide: (status: VocabStatus) => void
 }
 
-export function Flashcard({ entry, options, stories, speech, knownTab, onDecide }: FlashcardProps) {
+export function Flashcard({ entry, options, direction, stories, speech, knownTab, onDecide }: FlashcardProps) {
   const [wrong, setWrong] = useState<string[]>([])
   const [shaking, setShaking] = useState<string | null>(null)
   const [solved, setSolved] = useState(false)
   const found = findStoryPage(stories, entry.storyId, entry.pageNumber)
+  const answerEn = direction === 'answer-en'
+  const correct = answerEn ? entry.key : entry.answerPl
+  // In answer-en the sentence and the speaker reveal the answer, so they wait for the correct tap (D31).
+  const showHints = !answerEn || solved
 
-  const answer = (option: string) => {
-    if (solved || wrong.includes(option)) return
-    if (option === entry.answerPl) {
+  const answer = (option: QuizOption) => {
+    if (solved || wrong.includes(option.label)) return
+    if (option.label === correct) {
       playSuccess()
       setSolved(true)
       void confetti({ particleCount: 90, spread: 70, origin: { y: 0.55 } })
+      if (answerEn) speech.speakText(entry.ttsText)
     } else {
       playError()
-      setWrong((w) => [...w, option])
-      setShaking(option)
-      speech.speakText(entry.ttsText)
+      setWrong((w) => [...w, option.label])
+      setShaking(option.label)
+      // In answer-en the card word is the answer, so we read the tapped word instead (D31).
+      const spoken = answerEn ? option.ttsText : entry.ttsText
+      if (spoken) speech.speakText(spoken)
     }
   }
 
@@ -56,44 +65,57 @@ export function Flashcard({ entry, options, stories, speech, knownTab, onDecide 
         )}
         <div className="flex items-center justify-center gap-3">
           <div className="text-center">
-            <div className="text-4xl leading-none font-bold text-slate-800">{entry.key}</div>
-            <div className="text-base font-medium text-indigo-600">[{entry.phoneticsPl}]</div>
+            <div className="text-4xl leading-none font-bold text-slate-800">
+              {answerEn ? entry.answerPl : entry.key}
+            </div>
+            {!answerEn && <div className="text-base font-medium text-indigo-600">[{entry.phoneticsPl}]</div>}
           </div>
-          <button
-            type="button"
-            onClick={() => speech.speakText(entry.ttsText)}
-            aria-label="Posłuchaj słowa"
-            className="flex size-12 items-center justify-center rounded-full bg-sky-100 text-sky-800 shadow-sm active:scale-95"
-          >
-            <Volume2 size={28} aria-hidden="true" />
-          </button>
+          {showHints && (
+            <button
+              type="button"
+              onClick={() => speech.speakText(entry.ttsText)}
+              aria-label="Posłuchaj słowa"
+              className="flex size-12 items-center justify-center rounded-full bg-sky-100 text-sky-800 shadow-sm active:scale-95"
+            >
+              <Volume2 size={28} aria-hidden="true" />
+            </button>
+          )}
         </div>
-        <p className="rounded-2xl bg-amber-50 px-3 py-1 text-center text-sm leading-snug text-slate-700">
-          {entry.sentenceEn}
-        </p>
+        {showHints && (
+          <p className="rounded-2xl bg-amber-50 px-3 py-1 text-center text-sm leading-snug text-slate-700">
+            {entry.sentenceEn}
+          </p>
+        )}
       </div>
 
       <div className="flex flex-col gap-3">
-        {options.filter((option) => !solved || option === entry.answerPl).map((option) => {
-          const isWrong = wrong.includes(option)
-          const isRight = solved && option === entry.answerPl
+        {options.filter((option) => !solved || option.label === correct).map((option) => {
+          const isWrong = wrong.includes(option.label)
+          const isRight = solved && option.label === correct
           return (
             <button
-              key={option}
+              key={option.label}
               type="button"
               disabled={solved && !isRight}
               onClick={() => answer(option)}
-              onAnimationEnd={() => setShaking((s) => (s === option ? null : s))}
-              className={`min-h-12 rounded-3xl px-4 text-lg font-bold shadow-md transition active:scale-95 ${
+              onAnimationEnd={() => setShaking((s) => (s === option.label ? null : s))}
+              className={`min-h-12 rounded-3xl px-4 py-1 text-lg font-bold shadow-md transition active:scale-95 ${
                 isRight
                   ? 'bg-emerald-400 text-white'
                   : isWrong
                     ? 'bg-rose-100 text-rose-400'
                     : 'bg-white text-slate-800 ring-1 ring-violet-100'
-              } ${shaking === option ? 'animate-shake' : ''}`}
+              } ${shaking === option.label ? 'animate-shake' : ''}`}
             >
               {isRight ? '✅ ' : ''}
-              {option}
+              {option.label}
+              {option.phoneticsPl && (
+                <span
+                  className={`block text-sm font-medium ${isRight || isWrong ? 'text-current' : 'text-indigo-600'}`}
+                >
+                  [{option.phoneticsPl}]
+                </span>
+              )}
             </button>
           )
         })}
