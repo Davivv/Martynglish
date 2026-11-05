@@ -102,7 +102,7 @@ export function pickListeningWords(
 }
 
 /** Things (props and heroes) form one group; colours and numbers each their own, so a swatch never gives the answer away. */
-const groupOf = (picture: PictureSpec): string =>
+export const groupOf = (picture: PictureSpec): string =>
   picture.kind === 'prop' || picture.kind === 'character' ? 'thing' : picture.kind
 
 /**

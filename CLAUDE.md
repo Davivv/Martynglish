@@ -49,6 +49,7 @@ src/utils/soundEffects.ts        efekty dźwiękowe z Web Audio API
 src/utils/storage.ts             jedyny dostęp do localStorage (D24)
 src/utils/vocabulary.ts          logika słownika i fiszek
 src/utils/games.ts               dobór słów i opcji do zabaw
+src/utils/mission.ts             dzienna misja i naklejki (D36)
 src/utils/review.ts              powtórki: pudełka Leitnera i dzienna porcja (D32)
 src/utils/storyPrompt.ts         prompt kreatora bajek
 src/components/stage/            InteractiveStoryStage i rysunki
@@ -58,6 +59,7 @@ src/components/reader/           czytnik
 src/components/treasures/        Skarby i quiz
 src/components/pictures/         WordPicture: obrazek słowa
 src/components/games/            zakładka Zabawy, rama gry i gry
+src/components/mission/          karta misji, nagroda i album naklejek
 src/components/uncle/            Strefa Wujka
 ```
 

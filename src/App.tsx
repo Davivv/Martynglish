@@ -4,6 +4,7 @@ import { GamesView } from './components/games/GamesView'
 import { SentenceGame } from './components/games/SentenceGame'
 import { MemoryGame } from './components/games/MemoryGame'
 import { ListeningGame } from './components/games/ListeningGame'
+import { StickerAlbum } from './components/mission/StickerAlbum'
 import { LibraryView } from './components/library/LibraryView'
 import { ReaderView } from './components/reader/ReaderView'
 import { TreasuresView } from './components/treasures/TreasuresView'
@@ -40,9 +41,10 @@ export default function App() {
   return (
     <div className="mx-auto flex h-dvh max-w-xl flex-col bg-paper">
       <main className="min-h-0 flex-1 overflow-y-auto">
-        {view === 'library' && <LibraryView onOpen={setReadingId} />}
+        {view === 'library' && <LibraryView onOpen={setReadingId} onNavigate={setView} onOpenAlbum={() => setView('album')} />}
         {view === 'treasures' && <TreasuresView />}
         {view === 'games' && <GamesView onPlay={(game) => setPlaying({ game })} />}
+        {view === 'album' && <StickerAlbum onBack={() => setView('library')} />}
         {view === 'uncle' && <UncleZoneView />}
       </main>
       <BottomNav current={view} onChange={setView} />

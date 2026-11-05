@@ -1,6 +1,7 @@
 import confetti from 'canvas-confetti'
 import { Star } from 'lucide-react'
 import { useEffect, useRef } from 'react'
+import { markGamePlayed } from '../../utils/mission'
 import { playFanfare } from '../../utils/soundEffects'
 
 interface GameFinishProps {
@@ -18,6 +19,7 @@ export function GameFinish({ stars, total, onAgain, onExit, exitLabel = '🎮 Do
   useEffect(() => {
     if (celebrated.current) return // StrictMode runs effects twice in development
     celebrated.current = true
+    markGamePlayed()
     playFanfare()
     void confetti({ particleCount: 140, spread: 80, origin: { y: 0.6 } })
   }, [])

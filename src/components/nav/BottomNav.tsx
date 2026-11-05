@@ -1,4 +1,4 @@
-export type MainView = 'library' | 'treasures' | 'games' | 'uncle'
+export type MainView = 'library' | 'treasures' | 'games' | 'uncle' | 'album'
 
 const ITEMS: { view: MainView; icon: string; label: string }[] = [
   { view: 'library', icon: '📚', label: 'Bajki' },

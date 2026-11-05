@@ -31,4 +31,9 @@ export interface DailyState {
   day: string
   /** Scheduled cards answered today. */
   cards: number
+  /** Daily mission steps (D36). Only `true` is ever stored; missing means not done. */
+  storyRead?: boolean
+  gamePlayed?: boolean
+  /** Today's sticker was claimed. */
+  sticker?: boolean
 }

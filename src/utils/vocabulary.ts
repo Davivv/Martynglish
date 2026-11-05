@@ -2,7 +2,7 @@
 import type { Story, WordToken } from '../types/story'
 import type { VocabEntry, VocabStatus } from '../types/vocabulary'
 import { isDue, withAnswer } from './review'
-import { clearDaily, clearProgress, clearVocabulary, loadDaily, loadVocabulary, saveDaily, saveVocabulary } from './storage'
+import { clearDaily, clearProgress, clearStickers, clearVocabulary, loadDaily, loadVocabulary, saveDaily, saveVocabulary } from './storage'
 import { flashcardOf } from './storyGuardian'
 import { wordSpeechText } from './speechLogic'
 
@@ -139,4 +139,5 @@ export function resetAllProgress(): void {
   clearVocabulary()
   clearProgress()
   clearDaily()
+  clearStickers()
 }

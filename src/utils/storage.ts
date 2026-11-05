@@ -3,6 +3,7 @@
 // reads fall back to defaults and writes fall back to an in-memory copy.
 import type { Story } from '../types/story'
 import type { DailyState, QuizDirection, VocabEntry } from '../types/vocabulary'
+import { PICTURE_WORDS } from '../data/wordPictures'
 import { localDay } from './review'
 
 const PREFIX = 'martynka:v1:'
@@ -12,6 +13,7 @@ export const STORAGE_KEYS = {
   customStories: `${PREFIX}custom-stories`,
   quizDirection: `${PREFIX}quiz-direction`,
   daily: `${PREFIX}daily`,
+  stickers: `${PREFIX}stickers`,
 } as const
 
 const memory = new Map<string, string>()
@@ -152,7 +154,11 @@ export function loadDaily(now: number): DailyState {
   const today = localDay(now)
   const data = readJson(STORAGE_KEYS.daily)
   if (isRecord(data) && data.day === today && typeof data.cards === 'number' && Number.isFinite(data.cards)) {
-    return { ...data, day: today, cards: Math.max(0, Math.floor(data.cards)) }
+    const daily: DailyState = { day: today, cards: Math.max(0, Math.floor(data.cards)) }
+    if (data.storyRead === true) daily.storyRead = true
+    if (data.gamePlayed === true) daily.gamePlayed = true
+    if (data.sticker === true) daily.sticker = true
+    return daily
   }
   return { day: today, cards: 0 }
 }
@@ -163,4 +169,25 @@ export function saveDaily(daily: DailyState): void {
 
 export function clearDaily(): void {
   removeRaw(STORAGE_KEYS.daily)
+}
+
+const KNOWN_WORD_KEYS = new Set(PICTURE_WORDS.map((w) => w.key))
+
+/** Earned sticker keys in the order they were earned. Junk, unknown keys and duplicates are dropped. */
+export function loadStickers(): string[] {
+  const data = readJson(STORAGE_KEYS.stickers)
+  if (!Array.isArray(data)) return []
+  const result: string[] = []
+  for (const item of data) {
+    if (typeof item === 'string' && KNOWN_WORD_KEYS.has(item) && !result.includes(item)) result.push(item)
+  }
+  return result
+}
+
+export function saveStickers(keys: readonly string[]): void {
+  writeRaw(STORAGE_KEYS.stickers, JSON.stringify(keys))
+}
+
+export function clearStickers(): void {
+  removeRaw(STORAGE_KEYS.stickers)
 }

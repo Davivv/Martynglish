@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { useSpeech } from '../../hooks/useSpeech'
 import type { Story } from '../../types/story'
 import type { GameId } from '../../utils/games'
+import { markStoryRead } from '../../utils/mission'
 import { recordCompletion } from '../../utils/progress'
 import { playFanfare } from '../../utils/soundEffects'
 import { ReaderPage } from './ReaderPage'
@@ -37,6 +38,7 @@ export function ReaderView({ story, onExit, onPlay }: ReaderViewProps) {
   const finish = () => {
     speech.stop()
     setFinishedCount(recordCompletion(story.id))
+    markStoryRead()
     playFanfare()
     void confetti({ particleCount: 140, spread: 80, origin: { y: 0.6 } })
   }

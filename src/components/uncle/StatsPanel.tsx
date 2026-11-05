@@ -1,8 +1,10 @@
 import { useState } from 'react'
 import { getAllStories } from '../../data/stories'
 import type { VocabStatus } from '../../types/vocabulary'
+import { STICKER_WORDS } from '../../utils/mission'
 import { reviewLabel } from '../../utils/review'
 import { countStars, loadProgress } from '../../utils/progress'
+import { loadStickers } from '../../utils/storage'
 import { changeEntryStatus, getVocabularyList, resetAllProgress } from '../../utils/vocabulary'
 
 const STATUS_LABEL: Record<VocabStatus, string> = { learning: 'Uczę się', known: 'Już umiem' }
@@ -15,13 +17,14 @@ function load() {
     titles: new Map(stories.map((s) => [s.id, s.titlePl])),
     stars: countStars(loadProgress(), stories),
     storyCount: stories.length,
+    stickers: loadStickers().length,
   }
 }
 
 export function StatsPanel() {
   const [data, setData] = useState(load)
   const [confirming, setConfirming] = useState(false)
-  const { entries, now, titles, stars, storyCount } = data
+  const { entries, now, titles, stars, storyCount, stickers } = data
 
   const toggle = (key: string, status: VocabStatus) => {
     changeEntryStatus(key, status === 'known' ? 'learning' : 'known')
@@ -37,7 +40,7 @@ export function StatsPanel() {
   return (
     <section className="flex flex-col gap-3" aria-label="Statystyki">
       <p className="text-sm text-slate-600">
-        Przeczytane bajki: {stars} z {storyCount}. Słowa od najczęściej klikanych, czyli od tych najtrudniejszych.
+        Przeczytane bajki: {stars} z {storyCount}. Naklejki: {stickers} z {STICKER_WORDS.length}. Słowa od najczęściej klikanych, czyli od tych najtrudniejszych.
       </p>
 
       {entries.length === 0 ? (

@@ -3,13 +3,17 @@ import { getAllStories } from '../../data/stories'
 import { pluralPl } from '../../utils/pluralPl'
 import { countStars, loadProgress } from '../../utils/progress'
 import { getVocabulary } from '../../utils/vocabulary'
+import { MissionCard } from '../mission/MissionCard'
+import type { MainView } from '../nav/BottomNav'
 import { InteractiveStoryStage } from '../stage/InteractiveStoryStage'
 
 interface LibraryViewProps {
   onOpen: (storyId: string) => void
+  onNavigate: (view: MainView) => void
+  onOpenAlbum: () => void
 }
 
-export function LibraryView({ onOpen }: LibraryViewProps) {
+export function LibraryView({ onOpen, onNavigate, onOpenAlbum }: LibraryViewProps) {
   const [stories] = useState(getAllStories)
   const [progress] = useState(loadProgress)
   const [wordCount] = useState(() => Object.keys(getVocabulary()).length)
@@ -29,6 +33,7 @@ export function LibraryView({ onOpen }: LibraryViewProps) {
             <span className="text-sm font-medium">{pluralPl(wordCount, 'słówko', 'słówka', 'słówek')}</span>
           </div>
         </div>
+        <MissionCard onNavigate={onNavigate} onOpenAlbum={onOpenAlbum} />
       </header>
 
       <ul className="flex flex-col gap-4">
