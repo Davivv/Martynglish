@@ -1,3 +1,4 @@
+import type { BackgroundTheme } from '../../types/story'
 import { PROP_DRAWINGS, SKY_OBJECTS, parseProp } from './props'
 
 /**
@@ -11,6 +12,8 @@ import { PROP_DRAWINGS, SKY_OBJECTS, parseProp } from './props'
 export type StageMode = 'strip' | 'roomy' | 'square'
 
 export const HERO_CENTER_X = 200
+/** Middle of the sea band in the beach background (y 108..158). */
+export const SEA_Y = 134
 /** The hero is drawn in a 100 x 100 box (feet at the bottom) and scaled by `heroScale`. */
 export const HERO_DRAWING = 100
 
@@ -146,12 +149,30 @@ function groundSlots(mode: StageMode, count: number): Array<{ x: number; base: n
   return spread(count, span[0], span[1]).map((x) => ({ x, base: 228, size }))
 }
 
+/** Sea slots (centre x, target size) on both sides of the hero, so every fish can be counted. */
+function seaSlots(mode: ModeConfig, count: number): Array<{ x: number; size: number }> {
+  const heroEdge = 50 * mode.heroScale
+  const left = Math.ceil(count / 2)
+  const right = count - left
+  const size = Math.min(60, (HERO_CENTER_X - heroEdge - mode.safeX[0]) / left)
+  const lane = (n: number, from: number, to: number) => (n === 0 ? [] : spread(n, from, to))
+  return [
+    ...lane(left, mode.safeX[0] + size / 2, HERO_CENTER_X - heroEdge - size / 2),
+    ...lane(right, HERO_CENTER_X + heroEdge + size / 2, mode.safeX[1] - size / 2),
+  ].map((x) => ({ x, size }))
+}
+
 /**
  * Turns the `props` list into positions. One entry is one object on the stage, so the child can
  * count them. Sky objects hang high beside the hero, trees stand behind it, everything else
- * stands beside or below the hero, never on its feet. Sizes shrink as the count grows.
+ * stands beside or below the hero, never on its feet. On the beach fish swim in the sea, not on
+ * the sand. Sizes shrink as the count grows.
  */
-export function layoutProps(props: readonly string[], modeName: StageMode = 'roomy'): StageLayout {
+export function layoutProps(
+  props: readonly string[],
+  modeName: StageMode = 'roomy',
+  theme?: BackgroundTheme,
+): StageLayout {
   const mode = MODES[modeName]
   const hero = heroPlacement(mode)
   const heroHeight = HERO_DRAWING * hero.scale
@@ -161,7 +182,9 @@ export function layoutProps(props: readonly string[], modeName: StageMode = 'roo
 
   const sky = items.filter(({ object }) => SKY_OBJECTS.has(object))
   const trees = items.filter(({ object }) => object === 'tree')
-  const ground = items.filter(({ object }) => !SKY_OBJECTS.has(object) && object !== 'tree')
+  const inSea = ({ object }: Item) => theme === 'beach' && object === 'fish'
+  const sea = items.filter(inSea)
+  const ground = items.filter((item) => !SKY_OBJECTS.has(item.object) && item.object !== 'tree' && !inSea(item))
   const placed: PlacedProp[] = []
 
   sky.forEach((item, i) => {
@@ -194,6 +217,13 @@ export function layoutProps(props: readonly string[], modeName: StageMode = 'roo
       stretch,
       behind: true,
     })
+  })
+
+  const swimming = seaSlots(mode, Math.max(sea.length, 1))
+  sea.forEach((item, i) => {
+    const slot = swimming[i]
+    const scale = scaleFor(item.object, slot.size)
+    placed.push({ ...item, x: clampX(slot.x, item.object, scale, mode.safeX), y: SEA_Y, scale, behind: true })
   })
 
   const slots = groundSlots(modeName, Math.max(ground.length, 1))

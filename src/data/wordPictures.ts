@@ -54,6 +54,7 @@ export const PICTURE_WORDS: readonly PictureWord[] = [
   word('blue', 'niebieski', 'blu', color('#3B82F6')),
   word('green', 'zielony', 'grin', color('#22C55E')),
   word('yellow', 'żółty', 'je-lou', color('#FACC15')),
+  word('orange', 'pomarańczowy', 'o-rindż', color('#F97316')),
   word('pink', 'różowy', 'pink', color('#EC4899')),
   word('purple', 'fioletowy', 'per-pl', color('#9333EA')),
   word('white', 'biały', 'łajt', color('#FFFFFF')),

@@ -591,5 +591,445 @@
         ]
       }
     ]
+  },
+  {
+    "id": "lulu-panda-stars",
+    "titleEn": "Lulu Counts the Stars",
+    "titlePl": "Lulu liczy gwiazdki",
+    "coverVisualConfig": {
+      "backgroundTheme": "night-sky",
+      "primaryCharacter": "panda",
+      "primaryColor": "#EF4444",
+      "secondaryColor": "#22C55E",
+      "props": ["moon-yellow", "star-yellow", "star-yellow"],
+      "characterMood": "happy"
+    },
+    "characterVisualAnchor": "Cute little black and white panda named Lulu with a red scarf and a green bamboo stalk, soft children's book watercolor style",
+    "themeColor": "#4F46E5",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "visualConfig": {
+          "backgroundTheme": "night-sky",
+          "primaryCharacter": "panda",
+          "primaryColor": "#EF4444",
+          "secondaryColor": "#22C55E",
+          "props": ["moon-yellow"],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Cute little black and white panda named Lulu with a red scarf and a green bamboo stalk, soft children's book watercolor style. Scene: the little panda sits under a big yellow moon in the night sky.",
+        "imageAltPl": "Mała panda siedzi pod żółtym księżycem na nocnym niebie.",
+        "interactiveSoundText": "Hello! I am Lulu!",
+        "sentenceEn": "Lulu is a little panda.",
+        "phoneticsPl": "lu-lu iz e li-tl pan-da",
+        "sentencePl": "Lulu to mała panda.",
+        "words": [
+          { "word": "Lulu", "translationPl": "Lulu", "phoneticsPl": "lu-lu", "isKeyword": false },
+          { "word": "is", "translationPl": "to", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "a", "translationPl": "jakaś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "little", "translationPl": "mała", "phoneticsPl": "li-tl", "isKeyword": true, "lemmaPl": "mały" },
+          { "word": "panda", "punctuation": ".", "translationPl": "panda", "phoneticsPl": "pan-da", "isKeyword": true }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "visualConfig": {
+          "backgroundTheme": "night-sky",
+          "primaryCharacter": "panda",
+          "primaryColor": "#EF4444",
+          "secondaryColor": "#22C55E",
+          "props": ["star-yellow"],
+          "characterMood": "curious"
+        },
+        "imagePrompt": "Cute little black and white panda named Lulu with a red scarf and a green bamboo stalk, soft children's book watercolor style. Scene: the panda looks up at one yellow star in the night sky.",
+        "imageAltPl": "Panda patrzy w górę na jedną żółtą gwiazdkę.",
+        "interactiveSoundText": "Look! I see a star!",
+        "sentenceEn": "The little panda sees one yellow star.",
+        "phoneticsPl": "de li-tl pan-da siz łan je-lou star",
+        "sentencePl": "Mała panda widzi jedną żółtą gwiazdkę.",
+        "words": [
+          { "word": "The", "translationPl": "ta", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "little", "translationPl": "mała", "phoneticsPl": "li-tl", "isKeyword": true, "lemmaPl": "mały" },
+          { "word": "panda", "translationPl": "panda", "phoneticsPl": "pan-da", "isKeyword": true },
+          { "word": "sees", "translationPl": "widzi", "phoneticsPl": "siz", "isKeyword": true, "lemmaEn": "see", "lemmaPl": "widzieć", "lemmaPhoneticsPl": "si" },
+          { "word": "one", "translationPl": "jedną", "phoneticsPl": "łan", "isKeyword": true, "lemmaPl": "jeden" },
+          { "word": "yellow", "translationPl": "żółtą", "phoneticsPl": "je-lou", "isKeyword": true, "lemmaPl": "żółty" },
+          { "word": "star", "punctuation": ".", "translationPl": "gwiazdkę", "phoneticsPl": "star", "isKeyword": true, "lemmaPl": "gwiazdka" }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "visualConfig": {
+          "backgroundTheme": "night-sky",
+          "primaryCharacter": "panda",
+          "primaryColor": "#EF4444",
+          "secondaryColor": "#22C55E",
+          "props": ["star-yellow", "star-yellow", "star-yellow"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Cute little black and white panda named Lulu with a red scarf and a green bamboo stalk, soft children's book watercolor style. Scene: the excited panda counts three yellow stars in the night sky.",
+        "imageAltPl": "Podekscytowana panda liczy trzy żółte gwiazdki.",
+        "interactiveSoundText": "One, two, three!",
+        "sentenceEn": "One, two, three yellow stars!",
+        "phoneticsPl": "łan tu fri je-lou starz",
+        "sentencePl": "Jedna, dwie, trzy żółte gwiazdki!",
+        "words": [
+          { "word": "One", "punctuation": ",", "translationPl": "jedna", "phoneticsPl": "łan", "isKeyword": true, "lemmaPl": "jeden" },
+          { "word": "two", "punctuation": ",", "translationPl": "dwie", "phoneticsPl": "tu", "isKeyword": true, "lemmaPl": "dwa" },
+          { "word": "three", "translationPl": "trzy", "phoneticsPl": "fri", "isKeyword": true },
+          { "word": "yellow", "translationPl": "żółte", "phoneticsPl": "je-lou", "isKeyword": true, "lemmaPl": "żółty" },
+          { "word": "stars", "punctuation": "!", "translationPl": "gwiazdki", "phoneticsPl": "starz", "isKeyword": true, "lemmaEn": "star", "lemmaPl": "gwiazdka", "lemmaPhoneticsPl": "star" }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "visualConfig": {
+          "backgroundTheme": "night-sky",
+          "primaryCharacter": "panda",
+          "primaryColor": "#EF4444",
+          "secondaryColor": "#22C55E",
+          "props": ["star-yellow", "star-yellow", "star-yellow", "star-yellow", "star-yellow"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Cute little black and white panda named Lulu with a red scarf and a green bamboo stalk, soft children's book watercolor style. Scene: the excited panda looks at five yellow stars in the night sky.",
+        "imageAltPl": "Panda patrzy na pięć żółtych gwiazdek na niebie.",
+        "interactiveSoundText": "Four, five! Wow!",
+        "sentenceEn": "Four, five! Five yellow stars in the sky!",
+        "phoneticsPl": "for fajw fajw je-lou starz in de skaj",
+        "sentencePl": "Cztery, pięć! Pięć żółtych gwiazdek na niebie!",
+        "words": [
+          { "word": "Four", "punctuation": ",", "translationPl": "cztery", "phoneticsPl": "for", "isKeyword": true },
+          { "word": "five", "punctuation": "!", "translationPl": "pięć", "phoneticsPl": "fajw", "isKeyword": true },
+          { "word": "Five", "translationPl": "pięć", "phoneticsPl": "fajw", "isKeyword": true },
+          { "word": "yellow", "translationPl": "żółtych", "phoneticsPl": "je-lou", "isKeyword": true, "lemmaPl": "żółty" },
+          { "word": "stars", "translationPl": "gwiazdek", "phoneticsPl": "starz", "isKeyword": true, "lemmaEn": "star", "lemmaPl": "gwiazdka", "lemmaPhoneticsPl": "star" },
+          { "word": "in", "translationPl": "na", "phoneticsPl": "in", "isKeyword": false },
+          { "word": "the", "translationPl": "to", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "sky", "punctuation": "!", "translationPl": "niebie", "phoneticsPl": "skaj", "isKeyword": true, "lemmaPl": "niebo" }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "visualConfig": {
+          "backgroundTheme": "night-sky",
+          "primaryCharacter": "panda",
+          "primaryColor": "#EF4444",
+          "secondaryColor": "#22C55E",
+          "props": ["moon-yellow", "star-yellow", "star-yellow", "star-yellow"],
+          "characterMood": "sleepy"
+        },
+        "imagePrompt": "Cute little black and white panda named Lulu with a red scarf and a green bamboo stalk, soft children's book watercolor style. Scene: the sleepy panda yawns under a yellow moon and three yellow stars.",
+        "imageAltPl": "Śpiąca panda ziewa pod księżycem i trzema gwiazdkami.",
+        "interactiveSoundText": "Good night, stars!",
+        "sentenceEn": "The little panda is sleepy. Good night, stars!",
+        "phoneticsPl": "de li-tl pan-da iz sli-pi gud najt starz",
+        "sentencePl": "Mała panda jest śpiąca. Dobranoc, gwiazdki!",
+        "words": [
+          { "word": "The", "translationPl": "ta", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "little", "translationPl": "mała", "phoneticsPl": "li-tl", "isKeyword": true, "lemmaPl": "mały" },
+          { "word": "panda", "translationPl": "panda", "phoneticsPl": "pan-da", "isKeyword": true },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "sleepy", "punctuation": ".", "translationPl": "śpiąca", "phoneticsPl": "sli-pi", "isKeyword": true, "lemmaPl": "śpiący" },
+          { "word": "Good night", "punctuation": ",", "translationPl": "dobranoc", "phoneticsPl": "gud najt", "isKeyword": true },
+          { "word": "stars", "punctuation": "!", "translationPl": "gwiazdki", "phoneticsPl": "starz", "isKeyword": true, "lemmaEn": "star", "lemmaPl": "gwiazdka", "lemmaPhoneticsPl": "star" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bobo-bunny-beach",
+    "titleEn": "Bobo at the Beach",
+    "titlePl": "Bobo na plaży",
+    "coverVisualConfig": {
+      "backgroundTheme": "beach",
+      "primaryCharacter": "bunny",
+      "primaryColor": "#C4B5FD",
+      "secondaryColor": "#F472B6",
+      "props": ["sun-yellow", "shell-pink"],
+      "characterMood": "happy"
+    },
+    "characterVisualAnchor": "Cute little lilac bunny named Bobo with long ears and a small pink flower on one ear, soft children's book watercolor style",
+    "themeColor": "#0EA5E9",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "visualConfig": {
+          "backgroundTheme": "beach",
+          "primaryCharacter": "bunny",
+          "primaryColor": "#C4B5FD",
+          "secondaryColor": "#F472B6",
+          "props": ["sun-yellow"],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Cute little lilac bunny named Bobo with long ears and a small pink flower on one ear, soft children's book watercolor style. Scene: the happy bunny stands on a sandy beach under one yellow sun.",
+        "imageAltPl": "Wesoły króliczek stoi na piaszczystej plaży pod żółtym słońcem.",
+        "interactiveSoundText": "Hi! I am Bobo!",
+        "sentenceEn": "Bobo is a little happy bunny.",
+        "phoneticsPl": "bo-bo iz e li-tl ha-pi ba-ni",
+        "sentencePl": "Bobo to mały, wesoły króliczek.",
+        "words": [
+          { "word": "Bobo", "translationPl": "Bobo", "phoneticsPl": "bo-bo", "isKeyword": false },
+          { "word": "is", "translationPl": "to", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "a", "translationPl": "jakiś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "little", "translationPl": "mały", "phoneticsPl": "li-tl", "isKeyword": true },
+          { "word": "happy", "translationPl": "wesoły", "phoneticsPl": "ha-pi", "isKeyword": true },
+          { "word": "bunny", "punctuation": ".", "translationPl": "króliczek", "phoneticsPl": "ba-ni", "isKeyword": true }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "visualConfig": {
+          "backgroundTheme": "beach",
+          "primaryCharacter": "bunny",
+          "primaryColor": "#C4B5FD",
+          "secondaryColor": "#F472B6",
+          "props": ["cloud-white"],
+          "characterMood": "curious"
+        },
+        "imagePrompt": "Cute little lilac bunny named Bobo with long ears and a small pink flower on one ear, soft children's book watercolor style. Scene: the curious bunny looks around a big sandy beach with one white cloud above.",
+        "imageAltPl": "Ciekawski króliczek rozgląda się po dużej plaży.",
+        "interactiveSoundText": "Wow! A big beach!",
+        "sentenceEn": "The bunny is on the big beach.",
+        "phoneticsPl": "de ba-ni iz on de big bicz",
+        "sentencePl": "Króliczek jest na dużej plaży.",
+        "words": [
+          { "word": "The", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "bunny", "translationPl": "króliczek", "phoneticsPl": "ba-ni", "isKeyword": true },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "on", "translationPl": "na", "phoneticsPl": "on", "isKeyword": false },
+          { "word": "the", "translationPl": "ta", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "big", "translationPl": "dużej", "phoneticsPl": "big", "isKeyword": true, "lemmaPl": "duży" },
+          { "word": "beach", "punctuation": ".", "translationPl": "plaży", "phoneticsPl": "bicz", "isKeyword": true, "lemmaPl": "plaża" }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "visualConfig": {
+          "backgroundTheme": "beach",
+          "primaryCharacter": "bunny",
+          "primaryColor": "#C4B5FD",
+          "secondaryColor": "#F472B6",
+          "props": ["shell-pink"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Cute little lilac bunny named Bobo with long ears and a small pink flower on one ear, soft children's book watercolor style. Scene: the excited bunny finds one pink shell in the sand.",
+        "imageAltPl": "Podekscytowany króliczek znajduje różową muszelkę w piasku.",
+        "interactiveSoundText": "Look! A pink shell!",
+        "sentenceEn": "The happy bunny sees a pink shell.",
+        "phoneticsPl": "de ha-pi ba-ni siz e pink szel",
+        "sentencePl": "Wesoły króliczek widzi różową muszelkę.",
+        "words": [
+          { "word": "The", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "happy", "translationPl": "wesoły", "phoneticsPl": "ha-pi", "isKeyword": true },
+          { "word": "bunny", "translationPl": "króliczek", "phoneticsPl": "ba-ni", "isKeyword": true },
+          { "word": "sees", "translationPl": "widzi", "phoneticsPl": "siz", "isKeyword": true, "lemmaEn": "see", "lemmaPl": "widzieć", "lemmaPhoneticsPl": "si" },
+          { "word": "a", "translationPl": "jakąś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "pink", "translationPl": "różową", "phoneticsPl": "pink", "isKeyword": true, "lemmaPl": "różowy" },
+          { "word": "shell", "punctuation": ".", "translationPl": "muszelkę", "phoneticsPl": "szel", "isKeyword": true, "lemmaPl": "muszelka" }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "visualConfig": {
+          "backgroundTheme": "beach",
+          "primaryCharacter": "bunny",
+          "primaryColor": "#C4B5FD",
+          "secondaryColor": "#F472B6",
+          "props": ["fish-orange", "fish-orange"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Cute little lilac bunny named Bobo with long ears and a small pink flower on one ear, soft children's book watercolor style. Scene: two orange fish jump out of the big blue sea while the bunny watches from the beach.",
+        "imageAltPl": "Dwie pomarańczowe rybki skaczą w dużym morzu.",
+        "interactiveSoundText": "Splash! Two fish!",
+        "sentenceEn": "Two orange fish jump in the big sea.",
+        "phoneticsPl": "tu o-rindż fisz dżamp in de big si",
+        "sentencePl": "Dwie pomarańczowe rybki skaczą w dużym morzu.",
+        "words": [
+          { "word": "Two", "translationPl": "dwie", "phoneticsPl": "tu", "isKeyword": true, "lemmaPl": "dwa" },
+          { "word": "orange", "translationPl": "pomarańczowe", "phoneticsPl": "o-rindż", "isKeyword": true, "lemmaPl": "pomarańczowy" },
+          { "word": "fish", "translationPl": "rybki", "phoneticsPl": "fisz", "isKeyword": true, "lemmaPl": "ryba" },
+          { "word": "jump", "translationPl": "skaczą", "phoneticsPl": "dżamp", "isKeyword": true, "lemmaPl": "skakać" },
+          { "word": "in", "translationPl": "w", "phoneticsPl": "in", "isKeyword": false },
+          { "word": "the", "translationPl": "to", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "big", "translationPl": "dużym", "phoneticsPl": "big", "isKeyword": true, "lemmaPl": "duży" },
+          { "word": "sea", "punctuation": ".", "translationPl": "morzu", "phoneticsPl": "si", "isKeyword": true, "lemmaPl": "morze" }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "visualConfig": {
+          "backgroundTheme": "beach",
+          "primaryCharacter": "bunny",
+          "primaryColor": "#C4B5FD",
+          "secondaryColor": "#F472B6",
+          "props": ["sun-yellow", "shell-pink"],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Cute little lilac bunny named Bobo with long ears and a small pink flower on one ear, soft children's book watercolor style. Scene: the happy bunny holds a pink shell near the big sea under one yellow sun.",
+        "imageAltPl": "Wesoły króliczek z muszelką patrzy na duże morze.",
+        "interactiveSoundText": "I love the sea!",
+        "sentenceEn": "The happy bunny loves the big sea.",
+        "phoneticsPl": "de ha-pi ba-ni lawz de big si",
+        "sentencePl": "Wesoły króliczek kocha duże morze.",
+        "words": [
+          { "word": "The", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "happy", "translationPl": "wesoły", "phoneticsPl": "ha-pi", "isKeyword": true },
+          { "word": "bunny", "translationPl": "króliczek", "phoneticsPl": "ba-ni", "isKeyword": true },
+          { "word": "loves", "translationPl": "kocha", "phoneticsPl": "lawz", "isKeyword": true, "lemmaEn": "love", "lemmaPl": "kochać", "lemmaPhoneticsPl": "law" },
+          { "word": "the", "translationPl": "to", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "big", "translationPl": "duże", "phoneticsPl": "big", "isKeyword": true, "lemmaPl": "duży" },
+          { "word": "sea", "punctuation": ".", "translationPl": "morze", "phoneticsPl": "si", "isKeyword": true }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bella-balloons",
+    "titleEn": "Bella and the Balloons",
+    "titlePl": "Bella i balony",
+    "coverVisualConfig": {
+      "backgroundTheme": "park",
+      "primaryCharacter": "dog",
+      "primaryColor": "#D9A441",
+      "secondaryColor": "#DC2626",
+      "props": ["balloon-red", "balloon-blue", "balloon-yellow"],
+      "characterMood": "happy"
+    },
+    "characterVisualAnchor": "Friendly small golden puppy named Bella with floppy ears and a red collar in a sunny green park, children's book illustration",
+    "themeColor": "#EF4444",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "visualConfig": {
+          "backgroundTheme": "park",
+          "primaryCharacter": "dog",
+          "primaryColor": "#D9A441",
+          "secondaryColor": "#DC2626",
+          "props": ["balloon-red", "balloon-blue", "balloon-yellow"],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Friendly small golden puppy named Bella with floppy ears and a red collar in a sunny green park, children's book illustration. Scene: the happy puppy holds three big balloons, one red, one blue and one yellow, in a sunny green park.",
+        "imageAltPl": "Wesoły piesek trzyma trzy duże balony w parku.",
+        "interactiveSoundText": "Woof! Three balloons!",
+        "sentenceEn": "Bella has three big balloons.",
+        "phoneticsPl": "be-la haz fri big be-lunz",
+        "sentencePl": "Bella ma trzy duże balony.",
+        "words": [
+          { "word": "Bella", "translationPl": "Bella", "phoneticsPl": "be-la", "isKeyword": false },
+          { "word": "has", "translationPl": "ma", "phoneticsPl": "haz", "isKeyword": true, "lemmaEn": "have", "lemmaPl": "mieć", "lemmaPhoneticsPl": "haw" },
+          { "word": "three", "translationPl": "trzy", "phoneticsPl": "fri", "isKeyword": true },
+          { "word": "big", "translationPl": "duże", "phoneticsPl": "big", "isKeyword": true, "lemmaPl": "duży" },
+          { "word": "balloons", "punctuation": ".", "translationPl": "balony", "phoneticsPl": "be-lunz", "isKeyword": true, "lemmaEn": "balloon", "lemmaPl": "balon", "lemmaPhoneticsPl": "be-lun" }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "visualConfig": {
+          "backgroundTheme": "park",
+          "primaryCharacter": "dog",
+          "primaryColor": "#D9A441",
+          "secondaryColor": "#DC2626",
+          "props": ["balloon-red", "balloon-blue"],
+          "characterMood": "curious"
+        },
+        "imagePrompt": "Friendly small golden puppy named Bella with floppy ears and a red collar in a sunny green park, children's book illustration. Scene: the curious puppy looks at one red balloon and one blue balloon in the park.",
+        "imageAltPl": "Ciekawski piesek patrzy na czerwony i niebieski balon.",
+        "interactiveSoundText": "Woof! Red and blue!",
+        "sentenceEn": "One balloon is red. One is blue.",
+        "phoneticsPl": "łan be-lun iz red łan iz blu",
+        "sentencePl": "Jeden balon jest czerwony. Jeden jest niebieski.",
+        "words": [
+          { "word": "One", "translationPl": "jeden", "phoneticsPl": "łan", "isKeyword": true },
+          { "word": "balloon", "translationPl": "balon", "phoneticsPl": "be-lun", "isKeyword": true },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "red", "punctuation": ".", "translationPl": "czerwony", "phoneticsPl": "red", "isKeyword": true },
+          { "word": "One", "translationPl": "jeden", "phoneticsPl": "łan", "isKeyword": true },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "blue", "punctuation": ".", "translationPl": "niebieski", "phoneticsPl": "blu", "isKeyword": true }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "visualConfig": {
+          "backgroundTheme": "park",
+          "primaryCharacter": "dog",
+          "primaryColor": "#D9A441",
+          "secondaryColor": "#DC2626",
+          "props": ["cloud-white", "cloud-white", "balloon-yellow"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Friendly small golden puppy named Bella with floppy ears and a red collar in a sunny green park, children's book illustration. Scene: the excited puppy watches one yellow balloon float high up into the sky, above two white clouds.",
+        "imageAltPl": "Podekscytowany piesek patrzy, jak żółty balon leci wysoko.",
+        "interactiveSoundText": "Woof! Up, up, up!",
+        "sentenceEn": "The yellow balloon flies high.",
+        "phoneticsPl": "de je-lou be-lun flajz haj",
+        "sentencePl": "Żółty balon leci wysoko.",
+        "words": [
+          { "word": "The", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "yellow", "translationPl": "żółty", "phoneticsPl": "je-lou", "isKeyword": true },
+          { "word": "balloon", "translationPl": "balon", "phoneticsPl": "be-lun", "isKeyword": true },
+          { "word": "flies", "translationPl": "leci", "phoneticsPl": "flajz", "isKeyword": true, "lemmaEn": "fly", "lemmaPl": "lecieć", "lemmaPhoneticsPl": "flaj" },
+          { "word": "high", "punctuation": ".", "translationPl": "wysoko", "phoneticsPl": "haj", "isKeyword": true }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "visualConfig": {
+          "backgroundTheme": "park",
+          "primaryCharacter": "dog",
+          "primaryColor": "#D9A441",
+          "secondaryColor": "#DC2626",
+          "props": ["bird-blue", "balloon-yellow"],
+          "characterMood": "curious"
+        },
+        "imagePrompt": "Friendly small golden puppy named Bella with floppy ears and a red collar in a sunny green park, children's book illustration. Scene: a little blue bird looks at one yellow balloon in the park while the puppy watches.",
+        "imageAltPl": "Mały niebieski ptaszek patrzy na żółty balon.",
+        "interactiveSoundText": "Woof! Hello, bird!",
+        "sentenceEn": "A little bird sees the yellow balloon.",
+        "phoneticsPl": "e li-tl berd siz de je-lou be-lun",
+        "sentencePl": "Mały ptaszek widzi żółty balon.",
+        "words": [
+          { "word": "A", "translationPl": "jakiś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "little", "translationPl": "mały", "phoneticsPl": "li-tl", "isKeyword": true },
+          { "word": "bird", "translationPl": "ptaszek", "phoneticsPl": "berd", "isKeyword": true, "lemmaPl": "ptak" },
+          { "word": "sees", "translationPl": "widzi", "phoneticsPl": "siz", "isKeyword": true, "lemmaEn": "see", "lemmaPl": "widzieć", "lemmaPhoneticsPl": "si" },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "yellow", "translationPl": "żółty", "phoneticsPl": "je-lou", "isKeyword": true },
+          { "word": "balloon", "punctuation": ".", "translationPl": "balon", "phoneticsPl": "be-lun", "isKeyword": true }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "visualConfig": {
+          "backgroundTheme": "park",
+          "primaryCharacter": "dog",
+          "primaryColor": "#D9A441",
+          "secondaryColor": "#DC2626",
+          "props": ["rainbow-1", "balloon-red", "balloon-blue"],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Friendly small golden puppy named Bella with floppy ears and a red collar in a sunny green park, children's book illustration. Scene: the happy puppy sits in the park with a red balloon and a blue balloon and looks at a rainbow.",
+        "imageAltPl": "Wesoły piesek z balonami patrzy na tęczę.",
+        "interactiveSoundText": "Woof! A rainbow!",
+        "sentenceEn": "Bella is happy and sees a rainbow.",
+        "phoneticsPl": "be-la iz ha-pi and siz e rejn-bou",
+        "sentencePl": "Bella jest wesoła i widzi tęczę.",
+        "words": [
+          { "word": "Bella", "translationPl": "Bella", "phoneticsPl": "be-la", "isKeyword": false },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "happy", "translationPl": "wesoła", "phoneticsPl": "ha-pi", "isKeyword": true, "lemmaPl": "wesoły" },
+          { "word": "and", "translationPl": "i", "phoneticsPl": "and", "isKeyword": false },
+          { "word": "sees", "translationPl": "widzi", "phoneticsPl": "siz", "isKeyword": true, "lemmaEn": "see", "lemmaPl": "widzieć", "lemmaPhoneticsPl": "si" },
+          { "word": "a", "translationPl": "jakąś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "rainbow", "punctuation": ".", "translationPl": "tęczę", "phoneticsPl": "rejn-bou", "isKeyword": true, "lemmaPl": "tęcza" }
+        ]
+      }
+    ]
   }
 ]

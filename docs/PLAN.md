@@ -82,5 +82,5 @@ Dziecko nie czyta jeszcze po angielsku, więc pierwszeństwo mają: powroty do s
 - [x] Zabawa „Pary”: memory ze słowem i obrazkiem
 - [x] Po bajce: zabawa ze słówkami z tej bajki
 - [x] Dzienna misja i album naklejek, w którym naklejka uczy słowa
-- [ ] Nowe bajki z rysunków, które już istnieją (`panda`, `bunny`, `beach`)
+- [x] Nowe bajki z rysunków, które już istnieją (`panda`, `bunny`, `beach`)
 - [ ] Audyt całości na 360×640 i aktualizacja strony testowej

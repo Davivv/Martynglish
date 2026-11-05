@@ -106,4 +106,27 @@ describe('layoutProps', () => {
   it('ignores unknown objects instead of crashing', () => {
     expect(layoutProps(['dragon-red', 'apple-red']).props).toHaveLength(1)
   })
+
+  it('puts fish in the sea on the beach, beside the hero, and on the ground elsewhere', () => {
+    for (const mode of ['strip', 'roomy', 'square'] as const) {
+      for (const count of [1, 2, 3, 4]) {
+        const fish = Array.from({ length: count }, () => 'fish-orange')
+        const { props: placed, hero } = layoutProps(fish, mode, 'beach')
+        const heroLeft = hero.x
+        const heroRight = hero.x + 100 * hero.scale
+        expect(placed).toHaveLength(count)
+        for (const p of placed) {
+          expect(p.y, `${mode} ${count}`).toBeGreaterThanOrEqual(108)
+          expect(p.y, `${mode} ${count}`).toBeLessThanOrEqual(158)
+          expect(p.x < heroLeft || p.x > heroRight, `${mode} ${count} x=${p.x}`).toBe(true)
+        }
+      }
+    }
+    expect(layoutProps(['fish-orange'], 'roomy', 'park').props[0].y).toBeGreaterThan(158)
+    expect(layoutProps(['fish-orange'], 'roomy').props[0].y).toBeGreaterThan(158)
+  })
+
+  it('leaves other objects where they stand on any background', () => {
+    expect(layoutProps(['shell-pink'], 'roomy', 'beach').props).toEqual(layoutProps(['shell-pink'], 'roomy').props)
+  })
 })

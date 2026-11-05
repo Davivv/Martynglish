@@ -105,7 +105,7 @@ export function InteractiveStoryStage({
     }
   }
 
-  const layout = useMemo(() => layoutProps(props, mode), [props, mode])
+  const layout = useMemo(() => layoutProps(props, mode, backgroundTheme), [props, mode, backgroundTheme])
   const { hero } = layout
   const Background = BACKGROUND_DRAWINGS[backgroundTheme] ?? BACKGROUND_DRAWINGS.meadow
   const Hero = CHARACTER_DRAWINGS[primaryCharacter] ?? Cat
