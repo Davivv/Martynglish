@@ -321,7 +321,7 @@
           "primaryCharacter": "princess-pony",
           "primaryColor": "#EC4899",
           "secondaryColor": "#FACC15",
-          "props": ["tree-green"],
+          "props": ["cloud-white"],
           "characterMood": "happy"
         },
         "imagePrompt": "Little smiling princess in a pink dress with a golden crown next to a small white magic pony with a rainbow mane, fairytale illustration. Scene: the princess stands in front of a big fairytale castle with tall towers.",

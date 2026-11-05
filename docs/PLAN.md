@@ -38,25 +38,25 @@ Agent: `curriculum-architect`.
 
 Agenci mogą pracować równolegle: `stage-artist`, `mobile-audio-engineer`.
 
-- [ ] `InteractiveStoryStage`: 6 teł, 6 postaci, wszystkie props z katalogu
-- [ ] `useSpeech` i `soundEffects`
-- [ ] Biblioteka, czytnik, Klocki Słów, Mądra Sówka, zasłona, karaoke
-- [ ] Najdłuższa strona na 360×640 bez przewijania (D20)
+- [x] `InteractiveStoryStage`: 6 teł, 6 postaci, wszystkie props z katalogu
+- [x] `useSpeech` i `soundEffects`
+- [x] Biblioteka, czytnik, Klocki Słów, Mądra Sówka, zasłona, karaoke
+- [x] Najdłuższa strona na 360×640 bez przewijania (D20)
 
 ## Faza 4: Skarby
 
 Agent: `mobile-audio-engineer`.
 
-- [ ] Zapis słów, `clickCount`, powrót do „Uczę się”
-- [ ] Cold-start i quiz z 3 odpowiedziami
+- [x] Zapis słów, `clickCount`, powrót do „Uczę się”
+- [x] Cold-start i quiz z 3 odpowiedziami
 
 ## Faza 5: Strefa Wujka
 
 Agent: `uncle-zone-engineer`.
 
-- [ ] Bramka mnożenia i statystyki
-- [ ] Kreator: generator promptu, import JSON, Strażnik w aplikacji (Sposób 2 pominięty, D30)
-- [ ] `.agent/skills/martynka-story-generator/SKILL.md` i wskaźnik w `.claude/skills/` (D25)
+- [x] Bramka mnożenia i statystyki
+- [x] Kreator: generator promptu, import JSON, Strażnik w aplikacji (Sposób 2 pominięty, D30)
+- [x] `.agent/skills/martynka-story-generator/SKILL.md` i wskaźnik w `.claude/skills/` (D25)
 
 ## Faza 6: Audyt
 
