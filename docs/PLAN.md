@@ -31,8 +31,8 @@ Agenci: `curriculum-architect`, potem `guardian-qa`.
 Agent: `curriculum-architect`.
 
 - [x] `purple-cat`, napisana w Fazie 1 jako pierwszy test Strażnika na prawdziwej treści
-- [ ] `happy-dog`, `magic-pony`, `dino-ice-cream` (SPEC §6 i uwagi z końca DECISIONS)
-- [ ] `npm run guardian` przechodzi: 4 bajki, 20 stron
+- [x] `happy-dog`, `magic-pony`, `dino-ice-cream` (SPEC §6 i uwagi z końca DECISIONS)
+- [x] `npm run guardian` przechodzi: 4 bajki, 20 stron
 
 ## Faza 3: Czytnik i scena
 

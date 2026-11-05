@@ -147,5 +147,449 @@
         ]
       }
     ]
+  },
+  {
+    "id": "happy-dog",
+    "titleEn": "Bella the Happy Dog",
+    "titlePl": "Bella, Wesoły Piesek",
+    "coverVisualConfig": {
+        "backgroundTheme": "park",
+        "primaryCharacter": "dog",
+        "primaryColor": "#D9A441",
+        "secondaryColor": "#DC2626",
+        "props": ["ball-red", "tree-green"],
+        "characterMood": "happy"
+      },
+    "characterVisualAnchor": "Friendly small golden puppy named Bella with floppy ears and a red collar in a sunny green park, children's book illustration",
+    "themeColor": "#F59E0B",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "visualConfig": {
+          "backgroundTheme": "park",
+          "primaryCharacter": "dog",
+          "primaryColor": "#D9A441",
+          "secondaryColor": "#DC2626",
+          "props": ["cloud-white"],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Friendly small golden puppy named Bella with floppy ears and a red collar in a sunny green park, children's book illustration. Scene: the puppy sits happily on a sunny green park lawn under one white cloud.",
+        "imageAltPl": "Mały wesoły piesek siedzi na słonecznym trawniku w parku.",
+        "interactiveSoundText": "Woof! I am Bella!",
+        "sentenceEn": "Bella is a small happy dog.",
+        "phoneticsPl": "be-la iz e smol ha-pi dog",
+        "sentencePl": "Bella to mały, wesoły piesek.",
+        "words": [
+          { "word": "Bella", "translationPl": "Bella", "phoneticsPl": "be-la", "isKeyword": false },
+          { "word": "is", "translationPl": "to", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "a", "translationPl": "jakiś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "small", "translationPl": "mały", "phoneticsPl": "smol", "isKeyword": true },
+          { "word": "happy", "translationPl": "wesoły", "phoneticsPl": "ha-pi", "isKeyword": true },
+          { "word": "dog", "punctuation": ".", "translationPl": "piesek", "phoneticsPl": "dog", "isKeyword": true }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "visualConfig": {
+          "backgroundTheme": "park",
+          "primaryCharacter": "dog",
+          "primaryColor": "#D9A441",
+          "secondaryColor": "#DC2626",
+          "props": ["cloud-white"],
+          "characterMood": "curious"
+        },
+        "imagePrompt": "Friendly small golden puppy named Bella with floppy ears and a red collar in a sunny green park, children's book illustration. Scene: the puppy looks around a big green park with soft grass.",
+        "imageAltPl": "Piesek rozgląda się po dużym zielonym parku.",
+        "interactiveSoundText": "Woof! I like the park!",
+        "sentenceEn": "The dog is in the big green park.",
+        "phoneticsPl": "de dog iz in de big grin park",
+        "sentencePl": "Piesek jest w dużym zielonym parku.",
+        "words": [
+          { "word": "The", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "dog", "translationPl": "piesek", "phoneticsPl": "dog", "isKeyword": true },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "in", "translationPl": "w", "phoneticsPl": "in", "isKeyword": false },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "big", "translationPl": "dużym", "phoneticsPl": "big", "isKeyword": true, "lemmaPl": "duży" },
+          { "word": "green", "translationPl": "zielonym", "phoneticsPl": "grin", "isKeyword": true, "lemmaPl": "zielony" },
+          { "word": "park", "punctuation": ".", "translationPl": "parku", "phoneticsPl": "park", "isKeyword": true, "lemmaPl": "park" }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "visualConfig": {
+          "backgroundTheme": "park",
+          "primaryCharacter": "dog",
+          "primaryColor": "#D9A441",
+          "secondaryColor": "#DC2626",
+          "props": ["ball-red"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Friendly small golden puppy named Bella with floppy ears and a red collar in a sunny green park, children's book illustration. Scene: the puppy looks with wide eyes at one big red ball on the grass.",
+        "imageAltPl": "Bella patrzy na dużą czerwoną piłkę leżącą na trawie.",
+        "interactiveSoundText": "Woof! A big red ball!",
+        "sentenceEn": "Bella sees a big red ball.",
+        "phoneticsPl": "be-la siz e big red bol",
+        "sentencePl": "Bella widzi dużą czerwoną piłkę.",
+        "words": [
+          { "word": "Bella", "translationPl": "Bella", "phoneticsPl": "be-la", "isKeyword": false },
+          { "word": "sees", "translationPl": "widzi", "phoneticsPl": "siz", "isKeyword": true, "lemmaEn": "see", "lemmaPl": "widzieć", "lemmaPhoneticsPl": "si" },
+          { "word": "a", "translationPl": "jakąś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "big", "translationPl": "dużą", "phoneticsPl": "big", "isKeyword": true, "lemmaPl": "duży" },
+          { "word": "red", "translationPl": "czerwoną", "phoneticsPl": "red", "isKeyword": true, "lemmaPl": "czerwony" },
+          { "word": "ball", "punctuation": ".", "translationPl": "piłkę", "phoneticsPl": "bol", "isKeyword": true, "lemmaPl": "piłka" }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "visualConfig": {
+          "backgroundTheme": "park",
+          "primaryCharacter": "dog",
+          "primaryColor": "#D9A441",
+          "secondaryColor": "#DC2626",
+          "props": ["sun-yellow"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Friendly small golden puppy named Bella with floppy ears and a red collar in a sunny green park, children's book illustration. Scene: the puppy runs and jumps high in the air under one yellow sun.",
+        "imageAltPl": "Wesoły piesek biega i wysoko skacze.",
+        "interactiveSoundText": "Woof! I run and jump!",
+        "sentenceEn": "The happy dog runs and jumps high.",
+        "phoneticsPl": "de ha-pi dog ranz and dżamps haj",
+        "sentencePl": "Wesoły piesek biega i skacze wysoko.",
+        "words": [
+          { "word": "The", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "happy", "translationPl": "wesoły", "phoneticsPl": "ha-pi", "isKeyword": true },
+          { "word": "dog", "translationPl": "piesek", "phoneticsPl": "dog", "isKeyword": true },
+          { "word": "runs", "translationPl": "biega", "phoneticsPl": "ranz", "isKeyword": true, "lemmaEn": "run", "lemmaPl": "biegać", "lemmaPhoneticsPl": "ran" },
+          { "word": "and", "translationPl": "i", "phoneticsPl": "and", "isKeyword": false },
+          { "word": "jumps", "translationPl": "skacze", "phoneticsPl": "dżamps", "isKeyword": true, "lemmaEn": "jump", "lemmaPl": "skakać", "lemmaPhoneticsPl": "dżamp" },
+          { "word": "high", "punctuation": ".", "translationPl": "wysoko", "phoneticsPl": "haj", "isKeyword": true }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "visualConfig": {
+          "backgroundTheme": "park",
+          "primaryCharacter": "dog",
+          "primaryColor": "#D9A441",
+          "secondaryColor": "#DC2626",
+          "props": ["tree-green"],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Friendly small golden puppy named Bella with floppy ears and a red collar in a sunny green park, children's book illustration. Scene: the puppy plays on the grass under one big green tree.",
+        "imageAltPl": "Wesoły piesek bawi się pod dużym drzewem.",
+        "interactiveSoundText": "Woof! I like to play!",
+        "sentenceEn": "The happy dog plays under a big tree.",
+        "phoneticsPl": "de ha-pi dog plejz an-der e big tri",
+        "sentencePl": "Wesoły piesek bawi się pod dużym drzewem.",
+        "words": [
+          { "word": "The", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "happy", "translationPl": "wesoły", "phoneticsPl": "ha-pi", "isKeyword": true },
+          { "word": "dog", "translationPl": "piesek", "phoneticsPl": "dog", "isKeyword": true },
+          { "word": "plays", "translationPl": "bawi się", "phoneticsPl": "plejz", "isKeyword": true, "lemmaEn": "play", "lemmaPl": "bawić się", "lemmaPhoneticsPl": "plej" },
+          { "word": "under", "translationPl": "pod", "phoneticsPl": "an-der", "isKeyword": false },
+          { "word": "a", "translationPl": "jakimś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "big", "translationPl": "dużym", "phoneticsPl": "big", "isKeyword": true, "lemmaPl": "duży" },
+          { "word": "tree", "punctuation": ".", "translationPl": "drzewem", "phoneticsPl": "tri", "isKeyword": true, "lemmaPl": "drzewo" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "magic-pony",
+    "titleEn": "The Princess and the Magic Pony",
+    "titlePl": "Księżniczka i Magiczny Kucyk",
+    "coverVisualConfig": {
+        "backgroundTheme": "castle",
+        "primaryCharacter": "princess-pony",
+        "primaryColor": "#EC4899",
+        "secondaryColor": "#FACC15",
+        "props": ["star-yellow", "cloud-white"],
+        "characterMood": "happy"
+      },
+    "characterVisualAnchor": "Little smiling princess in a pink dress with a golden crown next to a small white magic pony with a rainbow mane, fairytale illustration",
+    "themeColor": "#EC4899",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "visualConfig": {
+          "backgroundTheme": "castle",
+          "primaryCharacter": "princess-pony",
+          "primaryColor": "#EC4899",
+          "secondaryColor": "#FACC15",
+          "props": ["tree-green"],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Little smiling princess in a pink dress with a golden crown next to a small white magic pony with a rainbow mane, fairytale illustration. Scene: the princess stands in front of a big fairytale castle with tall towers.",
+        "imageAltPl": "Mała księżniczka stoi przed dużym zamkiem z wysokimi wieżami.",
+        "interactiveSoundText": "I live in a big castle!",
+        "sentenceEn": "The little princess lives in a big castle.",
+        "phoneticsPl": "de li-tl prin-ses liwz in e big ka-sl",
+        "sentencePl": "Mała księżniczka mieszka w dużym zamku.",
+        "words": [
+          { "word": "The", "translationPl": "ta", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "little", "translationPl": "mała", "phoneticsPl": "li-tl", "isKeyword": true, "lemmaPl": "mały" },
+          { "word": "princess", "translationPl": "księżniczka", "phoneticsPl": "prin-ses", "isKeyword": true },
+          { "word": "lives", "translationPl": "mieszka", "phoneticsPl": "liwz", "isKeyword": true, "lemmaEn": "live", "lemmaPl": "mieszkać", "lemmaPhoneticsPl": "liw" },
+          { "word": "in", "translationPl": "w", "phoneticsPl": "in", "isKeyword": false },
+          { "word": "a", "translationPl": "jakimś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "big", "translationPl": "dużym", "phoneticsPl": "big", "isKeyword": true, "lemmaPl": "duży" },
+          { "word": "castle", "punctuation": ".", "translationPl": "zamku", "phoneticsPl": "ka-sl", "isKeyword": true, "lemmaPl": "zamek" }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "visualConfig": {
+          "backgroundTheme": "castle",
+          "primaryCharacter": "princess-pony",
+          "primaryColor": "#EC4899",
+          "secondaryColor": "#FACC15",
+          "props": ["cloud-white"],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Little smiling princess in a pink dress with a golden crown next to a small white magic pony with a rainbow mane, fairytale illustration. Scene: the princess smiles and gently pats a small white magic pony with a rainbow mane.",
+        "imageAltPl": "Księżniczka głaszcze białego kucyka z tęczową grzywą.",
+        "interactiveSoundText": "Look! A white magic pony!",
+        "sentenceEn": "The princess has a white magic pony.",
+        "phoneticsPl": "de prin-ses haz e łajt ma-dżik pou-ni",
+        "sentencePl": "Księżniczka ma białego, magicznego kucyka.",
+        "words": [
+          { "word": "The", "translationPl": "ta", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "princess", "translationPl": "księżniczka", "phoneticsPl": "prin-ses", "isKeyword": true },
+          { "word": "has", "translationPl": "ma", "phoneticsPl": "haz", "isKeyword": true, "lemmaEn": "have", "lemmaPl": "mieć", "lemmaPhoneticsPl": "haw" },
+          { "word": "a", "translationPl": "jakiegoś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "white", "translationPl": "białego", "phoneticsPl": "łajt", "isKeyword": true, "lemmaPl": "biały" },
+          { "word": "magic", "translationPl": "magicznego", "phoneticsPl": "ma-dżik", "isKeyword": true, "lemmaPl": "magiczny" },
+          { "word": "pony", "punctuation": ".", "translationPl": "kucyka", "phoneticsPl": "pou-ni", "isKeyword": true, "lemmaPl": "kucyk" }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "visualConfig": {
+          "backgroundTheme": "castle",
+          "primaryCharacter": "princess-pony",
+          "primaryColor": "#EC4899",
+          "secondaryColor": "#FACC15",
+          "props": ["sun-yellow"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Little smiling princess in a pink dress with a golden crown next to a small white magic pony with a rainbow mane, fairytale illustration. Scene: the small white magic pony with a rainbow mane gallops fast with the princess on its back.",
+        "imageAltPl": "Mały biały kucyk z tęczową grzywą pędzi szybko z księżniczką na grzbiecie.",
+        "interactiveSoundText": "It is very fast!",
+        "sentenceEn": "The magic pony is very fast.",
+        "phoneticsPl": "de ma-dżik pou-ni iz we-ri fast",
+        "sentencePl": "Magiczny kucyk jest bardzo szybki.",
+        "words": [
+          { "word": "The", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "magic", "translationPl": "magiczny", "phoneticsPl": "ma-dżik", "isKeyword": true, "lemmaPl": "magiczny" },
+          { "word": "pony", "translationPl": "kucyk", "phoneticsPl": "pou-ni", "isKeyword": true },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "very", "translationPl": "bardzo", "phoneticsPl": "we-ri", "isKeyword": false },
+          { "word": "fast", "punctuation": ".", "translationPl": "szybki", "phoneticsPl": "fast", "isKeyword": true }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "visualConfig": {
+          "backgroundTheme": "night-sky",
+          "primaryCharacter": "princess-pony",
+          "primaryColor": "#EC4899",
+          "secondaryColor": "#FACC15",
+          "props": ["star-yellow", "star-yellow", "star-yellow"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Little smiling princess in a pink dress with a golden crown next to a small white magic pony with a rainbow mane, fairytale illustration. Scene: the princess and the pony fly high in a dark blue night sky with three yellow stars.",
+        "imageAltPl": "Księżniczka i kucyk lecą wysoko na nocnym niebie wśród żółtych gwiazdek.",
+        "interactiveSoundText": "I see yellow stars!",
+        "sentenceEn": "They fly high and see yellow stars.",
+        "phoneticsPl": "dej flaj haj and si je-lou starz",
+        "sentencePl": "Lecą wysoko i widzą żółte gwiazdki.",
+        "words": [
+          { "word": "They", "translationPl": "oni", "phoneticsPl": "dej", "isKeyword": false },
+          { "word": "fly", "translationPl": "lecą", "phoneticsPl": "flaj", "isKeyword": true, "lemmaPl": "lecieć" },
+          { "word": "high", "translationPl": "wysoko", "phoneticsPl": "haj", "isKeyword": true },
+          { "word": "and", "translationPl": "i", "phoneticsPl": "and", "isKeyword": false },
+          { "word": "see", "translationPl": "widzą", "phoneticsPl": "si", "isKeyword": true, "lemmaPl": "widzieć" },
+          { "word": "yellow", "translationPl": "żółte", "phoneticsPl": "je-lou", "isKeyword": true, "lemmaPl": "żółty" },
+          { "word": "stars", "punctuation": ".", "translationPl": "gwiazdki", "phoneticsPl": "starz", "isKeyword": true, "lemmaEn": "star", "lemmaPl": "gwiazdka", "lemmaPhoneticsPl": "star" }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "visualConfig": {
+          "backgroundTheme": "castle",
+          "primaryCharacter": "princess-pony",
+          "primaryColor": "#EC4899",
+          "secondaryColor": "#FACC15",
+          "props": ["cloud-white"],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Little smiling princess in a pink dress with a golden crown next to a small white magic pony with a rainbow mane, fairytale illustration. Scene: the smiling princess hugs her small white magic pony in front of the castle.",
+        "imageAltPl": "Uśmiechnięta księżniczka tuli swojego kucyka przed zamkiem.",
+        "interactiveSoundText": "I love my magic pony!",
+        "sentenceEn": "The little princess loves her magic pony.",
+        "phoneticsPl": "de li-tl prin-ses lawz her ma-dżik pou-ni",
+        "sentencePl": "Mała księżniczka kocha swojego magicznego kucyka.",
+        "words": [
+          { "word": "The", "translationPl": "ta", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "little", "translationPl": "mała", "phoneticsPl": "li-tl", "isKeyword": true, "lemmaPl": "mały" },
+          { "word": "princess", "translationPl": "księżniczka", "phoneticsPl": "prin-ses", "isKeyword": true },
+          { "word": "loves", "translationPl": "kocha", "phoneticsPl": "lawz", "isKeyword": true, "lemmaEn": "love", "lemmaPl": "kochać", "lemmaPhoneticsPl": "law" },
+          { "word": "her", "translationPl": "swojego", "phoneticsPl": "her", "isKeyword": false },
+          { "word": "magic", "translationPl": "magicznego", "phoneticsPl": "ma-dżik", "isKeyword": true, "lemmaPl": "magiczny" },
+          { "word": "pony", "punctuation": ".", "translationPl": "kucyka", "phoneticsPl": "pou-ni", "isKeyword": true, "lemmaPl": "kucyk" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dino-ice-cream",
+    "titleEn": "Three Ice Creams for Dino",
+    "titlePl": "Trzy Lody dla Dinozaura",
+    "coverVisualConfig": {
+        "backgroundTheme": "icecream",
+        "primaryCharacter": "dino",
+        "primaryColor": "#22C55E",
+        "secondaryColor": "#2563EB",
+        "props": ["icecream-1", "icecream-2", "icecream-3"],
+        "characterMood": "happy"
+      },
+    "characterVisualAnchor": "Cute little friendly green baby dinosaur wearing a blue bow tie in a pastel ice cream shop, children's book style",
+    "themeColor": "#22C55E",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "visualConfig": {
+          "backgroundTheme": "icecream",
+          "primaryCharacter": "dino",
+          "primaryColor": "#22C55E",
+          "secondaryColor": "#2563EB",
+          "props": ["cloud-white"],
+          "characterMood": "curious"
+        },
+        "imagePrompt": "Cute little friendly green baby dinosaur wearing a blue bow tie in a pastel ice cream shop, children's book style. Scene: the little green dinosaur holds his tummy and looks hungry.",
+        "imageAltPl": "Mały zielony dinozaur trzyma się za brzuszek i jest głodny.",
+        "interactiveSoundText": "Roar! I am hungry!",
+        "sentenceEn": "Little green Dino is very hungry.",
+        "phoneticsPl": "li-tl grin daj-nou iz we-ri han-gri",
+        "sentencePl": "Mały zielony Dino jest bardzo głodny.",
+        "words": [
+          { "word": "Little", "translationPl": "mały", "phoneticsPl": "li-tl", "isKeyword": true },
+          { "word": "green", "translationPl": "zielony", "phoneticsPl": "grin", "isKeyword": true },
+          { "word": "Dino", "translationPl": "Dino", "phoneticsPl": "daj-nou", "isKeyword": false },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "very", "translationPl": "bardzo", "phoneticsPl": "we-ri", "isKeyword": false },
+          { "word": "hungry", "punctuation": ".", "translationPl": "głodny", "phoneticsPl": "han-gri", "isKeyword": true }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "visualConfig": {
+          "backgroundTheme": "icecream",
+          "primaryCharacter": "dino",
+          "primaryColor": "#22C55E",
+          "secondaryColor": "#2563EB",
+          "props": ["apple-red", "banana-yellow", "banana-yellow"],
+          "characterMood": "curious"
+        },
+        "imagePrompt": "Cute little friendly green baby dinosaur wearing a blue bow tie in a pastel ice cream shop, children's book style. Scene: the dinosaur looks at one red apple and two yellow bananas on the shop counter.",
+        "imageAltPl": "Dinozaur patrzy na jedno czerwone jabłko i dwa żółte banany.",
+        "interactiveSoundText": "Roar! I see one apple!",
+        "sentenceEn": "One red apple, two yellow bananas.",
+        "phoneticsPl": "łan red a-pl tu je-lou ba-na-naz",
+        "sentencePl": "Jedno czerwone jabłko, dwa żółte banany.",
+        "words": [
+          { "word": "One", "translationPl": "jedno", "phoneticsPl": "łan", "isKeyword": true, "lemmaPl": "jeden" },
+          { "word": "red", "translationPl": "czerwone", "phoneticsPl": "red", "isKeyword": true, "lemmaPl": "czerwony" },
+          { "word": "apple", "punctuation": ",", "translationPl": "jabłko", "phoneticsPl": "a-pl", "isKeyword": true },
+          { "word": "two", "translationPl": "dwa", "phoneticsPl": "tu", "isKeyword": true },
+          { "word": "yellow", "translationPl": "żółte", "phoneticsPl": "je-lou", "isKeyword": true, "lemmaPl": "żółty" },
+          { "word": "bananas", "punctuation": ".", "translationPl": "banany", "phoneticsPl": "ba-na-naz", "isKeyword": true, "lemmaEn": "banana", "lemmaPl": "banan", "lemmaPhoneticsPl": "ba-na-na" }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "visualConfig": {
+          "backgroundTheme": "icecream",
+          "primaryCharacter": "dino",
+          "primaryColor": "#22C55E",
+          "secondaryColor": "#2563EB",
+          "props": ["icecream-1"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Cute little friendly green baby dinosaur wearing a blue bow tie in a pastel ice cream shop, children's book style. Scene: the dinosaur looks happily at one big pastel ice cream.",
+        "imageAltPl": "Dinozaur z zachwytem patrzy na lody.",
+        "interactiveSoundText": "Roar! I like ice cream!",
+        "sentenceEn": "But little Dino likes cold ice cream best!",
+        "phoneticsPl": "bat li-tl daj-nou lajks kould aj-s krim best",
+        "sentencePl": "Ale mały Dino najbardziej lubi zimne lody!",
+        "words": [
+          { "word": "But", "translationPl": "ale", "phoneticsPl": "bat", "isKeyword": false },
+          { "word": "little", "translationPl": "mały", "phoneticsPl": "li-tl", "isKeyword": true },
+          { "word": "Dino", "translationPl": "Dino", "phoneticsPl": "daj-nou", "isKeyword": false },
+          { "word": "likes", "translationPl": "lubi", "phoneticsPl": "lajks", "isKeyword": true, "lemmaEn": "like", "lemmaPl": "lubić", "lemmaPhoneticsPl": "lajk" },
+          { "word": "cold", "translationPl": "zimne", "phoneticsPl": "kould", "isKeyword": true, "lemmaPl": "zimny" },
+          { "word": "ice cream", "translationPl": "lody", "phoneticsPl": "aj-s krim", "isKeyword": true },
+          { "word": "best", "punctuation": "!", "translationPl": "najbardziej", "phoneticsPl": "best", "isKeyword": false }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "visualConfig": {
+          "backgroundTheme": "icecream",
+          "primaryCharacter": "dino",
+          "primaryColor": "#22C55E",
+          "secondaryColor": "#2563EB",
+          "props": ["icecream-1", "icecream-2", "icecream-3"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Cute little friendly green baby dinosaur wearing a blue bow tie in a pastel ice cream shop, children's book style. Scene: the dinosaur is given exactly three ice creams in three different colours, one, two, three.",
+        "imageAltPl": "Dinozaur dostaje jeden, dwa, trzy lody.",
+        "interactiveSoundText": "Roar! One, two, three!",
+        "sentenceEn": "One, two, three ice creams for Dino!",
+        "phoneticsPl": "łan tu fri aj-s krimz for daj-nou",
+        "sentencePl": "Jeden, dwa, trzy lody dla Dina!",
+        "words": [
+          { "word": "One", "punctuation": ",", "translationPl": "jeden", "phoneticsPl": "łan", "isKeyword": true, "lemmaPl": "jeden" },
+          { "word": "two", "punctuation": ",", "translationPl": "dwa", "phoneticsPl": "tu", "isKeyword": true },
+          { "word": "three", "translationPl": "trzy", "phoneticsPl": "fri", "isKeyword": true },
+          { "word": "ice creams", "translationPl": "lody", "phoneticsPl": "aj-s krimz", "isKeyword": true, "lemmaEn": "ice cream", "lemmaPl": "lody", "lemmaPhoneticsPl": "aj-s krim" },
+          { "word": "for", "translationPl": "dla", "phoneticsPl": "for", "isKeyword": false },
+          { "word": "Dino", "punctuation": "!", "translationPl": "Dina", "phoneticsPl": "daj-nou", "isKeyword": false }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "visualConfig": {
+          "backgroundTheme": "icecream",
+          "primaryCharacter": "dino",
+          "primaryColor": "#22C55E",
+          "secondaryColor": "#2563EB",
+          "props": ["icecream-2"],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Cute little friendly green baby dinosaur wearing a blue bow tie in a pastel ice cream shop, children's book style. Scene: the dinosaur happily eats an ice cream and smiles.",
+        "imageAltPl": "Mały Dino je lody i jest wesoły.",
+        "interactiveSoundText": "Roar! Yum, yum!",
+        "sentenceEn": "Little Dino eats ice cream and is happy.",
+        "phoneticsPl": "li-tl daj-nou its aj-s krim and iz ha-pi",
+        "sentencePl": "Mały Dino je lody i jest wesoły.",
+        "words": [
+          { "word": "Little", "translationPl": "mały", "phoneticsPl": "li-tl", "isKeyword": true },
+          { "word": "Dino", "translationPl": "Dino", "phoneticsPl": "daj-nou", "isKeyword": false },
+          { "word": "eats", "translationPl": "je", "phoneticsPl": "its", "isKeyword": true, "lemmaEn": "eat", "lemmaPl": "jeść", "lemmaPhoneticsPl": "it" },
+          { "word": "ice cream", "translationPl": "lody", "phoneticsPl": "aj-s krim", "isKeyword": true },
+          { "word": "and", "translationPl": "i", "phoneticsPl": "and", "isKeyword": false },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "happy", "punctuation": ".", "translationPl": "wesoły", "phoneticsPl": "ha-pi", "isKeyword": true }
+        ]
+      }
+    ]
   }
 ]

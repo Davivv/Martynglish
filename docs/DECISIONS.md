@@ -100,5 +100,5 @@ Końcowe `-l` po spółgłosce tworzy własną sylabę (`li-tl`). Zwroty zachowu
 ## Uwagi do bajek startowych
 
 - `dino-ice-cream`, strona 2: „Dino sees one red apple and two yellow bananas.” ma 9 słów, czyli dostanie ostrzeżenie (D9). Krótsza wersja: „One red apple, two yellow bananas.”
-- Liczba mnoga `ice creams` też jest jednym klockiem (`aj-s krims`), z `lemmaEn: "ice cream"`, `lemmaPl: "lody"` i `lemmaPhoneticsPl: "aj-s krim"`.
+- Liczba mnoga `ice creams` też jest jednym klockiem (`aj-s krimz`), z `lemmaEn: "ice cream"`, `lemmaPl: "lody"` i `lemmaPhoneticsPl: "aj-s krim"`.
 - Fonetyka z SPEC ma wymawiane `r` (`per-pl`), a priorytet głosów jest brytyjski. Dziecko może usłyszeć co innego, niż czyta. Zostawiamy jak w SPEC i oceniamy na słuch w Fazie 6.
