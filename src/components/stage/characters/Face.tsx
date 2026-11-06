@@ -82,17 +82,24 @@ interface BrowsProps {
 /** Small expressive brows: one is raised when curious, both lifted when excited. */
 export function Brows({ x1, x2, y, w, mood, color }: BrowsProps) {
   if (mood === 'sleepy') return null
+  const stroke = { fill: 'none', stroke: color, strokeWidth: 1.6, strokeLinecap: 'round', strokeLinejoin: 'round' } as const
+  if (mood === 'brave' || mood === 'worried') {
+    // Brave: outer ends high, brows slant down to the nose. Worried: the inner ends are lifted.
+    const outer = mood === 'brave' ? -1.8 : 1.4
+    const inner = mood === 'brave' ? 1.4 : -2.2
+    const half = w / 2
+    return (
+      <g>
+        <path d={`M${x1 - half} ${y + outer} L${x1 + half} ${y + inner}`} {...stroke} />
+        <path d={`M${x2 + half} ${y + outer} L${x2 - half} ${y + inner}`} {...stroke} />
+      </g>
+    )
+  }
   const lift = mood === 'excited' ? -2 : 0
   const left = mood === 'curious' ? 0 : lift
   const right = mood === 'curious' ? -4 : lift
   const brow = (x: number, dy: number) => (
-    <path
-      d={`M${x - w / 2} ${y + dy + 1} Q${x} ${y + dy - 2} ${x + w / 2} ${y + dy + 1}`}
-      fill="none"
-      stroke={color}
-      strokeWidth={1.6}
-      strokeLinecap="round"
-    />
+    <path d={`M${x - w / 2} ${y + dy + 1} Q${x} ${y + dy - 2} ${x + w / 2} ${y + dy + 1}`} {...stroke} />
   )
   return (
     <g>
@@ -134,6 +141,12 @@ export function Mouth({ x, y, w, mood, cat, tongue = '#FF8FA3' }: MouthProps) {
   }
   if (mood === 'sleepy') {
     return <path d={`M${x - w * 0.6} ${y + 1} Q${x} ${y + w * 0.6} ${x + w * 0.6} ${y + 1}`} {...line} />
+  }
+  if (mood === 'worried') {
+    return <path d={`M${x - w * 0.6} ${y + 2.4} Q${x} ${y - 0.6} ${x + w * 0.6} ${y + 2.4}`} {...line} />
+  }
+  if (mood === 'brave') {
+    return <path d={`M${x - w} ${y} Q${x} ${y + w * 1.25} ${x + w} ${y - 1.4}`} {...line} />
   }
   if (cat) {
     return <path d={`M${x - w} ${y - 1} Q${x - w * 0.5} ${y + w * 0.9} ${x} ${y - 1} Q${x + w * 0.5} ${y + w * 0.9} ${x + w} ${y - 1}`} {...line} />
@@ -177,6 +190,17 @@ export function MoodFx({ mood }: { mood: CharacterMood }) {
         {spark(103, 30, 4, '0.5s')}
         {spark(98, 8, 3, '0.9s')}
       </g>
+    )
+  }
+  if (mood === 'worried') {
+    return (
+      <path
+        className="stage-twinkle"
+        d="M84 8 C87 13 89 15.6 89 18.2 C89 21 86.8 22.6 84 22.6 C81.2 22.6 79 21 79 18.2 C79 15.6 81 13 84 8 Z"
+        fill="#8fd3ff"
+        stroke="#3b8fd0"
+        strokeWidth={1}
+      />
     )
   }
   if (mood === 'curious') {

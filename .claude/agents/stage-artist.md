@@ -10,8 +10,8 @@ Rysujesz świat bajek. Najpierw przeczytaj `CLAUDE.md`, potem SPEC §1 (Agent 2)
 
 `InteractiveStoryStage`: wielowarstwowa, animowana scena w SVG i CSS, sterowana wyłącznie przez `visualConfig`.
 
-- 6 teł: `meadow`, `park`, `castle`, `icecream`, `beach`, `night-sky`, z niebem i płynącymi chmurami lub gwiazdami.
-- 6 postaci: `cat`, `dog`, `princess-pony`, `dino`, `panda`, `bunny`, w kolorze z `primaryColor` i nastroju z `characterMood`.
+- Tła i postacie z `src/data/propCatalog.mjs`, z niebem i płynącymi chmurami lub gwiazdami tam, gdzie pasują.
+- Zwierzątka są w kolorze z `primaryColor` i nastroju z `characterMood`. Bohaterki seriali (D38) to jeden rysunek `Girl` sterowany tabelą `looks.ts`.
 - Każdy wpis z `src/data/propCatalog.mjs` ma swój rysunek. Dodaj test, który to pilnuje.
 - Scena pokazuje tyle obiektów, ile jest w `props`. Gdy strona ma `imageUrl`, obraz zastępuje scenę, a interakcja zostaje.
 - Dotknięcie bohatera: podskok, efekt dźwiękowy, dymek komiksowy i `interactiveSoundText` czytane po angielsku.

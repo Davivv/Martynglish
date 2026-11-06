@@ -1,7 +1,7 @@
 /*
  * InteractiveStoryStage animations. Only transform and opacity are animated, so the stage stays
- * smooth on a cheap phone. Background motion is always on (it is part of the picture); hero and
- * object motion needs `.stage-live`, which is set only when the hero can be tapped.
+ * smooth on a cheap phone. All motion needs `.stage-live`, which is set only when the hero can be
+ * tapped, so covers and flashcards stay still.
  */
 
 .stage-root {
@@ -28,9 +28,10 @@
   transform-box: view-box;
 }
 
-/* ---------- background (always on) ---------- */
+/* ---------- background (only while tappable) ---------- */
+/* A library shows 13 covers at once, so they stand still; only the reader scene moves. */
 
-.stage-drift {
+.stage-live .stage-drift {
   animation: stage-drift linear infinite;
 }
 
@@ -43,7 +44,7 @@
   }
 }
 
-.stage-twinkle {
+.stage-live .stage-twinkle {
   animation: stage-twinkle 2.6s ease-in-out infinite;
 }
 
@@ -57,7 +58,7 @@
   }
 }
 
-.stage-waves {
+.stage-live .stage-waves {
   animation: stage-waves 9s linear infinite;
 }
 
@@ -70,7 +71,7 @@
   }
 }
 
-.stage-surf {
+.stage-live .stage-surf {
   animation: stage-surf 4.5s ease-in-out infinite alternate;
 }
 
@@ -224,7 +225,7 @@
   }
 }
 
-.stage-zzz {
+.stage-live .stage-zzz {
   animation: stage-zzz 2.8s ease-in-out infinite;
 }
 
@@ -253,6 +254,66 @@
   }
   50% {
     transform: translateY(-7px);
+  }
+}
+
+/* ---------- older-kids scenes (D38) ---------- */
+
+.stage-live .stage-neon {
+  animation: stage-neon 3.2s steps(1, end) infinite;
+}
+
+@keyframes stage-neon {
+  0%,
+  86%,
+  90%,
+  100% {
+    opacity: 1;
+  }
+  88%,
+  92% {
+    opacity: 0.55;
+  }
+}
+
+.stage-live .stage-beam {
+  transform-origin: 50% 0;
+  animation: stage-beam 5.2s ease-in-out infinite alternate;
+}
+
+@keyframes stage-beam {
+  from {
+    transform: rotate(-5deg);
+  }
+  to {
+    transform: rotate(5deg);
+  }
+}
+
+.stage-live .stage-eq {
+  transform-origin: 50% 100%;
+  animation: stage-eq 0.9s ease-in-out infinite alternate;
+}
+
+@keyframes stage-eq {
+  from {
+    transform: scaleY(0.35);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+.stage-live .stage-wave {
+  animation: stage-wave 0.6s ease-in-out infinite alternate;
+}
+
+@keyframes stage-wave {
+  from {
+    transform: rotate(-7deg);
+  }
+  to {
+    transform: rotate(7deg);
   }
 }
 

@@ -79,6 +79,8 @@ Wzorzec klocków dla zdania "The purple cat sees a pink flower.":
 
 - Każda strona i `coverVisualConfig` mają pełne `visualConfig`: `backgroundTheme`, `primaryCharacter`, `characterMood`, `primaryColor` (`#RRGGBB`), opcjonalnie `secondaryColor` i niepustą tablicę `props` z katalogu (D12).
 - Liczba i kolory w `props` zgadzają się ze zdaniem. Jeden wpis to jedna sztuka na scenie: "three stars" to `star-yellow` trzy razy, dwa żółte banany to `banana-yellow` dwa razy. Użyj tylko wartości z `listProps()`.
+- `girl-<imię>` to koleżanka stojąca obok bohaterki, więc nie dodawaj koleżanki o imieniu bohaterki z tej strony.
+- Martynka ma 7 lat i woli historie dla starszych dzieci. Kolejne odcinki seriali `neon-stars-*` i `friends-club-*` (D38) dopisuj na początku `stories.json`, tuż za poprzednim odcinkiem tego serialu, z numerem w tytule i haczykiem na końcu. Starsza jest fabuła, nie język. Nie używaj nazw ani postaci z prawdziwych seriali.
 - `imagePrompt` zawiera `characterVisualAnchor` dosłownie, a po nim `Scene: ...` z opisem sceny po angielsku.
 - `imageAltPl` opisuje scenę po polsku, `interactiveSoundText` to krótka angielska kwestia bohatera po dotknięciu.
 - Nie generuj plików obrazów i nie wpisuj `imageUrl` ani `coverImageUrl` (D26): ilustracją jest `InteractiveStoryStage`, a `imagePrompt` zostaje do ewentualnego dorobienia obrazów później. Gdyby jednak powstały pliki, mają leżeć w `public/images/stories/<id>/` i mieć ponad 500 B.

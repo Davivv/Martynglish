@@ -130,3 +130,109 @@ describe('layoutProps', () => {
     expect(layoutProps(['shell-pink'], 'roomy', 'beach').props).toEqual(layoutProps(['shell-pink'], 'roomy').props)
   })
 })
+
+describe('layoutProps with friends and shadows (D38)', () => {
+  const GIRL_HALF = 28
+  const friendsOf = (count: number) => ['girl-hana', 'girl-sora', 'girl-queen'].slice(0, count)
+
+  it('puts every friend on the same foot line as the hero', () => {
+    for (const mode of MODES) {
+      for (let n = 1; n <= 3; n++) {
+        const { props: placed, hero } = layoutProps(friendsOf(n), mode, 'concert')
+        const heroFeet = hero.y + 99 * hero.scale
+        for (const p of placed) expect(p.y + 49 * p.scale, `${mode} ${n}`).toBeCloseTo(heroFeet, 5)
+        expect(placed).toHaveLength(n)
+        expect(placed.every((p) => p.behind)).toBe(true)
+      }
+    }
+  })
+
+  it('keeps one to three friends inside the safe area of every mode, at about 0.92 of the hero', () => {
+    const safe = { strip: [10, 390], roomy: [34, 366], square: [82, 318] } as const
+    for (const mode of MODES) {
+      for (let n = 1; n <= 3; n++) {
+        const { props: placed, hero } = layoutProps(friendsOf(n), mode, 'concert')
+        for (const p of placed) {
+          expect(p.scale / hero.scale).toBeCloseTo(0.92, 2)
+          expect(p.x - GIRL_HALF * p.scale, `${mode} ${n}`).toBeGreaterThanOrEqual(safe[mode][0] - 0.01)
+          expect(p.x + GIRL_HALF * p.scale, `${mode} ${n}`).toBeLessThanOrEqual(safe[mode][1] + 0.01)
+        }
+        expect(new Set(placed.map((p) => Math.round(p.x))).size).toBe(n)
+      }
+    }
+  })
+
+  it('keeps the big shadow beside the hero, taller than her and off her middle', () => {
+    for (const mode of MODES) {
+      for (const list of [['shadow-big'], ['girl-hana', 'girl-sora', 'shadow-big']]) {
+        const { props: placed, hero } = layoutProps(list, mode, 'dark-city')
+        const shadow = placed.find((p) => p.object === 'shadow')!
+        const half = (56 * shadow.scale) / 2
+        const inner = shadow.x > 200 ? shadow.x - half : shadow.x + half
+        expect(Math.abs(inner - 200), `${mode} ${list.length}`).toBeGreaterThan(14 * hero.scale)
+        expect(100 * shadow.scale).toBeGreaterThan(100 * hero.scale)
+        expect(shadow.behind).toBe(true)
+      }
+    }
+  })
+
+  it('counts shadow-small objects one by one and hovers them at knee height', () => {
+    for (const mode of MODES) {
+      const { props: placed, hero } = layoutProps(['shadow-small', 'shadow-small', 'microphone-gold'], mode, 'rooftop')
+      const small = placed.filter((p) => p.object === 'shadow')
+      expect(small).toHaveLength(2)
+      expect(placed).toHaveLength(3)
+      for (const s of small) expect(s.y).toBeLessThan(hero.y + 99 * hero.scale)
+      expect(small[0].x).not.toBe(small[1].x)
+    }
+  })
+
+  it('does not put ground objects on friends', () => {
+    for (const mode of MODES) {
+      const { props: placed, hero } = layoutProps(['girl-lena', 'girl-amy', 'puppy-brown', 'cake-bitten'], mode, 'cafe')
+      const feet = hero.y + 99 * hero.scale
+      const friends = placed.filter((p) => p.object === 'girl')
+      for (const p of placed.filter((q) => q.object !== 'girl')) {
+        const box = p.object === 'cake' ? [50, 60, 30] : [42, 46, 23]
+        const top = p.y + (box[2] - box[1]) * p.scale
+        const left = p.x - (box[0] * p.scale) / 2
+        const right = p.x + (box[0] * p.scale) / 2
+        const hits = friends.some((f) => right > f.x - GIRL_HALF * f.scale + 6 && left < f.x + GIRL_HALF * f.scale - 6)
+        expect(!hits || top >= feet - 4, `${mode} ${p.object}`).toBe(true)
+      }
+    }
+  })
+
+  it('keeps the puppy right next to its food', () => {
+    for (const mode of MODES) {
+      for (const list of [['puppy-brown', 'milk-white'], ['girl-lena', 'girl-amy', 'puppy-brown', 'cake-bitten']]) {
+        const { props: placed } = layoutProps(list, mode, 'cafe')
+        const food = placed.find((p) => p.object === 'cake' || p.object === 'milk')!
+        const puppy = placed.find((p) => p.object === 'puppy')!
+        expect(puppy.x, `${mode} left of the food`).toBeLessThan(food.x)
+        expect(food.x - puppy.x, `${mode} gap`).toBeLessThan(70)
+      }
+    }
+  })
+
+  it('keeps an object at full size beside the group when there is room for it', () => {
+    const alone = layoutProps(['cake-bitten', 'cake-bitten'], 'roomy', 'cafe').props[1]
+    const beside = layoutProps(['girl-lena', 'girl-amy', 'cake-bitten', 'cake-bitten'], 'roomy', 'cafe').props.filter((p) => p.object === 'cake')[1]
+    expect(beside.scale).toBe(alone.scale)
+  })
+
+  it('stands a tree at the side of a slim hero and draws friends over it', () => {
+    for (const mode of MODES) {
+      const { props: placed } = layoutProps(['tree-green'], mode, 'park', true)
+      expect(placed[0].x, mode).toBeGreaterThan(240)
+      expect(placed[0].stretch, mode).toBe(1)
+      const withFriend = layoutProps(['girl-lena', 'tree-green'], mode, 'park').props
+      expect(withFriend.findIndex((p) => p.object === 'tree')).toBeLessThan(withFriend.findIndex((p) => p.object === 'girl'))
+    }
+  })
+
+  it('gives wall posters a high place and keeps them out of the ground row', () => {
+    const { props: placed, hero } = layoutProps(['poster-blue'], 'roomy', 'town')
+    expect(placed[0].y).toBeLessThan(hero.y + 60 * hero.scale)
+  })
+})

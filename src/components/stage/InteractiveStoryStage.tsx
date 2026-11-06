@@ -2,7 +2,7 @@ import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } fr
 import type { KeyboardEvent } from 'react'
 import type { SceneVisualConfig } from '../../types/story'
 import { BACKGROUND_DRAWINGS } from './backgrounds'
-import { CHARACTER_DRAWINGS } from './characters'
+import { CHARACTER_DRAWINGS, GIRL_HEROES, heroShadowRx } from './characters'
 import { Cat } from './characters/Cat'
 import { layoutProps } from './layout'
 import type { StageMode } from './layout'
@@ -105,7 +105,11 @@ export function InteractiveStoryStage({
     }
   }
 
-  const layout = useMemo(() => layoutProps(props, mode, backgroundTheme), [props, mode, backgroundTheme])
+  const slimHero = primaryCharacter in GIRL_HEROES
+  const layout = useMemo(
+    () => layoutProps(props, mode, backgroundTheme, slimHero),
+    [props, mode, backgroundTheme, slimHero],
+  )
   const { hero } = layout
   const Background = BACKGROUND_DRAWINGS[backgroundTheme] ?? BACKGROUND_DRAWINGS.meadow
   const Hero = CHARACTER_DRAWINGS[primaryCharacter] ?? Cat
@@ -139,7 +143,7 @@ export function InteractiveStoryStage({
                 <PropItem key={item.key} item={item} />
               ))}
             <g transform={heroTransform}>
-              <ellipse cx={50} cy={99} rx={50} ry={6} fill="#1a3a22" opacity={0.18} />
+              <ellipse cx={50} cy={99} rx={heroShadowRx(primaryCharacter)} ry={6} fill="#1a3a22" opacity={0.18} />
               <g key={hopKey} className={hopKey > 0 ? 'stage-hop' : undefined}>
                 <g className={characterMood === 'excited' ? 'stage-excited' : undefined}>
                   <g className="stage-hero-idle">

@@ -42,7 +42,10 @@ export function colorOf(name: string, fallback = '#EF4444'): string {
   return NAMED_COLORS[name] ?? fallback
 }
 
-/** Unique, selector-safe id prefix for gradients (several stages can share a page). */
+/**
+ * Unique, selector-safe id prefix for gradients (several stages can share a page). It ends with a
+ * dash that no generated id contains, so `${id}` and `${id}b` of different drawings never collide.
+ */
 export function useGid(): string {
-  return `g${useId().replace(/[^a-zA-Z0-9]/g, '')}`
+  return `g${useId().replace(/[^a-zA-Z0-9]/g, '')}-`
 }

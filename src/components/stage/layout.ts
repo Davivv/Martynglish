@@ -1,5 +1,5 @@
 import type { BackgroundTheme } from '../../types/story'
-import { PROP_DRAWINGS, SKY_OBJECTS, parseProp } from './props'
+import { PROP_DRAWINGS, SKY_OBJECTS, WALL_OBJECTS, parseProp } from './props'
 
 /**
  * Scene geometry, all in viewBox units (400 x 240). The stage is cropped with "slice", so what
@@ -59,20 +59,47 @@ const OBJECT_BOX: Record<string, readonly [number, number, number]> = {
   balloon: [24, 48, 24],
   banana: [38, 33, 16],
   bird: [46, 40, 21],
+  box: [54, 44, 22],
   butterfly: [42, 34, 18],
+  cake: [50, 60, 30],
   chocolate: [38, 40, 21],
   cloud: [48, 28, 14],
   fish: [50, 32, 15],
   flower: [30, 46, 21],
+  girl: [60, 100, 49],
   heart: [38, 35, 17],
   icecream: [32, 48, 20],
+  microphone: [30, 56, 28],
+  // The bowl is drawn small inside a taller box, so it stays in scale next to a puppy.
+  milk: [48, 44, 22],
   moon: [36, 40, 20],
+  phone: [30, 56, 28],
+  poster: [38, 52, 26],
+  puppy: [42, 46, 23],
   rainbow: [52, 32, 15],
+  shadow: [56, 100, 50],
+  'shadow-small': [34, 34, 17],
   shell: [40, 37, 20],
+  skateboard: [64, 34, 17],
   star: [38, 36, 17],
   sun: [44, 44, 22],
+  table: [60, 52, 26],
   tree: [46, 46, 21],
 }
+
+type Box = readonly [number, number, number]
+
+/** Size box of an object; a `<object>-<variant>` entry wins over the object (`shadow-small`). */
+function boxOf(object: string, variant = ''): Box {
+  return OBJECT_BOX[`${object}-${variant}`] ?? OBJECT_BOX[object] ?? [40, 40, 20]
+}
+
+/** Half width of a girl drawing in drawing units: the figure is about 56 wide. */
+export const GIRL_HALF_WIDTH = 28
+/** Friends are drawn a little smaller than the hero, on the same foot line. */
+export const FRIEND_SCALE = 0.92
+/** Feet line of a 100 x 100 girl drawing. */
+const GIRL_FEET = 99
 
 export interface PlacedProp {
   key: string
@@ -99,13 +126,13 @@ function heroPlacement(mode: ModeConfig) {
 }
 
 /** Scale that fits the longest visual side of `object` to `target` scene units. */
-function scaleFor(object: string, target: number): number {
-  const [w, h] = OBJECT_BOX[object] ?? [40, 40, 20]
+function scaleFor(object: string, target: number, variant = ''): number {
+  const [w, h] = boxOf(object, variant)
   return target / Math.max(w * 0.8, h)
 }
 
-function clampX(x: number, object: string, scale: number, safe: readonly [number, number], stretch = 1): number {
-  const half = ((OBJECT_BOX[object] ?? [40, 40, 20])[0] * scale * stretch) / 2
+function clampX(x: number, object: string, scale: number, safe: readonly [number, number], stretch = 1, variant = ''): number {
+  const half = (boxOf(object, variant)[0] * scale * stretch) / 2
   return Math.min(Math.max(x, safe[0] + half), safe[1] - half)
 }
 
@@ -149,6 +176,13 @@ function groundSlots(mode: StageMode, count: number): Array<{ x: number; base: n
   return spread(count, span[0], span[1]).map((x) => ({ x, base: 228, size }))
 }
 
+/** Front row used when friends stand beside the hero: baseline and the biggest size per mode. */
+const FRONT_ROW: Record<StageMode, { base: number; size: number }> = {
+  strip: { base: 186, size: 29 },
+  roomy: { base: 208, size: 44 },
+  square: { base: 232, size: 46 },
+}
+
 /** Sea slots (centre x, target size) on both sides of the hero, so every fish can be counted. */
 function seaSlots(mode: ModeConfig, count: number): Array<{ x: number; size: number }> {
   const heroEdge = 50 * mode.heroScale
@@ -172,6 +206,8 @@ export function layoutProps(
   props: readonly string[],
   modeName: StageMode = 'roomy',
   theme?: BackgroundTheme,
+  /** A slim hero (D38) would look swallowed by a wide crown, so her tree stands at the side. */
+  slimHero = false,
 ): StageLayout {
   const mode = MODES[modeName]
   const hero = heroPlacement(mode)
@@ -180,20 +216,67 @@ export function layoutProps(
     .map((prop, index) => ({ ...parseProp(prop), key: `${index}-${prop}` }))
     .filter(({ object }) => object in PROP_DRAWINGS)
 
-  const sky = items.filter(({ object }) => SKY_OBJECTS.has(object))
+  const isHigh = ({ object }: Item) => SKY_OBJECTS.has(object) || WALL_OBJECTS.has(object)
+  const isShadow = ({ object }: Item) => object === 'shadow'
+  const sky = items.filter(isHigh)
   const trees = items.filter(({ object }) => object === 'tree')
   const inSea = ({ object }: Item) => theme === 'beach' && object === 'fish'
   const sea = items.filter(inSea)
-  const ground = items.filter((item) => !SKY_OBJECTS.has(item.object) && item.object !== 'tree' && !inSea(item))
+  const friends = items.filter(({ object }) => object === 'girl')
+  const bigShadows = items.filter((item) => isShadow(item) && item.variant !== 'small')
+  const smallShadows = items.filter((item) => isShadow(item) && item.variant === 'small')
+  const ground = items.filter(
+    (item) => !isHigh(item) && !isShadow(item) && item.object !== 'tree' && item.object !== 'girl' && !inSea(item),
+  )
   const placed: PlacedProp[] = []
+  const footY = hero.y + GIRL_FEET * hero.scale
+  const heroHalf = GIRL_HALF_WIDTH * hero.scale
+  const [safeL, safeR] = mode.safeX
+
+  // Friends stand left and right of the hero on the same foot line, a little smaller. With three
+  // the gaps shrink so that all of them stay inside the safe area.
+  const friendScale = hero.scale * FRIEND_SCALE
+  const friendHalf = GIRL_HALF_WIDTH * friendScale
+  const near = (heroHalf + friendHalf) * 0.9
+  const stride = friendHalf * 1.8
+  const offsets = [[], [-near], [-near, near], [-near, near, near + stride]][Math.min(friends.length, 3)]
+  const reach = Math.max(0, ...offsets.map(Math.abs))
+  const room = Math.min(HERO_CENTER_X - safeL, safeR - HERO_CENTER_X) - friendHalf
+  const squeeze = reach > room ? room / reach : 1
+  const friendXs = offsets.map((o) => HERO_CENTER_X + o * squeeze)
+  const groupLeft = Math.min(HERO_CENTER_X - heroHalf, ...friendXs.map((x) => x - friendHalf))
+  const groupRight = Math.max(HERO_CENTER_X + heroHalf, ...friendXs.map((x) => x + friendHalf))
+
+  // The big shadow stands behind everything, on the side with more free room, taller than the hero.
+  bigShadows.forEach((item, i) => {
+    const scale = hero.scale * 1.12
+    const half = (boxOf('shadow')[0] * scale) / 2
+    const preferRight = groupRight === HERO_CENTER_X + heroHalf && groupLeft === HERO_CENTER_X - heroHalf
+      ? true
+      : safeR - groupRight >= groupLeft - safeL
+    const side = (i % 2 === 0) === preferRight ? 1 : -1
+    const x =
+      friends.length > 0
+        ? side > 0
+          ? safeR - half
+          : safeL + half
+        : HERO_CENTER_X + side * (heroHalf * 0.9 + half * 0.8)
+    placed.push({
+      ...item,
+      x: Math.min(Math.max(x, safeL + half), safeR - half),
+      y: footY + 2 - boxOf('shadow')[2] * scale,
+      scale,
+      behind: true,
+    })
+  })
 
   sky.forEach((item, i) => {
     const [sx, sy] = mode.skySlots[i % mode.skySlots.length]
     const target = mode.skySize[Math.min(sky.length, mode.skySize.length) - 1]
-    const scale = scaleFor(item.object, target)
+    const scale = scaleFor(item.object, target, item.variant)
     placed.push({
       ...item,
-      x: clampX(sx + Math.floor(i / mode.skySlots.length) * 12, item.object, scale, mode.safeX),
+      x: clampX(sx + Math.floor(i / mode.skySlots.length) * 12, item.object, scale, mode.safeX, 1, item.variant),
       y: sy + Math.floor(i / mode.skySlots.length) * 14,
       scale,
       behind: true,
@@ -204,9 +287,14 @@ export function layoutProps(
   // The top is kept inside the area that is always visible.
   const treeBase = mode.feetY + 2
   const treeHeight = Math.min(heroHeight * (trees.length === 1 ? 1.15 : 0.92), treeBase - 22)
-  const stretch = trees.length === 1 ? 1.75 : 1.2
+  const sideTree = trees.length === 1 && (slimHero || friends.length > 0)
+  const stretch = sideTree ? 1 : trees.length === 1 ? 1.75 : 1.2
   // A single tree leans to the right so its trunk shows beside the hero.
-  const treeXs = trees.length === 1 ? [HERO_CENTER_X + 30] : spread(trees.length, 130, 270)
+  const treeXs = sideTree
+    ? [HERO_CENTER_X + 100]
+    : trees.length === 1
+      ? [HERO_CENTER_X + 30]
+      : spread(trees.length, 130, 270)
   trees.forEach((item, i) => {
     const scale = treeHeight / OBJECT_BOX.tree[1]
     placed.push({
@@ -219,22 +307,76 @@ export function layoutProps(
     })
   })
 
+  friends.forEach((item, i) => {
+    placed.push({
+      ...item,
+      x: friendXs[i] ?? HERO_CENTER_X,
+      y: footY - boxOf('girl')[2] * friendScale + (GIRL_FEET - 99) * friendScale,
+      scale: friendScale,
+      behind: true,
+    })
+  })
+
   const swimming = seaSlots(mode, Math.max(sea.length, 1))
   sea.forEach((item, i) => {
     const slot = swimming[i]
-    const scale = scaleFor(item.object, slot.size)
-    placed.push({ ...item, x: clampX(slot.x, item.object, scale, mode.safeX), y: SEA_Y, scale, behind: true })
+    const scale = scaleFor(item.object, slot.size, item.variant)
+    placed.push({ ...item, x: clampX(slot.x, item.object, scale, mode.safeX, 1, item.variant), y: SEA_Y, scale, behind: true })
   })
 
+  // With friends beside the hero, an object slides out past the group when the safe area has room
+  // for it at full size. Otherwise it goes to a front row below the foot line, so no friend is
+  // hidden. The row is smaller the less room the mode has below the feet.
+  const front = friends.length > 0 ? FRONT_ROW[modeName] : undefined
   const slots = groundSlots(modeName, Math.max(ground.length, 1))
   ground.forEach((item, i) => {
-    const slot = slots[i]
-    const scale = scaleFor(item.object, slot.size)
-    const bottom = OBJECT_BOX[item.object]?.[2] ?? 20
+    let slot = slots[i]
+    if (front) {
+      const half = (boxOf(item.object, item.variant)[0] * scaleFor(item.object, slot.size, item.variant)) / 2
+      const clear = slot.x + half < groupLeft - 4 || slot.x - half > groupRight + 4
+      const outward = slot.x < HERO_CENTER_X ? groupLeft - 6 - half : groupRight + 6 + half
+      const fits = slot.x !== HERO_CENTER_X && outward - half >= safeL && outward + half <= safeR
+      if (!clear) {
+        slot = fits ? { ...slot, x: outward } : { x: slot.x, base: front.base, size: Math.min(slot.size, front.size) }
+      }
+    }
+    const scale = scaleFor(item.object, slot.size, item.variant)
+    const bottom = boxOf(item.object, item.variant)[2]
     placed.push({
       ...item,
-      x: clampX(slot.x, item.object, scale, mode.safeX),
+      x: clampX(slot.x, item.object, scale, mode.safeX, 1, item.variant),
       y: slot.base - bottom * scale,
+      scale,
+      behind: false,
+    })
+  })
+
+  // The puppy sits at its food: "Coco eats the cake" and "gives the puppy some milk" need the pair
+  // together. The bitten side of the cake faces it.
+  const food = placed.find(({ object }) => object === 'cake' || object === 'milk')
+  const puppy = placed.find(({ object }) => object === 'puppy')
+  if (food && puppy) {
+    const [foodWidth, , foodBottom] = boxOf(food.object, food.variant)
+    const [puppyWidth, , puppyBottom] = boxOf('puppy')
+    const scale = front ? scaleFor('puppy', front.size) : puppy.scale
+    const base = front ? front.base : food.y + foodBottom * food.scale
+    puppy.scale = scale
+    puppy.x = clampX(food.x - ((foodWidth * food.scale + puppyWidth * scale) / 2 - 8), 'puppy', scale, mode.safeX)
+    puppy.y = base - puppyBottom * scale
+  }
+
+  // Small shadows hover at knee height beside the group, one side after the other.
+  smallShadows.forEach((item, i) => {
+    const size = { strip: 34, roomy: 46, square: 40 }[modeName]
+    const scale = scaleFor('shadow', size, 'small')
+    const half = (boxOf('shadow', 'small')[0] * scale) / 2
+    const side = i % 2 === 0 ? 1 : -1
+    const edge = side > 0 ? groupRight : groupLeft
+    const x = edge + side * (half + 6 + Math.floor(i / 2) * (half * 2 + 4))
+    placed.push({
+      ...item,
+      x: Math.min(Math.max(x, safeL + half), safeR - half),
+      y: footY - 30 * hero.scale,
       scale,
       behind: false,
     })

@@ -157,7 +157,7 @@ ${PHONETICS_TABLE}
 9a. Każdy klocek "a" musi mieć "ttsOverride": "uh". Bez tego lektor czyta nazwę litery.
 10. Jeden klucz fiszki (lemmaEn albo word, małymi literami) ma w całym zbiorze jedną odpowiedź (lemmaPl albo translationPl) i jedną wymowę. Patrz sekcja o istniejących fiszkach.
 11. characterVisualAnchor ma co najmniej 30 znaków i opisuje stały wygląd bohatera po angielsku. imagePrompt każdej strony zawiera ten opis DOSŁOWNIE (identyczny ciąg znaków), po nim zdanie "Scene: ...".
-12. Każda strona i okładka (coverVisualConfig) mają pełne visualConfig: backgroundTheme, primaryCharacter, characterMood, primaryColor (#RRGGBB) i niepustą tablicę props. Liczba i kolory props zgadzają się ze zdaniem: 3 lody w tekście to 3 wpisy icecream-N, dwa żółte banany to "banana-yellow" dwa razy. Jeden wpis to jedna sztuka na scenie.
+12. Każda strona i okładka (coverVisualConfig) mają pełne visualConfig: backgroundTheme, primaryCharacter, characterMood, primaryColor (#RRGGBB) i niepustą tablicę props. Liczba i kolory props zgadzają się ze zdaniem: 3 lody w tekście to 3 wpisy icecream-N, dwa żółte banany to "banana-yellow" dwa razy. Jeden wpis to jedna sztuka na scenie. "girl-<imię>" to koleżanka stojąca obok bohaterki, więc nie dodawaj koleżanki o imieniu bohaterki z tej strony.
 13. level to "Pre-A1" albo "A1". guardianVerified wpisz jako false (aplikacja ustawi je sama po sprawdzeniu). id to małe litery, cyfry i dywizy, np. "little-panda-stars".
 14. Bezpieczeństwo: w żadnym polu tekstowym (poza fonetyką) nie wolno użyć słów: ${UNSAFE_LIST}. Bajka ma być ciepła i spokojna.
 15. Wszystkie pola tekstowe z kontraktu są obowiązkowe i niepuste, poza oznaczonymi jako opcjonalne.
