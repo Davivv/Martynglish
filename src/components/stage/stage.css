@@ -346,6 +346,17 @@
   }
 }
 
+.stage-img-hit {
+  border: 0;
+  padding: 0;
+  outline: none;
+}
+
+.stage-img-hit:focus-visible {
+  outline: 3px solid #7c3aed;
+  outline-offset: -3px;
+}
+
 .stage-hit {
   cursor: pointer;
   outline: none;
@@ -359,7 +370,7 @@
 /* The bubble is HTML on top of the SVG, so it never leaves the stage and never gets cropped. */
 .stage-bubble {
   position: absolute;
-  top: 5px;
+  top: 64px; /* below the reader's corner buttons */
   left: 50%;
   z-index: 2;
   width: max-content;

@@ -1,8 +1,7 @@
 import { useState } from 'react'
 import { getAllStories } from '../../data/stories'
-import { pluralPl } from '../../utils/pluralPl'
+import { groupByShelf, posterTitle } from '../../data/shelves'
 import { countStars, loadProgress } from '../../utils/progress'
-import { getVocabulary } from '../../utils/vocabulary'
 import { MissionCard } from '../mission/MissionCard'
 import type { MainView } from '../nav/BottomNav'
 import { InteractiveStoryStage } from '../stage/InteractiveStoryStage'
@@ -16,60 +15,52 @@ interface LibraryViewProps {
 export function LibraryView({ onOpen, onNavigate, onOpenAlbum }: LibraryViewProps) {
   const [stories] = useState(getAllStories)
   const [progress] = useState(loadProgress)
-  const [wordCount] = useState(() => Object.keys(getVocabulary()).length)
+  const shelves = groupByShelf(stories)
 
   return (
-    <div className="mx-auto flex max-w-md flex-col gap-4 px-4 py-5">
-      <header className="flex flex-col gap-3">
+    <div className="mx-auto flex max-w-md flex-col gap-3 px-4 pt-4 pb-5">
+      <header className="flex flex-col gap-2.5">
         <h1 className="text-3xl leading-tight font-bold text-violet-700">Cześć Martynka!</h1>
-        <p className="text-lg text-slate-700">Jaką bajkę dzisiaj czytamy?</p>
-        <div className="flex gap-3">
-          <div className="flex flex-1 items-center justify-center gap-2 rounded-3xl bg-yellow-100 py-2 text-lg font-bold text-amber-800 shadow-sm">
-            <span aria-hidden="true">⭐</span> {countStars(progress, stories)}
-            <span className="text-sm font-medium">{pluralPl(countStars(progress, stories), 'bajka', 'bajki', 'bajek')}</span>
-          </div>
-          <div className="flex flex-1 items-center justify-center gap-2 rounded-3xl bg-sky-100 py-2 text-lg font-bold text-sky-800 shadow-sm">
-            <span aria-hidden="true">💎</span> {wordCount}
-            <span className="text-sm font-medium">{pluralPl(wordCount, 'słówko', 'słówka', 'słówek')}</span>
-          </div>
-        </div>
-        <MissionCard onNavigate={onNavigate} onOpenAlbum={onOpenAlbum} />
+        <MissionCard stars={countStars(progress, stories)} onNavigate={onNavigate} onOpenAlbum={onOpenAlbum} />
       </header>
 
-      <ul className="flex flex-col gap-4">
-        {stories.map((story) => {
-          const reads = progress[story.id] ?? 0
-          return (
-            <li key={story.id}>
-              <button
-                type="button"
-                onClick={() => onOpen(story.id)}
-                className="block w-full overflow-hidden rounded-3xl text-left shadow-lg ring-1 ring-black/5 transition active:scale-[0.98]"
-                style={{ backgroundColor: `${story.themeColor}1f` }}
-              >
-                <div className="relative h-36 w-full">
-                  <div className="absolute inset-0">
-                    <InteractiveStoryStage
-                      visualConfig={story.coverVisualConfig}
-                      imageUrl={story.coverImageUrl}
-                      altText={story.titlePl}
-                    />
-                  </div>
-                  {reads > 0 && (
-                    <span className="absolute top-2 right-2 rounded-full bg-white/95 px-3 py-1 text-sm font-bold text-emerald-700 shadow">
-                      ✅ {reads}×
+      {shelves.map(({ shelf, stories: shelfStories }) => (
+        <section key={shelf.title} aria-label={shelf.title} className="flex flex-col gap-2">
+          <h2 className="text-lg font-bold text-slate-800">{shelf.title}</h2>
+          <ul className="-mx-4 flex snap-x snap-mandatory gap-2.5 overflow-x-auto scroll-px-4 px-4 pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+            {shelfStories.map((story) => {
+              const reads = progress[story.id] ?? 0
+              return (
+                <li key={story.id} className="flex-none snap-start">
+                  <button
+                    type="button"
+                    onClick={() => onOpen(story.id)}
+                    aria-label={`${story.titleEn}, ${story.titlePl}`}
+                    className="relative block h-[174px] w-[116px] overflow-hidden rounded-2xl text-left shadow-md ring-1 ring-black/10 transition active:scale-95"
+                    style={{ backgroundColor: story.themeColor }}
+                  >
+                    <div className="absolute inset-0">
+                      <InteractiveStoryStage
+                        visualConfig={story.coverVisualConfig}
+                        imageUrl={story.coverImageUrl}
+                        altText=""
+                      />
+                    </div>
+                    {reads > 0 && (
+                      <span className="absolute top-1.5 right-1.5 rounded-full bg-white/95 px-2 py-0.5 text-xs font-bold text-emerald-700 shadow">
+                        ✅ {reads}×
+                      </span>
+                    )}
+                    <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent px-2 pt-6 pb-2 text-[13px] leading-tight font-bold text-white">
+                      {posterTitle(story.titlePl)}
                     </span>
-                  )}
-                </div>
-                <div className="flex flex-col px-4 py-3">
-                  <span className="text-xl font-bold text-slate-800">{story.titleEn}</span>
-                  <span className="text-base text-slate-600">{story.titlePl}</span>
-                </div>
-              </button>
-            </li>
-          )
-        })}
-      </ul>
+                  </button>
+                </li>
+              )
+            })}
+          </ul>
+        </section>
+      ))}
     </div>
   )
 }

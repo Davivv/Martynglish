@@ -6,27 +6,29 @@ import type { MainView } from '../nav/BottomNav'
 import { StickerReward } from './StickerReward'
 
 interface MissionCardProps {
+  /** Stars earned for finished stories, shown in the row. */
+  stars: number
   onNavigate: (view: MainView) => void
   onOpenAlbum: () => void
 }
 
-function Chip({ done, emoji, label, onTap }: { done: boolean; emoji: string; label: string; onTap?: () => void }) {
+function Step({ done, emoji, label, onTap }: { done: boolean; emoji: string; label: string; onTap?: () => void }) {
   return (
     <button
       type="button"
       onClick={onTap}
-      className={`flex min-h-12 min-w-0 flex-1 items-center justify-center gap-1 rounded-2xl px-1 text-sm font-bold shadow-sm ${
-        done ? 'bg-emerald-200 text-emerald-900' : 'bg-white text-slate-700 ring-1 ring-violet-100'
+      aria-label={`${label}${done ? ', zrobione' : ''}`}
+      className={`flex size-12 flex-none items-center justify-center rounded-2xl text-xl shadow-sm ${
+        done ? 'bg-emerald-200' : 'bg-white ring-1 ring-violet-100'
       } ${onTap ? 'active:scale-95' : ''}`}
     >
       <span aria-hidden="true">{done ? '✅' : emoji}</span>
-      {label}
     </button>
   )
 }
 
-/** Today's mission: read, repeat, play. The sticker is claimed here (D36). */
-export function MissionCard({ onNavigate, onOpenAlbum }: MissionCardProps) {
+/** Today's mission in one row: read, repeat, play, stars, sticker album. The sticker is claimed here (D36). */
+export function MissionCard({ stars, onNavigate, onOpenAlbum }: MissionCardProps) {
   const [state, setState] = useState(() => getMissionState())
   const [owned, setOwned] = useState(() => loadStickers().length)
   const [reward, setReward] = useState<PictureWord | null>(null)
@@ -38,31 +40,50 @@ export function MissionCard({ onNavigate, onOpenAlbum }: MissionCardProps) {
     if (sticker) setReward(sticker)
   }
 
+  const album = (
+    <button
+      type="button"
+      onClick={onOpenAlbum}
+      aria-label={`Moje naklejki: ${owned} z ${STICKER_WORDS.length}`}
+      className="flex min-h-12 min-w-12 flex-none items-center justify-center gap-1 rounded-2xl bg-white px-2 text-base font-bold text-violet-700 shadow-sm ring-1 ring-violet-200 active:scale-95"
+    >
+      <span aria-hidden="true">📒</span>
+      {owned}
+    </button>
+  )
+
   return (
-    <section className="flex flex-col gap-2 rounded-3xl bg-violet-50 p-3 ring-1 ring-violet-100" aria-label="Dzisiejsza misja">
-      <h2 className="text-lg font-bold text-violet-700">Dzisiejsza misja</h2>
-      <div className="flex gap-2">
-        <Chip done={state.story} emoji="📖" label="Bajka" />
-        <Chip done={state.cards} emoji="💎" label="Fiszki" onTap={() => onNavigate('treasures')} />
-        <Chip done={state.game} emoji="🎮" label="Zabawa" onTap={() => onNavigate('games')} />
-      </div>
-      {state.complete && !state.claimed && (
-        <button
-          type="button"
-          onClick={claim}
-          className="min-h-14 animate-pulse rounded-3xl bg-amber-400 px-4 text-lg font-bold text-amber-950 shadow-md active:scale-95"
-        >
-          🎁 Odbierz naklejkę!
-        </button>
+    <section
+      className="flex items-center gap-1.5 rounded-3xl bg-violet-50 p-2 ring-1 ring-violet-100"
+      aria-label="Dzisiejsza misja"
+    >
+      {state.complete && !state.claimed ? (
+        <>
+          <button
+            type="button"
+            onClick={claim}
+            className="min-h-12 min-w-0 flex-1 animate-pulse rounded-2xl bg-amber-400 px-3 text-base font-bold text-amber-950 shadow-md active:scale-95"
+          >
+            🎁 Odbierz naklejkę!
+          </button>
+          {album}
+        </>
+      ) : (
+        <>
+          <h2 className="px-1 text-xs leading-tight font-bold text-violet-700">{state.claimed ? 'Gotowe! 🌟' : 'Misja'}</h2>
+          <Step done={state.story} emoji="📖" label="Bajka" />
+          <Step done={state.cards} emoji="💎" label="Fiszki" onTap={() => onNavigate('treasures')} />
+          <Step done={state.game} emoji="🎮" label="Zabawa" onTap={() => onNavigate('games')} />
+          <div
+            className="ml-auto flex min-h-12 flex-none items-center gap-1 px-1 text-base font-bold text-amber-700"
+            aria-label={`Gwiazdki: ${stars}`}
+          >
+            <span aria-hidden="true">⭐</span>
+            {stars}
+          </div>
+          {album}
+        </>
       )}
-      {state.claimed && <p className="text-center text-base font-bold text-emerald-700">Misja wykonana! Do jutra! 🌟</p>}
-      <button
-        type="button"
-        onClick={onOpenAlbum}
-        className="min-h-12 rounded-2xl bg-white px-3 text-base font-bold text-violet-700 shadow-sm ring-1 ring-violet-200 active:scale-95"
-      >
-        📒 Moje naklejki: {owned} z {STICKER_WORDS.length}
-      </button>
       {reward && <StickerReward sticker={reward} onClose={() => setReward(null)} />}
     </section>
   )

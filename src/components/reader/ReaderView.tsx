@@ -1,6 +1,7 @@
 import confetti from 'canvas-confetti'
-import { ArrowLeft, ArrowRight, Home, Star } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Star, X } from 'lucide-react'
 import { useState } from 'react'
+import { readerToneOf } from '../../data/shelves'
 import { useSpeech } from '../../hooks/useSpeech'
 import type { Story } from '../../types/story'
 import type { GameId } from '../../utils/games'
@@ -20,6 +21,7 @@ export function ReaderView({ story, onExit, onPlay }: ReaderViewProps) {
   const speech = useSpeech()
   const [index, setIndex] = useState(0)
   const [finishedCount, setFinishedCount] = useState<number | null>(null)
+  const [wordTapped, setWordTapped] = useState(false)
 
   const page = story.pages[index]
   const total = story.pages.length
@@ -83,68 +85,64 @@ export function ReaderView({ story, onExit, onPlay }: ReaderViewProps) {
     )
   }
 
-  return (
-    <div className="mx-auto flex h-dvh max-w-md flex-col gap-2 overflow-hidden bg-paper px-4 pt-2 pb-3">
-      <header className="flex flex-none items-center gap-3">
+  const tone = readerToneOf(story.id)
+  const dark = tone === 'dark'
+  const ghost = dark ? 'bg-[#2b2470] text-violet-200' : 'bg-white text-violet-700 shadow-md ring-1 ring-violet-200'
+
+  const nav = (
+    <nav className="flex gap-3">
+      <button
+        type="button"
+        disabled={index === 0}
+        onClick={() => goTo(index - 1)}
+        className={`flex min-h-14 flex-1 items-center justify-center gap-1 rounded-3xl text-base font-bold active:scale-95 disabled:opacity-40 ${ghost}`}
+      >
+        <ArrowLeft size={20} aria-hidden="true" /> Wstecz
+      </button>
+      {isLast ? (
         <button
           type="button"
-          onClick={exit}
-          className="flex min-h-12 items-center gap-1 rounded-2xl bg-white px-3 text-sm font-semibold text-slate-700 shadow-sm ring-1 ring-slate-200 active:scale-95"
+          onClick={finish}
+          className="min-h-14 flex-[2] rounded-3xl bg-amber-400 px-2 text-base leading-tight font-bold text-amber-950 shadow-md active:scale-95"
         >
-          <Home size={20} aria-hidden="true" /> Wyjdź
+          🎉 Koniec bajki! Odbierz gwiazdkę!
         </button>
-        <div className="min-w-0 flex-1 text-center">
-          <div className="flex justify-center gap-1.5" aria-hidden="true">
-            {story.pages.map((p, i) => (
-              <Star
-                key={p.pageNumber}
-                size={18}
-                className={i <= index ? 'fill-yellow-300 text-amber-400' : 'text-slate-300'}
-              />
-            ))}
-          </div>
-          <div className="text-xs font-medium text-slate-600">
-            Strona {index + 1} z {total}
-          </div>
-        </div>
-        <div className="w-[76px]" aria-hidden="true" />
-      </header>
-
-      {speech.voiceStatus === 'missing' && (
-        <p className="flex-none rounded-2xl bg-amber-100 px-3 py-0.5 text-xs leading-snug text-amber-900">
-          🔇 Dla dorosłego: brak angielskiego głosu w telefonie.
-        </p>
+      ) : (
+        <button
+          type="button"
+          onClick={() => goTo(index + 1)}
+          className="flex min-h-14 flex-[2] items-center justify-center gap-1 rounded-3xl bg-violet-500 text-base font-bold text-white shadow-md active:scale-95"
+        >
+          Dalej <ArrowRight size={20} aria-hidden="true" />
+        </button>
       )}
+    </nav>
+  )
 
-      <ReaderPage key={page.pageNumber} storyId={story.id} page={page} speech={speech} />
+  const exitButton = (
+    <button
+      type="button"
+      onClick={exit}
+      className="flex min-h-12 items-center gap-1 rounded-2xl bg-slate-900/75 px-3 text-sm font-semibold text-white backdrop-blur-sm active:scale-95"
+    >
+      <X size={20} aria-hidden="true" /> Wyjdź
+    </button>
+  )
 
-      <nav className="mt-auto flex flex-none gap-3">
-        <button
-          type="button"
-          disabled={index === 0}
-          onClick={() => goTo(index - 1)}
-          className="flex min-h-14 flex-1 items-center justify-center gap-1 rounded-3xl bg-white text-base font-bold text-violet-700 shadow-md ring-1 ring-violet-200 active:scale-95 disabled:opacity-40"
-        >
-          <ArrowLeft size={20} aria-hidden="true" /> Wstecz
-        </button>
-        {isLast ? (
-          <button
-            type="button"
-            onClick={finish}
-            className="min-h-14 flex-[2] rounded-3xl bg-amber-400 px-2 text-base leading-tight font-bold text-amber-950 shadow-md active:scale-95"
-          >
-            🎉 Koniec bajki! Odbierz gwiazdkę!
-          </button>
-        ) : (
-          <button
-            type="button"
-            onClick={() => goTo(index + 1)}
-            className="flex min-h-14 flex-[2] items-center justify-center gap-1 rounded-3xl bg-violet-500 text-base font-bold text-white shadow-md active:scale-95"
-          >
-            Dalej <ArrowRight size={20} aria-hidden="true" />
-          </button>
-        )}
-      </nav>
+  return (
+    <div className={`mx-auto flex h-dvh max-w-md flex-col overflow-hidden ${dark ? 'bg-[#171347]' : 'bg-paper'}`}>
+      <ReaderPage
+        key={page.pageNumber}
+        storyId={story.id}
+        page={page}
+        speech={speech}
+        tone={tone}
+        exitButton={exitButton}
+        counter={`${index + 1} z ${total}`}
+        showHint={index === 0 && !wordTapped}
+        onWordTapped={() => setWordTapped(true)}
+        nav={nav}
+      />
     </div>
   )
 }

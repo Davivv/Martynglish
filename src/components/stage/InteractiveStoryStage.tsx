@@ -116,6 +116,39 @@ export function InteractiveStoryStage({
   const heroTransform = `translate(${hero.x.toFixed(1)} ${hero.y.toFixed(1)}) scale(${hero.scale})`
   const showImage = imageUrl !== undefined && imageUrl !== failedImage
 
+  if (showImage) {
+    // A finished illustration is a plain <img> that covers the parent; the SVG would crop it to 400 x 240 (D40).
+    return (
+      <div
+        ref={rootRef}
+        role="img"
+        aria-label={altText}
+        className={`stage-root h-full w-full ${interactive ? 'stage-live' : ''} ${className ?? ''}`}
+      >
+        <img
+          src={resolveImageUrl(imageUrl)}
+          alt=""
+          draggable={false}
+          className="absolute inset-0 h-full w-full object-cover"
+          onError={() => setFailedImage(imageUrl)}
+        />
+        {interactive && (
+          <button
+            type="button"
+            aria-label={interactiveSoundText ?? altText}
+            onClick={handleTap}
+            className="stage-img-hit absolute inset-0 h-full w-full cursor-pointer bg-transparent"
+          />
+        )}
+        {interactive && bubbleVisible && interactiveSoundText && (
+          <div key={bubbleKey} className="stage-bubble" aria-hidden="true">
+            {interactiveSoundText}
+          </div>
+        )}
+      </div>
+    )
+  }
+
   return (
     <div
       ref={rootRef}
@@ -124,41 +157,27 @@ export function InteractiveStoryStage({
       className={`stage-root h-full w-full ${interactive ? 'stage-live' : ''} ${className ?? ''}`}
     >
       <svg viewBox={`0 0 ${VIEW_W} ${VIEW_H}`} preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-        {showImage ? (
-          <image
-            href={resolveImageUrl(imageUrl)}
-            x={0}
-            y={0}
-            width={VIEW_W}
-            height={VIEW_H}
-            preserveAspectRatio="xMidYMid slice"
-            onError={() => setFailedImage(imageUrl)}
-          />
-        ) : (
-          <>
-            <Background />
-            {layout.props
-              .filter((item) => item.behind)
-              .map((item) => (
-                <PropItem key={item.key} item={item} />
-              ))}
-            <g transform={heroTransform}>
-              <ellipse cx={50} cy={99} rx={heroShadowRx(primaryCharacter)} ry={6} fill="#1a3a22" opacity={0.18} />
-              <g key={hopKey} className={hopKey > 0 ? 'stage-hop' : undefined}>
-                <g className={characterMood === 'excited' ? 'stage-excited' : undefined}>
-                  <g className="stage-hero-idle">
-                    <Hero primary={primaryColor} secondary={secondaryColor} mood={characterMood} />
-                  </g>
-                </g>
+        <Background />
+        {layout.props
+          .filter((item) => item.behind)
+          .map((item) => (
+            <PropItem key={item.key} item={item} />
+          ))}
+        <g transform={heroTransform}>
+          <ellipse cx={50} cy={99} rx={heroShadowRx(primaryCharacter)} ry={6} fill="#1a3a22" opacity={0.18} />
+          <g key={hopKey} className={hopKey > 0 ? 'stage-hop' : undefined}>
+            <g className={characterMood === 'excited' ? 'stage-excited' : undefined}>
+              <g className="stage-hero-idle">
+                <Hero primary={primaryColor} secondary={secondaryColor} mood={characterMood} />
               </g>
             </g>
-            {layout.props
-              .filter((item) => !item.behind)
-              .map((item) => (
-                <PropItem key={item.key} item={item} />
-              ))}
-          </>
-        )}
+          </g>
+        </g>
+        {layout.props
+          .filter((item) => !item.behind)
+          .map((item) => (
+            <PropItem key={item.key} item={item} />
+          ))}
         {interactive && (
           <g
             className="stage-hit"
