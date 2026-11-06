@@ -75,7 +75,7 @@ Kod, nazwy i komentarze techniczne po angielsku, chyba że komentarz tłumaczy d
 - `translationPl` pasuje do kontekstu zdania, nie do słownika. Gdy słowo kluczowe jest odmienione, forma słownikowa idzie do `lemmaEn`, `lemmaPl`, `lemmaPhoneticsPl` (D27).
 - Liczba i kolory w `visualConfig.props` zgadzają się ze zdaniem: 3 lody w tekście to 3 lody na scenie.
 - Dorosły czyta każdą nową bajkę przed pokazaniem jej dziecku. Strażnik sprawdza reguły, nie sens.
-- Seriale (D38) są autorskie: bez nazw i postaci z prawdziwych seriali. Bohaterki to dzieci w zakrytych, sportowych strojach. Przeciwnika pokonuje piosenka, nie przemoc.
+- Seriale (D38, D39) są autorskie: bez nazw i postaci z prawdziwych seriali. Neon Stars to dorosłe gwiazdy pop, Klub Przyjaciółek to dzieci. Stroje zawsze są zakryte, a przeciwnika pokonuje piosenka, nie przemoc.
 
 ## Zasady interfejsu
 

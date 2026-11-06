@@ -96,3 +96,17 @@ Zlecone przez wujka 2026-11-06. Rysunki robi `stage-artist`, odcinki `curriculum
 - [x] Sześć odcinków na początku `stories.json` i obrazki nowych słów
 - [x] Przegląd wszystkich stron na 360×640 i aktualizacja strony testowej
 - [ ] Wujek czyta odcinki przed pokazaniem ich dziecku i potwierdza, czym jest „Friendz”
+
+## Faza 9: Różne style grafik (D39)
+
+Zlecone przez wujka 2026-11-06. Najpierw próbki, lider je ocenia, dopiero potem przerysowanie całości.
+
+- [x] Próbka stylu `glam` (Yuna na koncercie) i `storybook` (Ruby w klubie)
+- [x] Generator obrazów Gemini działa przez skill `gemini-agy` (tryb `--image`)
+- [x] Decyzja wujka: ilustracje z generatora, Neon Stars w 3D, Klub Przyjaciółek malowany
+- [x] Decyzja wujka: nowy czytnik i biblioteka z półkami (D40)
+- [x] Opisy wyglądu w bajkach zgodne z D39
+- [x] Przebudowa czytnika i biblioteki
+- [ ] Ilustracje pierwszych odcinków obu seriali na próbę: Neon Stars 1 gotowe (strony 5 i 6 do poprawy), Klub 1 ma stronę 1, reszta po odblokowaniu limitu
+- [ ] Wujek ocenia układ na stronie testowej
+- [ ] Ilustracje pozostałych odcinków i przegląd wszystkich stron
