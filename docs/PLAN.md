@@ -4,7 +4,7 @@ Kolejność różni się od SPEC §1 (D18). Odhaczaj pozycje po ich skończeniu 
 
 ## Jak wznowić pracę
 
-Praca jest prowadzona autonomicznie na zlecenie wujka: Opus zarządza i odbiera fazy, Sonnet implementuje (`.claude/agents/`). Commity po każdej odebranej fazie na gałęzi `main`. `git push` publikuje aplikację dla Martynki (D41), więc wysyłaj tylko odebrane wersje.
+Praca jest prowadzona autonomicznie na zlecenie wujka: Opus zarządza i odbiera fazy, Sonnet implementuje (`.claude/agents/`). Commity lokalne po każdej odebranej fazie na gałęzi `main`. Repo nie ma jeszcze zdalnego adresu, a publikacja czeka na prywatny komputer (D41).
 
 Po przerwie: sprawdź `git log`, `git status` i poniższe listy, a potem kontynuuj od pierwszej nieodhaczonej pozycji. Niezacommitowane zmiany to praca przerwanego agenta: przejrzyj je, zanim zdecydujesz, czy je dokończyć.
 
@@ -117,5 +117,5 @@ Zlecone przez wujka 2026-11-06.
 
 - [x] Build w podkatalogu sprawdzony lokalnie, razem z instalacją i offline
 - [x] Workflow publikacji i przegląd historii pod kątem sekretów
-- [ ] Publiczne repo i pierwsza publikacja
+- [ ] Publiczne repo i pierwsza publikacja, tylko z prywatnego komputera
 - [ ] Wujek instaluje aplikację na telefonie Martynki i przechodzi listę z README.md

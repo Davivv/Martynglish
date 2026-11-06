@@ -23,9 +23,9 @@ Aplikacja otworzy się pod adresem pokazanym w terminalu.
 
 ## Na telefonie
 
-**Gotowa aplikacja:** otwórz w Chrome `https://davivv.github.io/Martynglish/` i wybierz „Dodaj do ekranu głównego”. Potem działa też bez internetu, a nowe wersje pobiera sama. Postępy zostają tylko na tym telefonie.
+**Po publikacji** (jeszcze jej nie ma, patrz D41): otwórz w Chrome `https://davivv.github.io/Martynglish/` i wybierz „Dodaj do ekranu głównego”. Potem działa też bez internetu, a nowe wersje pobiera sama. Postępy zostają tylko na tym telefonie.
 
-Dwa kolejne sposoby służą do testów wersji, która nie jest jeszcze opublikowana.
+Do tego czasu zostają dwa sposoby testowe.
 
 **Szybki podgląd**, ten sam Wi-Fi co komputer:
 

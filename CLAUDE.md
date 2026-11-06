@@ -112,7 +112,9 @@ Hook w [.claude/settings.json](.claude/settings.json) uruchamia Strażnika po ka
 
 ## Publikacja
 
-`git push` na `main` publikuje aplikację na `https://davivv.github.io/Martynglish/` przez [.github/workflows/deploy.yml](.github/workflows/deploy.yml) (D41). Repo jest publiczne, więc wysyłaj tylko odebrane wersje i nigdy nie commituj sekretów. Nie zmieniaj nazwy repo ani hostingu bez zgody wujka: ikona na telefonie i postępy Martynki zależą od adresu.
+Publikacji jeszcze nie ma: repo nie ma zdalnego adresu, a założyć je i wysłać trzeba z prywatnego komputera (D41). Nie próbuj tego z innego miejsca ani inną drogą bez zgody wujka.
+
+Docelowo `git push` na `main` publikuje aplikację na `https://davivv.github.io/Martynglish/` przez [.github/workflows/deploy.yml](.github/workflows/deploy.yml). Repo będzie publiczne, więc wysyłaj tylko odebrane wersje i nigdy nie commituj sekretów. Nie zmieniaj nazwy repo ani hostingu bez zgody wujka: ikona na telefonie i postępy Martynki zależą od adresu.
 
 ## Definicja ukończenia
 
