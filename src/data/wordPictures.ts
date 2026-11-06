@@ -49,6 +49,13 @@ export const PICTURE_WORDS: readonly PictureWord[] = [
   word('chocolate', 'czekolada', 'czo-klet', prop('chocolate-brown')),
   word('panda', 'panda', 'pan-da', character('panda', '#EF4444')),
   word('bunny', 'króliczek', 'ba-ni', character('bunny', '#C4B5FD')),
+  word('shadow', 'cień', 'sza-dou', prop('shadow-small')),
+  word('queen', 'królowa', 'kłin', character('shadow-queen', '#6D28D9')),
+  word('microphone', 'mikrofon', 'maj-kro-foun', prop('microphone-gold')),
+  word('box', 'pudło', 'boks', prop('box-brown')),
+  word('milk', 'mleko', 'milk', prop('milk-white')),
+  word('phone', 'telefon', 'foun', prop('phone-purple')),
+  word('cake', 'tort', 'kejk', prop('cake-pink')),
 
   word('red', 'czerwony', 'red', color('#EF4444')),
   word('blue', 'niebieski', 'blu', color('#3B82F6')),

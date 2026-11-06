@@ -1,5 +1,1027 @@
 [
   {
+    "id": "neon-stars-1",
+    "titleEn": "Neon Stars 1: The Big Shadow",
+    "titlePl": "Neon Stars 1: Wielki cień",
+    "coverVisualConfig": {
+      "backgroundTheme": "concert",
+      "primaryCharacter": "yuna",
+      "primaryColor": "#22D3EE",
+      "secondaryColor": "#1E293B",
+      "props": ["girl-hana", "girl-sora"],
+      "characterMood": "excited"
+    },
+    "characterVisualAnchor": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns",
+    "themeColor": "#7C3AED",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "visualConfig": {
+          "backgroundTheme": "concert",
+          "primaryCharacter": "yuna",
+          "primaryColor": "#22D3EE",
+          "secondaryColor": "#1E293B",
+          "props": ["girl-hana", "girl-sora"],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: the three girls stand together on a glowing concert stage, Yuna in front, Hana and Sora beside her.",
+        "imageAltPl": "Trzy dziewczyny w neonowych strojach stoją razem na scenie koncertowej.",
+        "interactiveSoundText": "We are Neon Stars!",
+        "sentenceEn": "Yuna, Hana and Sora sing in Neon Stars.",
+        "phoneticsPl": "ju-na ha-na and so-ra sing in ni-on starz",
+        "sentencePl": "Yuna, Hana i Sora śpiewają w Neon Stars.",
+        "words": [
+          { "word": "Yuna", "punctuation": ",", "translationPl": "Yuna", "phoneticsPl": "ju-na", "isKeyword": false },
+          { "word": "Hana", "translationPl": "Hana", "phoneticsPl": "ha-na", "isKeyword": false },
+          { "word": "and", "translationPl": "i", "phoneticsPl": "and", "isKeyword": false },
+          { "word": "Sora", "translationPl": "Sora", "phoneticsPl": "so-ra", "isKeyword": false },
+          { "word": "sing", "translationPl": "śpiewają", "phoneticsPl": "sing", "isKeyword": true, "lemmaPl": "śpiewać" },
+          { "word": "in", "translationPl": "w", "phoneticsPl": "in", "isKeyword": false },
+          { "word": "Neon Stars", "punctuation": ".", "translationPl": "Neon Stars", "phoneticsPl": "ni-on starz", "isKeyword": false }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "visualConfig": {
+          "backgroundTheme": "neon-city",
+          "primaryCharacter": "hana",
+          "primaryColor": "#F472B6",
+          "secondaryColor": "#4C1D95",
+          "props": ["girl-yuna", "girl-sora"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: Hana leads the way through a bright neon city at night, Yuna and Sora run beside her.",
+        "imageAltPl": "Hana biegnie przez neonowe miasto razem z Yuną i Sorą.",
+        "interactiveSoundText": "Let's go, girls!",
+        "sentenceEn": "They sing, dance and save the city!",
+        "phoneticsPl": "dej sing dans and sejw de si-ti",
+        "sentencePl": "Śpiewają, tańczą i ratują miasto!",
+        "words": [
+          { "word": "They", "translationPl": "One", "phoneticsPl": "dej", "isKeyword": false },
+          { "word": "sing", "punctuation": ",", "translationPl": "śpiewają", "phoneticsPl": "sing", "isKeyword": true, "lemmaEn": "sing", "lemmaPl": "śpiewać", "lemmaPhoneticsPl": "sing" },
+          { "word": "dance", "translationPl": "tańczą", "phoneticsPl": "dans", "isKeyword": true, "lemmaEn": "dance", "lemmaPl": "tańczyć", "lemmaPhoneticsPl": "dans" },
+          { "word": "and", "translationPl": "i", "phoneticsPl": "and", "isKeyword": false },
+          { "word": "save", "translationPl": "ratują", "phoneticsPl": "sejw", "isKeyword": false },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "city", "punctuation": "!", "translationPl": "miasto", "phoneticsPl": "si-ti", "isKeyword": true }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "visualConfig": {
+          "backgroundTheme": "neon-city",
+          "primaryCharacter": "sora",
+          "primaryColor": "#FACC15",
+          "secondaryColor": "#111827",
+          "props": ["shadow-big"],
+          "characterMood": "worried"
+        },
+        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: Sora looks up worried at one big shadow floating over the neon city.",
+        "imageAltPl": "Sora patrzy w górę na wielki cień nad miastem.",
+        "interactiveSoundText": "Oh no! Look up!",
+        "sentenceEn": "Tonight a big shadow comes.",
+        "phoneticsPl": "tu-najt e big sza-dou kamz",
+        "sentencePl": "Dziś w nocy przychodzi wielki cień.",
+        "words": [
+          { "word": "Tonight", "translationPl": "Dziś w nocy", "phoneticsPl": "tu-najt", "isKeyword": false },
+          { "word": "a", "translationPl": "jakiś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "big", "translationPl": "wielki", "phoneticsPl": "big", "isKeyword": true, "lemmaPl": "duży" },
+          { "word": "shadow", "translationPl": "cień", "phoneticsPl": "sza-dou", "isKeyword": true },
+          { "word": "comes", "punctuation": ".", "translationPl": "przychodzi", "phoneticsPl": "kamz", "isKeyword": false }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "visualConfig": {
+          "backgroundTheme": "dark-city",
+          "primaryCharacter": "yuna",
+          "primaryColor": "#22D3EE",
+          "secondaryColor": "#1E293B",
+          "props": ["shadow-big"],
+          "characterMood": "worried"
+        },
+        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: Yuna looks around worried in the city where all the lights went out, the big shadow above.",
+        "imageAltPl": "Yuna rozgląda się po mieście, w którym zgasły światła.",
+        "interactiveSoundText": "Where are the lights?",
+        "sentenceEn": "It takes all the lights!",
+        "phoneticsPl": "it tejks ol de lajc",
+        "sentencePl": "Zabiera wszystkie światła!",
+        "words": [
+          { "word": "It", "translationPl": "To", "phoneticsPl": "it", "isKeyword": false },
+          { "word": "takes", "translationPl": "zabiera", "phoneticsPl": "tejks", "isKeyword": false },
+          { "word": "all", "translationPl": "wszystkie", "phoneticsPl": "ol", "isKeyword": false },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "lights", "punctuation": "!", "translationPl": "światła", "phoneticsPl": "lajc", "isKeyword": true, "lemmaEn": "light", "lemmaPl": "światło", "lemmaPhoneticsPl": "lajt" }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "visualConfig": {
+          "backgroundTheme": "dark-city",
+          "primaryCharacter": "yuna",
+          "primaryColor": "#22D3EE",
+          "secondaryColor": "#1E293B",
+          "props": ["girl-hana", "girl-sora", "shadow-big"],
+          "characterMood": "brave"
+        },
+        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: Yuna, Hana and Sora stand bravely together and sing with microphones under the big shadow.",
+        "imageAltPl": "Yuna, Hana i Sora śpiewają razem pod wielkim cieniem.",
+        "interactiveSoundText": "Sing with me!",
+        "sentenceEn": "The brave girls sing a magic song.",
+        "phoneticsPl": "de brejw gerlz sing e ma-dżik song",
+        "sentencePl": "Dzielne dziewczyny śpiewają magiczną piosenkę.",
+        "words": [
+          { "word": "The", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "brave", "translationPl": "dzielne", "phoneticsPl": "brejw", "isKeyword": true, "lemmaPl": "dzielny" },
+          { "word": "girls", "translationPl": "dziewczyny", "phoneticsPl": "gerlz", "isKeyword": true, "lemmaEn": "girl", "lemmaPl": "dziewczyna", "lemmaPhoneticsPl": "gerl" },
+          { "word": "sing", "translationPl": "śpiewają", "phoneticsPl": "sing", "isKeyword": true, "lemmaEn": "sing", "lemmaPl": "śpiewać", "lemmaPhoneticsPl": "sing" },
+          { "word": "a", "translationPl": "jakiś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "magic", "translationPl": "magiczną", "phoneticsPl": "ma-dżik", "isKeyword": true, "lemmaPl": "magiczny" },
+          { "word": "song", "punctuation": ".", "translationPl": "piosenkę", "phoneticsPl": "song", "isKeyword": true, "lemmaPl": "piosenka" }
+        ]
+      },
+      {
+        "pageNumber": 6,
+        "visualConfig": {
+          "backgroundTheme": "rooftop",
+          "primaryCharacter": "shadow-queen",
+          "primaryColor": "#6D28D9",
+          "secondaryColor": "#C4B5FD",
+          "props": ["moon-white"],
+          "characterMood": "curious"
+        },
+        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: the Shadow Queen in a long violet cape stands on a rooftop under a white moon and looks curious.",
+        "imageAltPl": "Królowa Cieni stoi na dachu w świetle księżyca i patrzy z ciekawością.",
+        "interactiveSoundText": "I see you, Neon Stars!",
+        "sentenceEn": "Lights on! But who is the Shadow Queen?",
+        "phoneticsPl": "lajc on bat hu iz de sza-dou kłin",
+        "sentencePl": "Światła świecą! Ale kim jest Królowa Cieni?",
+        "words": [
+          { "word": "Lights", "translationPl": "Światła", "phoneticsPl": "lajc", "isKeyword": true, "lemmaEn": "light", "lemmaPl": "światło", "lemmaPhoneticsPl": "lajt" },
+          { "word": "on", "punctuation": "!", "translationPl": "świecą", "phoneticsPl": "on", "isKeyword": false },
+          { "word": "But", "translationPl": "Ale", "phoneticsPl": "bat", "isKeyword": false },
+          { "word": "who", "translationPl": "kim", "phoneticsPl": "hu", "isKeyword": false },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "Shadow", "translationPl": "Cieni", "phoneticsPl": "sza-dou", "isKeyword": true, "lemmaPl": "cień" },
+          { "word": "Queen", "punctuation": "?", "translationPl": "Królowa", "phoneticsPl": "kłin", "isKeyword": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "neon-stars-2",
+    "titleEn": "Neon Stars 2: The Magic Microphone",
+    "titlePl": "Neon Stars 2: Magiczny mikrofon",
+    "coverVisualConfig": {
+      "backgroundTheme": "rooftop",
+      "primaryCharacter": "hana",
+      "primaryColor": "#F472B6",
+      "secondaryColor": "#4C1D95",
+      "props": ["shadow-small", "shadow-small", "microphone-gold"],
+      "characterMood": "curious"
+    },
+    "characterVisualAnchor": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns",
+    "themeColor": "#DB2777",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "visualConfig": {
+          "backgroundTheme": "concert",
+          "primaryCharacter": "sora",
+          "primaryColor": "#FACC15",
+          "secondaryColor": "#111827",
+          "props": ["girl-yuna", "girl-hana", "microphone-gold"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: Sora holds a golden magic microphone on a concert stage, Yuna and Hana stand beside her.",
+        "imageAltPl": "Sora trzyma złoty mikrofon, a Yuna i Hana stoją obok niej.",
+        "interactiveSoundText": "I love this microphone!",
+        "sentenceEn": "Tonight the girls have a big show.",
+        "phoneticsPl": "tu-najt de gerlz haw e big szou",
+        "sentencePl": "Dziś wieczorem dziewczyny mają wielki koncert.",
+        "words": [
+          { "word": "Tonight", "translationPl": "Dziś wieczorem", "phoneticsPl": "tu-najt", "isKeyword": false },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "girls", "translationPl": "dziewczyny", "phoneticsPl": "gerlz", "isKeyword": true, "lemmaEn": "girl", "lemmaPl": "dziewczyna", "lemmaPhoneticsPl": "gerl" },
+          { "word": "have", "translationPl": "mają", "phoneticsPl": "haw", "isKeyword": true, "lemmaEn": "have", "lemmaPl": "mieć", "lemmaPhoneticsPl": "haw" },
+          { "word": "a", "translationPl": "jakiś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "big", "translationPl": "wielki", "phoneticsPl": "big", "isKeyword": true, "lemmaPl": "duży" },
+          { "word": "show", "punctuation": ".", "translationPl": "koncert", "phoneticsPl": "szou", "isKeyword": true }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "visualConfig": {
+          "backgroundTheme": "concert",
+          "primaryCharacter": "shadow-queen",
+          "primaryColor": "#6D28D9",
+          "secondaryColor": "#C4B5FD",
+          "props": ["microphone-gold"],
+          "characterMood": "brave"
+        },
+        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: the Shadow Queen in a violet cape grabs the golden microphone on the concert stage.",
+        "imageAltPl": "Królowa Cieni trzyma złoty mikrofon na scenie.",
+        "interactiveSoundText": "Now it is my microphone!",
+        "sentenceEn": "The Shadow Queen takes the magic microphone!",
+        "phoneticsPl": "de sza-dou kłin tejks de ma-dżik maj-kro-foun",
+        "sentencePl": "Królowa Cieni zabiera magiczny mikrofon!",
+        "words": [
+          { "word": "The", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "Shadow", "translationPl": "Cieni", "phoneticsPl": "sza-dou", "isKeyword": true, "lemmaPl": "cień" },
+          { "word": "Queen", "translationPl": "Królowa", "phoneticsPl": "kłin", "isKeyword": true, "lemmaPl": "królowa" },
+          { "word": "takes", "translationPl": "zabiera", "phoneticsPl": "tejks", "isKeyword": false },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "magic", "translationPl": "magiczny", "phoneticsPl": "ma-dżik", "isKeyword": true },
+          { "word": "microphone", "punctuation": "!", "translationPl": "mikrofon", "phoneticsPl": "maj-kro-foun", "isKeyword": true }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "visualConfig": {
+          "backgroundTheme": "rooftop",
+          "primaryCharacter": "hana",
+          "primaryColor": "#F472B6",
+          "secondaryColor": "#4C1D95",
+          "props": ["shadow-small", "shadow-small", "microphone-gold"],
+          "characterMood": "curious"
+        },
+        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: Hana looks curious at two little shadows holding the golden microphone on a rooftop.",
+        "imageAltPl": "Hana patrzy na dwa małe cienie, które trzymają mikrofon.",
+        "interactiveSoundText": "I see two shadows!",
+        "sentenceEn": "Two little shadows have the microphone.",
+        "phoneticsPl": "tu li-tl sza-douz haw de maj-kro-foun",
+        "sentencePl": "Dwa małe cienie mają mikrofon.",
+        "words": [
+          { "word": "Two", "translationPl": "Dwa", "phoneticsPl": "tu", "isKeyword": true, "lemmaPl": "dwa" },
+          { "word": "little", "translationPl": "małe", "phoneticsPl": "li-tl", "isKeyword": true, "lemmaPl": "mały" },
+          { "word": "shadows", "translationPl": "cienie", "phoneticsPl": "sza-douz", "isKeyword": true, "lemmaEn": "shadow", "lemmaPl": "cień", "lemmaPhoneticsPl": "sza-dou" },
+          { "word": "have", "translationPl": "mają", "phoneticsPl": "haw", "isKeyword": true, "lemmaEn": "have", "lemmaPl": "mieć", "lemmaPhoneticsPl": "haw" },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "microphone", "punctuation": ".", "translationPl": "mikrofon", "phoneticsPl": "maj-kro-foun", "isKeyword": true }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "visualConfig": {
+          "backgroundTheme": "rooftop",
+          "primaryCharacter": "yuna",
+          "primaryColor": "#22D3EE",
+          "secondaryColor": "#1E293B",
+          "props": ["shadow-small", "shadow-small"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: Yuna dances happily on a rooftop while two little shadows dance with her.",
+        "imageAltPl": "Yuna tańczy na dachu, a dwa małe cienie tańczą razem z nią.",
+        "interactiveSoundText": "Dance with me!",
+        "sentenceEn": "Yuna dances. The shadows dance too!",
+        "phoneticsPl": "ju-na dan-siz de sza-douz dans tu",
+        "sentencePl": "Yuna tańczy. Cienie też tańczą!",
+        "words": [
+          { "word": "Yuna", "translationPl": "Yuna", "phoneticsPl": "ju-na", "isKeyword": false },
+          { "word": "dances", "punctuation": ".", "translationPl": "tańczy", "phoneticsPl": "dan-siz", "isKeyword": true, "lemmaEn": "dance", "lemmaPl": "tańczyć", "lemmaPhoneticsPl": "dans" },
+          { "word": "The", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "shadows", "translationPl": "cienie", "phoneticsPl": "sza-douz", "isKeyword": true, "lemmaEn": "shadow", "lemmaPl": "cień", "lemmaPhoneticsPl": "sza-dou" },
+          { "word": "dance", "translationPl": "tańczą", "phoneticsPl": "dans", "isKeyword": true, "lemmaEn": "dance", "lemmaPl": "tańczyć", "lemmaPhoneticsPl": "dans" },
+          { "word": "too", "punctuation": "!", "translationPl": "też", "phoneticsPl": "tu", "isKeyword": false }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "visualConfig": {
+          "backgroundTheme": "rooftop",
+          "primaryCharacter": "sora",
+          "primaryColor": "#FACC15",
+          "secondaryColor": "#111827",
+          "props": ["shadow-small", "shadow-small", "microphone-gold"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: Sora holds up the golden microphone with a big smile, two little shadows stand beside her.",
+        "imageAltPl": "Sora podnosi złoty mikrofon, a małe cienie stoją obok.",
+        "interactiveSoundText": "Yes! It is back!",
+        "sentenceEn": "Now Sora has the microphone!",
+        "phoneticsPl": "nau so-ra haz de maj-kro-foun",
+        "sentencePl": "Teraz Sora ma mikrofon!",
+        "words": [
+          { "word": "Now", "translationPl": "Teraz", "phoneticsPl": "nau", "isKeyword": false },
+          { "word": "Sora", "translationPl": "Sora", "phoneticsPl": "so-ra", "isKeyword": false },
+          { "word": "has", "translationPl": "ma", "phoneticsPl": "haz", "isKeyword": true, "lemmaEn": "have", "lemmaPl": "mieć", "lemmaPhoneticsPl": "haw" },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "microphone", "punctuation": "!", "translationPl": "mikrofon", "phoneticsPl": "maj-kro-foun", "isKeyword": true }
+        ]
+      },
+      {
+        "pageNumber": 6,
+        "visualConfig": {
+          "backgroundTheme": "rooftop",
+          "primaryCharacter": "shadow-queen",
+          "primaryColor": "#6D28D9",
+          "secondaryColor": "#C4B5FD",
+          "props": ["moon-white"],
+          "characterMood": "worried"
+        },
+        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: the Shadow Queen stands alone and sad on a rooftop under a white moon.",
+        "imageAltPl": "Królowa Cieni stoi sama na dachu pod białym księżycem.",
+        "interactiveSoundText": "I am all alone.",
+        "sentenceEn": "But look! The Shadow Queen is very sad.",
+        "phoneticsPl": "bat luk de sza-dou kłin iz we-ri sad",
+        "sentencePl": "Ale patrz! Królowa Cieni jest bardzo smutna.",
+        "words": [
+          { "word": "But", "translationPl": "Ale", "phoneticsPl": "bat", "isKeyword": false },
+          { "word": "look", "punctuation": "!", "translationPl": "patrz", "phoneticsPl": "luk", "isKeyword": false },
+          { "word": "The", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "Shadow", "translationPl": "Cieni", "phoneticsPl": "sza-dou", "isKeyword": true, "lemmaPl": "cień" },
+          { "word": "Queen", "translationPl": "Królowa", "phoneticsPl": "kłin", "isKeyword": true, "lemmaPl": "królowa" },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "very", "translationPl": "bardzo", "phoneticsPl": "we-ri", "isKeyword": false },
+          { "word": "sad", "punctuation": ".", "translationPl": "smutna", "phoneticsPl": "sad", "isKeyword": true, "lemmaPl": "smutny" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "neon-stars-3",
+    "titleEn": "Neon Stars 3: The Shadow Queen",
+    "titlePl": "Neon Stars 3: Królowa Cieni",
+    "coverVisualConfig": {
+      "backgroundTheme": "concert",
+      "primaryCharacter": "yuna",
+      "primaryColor": "#22D3EE",
+      "secondaryColor": "#1E293B",
+      "props": ["girl-hana", "girl-sora", "girl-queen"],
+      "characterMood": "excited"
+    },
+    "characterVisualAnchor": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns",
+    "themeColor": "#4F46E5",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "visualConfig": {
+          "backgroundTheme": "rooftop",
+          "primaryCharacter": "shadow-queen",
+          "primaryColor": "#6D28D9",
+          "secondaryColor": "#C4B5FD",
+          "props": ["moon-white"],
+          "characterMood": "worried"
+        },
+        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: the Shadow Queen looks down sadly on a rooftop under a white moon.",
+        "imageAltPl": "Królowa Cieni siedzi smutna na dachu pod księżycem.",
+        "interactiveSoundText": "I am sad tonight.",
+        "sentenceEn": "Why is the Shadow Queen so sad?",
+        "phoneticsPl": "łaj iz de sza-dou kłin sou sad",
+        "sentencePl": "Dlaczego Królowa Cieni jest taka smutna?",
+        "words": [
+          { "word": "Why", "translationPl": "Dlaczego", "phoneticsPl": "łaj", "isKeyword": true, "lemmaPl": "dlaczego" },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "Shadow", "translationPl": "Cieni", "phoneticsPl": "sza-dou", "isKeyword": true, "lemmaPl": "cień" },
+          { "word": "Queen", "translationPl": "Królowa", "phoneticsPl": "kłin", "isKeyword": true, "lemmaPl": "królowa" },
+          { "word": "so", "translationPl": "taka", "phoneticsPl": "sou", "isKeyword": false },
+          { "word": "sad", "punctuation": "?", "translationPl": "smutna", "phoneticsPl": "sad", "isKeyword": true, "lemmaPl": "smutny" }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "visualConfig": {
+          "backgroundTheme": "dark-city",
+          "primaryCharacter": "shadow-queen",
+          "primaryColor": "#6D28D9",
+          "secondaryColor": "#C4B5FD",
+          "props": ["star-white"],
+          "characterMood": "worried"
+        },
+        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: the Shadow Queen stands alone in the quiet city with its lights off.",
+        "imageAltPl": "Królowa Cieni stoi sama w wygaszonym mieście.",
+        "interactiveSoundText": "No friends. No music.",
+        "sentenceEn": "She has no friends.",
+        "phoneticsPl": "szi haz nou frendz",
+        "sentencePl": "Ona nie ma przyjaciół.",
+        "words": [
+          { "word": "She", "translationPl": "Ona", "phoneticsPl": "szi", "isKeyword": false },
+          { "word": "has", "translationPl": "ma", "phoneticsPl": "haz", "isKeyword": true, "lemmaEn": "have", "lemmaPl": "mieć", "lemmaPhoneticsPl": "haw" },
+          { "word": "no", "translationPl": "żadnych", "phoneticsPl": "nou", "isKeyword": false },
+          { "word": "friends", "punctuation": ".", "translationPl": "przyjaciół", "phoneticsPl": "frendz", "isKeyword": true, "lemmaEn": "friend", "lemmaPl": "przyjaciel", "lemmaPhoneticsPl": "frend" }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "visualConfig": {
+          "backgroundTheme": "rooftop",
+          "primaryCharacter": "yuna",
+          "primaryColor": "#22D3EE",
+          "secondaryColor": "#1E293B",
+          "props": ["girl-hana", "girl-sora", "girl-queen"],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: Yuna smiles and holds out her hand to the Shadow Queen, Hana and Sora stand behind her on a rooftop.",
+        "imageAltPl": "Yuna, Hana i Sora wyciągają ręce do Królowej Cieni.",
+        "interactiveSoundText": "Come with us!",
+        "sentenceEn": "Yuna says: Come and sing with us!",
+        "phoneticsPl": "ju-na sez kam and sing łid as",
+        "sentencePl": "Yuna mówi: Chodź i śpiewaj z nami!",
+        "words": [
+          { "word": "Yuna", "translationPl": "Yuna", "phoneticsPl": "ju-na", "isKeyword": false },
+          { "word": "says", "punctuation": ":", "translationPl": "mówi", "phoneticsPl": "sez", "isKeyword": false },
+          { "word": "Come", "translationPl": "Chodź", "phoneticsPl": "kam", "isKeyword": true, "lemmaPl": "przychodzić" },
+          { "word": "and", "translationPl": "i", "phoneticsPl": "and", "isKeyword": false },
+          { "word": "sing", "translationPl": "śpiewaj", "phoneticsPl": "sing", "isKeyword": true, "lemmaEn": "sing", "lemmaPl": "śpiewać", "lemmaPhoneticsPl": "sing" },
+          { "word": "with", "translationPl": "z", "phoneticsPl": "łid", "isKeyword": false },
+          { "word": "us", "punctuation": "!", "translationPl": "nami", "phoneticsPl": "as", "isKeyword": false }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "visualConfig": {
+          "backgroundTheme": "concert",
+          "primaryCharacter": "shadow-queen",
+          "primaryColor": "#6D28D9",
+          "secondaryColor": "#C4B5FD",
+          "props": ["girl-yuna", "girl-hana", "girl-sora"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: the queen sings happily on a concert stage with Yuna, Hana and Sora.",
+        "imageAltPl": "Królowa Cieni śpiewa na scenie razem z Yuną, Haną i Sorą.",
+        "interactiveSoundText": "I love to sing!",
+        "sentenceEn": "The queen sings with the three girls.",
+        "phoneticsPl": "de kłin singz łid de fri gerlz",
+        "sentencePl": "Królowa śpiewa z trzema dziewczynami.",
+        "words": [
+          { "word": "The", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "queen", "translationPl": "królowa", "phoneticsPl": "kłin", "isKeyword": true },
+          { "word": "sings", "translationPl": "śpiewa", "phoneticsPl": "singz", "isKeyword": true, "lemmaEn": "sing", "lemmaPl": "śpiewać", "lemmaPhoneticsPl": "sing" },
+          { "word": "with", "translationPl": "z", "phoneticsPl": "łid", "isKeyword": false },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "three", "translationPl": "trzema", "phoneticsPl": "fri", "isKeyword": true, "lemmaPl": "trzy" },
+          { "word": "girls", "punctuation": ".", "translationPl": "dziewczynami", "phoneticsPl": "gerlz", "isKeyword": true, "lemmaEn": "girl", "lemmaPl": "dziewczyna", "lemmaPhoneticsPl": "gerl" }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "visualConfig": {
+          "backgroundTheme": "neon-city",
+          "primaryCharacter": "sora",
+          "primaryColor": "#FACC15",
+          "secondaryColor": "#111827",
+          "props": ["star-yellow", "star-yellow", "star-yellow", "star-pink", "star-pink"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: Sora looks up happily at yellow and pink stars shining over the neon city.",
+        "imageAltPl": "Sora patrzy na żółte i różowe gwiazdy nad neonowym miastem.",
+        "interactiveSoundText": "Look at the stars!",
+        "sentenceEn": "All the shadows are stars now!",
+        "phoneticsPl": "ol de sza-douz ar starz nau",
+        "sentencePl": "Wszystkie cienie są teraz gwiazdami!",
+        "words": [
+          { "word": "All", "translationPl": "Wszystkie", "phoneticsPl": "ol", "isKeyword": false },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "shadows", "translationPl": "cienie", "phoneticsPl": "sza-douz", "isKeyword": true, "lemmaEn": "shadow", "lemmaPl": "cień", "lemmaPhoneticsPl": "sza-dou" },
+          { "word": "are", "translationPl": "są", "phoneticsPl": "ar", "isKeyword": false },
+          { "word": "stars", "translationPl": "gwiazdami", "phoneticsPl": "starz", "isKeyword": true, "lemmaEn": "star", "lemmaPl": "gwiazdka", "lemmaPhoneticsPl": "star" },
+          { "word": "now", "punctuation": "!", "translationPl": "teraz", "phoneticsPl": "nau", "isKeyword": false }
+        ]
+      },
+      {
+        "pageNumber": 6,
+        "visualConfig": {
+          "backgroundTheme": "concert",
+          "primaryCharacter": "yuna",
+          "primaryColor": "#22D3EE",
+          "secondaryColor": "#1E293B",
+          "props": ["girl-hana", "girl-sora", "girl-queen"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: four girls sing and dance together on a bright concert stage: Yuna, Hana, Sora and the queen.",
+        "imageAltPl": "Cztery dziewczyny śpiewają i tańczą razem na scenie.",
+        "interactiveSoundText": "We are Neon Stars!",
+        "sentenceEn": "Now four friends sing and dance!",
+        "phoneticsPl": "nau for frendz sing and dans",
+        "sentencePl": "Teraz cztery przyjaciółki śpiewają i tańczą!",
+        "words": [
+          { "word": "Now", "translationPl": "Teraz", "phoneticsPl": "nau", "isKeyword": false },
+          { "word": "four", "translationPl": "cztery", "phoneticsPl": "for", "isKeyword": true, "lemmaPl": "cztery" },
+          { "word": "friends", "translationPl": "przyjaciółki", "phoneticsPl": "frendz", "isKeyword": true, "lemmaEn": "friend", "lemmaPl": "przyjaciel", "lemmaPhoneticsPl": "frend" },
+          { "word": "sing", "translationPl": "śpiewają", "phoneticsPl": "sing", "isKeyword": true, "lemmaEn": "sing", "lemmaPl": "śpiewać", "lemmaPhoneticsPl": "sing" },
+          { "word": "and", "translationPl": "i", "phoneticsPl": "and", "isKeyword": false },
+          { "word": "dance", "punctuation": "!", "translationPl": "tańczą", "phoneticsPl": "dans", "isKeyword": true, "lemmaEn": "dance", "lemmaPl": "tańczyć", "lemmaPhoneticsPl": "dans" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "friends-club-1",
+    "titleEn": "Best Friends Club 1: The Big Box",
+    "titlePl": "Klub Przyjaciółek 1: Wielkie pudło",
+    "coverVisualConfig": {
+      "backgroundTheme": "park",
+      "primaryCharacter": "ruby",
+      "primaryColor": "#EF4444",
+      "secondaryColor": "#1D4ED8",
+      "props": ["girl-lena", "girl-amy", "skateboard-pink"],
+      "characterMood": "happy"
+    },
+    "characterVisualAnchor": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater",
+    "themeColor": "#0D9488",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "visualConfig": {
+          "backgroundTheme": "clubhouse",
+          "primaryCharacter": "ruby",
+          "primaryColor": "#EF4444",
+          "secondaryColor": "#1D4ED8",
+          "props": ["girl-lena", "girl-amy"],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby, Lena and Amy stand together smiling in a cosy clubhouse.",
+        "imageAltPl": "Ruby, Lena i Amy stoją razem w swoim klubie.",
+        "interactiveSoundText": "Hi! I am Ruby!",
+        "sentenceEn": "Ruby, Lena and Amy are best friends.",
+        "phoneticsPl": "ru-bi le-na and ej-mi ar best frendz",
+        "sentencePl": "Ruby, Lena i Amy to najlepsze przyjaciółki.",
+        "words": [
+          { "word": "Ruby", "punctuation": ",", "translationPl": "Ruby", "phoneticsPl": "ru-bi", "isKeyword": false },
+          { "word": "Lena", "translationPl": "Lena", "phoneticsPl": "le-na", "isKeyword": false },
+          { "word": "and", "translationPl": "i", "phoneticsPl": "and", "isKeyword": false },
+          { "word": "Amy", "translationPl": "Amy", "phoneticsPl": "ej-mi", "isKeyword": false },
+          { "word": "are", "translationPl": "to", "phoneticsPl": "ar", "isKeyword": false },
+          { "word": "best", "translationPl": "najlepsze", "phoneticsPl": "best", "isKeyword": false },
+          { "word": "friends", "punctuation": ".", "translationPl": "przyjaciółki", "phoneticsPl": "frendz", "isKeyword": true, "lemmaEn": "friend", "lemmaPl": "przyjaciel", "lemmaPhoneticsPl": "frend" }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "visualConfig": {
+          "backgroundTheme": "clubhouse",
+          "primaryCharacter": "lena",
+          "primaryColor": "#14B8A6",
+          "secondaryColor": "#F8FAFC",
+          "props": ["girl-ruby", "girl-amy"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Lena holds a finger to her lips in the clubhouse, Ruby and Amy stand beside her.",
+        "imageAltPl": "Lena przykłada palec do ust, a Ruby i Amy stoją obok.",
+        "interactiveSoundText": "It is a secret!",
+        "sentenceEn": "They have a secret club.",
+        "phoneticsPl": "dej haw e si-krit klab",
+        "sentencePl": "Mają tajny klub.",
+        "words": [
+          { "word": "They", "translationPl": "One", "phoneticsPl": "dej", "isKeyword": false },
+          { "word": "have", "translationPl": "mają", "phoneticsPl": "haw", "isKeyword": true, "lemmaEn": "have", "lemmaPl": "mieć", "lemmaPhoneticsPl": "haw" },
+          { "word": "a", "translationPl": "jakiś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "secret", "translationPl": "tajny", "phoneticsPl": "si-krit", "isKeyword": true, "lemmaPl": "tajny" },
+          { "word": "club", "punctuation": ".", "translationPl": "klub", "phoneticsPl": "klab", "isKeyword": true }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "visualConfig": {
+          "backgroundTheme": "park",
+          "primaryCharacter": "amy",
+          "primaryColor": "#F59E0B",
+          "secondaryColor": "#7C3AED",
+          "props": ["girl-ruby", "girl-lena", "skateboard-pink", "skateboard-pink", "skateboard-pink"],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Amy rides a pink skateboard in a sunny park, Ruby and Lena skate beside her.",
+        "imageAltPl": "Amy, Ruby i Lena stoją w parku, każda ma różową deskorolkę.",
+        "interactiveSoundText": "Look at me!",
+        "sentenceEn": "Today they skate in the park.",
+        "phoneticsPl": "tu-dej dej skejt in de park",
+        "sentencePl": "Dziś jeżdżą na deskorolkach w parku.",
+        "words": [
+          { "word": "Today", "translationPl": "Dziś", "phoneticsPl": "tu-dej", "isKeyword": false },
+          { "word": "they", "translationPl": "one", "phoneticsPl": "dej", "isKeyword": false },
+          { "word": "skate", "translationPl": "jeżdżą na deskorolkach", "phoneticsPl": "skejt", "isKeyword": true, "lemmaPl": "jeździć na desce" },
+          { "word": "in", "translationPl": "w", "phoneticsPl": "in", "isKeyword": false },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "park", "punctuation": ".", "translationPl": "parku", "phoneticsPl": "park", "isKeyword": true, "lemmaPl": "park" }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "visualConfig": {
+          "backgroundTheme": "park",
+          "primaryCharacter": "ruby",
+          "primaryColor": "#EF4444",
+          "secondaryColor": "#1D4ED8",
+          "props": ["box-brown", "tree-green"],
+          "characterMood": "curious"
+        },
+        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby looks curiously at a big brown box under a green tree in the park.",
+        "imageAltPl": "Ruby patrzy z ciekawością na wielkie pudło pod drzewem.",
+        "interactiveSoundText": "What is in the box?",
+        "sentenceEn": "Look! A big box under the tree!",
+        "phoneticsPl": "luk e big boks an-der de tri",
+        "sentencePl": "Patrz! Wielkie pudło pod drzewem!",
+        "words": [
+          { "word": "Look", "punctuation": "!", "translationPl": "Patrz", "phoneticsPl": "luk", "isKeyword": false },
+          { "word": "A", "translationPl": "jakiś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "big", "translationPl": "wielkie", "phoneticsPl": "big", "isKeyword": true, "lemmaPl": "duży" },
+          { "word": "box", "translationPl": "pudło", "phoneticsPl": "boks", "isKeyword": true },
+          { "word": "under", "translationPl": "pod", "phoneticsPl": "an-der", "isKeyword": false },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "tree", "punctuation": "!", "translationPl": "drzewem", "phoneticsPl": "tri", "isKeyword": true, "lemmaPl": "drzewo" }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "visualConfig": {
+          "backgroundTheme": "park",
+          "primaryCharacter": "lena",
+          "primaryColor": "#14B8A6",
+          "secondaryColor": "#F8FAFC",
+          "props": ["box-brown"],
+          "characterMood": "curious"
+        },
+        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Lena listens carefully with her ear close to a brown box in the park.",
+        "imageAltPl": "Lena przykłada ucho do brązowego pudła.",
+        "interactiveSoundText": "Listen! Woof, woof!",
+        "sentenceEn": "Something is in the box.",
+        "phoneticsPl": "sam-fing iz in de boks",
+        "sentencePl": "Coś jest w pudle.",
+        "words": [
+          { "word": "Something", "translationPl": "Coś", "phoneticsPl": "sam-fing", "isKeyword": false },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "in", "translationPl": "w", "phoneticsPl": "in", "isKeyword": false },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "box", "punctuation": ".", "translationPl": "pudle", "phoneticsPl": "boks", "isKeyword": true, "lemmaPl": "pudło" }
+        ]
+      },
+      {
+        "pageNumber": 6,
+        "visualConfig": {
+          "backgroundTheme": "park",
+          "primaryCharacter": "ruby",
+          "primaryColor": "#EF4444",
+          "secondaryColor": "#1D4ED8",
+          "props": ["box-brown", "puppy-brown"],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby looks into the open brown box and finds a small sad brown puppy.",
+        "imageAltPl": "Ruby zagląda do pudła i widzi małego szczeniaka.",
+        "interactiveSoundText": "Hello, little puppy!",
+        "sentenceEn": "It is a small, sad puppy!",
+        "phoneticsPl": "it iz e smol sad pa-pi",
+        "sentencePl": "To mały, smutny szczeniak!",
+        "words": [
+          { "word": "It", "translationPl": "To", "phoneticsPl": "it", "isKeyword": false },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "a", "translationPl": "jakiś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "small", "punctuation": ",", "translationPl": "mały", "phoneticsPl": "smol", "isKeyword": true },
+          { "word": "sad", "translationPl": "smutny", "phoneticsPl": "sad", "isKeyword": true, "lemmaPl": "smutny" },
+          { "word": "puppy", "punctuation": "!", "translationPl": "szczeniak", "phoneticsPl": "pa-pi", "isKeyword": true }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "friends-club-2",
+    "titleEn": "Best Friends Club 2: A Home for Coco",
+    "titlePl": "Klub Przyjaciółek 2: Dom dla Coco",
+    "coverVisualConfig": {
+      "backgroundTheme": "clubhouse",
+      "primaryCharacter": "lena",
+      "primaryColor": "#14B8A6",
+      "secondaryColor": "#F8FAFC",
+      "props": ["puppy-brown", "girl-ruby", "girl-amy"],
+      "characterMood": "excited"
+    },
+    "characterVisualAnchor": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater",
+    "themeColor": "#EA580C",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "visualConfig": {
+          "backgroundTheme": "cafe",
+          "primaryCharacter": "amy",
+          "primaryColor": "#F59E0B",
+          "secondaryColor": "#7C3AED",
+          "props": ["puppy-brown", "milk-white"],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Amy gives a small brown puppy a bowl of white milk in a cafe.",
+        "imageAltPl": "Amy podaje szczeniakowi mleko w kawiarni.",
+        "interactiveSoundText": "Drink, little puppy!",
+        "sentenceEn": "Amy gives the puppy some milk.",
+        "phoneticsPl": "ej-mi giwz de pa-pi sam milk",
+        "sentencePl": "Amy daje szczeniakowi trochę mleka.",
+        "words": [
+          { "word": "Amy", "translationPl": "Amy", "phoneticsPl": "ej-mi", "isKeyword": false },
+          { "word": "gives", "translationPl": "daje", "phoneticsPl": "giwz", "isKeyword": false },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "puppy", "translationPl": "szczeniakowi", "phoneticsPl": "pa-pi", "isKeyword": true, "lemmaPl": "szczeniak" },
+          { "word": "some", "translationPl": "trochę", "phoneticsPl": "sam", "isKeyword": false },
+          { "word": "milk", "punctuation": ".", "translationPl": "mleka", "phoneticsPl": "milk", "isKeyword": true, "lemmaPl": "mleko" }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "visualConfig": {
+          "backgroundTheme": "cafe",
+          "primaryCharacter": "lena",
+          "primaryColor": "#14B8A6",
+          "secondaryColor": "#F8FAFC",
+          "props": ["phone-purple", "puppy-brown"],
+          "characterMood": "curious"
+        },
+        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Lena takes a photo of the puppy with her purple phone in a cafe.",
+        "imageAltPl": "Lena robi zdjęcie szczeniaka fioletowym telefonem.",
+        "interactiveSoundText": "Smile, puppy!",
+        "sentenceEn": "Lena takes a photo with her phone.",
+        "phoneticsPl": "le-na tejks e fou-tou łid her foun",
+        "sentencePl": "Lena robi zdjęcie swoim telefonem.",
+        "words": [
+          { "word": "Lena", "translationPl": "Lena", "phoneticsPl": "le-na", "isKeyword": false },
+          { "word": "takes", "translationPl": "robi", "phoneticsPl": "tejks", "isKeyword": false },
+          { "word": "a", "translationPl": "jakiś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "photo", "translationPl": "zdjęcie", "phoneticsPl": "fou-tou", "isKeyword": true },
+          { "word": "with", "translationPl": "za pomocą", "phoneticsPl": "łid", "isKeyword": false },
+          { "word": "her", "translationPl": "swojego", "phoneticsPl": "her", "isKeyword": false },
+          { "word": "phone", "punctuation": ".", "translationPl": "telefonu", "phoneticsPl": "foun", "isKeyword": true, "lemmaPl": "telefon" }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "visualConfig": {
+          "backgroundTheme": "town",
+          "primaryCharacter": "ruby",
+          "primaryColor": "#EF4444",
+          "secondaryColor": "#1D4ED8",
+          "props": ["poster-blue"],
+          "characterMood": "brave"
+        },
+        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby holds up a big blue poster in the small town street.",
+        "imageAltPl": "Ruby trzyma duży niebieski plakat na ulicy miasteczka.",
+        "interactiveSoundText": "Is this your dog?",
+        "sentenceEn": "Ruby makes a big blue poster.",
+        "phoneticsPl": "ru-bi mejks e big blu pous-ter",
+        "sentencePl": "Ruby robi duży niebieski plakat.",
+        "words": [
+          { "word": "Ruby", "translationPl": "Ruby", "phoneticsPl": "ru-bi", "isKeyword": false },
+          { "word": "makes", "translationPl": "robi", "phoneticsPl": "mejks", "isKeyword": false },
+          { "word": "a", "translationPl": "jakiś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "big", "translationPl": "duży", "phoneticsPl": "big", "isKeyword": true },
+          { "word": "blue", "translationPl": "niebieski", "phoneticsPl": "blu", "isKeyword": true },
+          { "word": "poster", "punctuation": ".", "translationPl": "plakat", "phoneticsPl": "pous-ter", "isKeyword": true }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "visualConfig": {
+          "backgroundTheme": "clubhouse",
+          "primaryCharacter": "amy",
+          "primaryColor": "#F59E0B",
+          "secondaryColor": "#7C3AED",
+          "props": ["girl-ruby", "girl-lena", "phone-purple"],
+          "characterMood": "worried"
+        },
+        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Amy looks worried at a purple phone in the clubhouse, Ruby and Lena wait beside her.",
+        "imageAltPl": "Amy patrzy na telefon, a Ruby i Lena czekają obok.",
+        "interactiveSoundText": "No call today.",
+        "sentenceEn": "They wait, but nobody calls.",
+        "phoneticsPl": "dej łejt bat nou-ba-di kolz",
+        "sentencePl": "Czekają, ale nikt nie dzwoni.",
+        "words": [
+          { "word": "They", "translationPl": "One", "phoneticsPl": "dej", "isKeyword": false },
+          { "word": "wait", "punctuation": ",", "translationPl": "czekają", "phoneticsPl": "łejt", "isKeyword": false },
+          { "word": "but", "translationPl": "ale", "phoneticsPl": "bat", "isKeyword": false },
+          { "word": "nobody", "translationPl": "nikt", "phoneticsPl": "nou-ba-di", "isKeyword": false },
+          { "word": "calls", "punctuation": ".", "translationPl": "dzwoni", "phoneticsPl": "kolz", "isKeyword": true, "lemmaEn": "call", "lemmaPl": "dzwonić", "lemmaPhoneticsPl": "kol" }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "visualConfig": {
+          "backgroundTheme": "clubhouse",
+          "primaryCharacter": "ruby",
+          "primaryColor": "#EF4444",
+          "secondaryColor": "#1D4ED8",
+          "props": ["puppy-brown", "girl-lena", "girl-amy"],
+          "characterMood": "curious"
+        },
+        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby asks hopefully in the clubhouse, a brown puppy sits between her friends.",
+        "imageAltPl": "Ruby prosi o zgodę, a szczeniak siedzi między dziewczynami.",
+        "interactiveSoundText": "Please, please, please!",
+        "sentenceEn": "Can the puppy stay in our club?",
+        "phoneticsPl": "kan de pa-pi stej in au-er klab",
+        "sentencePl": "Czy szczeniak może zostać w naszym klubie?",
+        "words": [
+          { "word": "Can", "translationPl": "Czy może", "phoneticsPl": "kan", "isKeyword": false },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "puppy", "translationPl": "szczeniak", "phoneticsPl": "pa-pi", "isKeyword": true, "lemmaPl": "szczeniak" },
+          { "word": "stay", "translationPl": "zostać", "phoneticsPl": "stej", "isKeyword": false },
+          { "word": "in", "translationPl": "w", "phoneticsPl": "in", "isKeyword": false },
+          { "word": "our", "translationPl": "naszym", "phoneticsPl": "au-er", "isKeyword": false },
+          { "word": "club", "punctuation": "?", "translationPl": "klubie", "phoneticsPl": "klab", "isKeyword": true, "lemmaPl": "klub" }
+        ]
+      },
+      {
+        "pageNumber": 6,
+        "visualConfig": {
+          "backgroundTheme": "clubhouse",
+          "primaryCharacter": "lena",
+          "primaryColor": "#14B8A6",
+          "secondaryColor": "#F8FAFC",
+          "props": ["puppy-brown", "heart-pink", "girl-ruby", "girl-amy"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: the three friends hug the brown puppy in the clubhouse, a pink heart floats above them.",
+        "imageAltPl": "Dziewczyny przytulają szczeniaka, a nad nimi unosi się różowe serce.",
+        "interactiveSoundText": "We love you, Coco!",
+        "sentenceEn": "Yes! Her name is Coco!",
+        "phoneticsPl": "jes her nejm iz kou-kou",
+        "sentencePl": "Tak! Ma na imię Coco!",
+        "words": [
+          { "word": "Yes", "punctuation": "!", "translationPl": "Tak", "phoneticsPl": "jes", "isKeyword": false },
+          { "word": "Her", "translationPl": "Jej", "phoneticsPl": "her", "isKeyword": false },
+          { "word": "name", "translationPl": "imię", "phoneticsPl": "nejm", "isKeyword": true },
+          { "word": "is", "translationPl": "to", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "Coco", "punctuation": "!", "translationPl": "Coco", "phoneticsPl": "kou-kou", "isKeyword": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "friends-club-3",
+    "titleEn": "Best Friends Club 3: Where Is Coco?",
+    "titlePl": "Klub Przyjaciółek 3: Gdzie jest Coco?",
+    "coverVisualConfig": {
+      "backgroundTheme": "cafe",
+      "primaryCharacter": "ruby",
+      "primaryColor": "#EF4444",
+      "secondaryColor": "#1D4ED8",
+      "props": ["girl-lena", "girl-amy", "puppy-brown", "cake-bitten"],
+      "characterMood": "excited"
+    },
+    "characterVisualAnchor": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater",
+    "themeColor": "#2563EB",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "visualConfig": {
+          "backgroundTheme": "town",
+          "primaryCharacter": "ruby",
+          "primaryColor": "#EF4444",
+          "secondaryColor": "#1D4ED8",
+          "props": ["girl-lena", "girl-amy", "balloon-pink", "balloon-yellow"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby, Lena and Amy walk to a party in a small town with pink and yellow balloons.",
+        "imageAltPl": "Ruby, Lena i Amy idą na imprezę z balonami.",
+        "interactiveSoundText": "Let's go to the party!",
+        "sentenceEn": "Today is the big town party!",
+        "phoneticsPl": "tu-dej iz de big taun par-ti",
+        "sentencePl": "Dziś wielka impreza w miasteczku!",
+        "words": [
+          { "word": "Today", "translationPl": "Dziś", "phoneticsPl": "tu-dej", "isKeyword": false },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "big", "translationPl": "wielka", "phoneticsPl": "big", "isKeyword": true, "lemmaPl": "duży" },
+          { "word": "town", "translationPl": "miasteczku", "phoneticsPl": "taun", "isKeyword": true, "lemmaPl": "miasteczko" },
+          { "word": "party", "punctuation": "!", "translationPl": "impreza", "phoneticsPl": "par-ti", "isKeyword": true }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "visualConfig": {
+          "backgroundTheme": "cafe",
+          "primaryCharacter": "amy",
+          "primaryColor": "#F59E0B",
+          "secondaryColor": "#7C3AED",
+          "props": ["cake-pink"],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Amy proudly shows a very big pink cake in a cafe.",
+        "imageAltPl": "Amy pokazuje bardzo duży różowy tort w kawiarni.",
+        "interactiveSoundText": "Mmm! Look at my cake!",
+        "sentenceEn": "Amy makes a very big cake.",
+        "phoneticsPl": "ej-mi mejks e we-ri big kejk",
+        "sentencePl": "Amy robi bardzo duży tort.",
+        "words": [
+          { "word": "Amy", "translationPl": "Amy", "phoneticsPl": "ej-mi", "isKeyword": false },
+          { "word": "makes", "translationPl": "robi", "phoneticsPl": "mejks", "isKeyword": false },
+          { "word": "a", "translationPl": "jakiś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "very", "translationPl": "bardzo", "phoneticsPl": "we-ri", "isKeyword": false },
+          { "word": "big", "translationPl": "duży", "phoneticsPl": "big", "isKeyword": true, "lemmaPl": "duży" },
+          { "word": "cake", "punctuation": ".", "translationPl": "tort", "phoneticsPl": "kejk", "isKeyword": true }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "visualConfig": {
+          "backgroundTheme": "town",
+          "primaryCharacter": "lena",
+          "primaryColor": "#14B8A6",
+          "secondaryColor": "#F8FAFC",
+          "props": ["girl-ruby", "girl-amy"],
+          "characterMood": "worried"
+        },
+        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Lena looks around worried in the town street, Ruby and Amy stand beside her.",
+        "imageAltPl": "Lena rozgląda się z niepokojem, a Ruby i Amy stoją obok.",
+        "interactiveSoundText": "Coco! Coco!",
+        "sentenceEn": "But where is Coco? She is lost!",
+        "phoneticsPl": "bat łer iz kou-kou szi iz lost",
+        "sentencePl": "Ale gdzie jest Coco? Zgubiła się!",
+        "words": [
+          { "word": "But", "translationPl": "Ale", "phoneticsPl": "bat", "isKeyword": false },
+          { "word": "where", "translationPl": "gdzie", "phoneticsPl": "łer", "isKeyword": false },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "Coco", "punctuation": "?", "translationPl": "Coco", "phoneticsPl": "kou-kou", "isKeyword": false },
+          { "word": "She", "translationPl": "Ona", "phoneticsPl": "szi", "isKeyword": false },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "lost", "punctuation": "!", "translationPl": "zgubiona", "phoneticsPl": "lost", "isKeyword": true, "lemmaPl": "zgubiony" }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "visualConfig": {
+          "backgroundTheme": "park",
+          "primaryCharacter": "ruby",
+          "primaryColor": "#EF4444",
+          "secondaryColor": "#1D4ED8",
+          "props": ["girl-lena", "tree-green"],
+          "characterMood": "curious"
+        },
+        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby searches the park while Lena looks behind a green tree.",
+        "imageAltPl": "Ruby szuka w parku, a Lena zagląda za drzewo.",
+        "interactiveSoundText": "Is she here?",
+        "sentenceEn": "The girls look and look.",
+        "phoneticsPl": "de gerlz luk and luk",
+        "sentencePl": "Dziewczyny szukają i szukają.",
+        "words": [
+          { "word": "The", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "girls", "translationPl": "dziewczyny", "phoneticsPl": "gerlz", "isKeyword": true, "lemmaEn": "girl", "lemmaPl": "dziewczyna", "lemmaPhoneticsPl": "gerl" },
+          { "word": "look", "translationPl": "szukają", "phoneticsPl": "luk", "isKeyword": false },
+          { "word": "and", "translationPl": "i", "phoneticsPl": "and", "isKeyword": false },
+          { "word": "look", "punctuation": ".", "translationPl": "szukają", "phoneticsPl": "luk", "isKeyword": false }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "visualConfig": {
+          "backgroundTheme": "cafe",
+          "primaryCharacter": "amy",
+          "primaryColor": "#F59E0B",
+          "secondaryColor": "#7C3AED",
+          "props": ["table-tail"],
+          "characterMood": "curious"
+        },
+        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Amy points at a little tail sticking out from under a cafe table.",
+        "imageAltPl": "Amy pokazuje mały ogonek wystający spod stołu.",
+        "interactiveSoundText": "What is that?",
+        "sentenceEn": "Look! A little tail under the table!",
+        "phoneticsPl": "luk e li-tl tejl an-der de tej-bl",
+        "sentencePl": "Patrz! Mały ogonek pod stołem!",
+        "words": [
+          { "word": "Look", "punctuation": "!", "translationPl": "Patrz", "phoneticsPl": "luk", "isKeyword": false },
+          { "word": "A", "translationPl": "jakiś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "little", "translationPl": "mały", "phoneticsPl": "li-tl", "isKeyword": true },
+          { "word": "tail", "translationPl": "ogonek", "phoneticsPl": "tejl", "isKeyword": true, "lemmaPl": "ogon" },
+          { "word": "under", "translationPl": "pod", "phoneticsPl": "an-der", "isKeyword": false },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "table", "punctuation": "!", "translationPl": "stołem", "phoneticsPl": "tej-bl", "isKeyword": true, "lemmaPl": "stół" }
+        ]
+      },
+      {
+        "pageNumber": 6,
+        "visualConfig": {
+          "backgroundTheme": "cafe",
+          "primaryCharacter": "ruby",
+          "primaryColor": "#EF4444",
+          "secondaryColor": "#1D4ED8",
+          "props": ["girl-lena", "girl-amy", "puppy-brown", "cake-bitten"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: the puppy eats a piece of the pink cake while the three friends laugh.",
+        "imageAltPl": "Szczeniak zjada kawałek tortu, a dziewczyny się śmieją.",
+        "interactiveSoundText": "Oh, Coco!",
+        "sentenceEn": "Coco eats the cake! Everybody laughs!",
+        "phoneticsPl": "kou-kou its de kejk e-wri-ba-di lafs",
+        "sentencePl": "Coco zjada tort! Wszyscy się śmieją!",
+        "words": [
+          { "word": "Coco", "translationPl": "Coco", "phoneticsPl": "kou-kou", "isKeyword": false },
+          { "word": "eats", "translationPl": "zjada", "phoneticsPl": "its", "isKeyword": true, "lemmaEn": "eat", "lemmaPl": "jeść", "lemmaPhoneticsPl": "it" },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "cake", "punctuation": "!", "translationPl": "tort", "phoneticsPl": "kejk", "isKeyword": true },
+          { "word": "Everybody", "translationPl": "Wszyscy", "phoneticsPl": "e-wri-ba-di", "isKeyword": false },
+          { "word": "laughs", "punctuation": "!", "translationPl": "śmieją się", "phoneticsPl": "lafs", "isKeyword": false }
+        ]
+      }
+    ]
+  },
+  {
     "id": "purple-cat",
     "titleEn": "The Purple Cat",
     "titlePl": "Fioletowy Kotek",
