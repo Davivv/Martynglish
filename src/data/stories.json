@@ -3,6 +3,7 @@
     "id": "neon-stars-1",
     "titleEn": "Neon Stars 1: The Big Shadow",
     "titlePl": "Neon Stars 1: Wielki cień",
+    "coverImageUrl": "/images/stories/neon-stars-1/p3.webp",
     "coverVisualConfig": {
       "backgroundTheme": "concert",
       "primaryCharacter": "yuna",
@@ -11,13 +12,14 @@
       "props": ["girl-hana", "girl-sora"],
       "characterMood": "excited"
     },
-    "characterVisualAnchor": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns",
+    "characterVisualAnchor": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit",
     "themeColor": "#7C3AED",
     "level": "Pre-A1",
     "guardianVerified": true,
     "pages": [
       {
         "pageNumber": 1,
+        "imageUrl": "/images/stories/neon-stars-1/p1.webp",
         "visualConfig": {
           "backgroundTheme": "concert",
           "primaryCharacter": "yuna",
@@ -26,7 +28,7 @@
           "props": ["girl-hana", "girl-sora"],
           "characterMood": "happy"
         },
-        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: the three girls stand together on a glowing concert stage, Yuna in front, Hana and Sora beside her.",
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: the three singers stand together on a glowing concert stage, Yuna in front, Hana and Sora beside her.",
         "imageAltPl": "Trzy dziewczyny w neonowych strojach stoją razem na scenie koncertowej.",
         "interactiveSoundText": "We are Neon Stars!",
         "sentenceEn": "Yuna, Hana and Sora sing in Neon Stars.",
@@ -44,6 +46,7 @@
       },
       {
         "pageNumber": 2,
+        "imageUrl": "/images/stories/neon-stars-1/p2.webp",
         "visualConfig": {
           "backgroundTheme": "neon-city",
           "primaryCharacter": "hana",
@@ -52,7 +55,7 @@
           "props": ["girl-yuna", "girl-sora"],
           "characterMood": "excited"
         },
-        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: Hana leads the way through a bright neon city at night, Yuna and Sora run beside her.",
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: Hana leads the way through a bright neon city at night, Yuna and Sora run beside her.",
         "imageAltPl": "Hana biegnie przez neonowe miasto razem z Yuną i Sorą.",
         "interactiveSoundText": "Let's go, girls!",
         "sentenceEn": "They sing, dance and save the city!",
@@ -70,6 +73,7 @@
       },
       {
         "pageNumber": 3,
+        "imageUrl": "/images/stories/neon-stars-1/p3.webp",
         "visualConfig": {
           "backgroundTheme": "neon-city",
           "primaryCharacter": "sora",
@@ -78,7 +82,7 @@
           "props": ["shadow-big"],
           "characterMood": "worried"
         },
-        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: Sora looks up worried at one big shadow floating over the neon city.",
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: Sora looks up worried at one big shadow floating over the neon city.",
         "imageAltPl": "Sora patrzy w górę na wielki cień nad miastem.",
         "interactiveSoundText": "Oh no! Look up!",
         "sentenceEn": "Tonight a big shadow comes.",
@@ -94,6 +98,7 @@
       },
       {
         "pageNumber": 4,
+        "imageUrl": "/images/stories/neon-stars-1/p4.webp",
         "visualConfig": {
           "backgroundTheme": "dark-city",
           "primaryCharacter": "yuna",
@@ -102,7 +107,7 @@
           "props": ["shadow-big"],
           "characterMood": "worried"
         },
-        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: Yuna looks around worried in the city where all the lights went out, the big shadow above.",
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: Yuna looks around worried in the city where all the lights went out, the big shadow above.",
         "imageAltPl": "Yuna rozgląda się po mieście, w którym zgasły światła.",
         "interactiveSoundText": "Where are the lights?",
         "sentenceEn": "It takes all the lights!",
@@ -118,6 +123,7 @@
       },
       {
         "pageNumber": 5,
+        "imageUrl": "/images/stories/neon-stars-1/p5.webp",
         "visualConfig": {
           "backgroundTheme": "dark-city",
           "primaryCharacter": "yuna",
@@ -126,7 +132,7 @@
           "props": ["girl-hana", "girl-sora", "shadow-big"],
           "characterMood": "brave"
         },
-        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: Yuna, Hana and Sora stand bravely together and sing with microphones under the big shadow.",
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: Yuna, Hana and Sora stand bravely together and sing with microphones under the big shadow.",
         "imageAltPl": "Yuna, Hana i Sora śpiewają razem pod wielkim cieniem.",
         "interactiveSoundText": "Sing with me!",
         "sentenceEn": "The brave girls sing a magic song.",
@@ -144,6 +150,7 @@
       },
       {
         "pageNumber": 6,
+        "imageUrl": "/images/stories/neon-stars-1/p6.webp",
         "visualConfig": {
           "backgroundTheme": "rooftop",
           "primaryCharacter": "shadow-queen",
@@ -152,7 +159,7 @@
           "props": ["moon-white"],
           "characterMood": "curious"
         },
-        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: the Shadow Queen in a long violet cape stands on a rooftop under a white moon and looks curious.",
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: the Shadow Queen in a long violet cape stands on a rooftop under a white moon and looks curious.",
         "imageAltPl": "Królowa Cieni stoi na dachu w świetle księżyca i patrzy z ciekawością.",
         "interactiveSoundText": "I see you, Neon Stars!",
         "sentenceEn": "Lights on! But who is the Shadow Queen?",
@@ -183,7 +190,7 @@
       "props": ["shadow-small", "shadow-small", "microphone-gold"],
       "characterMood": "curious"
     },
-    "characterVisualAnchor": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns",
+    "characterVisualAnchor": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit",
     "themeColor": "#DB2777",
     "level": "Pre-A1",
     "guardianVerified": true,
@@ -198,7 +205,7 @@
           "props": ["girl-yuna", "girl-hana", "microphone-gold"],
           "characterMood": "excited"
         },
-        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: Sora holds a golden magic microphone on a concert stage, Yuna and Hana stand beside her.",
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: Sora holds a golden magic microphone on a concert stage, Yuna and Hana stand beside her.",
         "imageAltPl": "Sora trzyma złoty mikrofon, a Yuna i Hana stoją obok niej.",
         "interactiveSoundText": "I love this microphone!",
         "sentenceEn": "Tonight the girls have a big show.",
@@ -224,7 +231,7 @@
           "props": ["microphone-gold"],
           "characterMood": "brave"
         },
-        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: the Shadow Queen in a violet cape grabs the golden microphone on the concert stage.",
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: the Shadow Queen in a violet cape grabs the golden microphone on the concert stage.",
         "imageAltPl": "Królowa Cieni trzyma złoty mikrofon na scenie.",
         "interactiveSoundText": "Now it is my microphone!",
         "sentenceEn": "The Shadow Queen takes the magic microphone!",
@@ -250,7 +257,7 @@
           "props": ["shadow-small", "shadow-small", "microphone-gold"],
           "characterMood": "curious"
         },
-        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: Hana looks curious at two little shadows holding the golden microphone on a rooftop.",
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: Hana looks curious at two little shadows holding the golden microphone on a rooftop.",
         "imageAltPl": "Hana patrzy na dwa małe cienie, które trzymają mikrofon.",
         "interactiveSoundText": "I see two shadows!",
         "sentenceEn": "Two little shadows have the microphone.",
@@ -275,7 +282,7 @@
           "props": ["shadow-small", "shadow-small"],
           "characterMood": "excited"
         },
-        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: Yuna dances happily on a rooftop while two little shadows dance with her.",
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: Yuna dances happily on a rooftop while two little shadows dance with her.",
         "imageAltPl": "Yuna tańczy na dachu, a dwa małe cienie tańczą razem z nią.",
         "interactiveSoundText": "Dance with me!",
         "sentenceEn": "Yuna dances. The shadows dance too!",
@@ -300,7 +307,7 @@
           "props": ["shadow-small", "shadow-small", "microphone-gold"],
           "characterMood": "excited"
         },
-        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: Sora holds up the golden microphone with a big smile, two little shadows stand beside her.",
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: Sora holds up the golden microphone with a big smile, two little shadows stand beside her.",
         "imageAltPl": "Sora podnosi złoty mikrofon, a małe cienie stoją obok.",
         "interactiveSoundText": "Yes! It is back!",
         "sentenceEn": "Now Sora has the microphone!",
@@ -324,7 +331,7 @@
           "props": ["moon-white"],
           "characterMood": "worried"
         },
-        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: the Shadow Queen stands alone and sad on a rooftop under a white moon.",
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: the Shadow Queen stands alone and sad on a rooftop under a white moon.",
         "imageAltPl": "Królowa Cieni stoi sama na dachu pod białym księżycem.",
         "interactiveSoundText": "I am all alone.",
         "sentenceEn": "But look! The Shadow Queen is very sad.",
@@ -355,7 +362,7 @@
       "props": ["girl-hana", "girl-sora", "girl-queen"],
       "characterMood": "excited"
     },
-    "characterVisualAnchor": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns",
+    "characterVisualAnchor": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit",
     "themeColor": "#4F46E5",
     "level": "Pre-A1",
     "guardianVerified": true,
@@ -370,7 +377,7 @@
           "props": ["moon-white"],
           "characterMood": "worried"
         },
-        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: the Shadow Queen looks down sadly on a rooftop under a white moon.",
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: the Shadow Queen looks down sadly on a rooftop under a white moon.",
         "imageAltPl": "Królowa Cieni siedzi smutna na dachu pod księżycem.",
         "interactiveSoundText": "I am sad tonight.",
         "sentenceEn": "Why is the Shadow Queen so sad?",
@@ -396,7 +403,7 @@
           "props": ["star-white"],
           "characterMood": "worried"
         },
-        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: the Shadow Queen stands alone in the quiet city with its lights off.",
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: the Shadow Queen stands alone in the quiet city with its lights off.",
         "imageAltPl": "Królowa Cieni stoi sama w wygaszonym mieście.",
         "interactiveSoundText": "No friends. No music.",
         "sentenceEn": "She has no friends.",
@@ -419,7 +426,7 @@
           "props": ["girl-hana", "girl-sora", "girl-queen"],
           "characterMood": "happy"
         },
-        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: Yuna smiles and holds out her hand to the Shadow Queen, Hana and Sora stand behind her on a rooftop.",
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: Yuna smiles and holds out her hand to the Shadow Queen, Hana and Sora stand behind her on a rooftop.",
         "imageAltPl": "Yuna, Hana i Sora wyciągają ręce do Królowej Cieni.",
         "interactiveSoundText": "Come with us!",
         "sentenceEn": "Yuna says: Come and sing with us!",
@@ -445,7 +452,7 @@
           "props": ["girl-yuna", "girl-hana", "girl-sora"],
           "characterMood": "excited"
         },
-        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: the queen sings happily on a concert stage with Yuna, Hana and Sora.",
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: the queen sings happily on a concert stage with Yuna, Hana and Sora.",
         "imageAltPl": "Królowa Cieni śpiewa na scenie razem z Yuną, Haną i Sorą.",
         "interactiveSoundText": "I love to sing!",
         "sentenceEn": "The queen sings with the three girls.",
@@ -471,7 +478,7 @@
           "props": ["star-yellow", "star-yellow", "star-yellow", "star-pink", "star-pink"],
           "characterMood": "excited"
         },
-        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: Sora looks up happily at yellow and pink stars shining over the neon city.",
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: Sora looks up happily at yellow and pink stars shining over the neon city.",
         "imageAltPl": "Sora patrzy na żółte i różowe gwiazdy nad neonowym miastem.",
         "interactiveSoundText": "Look at the stars!",
         "sentenceEn": "All the shadows are stars now!",
@@ -496,7 +503,7 @@
           "props": ["girl-hana", "girl-sora", "girl-queen"],
           "characterMood": "excited"
         },
-        "imagePrompt": "Three young pop singers in covered sporty neon stage outfits with headset microphones, modern cartoon style: Yuna with a high dark blue ponytail, Hana with wavy golden hair, Sora with two brown hair buns. Scene: four girls sing and dance together on a bright concert stage: Yuna, Hana, Sora and the queen.",
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: four singers sing and dance together on a bright concert stage: Yuna, Hana, Sora and the queen.",
         "imageAltPl": "Cztery dziewczyny śpiewają i tańczą razem na scenie.",
         "interactiveSoundText": "We are Neon Stars!",
         "sentenceEn": "Now four friends sing and dance!",
@@ -517,6 +524,7 @@
     "id": "friends-club-1",
     "titleEn": "Best Friends Club 1: The Big Box",
     "titlePl": "Klub Przyjaciółek 1: Wielkie pudło",
+    "coverImageUrl": "/images/stories/friends-club-1/p1.webp",
     "coverVisualConfig": {
       "backgroundTheme": "park",
       "primaryCharacter": "ruby",
@@ -525,13 +533,14 @@
       "props": ["girl-lena", "girl-amy", "skateboard-pink"],
       "characterMood": "happy"
     },
-    "characterVisualAnchor": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater",
+    "characterVisualAnchor": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater",
     "themeColor": "#0D9488",
     "level": "Pre-A1",
     "guardianVerified": true,
     "pages": [
       {
         "pageNumber": 1,
+        "imageUrl": "/images/stories/friends-club-1/p1.webp",
         "visualConfig": {
           "backgroundTheme": "clubhouse",
           "primaryCharacter": "ruby",
@@ -540,7 +549,7 @@
           "props": ["girl-lena", "girl-amy"],
           "characterMood": "happy"
         },
-        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby, Lena and Amy stand together smiling in a cosy clubhouse.",
+        "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby, Lena and Amy stand together smiling in a cosy clubhouse.",
         "imageAltPl": "Ruby, Lena i Amy stoją razem w swoim klubie.",
         "interactiveSoundText": "Hi! I am Ruby!",
         "sentenceEn": "Ruby, Lena and Amy are best friends.",
@@ -566,7 +575,7 @@
           "props": ["girl-ruby", "girl-amy"],
           "characterMood": "excited"
         },
-        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Lena holds a finger to her lips in the clubhouse, Ruby and Amy stand beside her.",
+        "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Lena holds a finger to her lips in the clubhouse, Ruby and Amy stand beside her.",
         "imageAltPl": "Lena przykłada palec do ust, a Ruby i Amy stoją obok.",
         "interactiveSoundText": "It is a secret!",
         "sentenceEn": "They have a secret club.",
@@ -590,7 +599,7 @@
           "props": ["girl-ruby", "girl-lena", "skateboard-pink", "skateboard-pink", "skateboard-pink"],
           "characterMood": "happy"
         },
-        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Amy rides a pink skateboard in a sunny park, Ruby and Lena skate beside her.",
+        "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Amy rides a pink skateboard in a sunny park, Ruby and Lena skate beside her.",
         "imageAltPl": "Amy, Ruby i Lena stoją w parku, każda ma różową deskorolkę.",
         "interactiveSoundText": "Look at me!",
         "sentenceEn": "Today they skate in the park.",
@@ -615,7 +624,7 @@
           "props": ["box-brown", "tree-green"],
           "characterMood": "curious"
         },
-        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby looks curiously at a big brown box under a green tree in the park.",
+        "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby looks curiously at a big brown box under a green tree in the park.",
         "imageAltPl": "Ruby patrzy z ciekawością na wielkie pudło pod drzewem.",
         "interactiveSoundText": "What is in the box?",
         "sentenceEn": "Look! A big box under the tree!",
@@ -641,7 +650,7 @@
           "props": ["box-brown"],
           "characterMood": "curious"
         },
-        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Lena listens carefully with her ear close to a brown box in the park.",
+        "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Lena listens carefully with her ear close to a brown box in the park.",
         "imageAltPl": "Lena przykłada ucho do brązowego pudła.",
         "interactiveSoundText": "Listen! Woof, woof!",
         "sentenceEn": "Something is in the box.",
@@ -665,7 +674,7 @@
           "props": ["box-brown", "puppy-brown"],
           "characterMood": "happy"
         },
-        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby looks into the open brown box and finds a small sad brown puppy.",
+        "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby looks into the open brown box and finds a small sad brown puppy.",
         "imageAltPl": "Ruby zagląda do pudła i widzi małego szczeniaka.",
         "interactiveSoundText": "Hello, little puppy!",
         "sentenceEn": "It is a small, sad puppy!",
@@ -694,7 +703,7 @@
       "props": ["puppy-brown", "girl-ruby", "girl-amy"],
       "characterMood": "excited"
     },
-    "characterVisualAnchor": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater",
+    "characterVisualAnchor": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater",
     "themeColor": "#EA580C",
     "level": "Pre-A1",
     "guardianVerified": true,
@@ -709,7 +718,7 @@
           "props": ["puppy-brown", "milk-white"],
           "characterMood": "happy"
         },
-        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Amy gives a small brown puppy a bowl of white milk in a cafe.",
+        "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Amy gives a small brown puppy a bowl of white milk in a cafe.",
         "imageAltPl": "Amy podaje szczeniakowi mleko w kawiarni.",
         "interactiveSoundText": "Drink, little puppy!",
         "sentenceEn": "Amy gives the puppy some milk.",
@@ -734,7 +743,7 @@
           "props": ["phone-purple", "puppy-brown"],
           "characterMood": "curious"
         },
-        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Lena takes a photo of the puppy with her purple phone in a cafe.",
+        "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Lena takes a photo of the puppy with her purple phone in a cafe.",
         "imageAltPl": "Lena robi zdjęcie szczeniaka fioletowym telefonem.",
         "interactiveSoundText": "Smile, puppy!",
         "sentenceEn": "Lena takes a photo with her phone.",
@@ -760,7 +769,7 @@
           "props": ["poster-blue"],
           "characterMood": "brave"
         },
-        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby holds up a big blue poster in the small town street.",
+        "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby holds up a big blue poster in the small town street.",
         "imageAltPl": "Ruby trzyma duży niebieski plakat na ulicy miasteczka.",
         "interactiveSoundText": "Is this your dog?",
         "sentenceEn": "Ruby makes a big blue poster.",
@@ -785,7 +794,7 @@
           "props": ["girl-ruby", "girl-lena", "phone-purple"],
           "characterMood": "worried"
         },
-        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Amy looks worried at a purple phone in the clubhouse, Ruby and Lena wait beside her.",
+        "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Amy looks worried at a purple phone in the clubhouse, Ruby and Lena wait beside her.",
         "imageAltPl": "Amy patrzy na telefon, a Ruby i Lena czekają obok.",
         "interactiveSoundText": "No call today.",
         "sentenceEn": "They wait, but nobody calls.",
@@ -809,7 +818,7 @@
           "props": ["puppy-brown", "girl-lena", "girl-amy"],
           "characterMood": "curious"
         },
-        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby asks hopefully in the clubhouse, a brown puppy sits between her friends.",
+        "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby asks hopefully in the clubhouse, a brown puppy sits between her friends.",
         "imageAltPl": "Ruby prosi o zgodę, a szczeniak siedzi między dziewczynami.",
         "interactiveSoundText": "Please, please, please!",
         "sentenceEn": "Can the puppy stay in our club?",
@@ -835,7 +844,7 @@
           "props": ["puppy-brown", "heart-pink", "girl-ruby", "girl-amy"],
           "characterMood": "excited"
         },
-        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: the three friends hug the brown puppy in the clubhouse, a pink heart floats above them.",
+        "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: the three friends hug the brown puppy in the clubhouse, a pink heart floats above them.",
         "imageAltPl": "Dziewczyny przytulają szczeniaka, a nad nimi unosi się różowe serce.",
         "interactiveSoundText": "We love you, Coco!",
         "sentenceEn": "Yes! Her name is Coco!",
@@ -863,7 +872,7 @@
       "props": ["girl-lena", "girl-amy", "puppy-brown", "cake-bitten"],
       "characterMood": "excited"
     },
-    "characterVisualAnchor": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater",
+    "characterVisualAnchor": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater",
     "themeColor": "#2563EB",
     "level": "Pre-A1",
     "guardianVerified": true,
@@ -878,7 +887,7 @@
           "props": ["girl-lena", "girl-amy", "balloon-pink", "balloon-yellow"],
           "characterMood": "excited"
         },
-        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby, Lena and Amy walk to a party in a small town with pink and yellow balloons.",
+        "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby, Lena and Amy walk to a party in a small town with pink and yellow balloons.",
         "imageAltPl": "Ruby, Lena i Amy idą na imprezę z balonami.",
         "interactiveSoundText": "Let's go to the party!",
         "sentenceEn": "Today is the big town party!",
@@ -903,7 +912,7 @@
           "props": ["cake-pink"],
           "characterMood": "happy"
         },
-        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Amy proudly shows a very big pink cake in a cafe.",
+        "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Amy proudly shows a very big pink cake in a cafe.",
         "imageAltPl": "Amy pokazuje bardzo duży różowy tort w kawiarni.",
         "interactiveSoundText": "Mmm! Look at my cake!",
         "sentenceEn": "Amy makes a very big cake.",
@@ -928,7 +937,7 @@
           "props": ["girl-ruby", "girl-amy"],
           "characterMood": "worried"
         },
-        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Lena looks around worried in the town street, Ruby and Amy stand beside her.",
+        "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Lena looks around worried in the town street, Ruby and Amy stand beside her.",
         "imageAltPl": "Lena rozgląda się z niepokojem, a Ruby i Amy stoją obok.",
         "interactiveSoundText": "Coco! Coco!",
         "sentenceEn": "But where is Coco? She is lost!",
@@ -954,7 +963,7 @@
           "props": ["girl-lena", "tree-green"],
           "characterMood": "curious"
         },
-        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby searches the park while Lena looks behind a green tree.",
+        "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby searches the park while Lena looks behind a green tree.",
         "imageAltPl": "Ruby szuka w parku, a Lena zagląda za drzewo.",
         "interactiveSoundText": "Is she here?",
         "sentenceEn": "The girls look and look.",
@@ -978,7 +987,7 @@
           "props": ["table-tail"],
           "characterMood": "curious"
         },
-        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Amy points at a little tail sticking out from under a cafe table.",
+        "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Amy points at a little tail sticking out from under a cafe table.",
         "imageAltPl": "Amy pokazuje mały ogonek wystający spod stołu.",
         "interactiveSoundText": "What is that?",
         "sentenceEn": "Look! A little tail under the table!",
@@ -1004,7 +1013,7 @@
           "props": ["girl-lena", "girl-amy", "puppy-brown", "cake-bitten"],
           "characterMood": "excited"
         },
-        "imagePrompt": "Three modern best friends about ten years old, cartoon style: Ruby with curly red hair and a denim jacket, Lena with black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: the puppy eats a piece of the pink cake while the three friends laugh.",
+        "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: the puppy eats a piece of the pink cake while the three friends laugh.",
         "imageAltPl": "Szczeniak zjada kawałek tortu, a dziewczyny się śmieją.",
         "interactiveSoundText": "Oh, Coco!",
         "sentenceEn": "Coco eats the cake! Everybody laughs!",
