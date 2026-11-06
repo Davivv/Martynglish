@@ -4,7 +4,7 @@ Aplikacja do nauki angielskiego przez czytanie bajek, dla 7-letniej Martynki. Dz
 
 ## Co jest w aplikacji
 
-- **Bajki:** 7 bajek z lektorem, karaoke i tłumaczeniem słów. Po bajce można ułożyć jej zdania.
+- **Bajki:** 13 bajek z lektorem, karaoke i tłumaczeniem słów, w tym dwa seriale po 3 odcinki: Neon Stars i Klub Przyjaciółek. Po bajce można ułożyć jej zdania.
 - **Skarby:** fiszki ze słów z bajek. Słowa wracają w odstępach, a dzienna porcja to 8 kart. Odpowiadać można po polsku albo po angielsku.
 - **Zabawy:** „Posłuchaj i znajdź”, „Ułóż zdanie” i „Pary”.
 - **Dzienna misja:** bajka, fiszki i zabawa. Nagrodą jest naklejka, która po dotknięciu mówi swoją angielską nazwę.
@@ -50,6 +50,8 @@ Tych rzeczy nie da się sprawdzić na komputerze:
 - [ ] Czy lektor działa w trybie samolotowym.
 - [ ] Czy karaoke podświetla klocki równo z głosem, a Żółwik czyta słowo po słowie.
 - [ ] Czy zapis wymowy pasuje do głosu, np. `per-pl`, `kat`, `ha-pi`, `pou-ni`, `bicz`, `o-rindż`, `be-lun`.
+- [ ] Czy lektor dobrze czyta imiona i nazwy z seriali: `Yuna`, `Hana`, `Sora`, `Coco`, `Neon Stars`.
+- [ ] Czy animacje w scenach Neon Stars są płynne, a `dark-city` da się odczytać przy słabej jasności ekranu.
 - [ ] Czy słowo `a` brzmi dobrze po dotknięciu klocka.
 - [ ] Czy w „Posłuchaj i znajdź” słowo słychać od razu po wejściu, bez dodatkowego dotknięcia.
 - [ ] Czy w „Parach” słowo słychać przy każdym odkryciu karty, a karty obracają się płynnie.

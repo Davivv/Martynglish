@@ -86,3 +86,13 @@ Dziecko nie czyta jeszcze po angielsku, więc pierwszeństwo mają: powroty do s
 - [x] Audyt całości na 360×640 i aktualizacja strony testowej
 - [ ] Wujek czyta bajki 5–7 przed pokazaniem ich dziecku (D37)
 - [ ] Lektor, autostart słów w zabawach i wymowa nowych słów na prawdziwym telefonie: lista w README.md
+
+## Faza 8: Seriale dla starszego dziecka (D38)
+
+Zlecone przez wujka 2026-11-06. Rysunki robi `stage-artist`, odcinki `curriculum-architect`, równolegle, bo katalog jest już gotowy.
+
+- [x] Katalog scen i decyzja D38
+- [x] Bohaterki, tła, props i układ zespołu na scenie
+- [x] Sześć odcinków na początku `stories.json` i obrazki nowych słów
+- [x] Przegląd wszystkich stron na 360×640 i aktualizacja strony testowej
+- [ ] Wujek czyta odcinki przed pokazaniem ich dziecku i potwierdza, czym jest „Friendz”
