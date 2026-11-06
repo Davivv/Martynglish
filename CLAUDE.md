@@ -110,6 +110,10 @@ Role z SPEC §1 są w [.claude/agents/](.claude/agents/). Kolejność prac róż
 
 Hook w [.claude/settings.json](.claude/settings.json) uruchamia Strażnika po każdej zmianie `src/data/stories.json` i odsyła raport błędów.
 
+## Publikacja
+
+`git push` na `main` publikuje aplikację na `https://davivv.github.io/Martynglish/` przez [.github/workflows/deploy.yml](.github/workflows/deploy.yml) (D41). Repo jest publiczne, więc wysyłaj tylko odebrane wersje i nigdy nie commituj sekretów. Nie zmieniaj nazwy repo ani hostingu bez zgody wujka: ikona na telefonie i postępy Martynki zależą od adresu.
+
 ## Definicja ukończenia
 
 Faza jest skończona, gdy `npm run lint`, `npm test` i `npm run build` przechodzą, a zmiana UI została obejrzana w przeglądarce w rozmiarze 360×640. Kryterium końcowe projektu to SPEC §8 oraz lista w Fazie 6 w [docs/PLAN.md](docs/PLAN.md).

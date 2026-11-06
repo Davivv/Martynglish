@@ -6,7 +6,7 @@ Oznaczenie **Sprawdzone** znaczy, że decyzja opiera się na teście lub danych 
 
 ## Otwarte pytania do wujka
 
-**P2. Hosting. Odłożone decyzją wujka z 2026-11-05: na razie tylko lokalnie.** Konfiguracja zostaje bez zmian. Skutek: po `npm run dev:phone` (HTTP w sieci LAN) telefon pokaże aplikację, ale bez Service Workera, instalacji i schowka. Żeby sprawdzić pełne PWA na telefonie bez hostingu, podłącz go przez USB z debugowaniem, uruchom `npm run build`, `npm run preview` i `adb reverse tcp:4173 tcp:4173`, a potem otwórz na telefonie `http://localhost:4173`: `localhost` liczy się jako bezpieczny kontekst. Przy powrocie do tematu: Cloudflare Pages albo Netlify w korzeniu domeny, bez zmian w konfiguracji. GitHub Pages z prywatnego repo wymaga płatnego planu. Adres będzie publiczny, a w treści jest imię dziecka: `noindex` (D7) ogranicza tylko wyszukiwarki.
+**P2. Hosting. Rozstrzygnięte przez wujka 2026-11-06: GitHub Pages z publicznego repo (D41).** Testy na telefonie bez publikacji opisuje README.md.
 
 ## Stos i konfiguracja
 
@@ -25,6 +25,8 @@ Oznaczenie **Sprawdzone** znaczy, że decyzja opiera się na teście lub danych 
 **D7. `noindex`.** Prywatna aplikacja dla dziecka nie ma powodu trafiać do wyszukiwarek.
 
 **D8. Ścieżka bazowa przez `VITE_BASE`.** Domyślnie `/`. Hosting w podkatalogu ustawia `VITE_BASE`. Sprawdzone: manifest, ikona, skrypty i Service Worker dostają poprawny prefiks. W kodzie zasoby z `public/` adresuj przez `import.meta.env.BASE_URL`.
+
+**D41. Hosting to GitHub Pages z publicznego repo.** Decyzja wujka z 2026-11-06: aplikacja i całe repo mogą być publiczne. Darmowy plan publikuje Pages tylko z publicznego repo, więc publiczne są też kod, dokumenty i dane autora w commitach. `CLAUDE.local.md` i `.claude/settings.local.json` są ignorowane i nie trafiają do repo. Adres to `https://davivv.github.io/Martynglish/`. Publikuje `.github/workflows/deploy.yml` po każdym `push` na `main`, a wcześniej muszą przejść lint, testy i Strażnik. `noindex` (D7) zostaje: strona działa z linku, ale nie ma powodu pokazywać się w Google. Ścieżka bazowa pochodzi z nazwy repo (D8), więc zmiana tej nazwy psuje ikonę na telefonie. Postępy są w `localStorage` danej domeny, więc przeprowadzka na inną domenę je zeruje. Sprawdzone: build pod `/Martynglish/` przeszedł próbę lokalną z 404 poza podkatalogiem, razem z instalowalnością i offline, a 373 testy przechodzą w strefach UTC, Los Angeles i Auckland.
 
 ## Dane i kontrakt
 

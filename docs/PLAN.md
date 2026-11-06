@@ -4,11 +4,11 @@ Kolejność różni się od SPEC §1 (D18). Odhaczaj pozycje po ich skończeniu 
 
 ## Jak wznowić pracę
 
-Praca jest prowadzona autonomicznie na zlecenie wujka: Opus zarządza i odbiera fazy, Sonnet implementuje (`.claude/agents/`). Commity lokalne po każdej odebranej fazie, bez `push`, na gałęzi `build/app`.
+Praca jest prowadzona autonomicznie na zlecenie wujka: Opus zarządza i odbiera fazy, Sonnet implementuje (`.claude/agents/`). Commity po każdej odebranej fazie na gałęzi `main`. `git push` publikuje aplikację dla Martynki (D41), więc wysyłaj tylko odebrane wersje.
 
 Po przerwie: sprawdź `git log`, `git status` i poniższe listy, a potem kontynuuj od pierwszej nieodhaczonej pozycji. Niezacommitowane zmiany to praca przerwanego agenta: przejrzyj je, zanim zdecydujesz, czy je dokończyć.
 
-Kryterium końca: wszystkie widoki ze SPEC działają lokalnie, testy i build są zielone, offline działa w Chrome. Hosting i APK są poza zakresem (P2).
+Kryterium końca: wszystkie widoki ze SPEC działają lokalnie, testy i build są zielone, offline działa w Chrome. Hosting rozstrzyga D41, a APK pozostaje poza zakresem.
 
 ## Faza 0: Szkielet projektu
 
@@ -67,7 +67,7 @@ Agent: `guardian-qa`.
 - [x] `npm run lint` i `npm test`
 - [x] Wszystkie widoki na 360×640, ładowanie offline
 - [ ] Na prawdziwym Androidzie: lista w README.md, do wykonania przez wujka
-- [ ] Odłożone do decyzji o hostingu (P2): wdrożenie na HTTPS i opcjonalne APK jako TWA (D6)
+- [ ] Opcjonalne APK jako TWA (D6)
 
 ## Faza 7: Rozszerzenia do nauki
 
@@ -110,3 +110,12 @@ Zlecone przez wujka 2026-11-06. Najpierw próbki, lider je ocenia, dopiero potem
 - [ ] Ilustracje pierwszych odcinków obu seriali na próbę: Neon Stars 1 gotowe (strony 5 i 6 do poprawy), Klub 1 ma stronę 1, reszta po odblokowaniu limitu
 - [ ] Wujek ocenia układ na stronie testowej
 - [ ] Ilustracje pozostałych odcinków i przegląd wszystkich stron
+
+## Faza 10: Publikacja (D41)
+
+Zlecone przez wujka 2026-11-06.
+
+- [x] Build w podkatalogu sprawdzony lokalnie, razem z instalacją i offline
+- [x] Workflow publikacji i przegląd historii pod kątem sekretów
+- [ ] Publiczne repo i pierwsza publikacja
+- [ ] Wujek instaluje aplikację na telefonie Martynki i przechodzi listę z README.md
