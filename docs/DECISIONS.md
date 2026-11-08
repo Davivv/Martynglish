@@ -113,6 +113,8 @@ Końcowe `-l` po spółgłosce tworzy własną sylabę (`li-tl`). Zwroty zachowu
 
 **D30. Sposób 2 kreatora pominięty w pierwszej wersji.** Decyzję przekazał wujek 2026-11-05. Kreator działa przez „kopiuj prompt, wklej JSON”, co daje ten sam efekt bez klucza API na urządzeniu dziecka.
 
+**D42. Przycisk Strefy Wujka usunięty z nawigacji.** Decyzja wujka z 2026-11-08: Martynka i wujek mają osobne telefony, więc kreator i statystyki w telefonie z Fazy 5 nie są już potrzebne — nowe bajki wujek dodaje bezpośrednio przez Claude Code (skill `martynka-story-generator`), nie przez `WizardPanel`. Odstępstwo od SPEC §1, §2 i 3.D, które opisują widoczny przycisk 🔐 w dolnym pasku. Usunięty jest tylko wpis `uncle` z `ITEMS` w `BottomNav.tsx` — jedyne miejsce, które mogło ustawić `view` na `'uncle'`. Reszta kodu (`src/components/uncle/*`, rozgałęzienie w `App.tsx`) zostaje nieużywana w repo, na wypadek gdyby funkcja kiedyś wróciła. Bramka z mnożeniem (D23) przestaje być jedyną ochroną, bo teraz do widoku nie prowadzi żadna ścieżka w interfejsie.
+
 ## Narzędzia agentowe
 
 **D25. Skill w dwóch miejscach.** `.agent/skills/` to format Antigravity, a Claude Code czyta `.claude/skills/`. Pełna treść jest w `.agent/skills/martynka-story-generator/SKILL.md` (wymóg SPEC §8). `.claude/skills/martynka-story-generator/SKILL.md` to krótki wskaźnik z frontmatterem, który każe przeczytać i wykonać plik z `.agent`. Bez kopiowania treści i bez symlinków, zawodnych na Windows.

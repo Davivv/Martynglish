@@ -4,7 +4,6 @@ const ITEMS: { view: MainView; icon: string; label: string }[] = [
   { view: 'library', icon: '📚', label: 'Bajki' },
   { view: 'treasures', icon: '💎', label: 'Skarby' },
   { view: 'games', icon: '🎮', label: 'Zabawy' },
-  { view: 'uncle', icon: '🔐', label: 'Strefa Wujka' },
 ]
 
 interface BottomNavProps {

@@ -55,7 +55,7 @@ Agent: `mobile-audio-engineer`.
 
 Agent: `uncle-zone-engineer`.
 
-- [x] Bramka mnożenia i statystyki
+- [x] Bramka mnożenia i statystyki (przycisk usunięty z nawigacji, D42)
 - [x] Kreator: generator promptu, import JSON, Strażnik w aplikacji (Sposób 2 pominięty, D30)
 - [x] `.agent/skills/martynka-story-generator/SKILL.md` i wskaźnik w `.claude/skills/` (D25)
 
