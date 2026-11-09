@@ -535,6 +535,349 @@
     ]
   },
   {
+    "id": "neon-stars-4",
+    "titleEn": "Neon Stars 4: The Big Day",
+    "titlePl": "Neon Stars 4: Wielki Dzień",
+    "coverVisualConfig": {
+      "backgroundTheme": "concert",
+      "primaryCharacter": "yuna",
+      "primaryColor": "#22D3EE",
+      "secondaryColor": "#1E293B",
+      "props": ["girl-hana", "girl-sora", "girl-queen"],
+      "characterMood": "excited"
+    },
+    "characterVisualAnchor": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit",
+    "themeColor": "#0EA5E9",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "visualConfig": {
+          "backgroundTheme": "concert",
+          "primaryCharacter": "yuna",
+          "primaryColor": "#22D3EE",
+          "secondaryColor": "#1E293B",
+          "props": ["girl-hana", "girl-sora", "girl-queen"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: Yuna, Hana, Sora and the queen get ready together for a huge concert on a glowing stage.",
+        "imageAltPl": "Yuna, Hana, Sora i królowa szykują się razem do wielkiego koncertu na błyszczącej scenie.",
+        "interactiveSoundText": "This is our biggest show!",
+        "sentenceEn": "Tonight is a very big show!",
+        "phoneticsPl": "tu-najt iz e we-ri big szou",
+        "sentencePl": "Dziś wieczorem jest bardzo wielki koncert!",
+        "words": [
+          { "word": "Tonight", "translationPl": "Dziś wieczorem", "phoneticsPl": "tu-najt", "isKeyword": false },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "a", "translationPl": "jakiś", "phoneticsPl": "e", "isKeyword": false, "ttsOverride": "uh" },
+          { "word": "very", "translationPl": "bardzo", "phoneticsPl": "we-ri", "isKeyword": false },
+          { "word": "big", "translationPl": "wielki", "phoneticsPl": "big", "isKeyword": true, "lemmaPl": "duży" },
+          { "word": "show", "punctuation": "!", "translationPl": "koncert", "phoneticsPl": "szou", "isKeyword": true }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "visualConfig": {
+          "backgroundTheme": "rooftop",
+          "primaryCharacter": "shadow-queen",
+          "primaryColor": "#6D28D9",
+          "secondaryColor": "#C4B5FD",
+          "props": ["moon-white"],
+          "characterMood": "worried"
+        },
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: the queen stands alone on a rooftop under the moon, looking worried before the show.",
+        "imageAltPl": "Królowa stoi sama na dachu pod księżycem, zmartwiona przed koncertem.",
+        "interactiveSoundText": "Can I really do this?",
+        "sentenceEn": "The queen is worried about the show.",
+        "phoneticsPl": "de kłin iz łor-rid e-baut de szou",
+        "sentencePl": "Królowa martwi się przed koncertem.",
+        "words": [
+          { "word": "The", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "queen", "translationPl": "królowa", "phoneticsPl": "kłin", "isKeyword": true },
+          { "word": "is", "translationPl": "jest", "phoneticsPl": "iz", "isKeyword": false },
+          { "word": "worried", "translationPl": "zmartwiona", "phoneticsPl": "łor-rid", "isKeyword": true, "lemmaPl": "zmartwiony" },
+          { "word": "about", "translationPl": "z powodu", "phoneticsPl": "e-baut", "isKeyword": false },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "show", "punctuation": ".", "translationPl": "koncertu", "phoneticsPl": "szou", "isKeyword": true, "lemmaPl": "koncert" }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "visualConfig": {
+          "backgroundTheme": "rooftop",
+          "primaryCharacter": "yuna",
+          "primaryColor": "#22D3EE",
+          "secondaryColor": "#1E293B",
+          "props": ["girl-queen"],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: Yuna smiles warmly and holds the queen's shoulder kindly on the rooftop.",
+        "imageAltPl": "Yuna uśmiecha się ciepło i trzyma królową za ramię na dachu.",
+        "interactiveSoundText": "You can do it, my friend!",
+        "sentenceEn": "Yuna says: You are our star!",
+        "phoneticsPl": "ju-na sez ju ar au-er star",
+        "sentencePl": "Yuna mówi: Jesteś naszą gwiazdą!",
+        "words": [
+          { "word": "Yuna", "translationPl": "Yuna", "phoneticsPl": "ju-na", "isKeyword": false },
+          { "word": "says", "punctuation": ":", "translationPl": "mówi", "phoneticsPl": "sez", "isKeyword": false },
+          { "word": "You", "translationPl": "Ty", "phoneticsPl": "ju", "isKeyword": false },
+          { "word": "are", "translationPl": "jesteś", "phoneticsPl": "ar", "isKeyword": false },
+          { "word": "our", "translationPl": "naszą", "phoneticsPl": "au-er", "isKeyword": false },
+          { "word": "star", "punctuation": "!", "translationPl": "gwiazdą", "phoneticsPl": "star", "isKeyword": true, "lemmaPl": "gwiazdka" }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "visualConfig": {
+          "backgroundTheme": "rooftop",
+          "primaryCharacter": "hana",
+          "primaryColor": "#F472B6",
+          "secondaryColor": "#4C1D95",
+          "props": ["girl-yuna", "girl-sora", "girl-queen"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: Hana leads a happy rehearsal, Yuna, Sora and the queen sing together on the rooftop.",
+        "imageAltPl": "Hana prowadzi wesołą próbę, a Yuna, Sora i królowa śpiewają razem na dachu.",
+        "interactiveSoundText": "One, two, three, sing!",
+        "sentenceEn": "Now all four friends sing together.",
+        "phoneticsPl": "nau ol for frendz sing te-ge-der",
+        "sentencePl": "Teraz wszystkie cztery przyjaciółki śpiewają razem.",
+        "words": [
+          { "word": "Now", "translationPl": "Teraz", "phoneticsPl": "nau", "isKeyword": false },
+          { "word": "all", "translationPl": "wszystkie", "phoneticsPl": "ol", "isKeyword": false },
+          { "word": "four", "translationPl": "cztery", "phoneticsPl": "for", "isKeyword": true },
+          { "word": "friends", "translationPl": "przyjaciółki", "phoneticsPl": "frendz", "isKeyword": true, "lemmaEn": "friend", "lemmaPl": "przyjaciel", "lemmaPhoneticsPl": "frend" },
+          { "word": "sing", "translationPl": "śpiewają", "phoneticsPl": "sing", "isKeyword": true, "lemmaPl": "śpiewać" },
+          { "word": "together", "punctuation": ".", "translationPl": "razem", "phoneticsPl": "te-ge-der", "isKeyword": false }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "visualConfig": {
+          "backgroundTheme": "concert",
+          "primaryCharacter": "shadow-queen",
+          "primaryColor": "#6D28D9",
+          "secondaryColor": "#C4B5FD",
+          "props": ["microphone-gold"],
+          "characterMood": "brave"
+        },
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: the queen sings bravely on the concert stage, holding a gold microphone, bright lights shining.",
+        "imageAltPl": "Królowa dzielnie śpiewa na scenie koncertowej, trzymając złoty mikrofon.",
+        "interactiveSoundText": "I am ready to shine!",
+        "sentenceEn": "Brave queen sings on the big stage.",
+        "phoneticsPl": "brejw kłin singz on de big stejdż",
+        "sentencePl": "Dzielna królowa śpiewa na wielkiej scenie.",
+        "words": [
+          { "word": "Brave", "translationPl": "Dzielna", "phoneticsPl": "brejw", "isKeyword": true, "lemmaPl": "dzielny" },
+          { "word": "queen", "translationPl": "królowa", "phoneticsPl": "kłin", "isKeyword": true },
+          { "word": "sings", "translationPl": "śpiewa", "phoneticsPl": "singz", "isKeyword": true, "lemmaEn": "sing", "lemmaPl": "śpiewać", "lemmaPhoneticsPl": "sing" },
+          { "word": "on", "translationPl": "na", "phoneticsPl": "on", "isKeyword": false },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "big", "translationPl": "dużej", "phoneticsPl": "big", "isKeyword": true, "lemmaPl": "duży" },
+          { "word": "stage", "punctuation": ".", "translationPl": "scenie", "phoneticsPl": "stejdż", "isKeyword": true, "lemmaPl": "scena" }
+        ]
+      },
+      {
+        "pageNumber": 6,
+        "visualConfig": {
+          "backgroundTheme": "concert",
+          "primaryCharacter": "yuna",
+          "primaryColor": "#22D3EE",
+          "secondaryColor": "#1E293B",
+          "props": ["girl-hana", "girl-sora", "girl-queen"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: Yuna, Hana, Sora and the queen take a joyful bow together as the whole city cheers.",
+        "imageAltPl": "Yuna, Hana, Sora i królowa kłaniają się razem radośnie, a całe miasto bije brawo.",
+        "interactiveSoundText": "Thank you, everybody!",
+        "sentenceEn": "Everybody loves the four bright stars!",
+        "phoneticsPl": "e-wri-ba-di lawz de for brajt starz",
+        "sentencePl": "Wszyscy kochają cztery jasne gwiazdki!",
+        "words": [
+          { "word": "Everybody", "translationPl": "Wszyscy", "phoneticsPl": "e-wri-ba-di", "isKeyword": false },
+          { "word": "loves", "translationPl": "kochają", "phoneticsPl": "lawz", "isKeyword": true, "lemmaEn": "love", "lemmaPl": "kochać", "lemmaPhoneticsPl": "law" },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "four", "translationPl": "cztery", "phoneticsPl": "for", "isKeyword": true },
+          { "word": "bright", "translationPl": "jasne", "phoneticsPl": "brajt", "isKeyword": true, "lemmaPl": "jasny" },
+          { "word": "stars", "punctuation": "!", "translationPl": "gwiazdki", "phoneticsPl": "starz", "isKeyword": true, "lemmaEn": "star", "lemmaPl": "gwiazdka", "lemmaPhoneticsPl": "star" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "neon-stars-5",
+    "titleEn": "Neon Stars 5: Shadow Magic",
+    "titlePl": "Neon Stars 5: Magia Cieni",
+    "coverVisualConfig": {
+      "backgroundTheme": "neon-city",
+      "primaryCharacter": "shadow-queen",
+      "primaryColor": "#6D28D9",
+      "secondaryColor": "#C4B5FD",
+      "props": ["star-yellow", "star-pink", "star-white"],
+      "characterMood": "excited"
+    },
+    "characterVisualAnchor": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit",
+    "themeColor": "#1E3A8A",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "visualConfig": {
+          "backgroundTheme": "neon-city",
+          "primaryCharacter": "sora",
+          "primaryColor": "#FACC15",
+          "secondaryColor": "#111827",
+          "props": ["girl-yuna", "girl-hana", "girl-queen"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: Sora, Yuna, Hana and the queen arrive excitedly at a glowing stage in the neon city for their biggest show yet.",
+        "imageAltPl": "Sora, Yuna, Hana i królowa przyjeżdżają z radością na rozświetloną scenę w neonowym mieście.",
+        "interactiveSoundText": "Our biggest show ever!",
+        "sentenceEn": "Four friends sing at the big city show.",
+        "phoneticsPl": "for frendz sing at de big si-ti szou",
+        "sentencePl": "Cztery przyjaciółki śpiewają na wielkim koncercie w mieście.",
+        "words": [
+          { "word": "Four", "translationPl": "cztery", "phoneticsPl": "for", "isKeyword": true },
+          { "word": "friends", "translationPl": "przyjaciółki", "phoneticsPl": "frendz", "isKeyword": true, "lemmaEn": "friend", "lemmaPl": "przyjaciel", "lemmaPhoneticsPl": "frend" },
+          { "word": "sing", "translationPl": "śpiewają", "phoneticsPl": "sing", "isKeyword": true, "lemmaPl": "śpiewać" },
+          { "word": "at", "translationPl": "na", "phoneticsPl": "at", "isKeyword": false },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "big", "translationPl": "wielkim", "phoneticsPl": "big", "isKeyword": true, "lemmaPl": "duży" },
+          { "word": "city", "translationPl": "miasta", "phoneticsPl": "si-ti", "isKeyword": true, "lemmaPl": "miasto" },
+          { "word": "show", "punctuation": ".", "translationPl": "koncercie", "phoneticsPl": "szou", "isKeyword": true, "lemmaPl": "koncert" }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "visualConfig": {
+          "backgroundTheme": "dark-city",
+          "primaryCharacter": "hana",
+          "primaryColor": "#F472B6",
+          "secondaryColor": "#4C1D95",
+          "props": ["cloud-white", "cloud-white"],
+          "characterMood": "worried"
+        },
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: big dark clouds roll over the neon city, the stage lights flicker and dim.",
+        "imageAltPl": "Duże ciemne chmury nadciągają nad neonowe miasto, a światła sceny migoczą.",
+        "interactiveSoundText": "Oh no, the lights!",
+        "sentenceEn": "Big clouds cover the city lights.",
+        "phoneticsPl": "big klaudz ka-wer de si-ti lajts",
+        "sentencePl": "Duże chmury zakrywają światła miasta.",
+        "words": [
+          { "word": "Big", "translationPl": "Duże", "phoneticsPl": "big", "isKeyword": true, "lemmaPl": "duży" },
+          { "word": "clouds", "translationPl": "chmury", "phoneticsPl": "klaudz", "isKeyword": true, "lemmaEn": "cloud", "lemmaPl": "chmura", "lemmaPhoneticsPl": "klaud" },
+          { "word": "cover", "translationPl": "zakrywają", "phoneticsPl": "ka-wer", "isKeyword": true, "lemmaPl": "zakrywać" },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "city", "translationPl": "miasta", "phoneticsPl": "si-ti", "isKeyword": true, "lemmaPl": "miasto" },
+          { "word": "lights", "punctuation": ".", "translationPl": "światła", "phoneticsPl": "lajts", "isKeyword": true, "lemmaEn": "light", "lemmaPl": "światło", "lemmaPhoneticsPl": "lajt" }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "visualConfig": {
+          "backgroundTheme": "dark-city",
+          "primaryCharacter": "yuna",
+          "primaryColor": "#22D3EE",
+          "secondaryColor": "#1E293B",
+          "props": ["girl-hana", "girl-sora"],
+          "characterMood": "worried"
+        },
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: Yuna, Hana and Sora look up worriedly at the dark sky, holding hands on the dim stage.",
+        "imageAltPl": "Yuna, Hana i Sora patrzą z niepokojem na ciemne niebo, trzymając się za ręce na przyciemnionej scenie.",
+        "interactiveSoundText": "What do we do now?",
+        "sentenceEn": "The three friends feel so worried.",
+        "phoneticsPl": "de fri frendz fil sou łor-rid",
+        "sentencePl": "Trzy przyjaciółki czują się bardzo zmartwione.",
+        "words": [
+          { "word": "The", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "three", "translationPl": "trzy", "phoneticsPl": "fri", "isKeyword": true },
+          { "word": "friends", "translationPl": "przyjaciółki", "phoneticsPl": "frendz", "isKeyword": true, "lemmaEn": "friend", "lemmaPl": "przyjaciel", "lemmaPhoneticsPl": "frend" },
+          { "word": "feel", "translationPl": "czują się", "phoneticsPl": "fil", "isKeyword": true, "lemmaPl": "czuć się" },
+          { "word": "so", "translationPl": "bardzo", "phoneticsPl": "sou", "isKeyword": false },
+          { "word": "worried", "punctuation": ".", "translationPl": "zmartwione", "phoneticsPl": "łor-rid", "isKeyword": true, "lemmaPl": "zmartwiony" }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "visualConfig": {
+          "backgroundTheme": "dark-city",
+          "primaryCharacter": "shadow-queen",
+          "primaryColor": "#6D28D9",
+          "secondaryColor": "#C4B5FD",
+          "props": ["shadow-small"],
+          "characterMood": "brave"
+        },
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: the queen steps forward bravely in the dark city, her eyes glowing softly with shadow magic.",
+        "imageAltPl": "Królowa odważnie robi krok naprzód w ciemnym mieście, jej oczy błyszczą magią cieni.",
+        "interactiveSoundText": "I can fix this!",
+        "sentenceEn": "The queen says: I know shadows!",
+        "phoneticsPl": "de kłin sez aj nou sza-douz",
+        "sentencePl": "Królowa mówi: Znam cienie!",
+        "words": [
+          { "word": "The", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "queen", "translationPl": "królowa", "phoneticsPl": "kłin", "isKeyword": true },
+          { "word": "says", "punctuation": ":", "translationPl": "mówi", "phoneticsPl": "sez", "isKeyword": false },
+          { "word": "I", "translationPl": "Ja", "phoneticsPl": "aj", "isKeyword": false },
+          { "word": "know", "translationPl": "znam", "phoneticsPl": "nou", "isKeyword": true, "lemmaPl": "znać" },
+          { "word": "shadows", "punctuation": "!", "translationPl": "cienie", "phoneticsPl": "sza-douz", "isKeyword": true, "lemmaEn": "shadow", "lemmaPl": "cień", "lemmaPhoneticsPl": "sza-dou" }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "visualConfig": {
+          "backgroundTheme": "neon-city",
+          "primaryCharacter": "shadow-queen",
+          "primaryColor": "#6D28D9",
+          "secondaryColor": "#C4B5FD",
+          "props": ["star-yellow", "star-pink", "star-white"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: the queen raises her glowing hands as shadows transform into sparkling yellow, pink and white stars above the city.",
+        "imageAltPl": "Królowa unosi świecące dłonie, a cienie zamieniają się w błyszczące żółte, różowe i białe gwiazdki nad miastem.",
+        "interactiveSoundText": "Shine, little stars, shine!",
+        "sentenceEn": "Her magic power turns shadows to stars!",
+        "phoneticsPl": "her ma-dżik pau-er ternz sza-douz tu starz",
+        "sentencePl": "Jej magiczna moc zamienia cienie w gwiazdki!",
+        "words": [
+          { "word": "Her", "translationPl": "Jej", "phoneticsPl": "her", "isKeyword": false },
+          { "word": "magic", "translationPl": "magiczna", "phoneticsPl": "ma-dżik", "isKeyword": true, "lemmaPl": "magiczny" },
+          { "word": "power", "translationPl": "moc", "phoneticsPl": "pau-er", "isKeyword": true },
+          { "word": "turns", "translationPl": "zamienia", "phoneticsPl": "ternz", "isKeyword": true, "lemmaEn": "turn", "lemmaPl": "zamieniać", "lemmaPhoneticsPl": "tern" },
+          { "word": "shadows", "translationPl": "cienie", "phoneticsPl": "sza-douz", "isKeyword": true, "lemmaEn": "shadow", "lemmaPl": "cień", "lemmaPhoneticsPl": "sza-dou" },
+          { "word": "to", "translationPl": "w", "phoneticsPl": "tu", "isKeyword": false },
+          { "word": "stars", "punctuation": "!", "translationPl": "gwiazdki", "phoneticsPl": "starz", "isKeyword": true, "lemmaEn": "star", "lemmaPl": "gwiazdka", "lemmaPhoneticsPl": "star" }
+        ]
+      },
+      {
+        "pageNumber": 6,
+        "visualConfig": {
+          "backgroundTheme": "concert",
+          "primaryCharacter": "yuna",
+          "primaryColor": "#22D3EE",
+          "secondaryColor": "#1E293B",
+          "props": ["girl-hana", "girl-sora", "girl-queen"],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Three adult pop stars in their twenties in stylish, fully covered stage outfits with headset microphones, polished 3D animated film look: Yuna with a high dark blue ponytail with cyan tips and a silver and cyan jacket, Hana with wavy golden hair and a coral pink bomber jacket, Sora with two brown hair buns and a yellow and black outfit. Scene: Yuna, Hana, Sora and the queen take a joyful bow together as sparkling stars shine above the whole city.",
+        "imageAltPl": "Yuna, Hana, Sora i królowa kłaniają się razem radośnie, a błyszczące gwiazdki świecą nad całym miastem.",
+        "interactiveSoundText": "We did it together!",
+        "sentenceEn": "Her magic shadows save the show!",
+        "phoneticsPl": "her ma-dżik sza-douz sejw de szou",
+        "sentencePl": "Jej magiczne cienie ratują koncert!",
+        "words": [
+          { "word": "Her", "translationPl": "Jej", "phoneticsPl": "her", "isKeyword": false },
+          { "word": "magic", "translationPl": "magiczne", "phoneticsPl": "ma-dżik", "isKeyword": true, "lemmaPl": "magiczny" },
+          { "word": "shadows", "translationPl": "cienie", "phoneticsPl": "sza-douz", "isKeyword": true, "lemmaEn": "shadow", "lemmaPl": "cień", "lemmaPhoneticsPl": "sza-dou" },
+          { "word": "save", "translationPl": "ratują", "phoneticsPl": "sejw", "isKeyword": true, "lemmaPl": "ratować" },
+          { "word": "the", "translationPl": "ten", "phoneticsPl": "de", "isKeyword": false },
+          { "word": "show", "punctuation": "!", "translationPl": "koncert", "phoneticsPl": "szou", "isKeyword": true }
+        ]
+      }
+    ]
+  },
+  {
     "id": "friends-club-1",
     "titleEn": "Best Friends Club 1: The Big Box",
     "titlePl": "Klub Przyjaciółek 1: Wielkie pudło",
