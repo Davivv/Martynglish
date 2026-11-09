@@ -581,6 +581,7 @@
       },
       {
         "pageNumber": 2,
+        "imageUrl": "/images/stories/friends-club-1/p2.webp",
         "visualConfig": {
           "backgroundTheme": "clubhouse",
           "primaryCharacter": "lena",
@@ -605,6 +606,7 @@
       },
       {
         "pageNumber": 3,
+        "imageUrl": "/images/stories/friends-club-1/p3.webp",
         "visualConfig": {
           "backgroundTheme": "park",
           "primaryCharacter": "amy",
@@ -630,6 +632,7 @@
       },
       {
         "pageNumber": 4,
+        "imageUrl": "/images/stories/friends-club-1/p4.webp",
         "visualConfig": {
           "backgroundTheme": "park",
           "primaryCharacter": "ruby",
@@ -656,6 +659,7 @@
       },
       {
         "pageNumber": 5,
+        "imageUrl": "/images/stories/friends-club-1/p5.webp",
         "visualConfig": {
           "backgroundTheme": "park",
           "primaryCharacter": "lena",
@@ -680,6 +684,7 @@
       },
       {
         "pageNumber": 6,
+        "imageUrl": "/images/stories/friends-club-1/p6.webp",
         "visualConfig": {
           "backgroundTheme": "park",
           "primaryCharacter": "ruby",
