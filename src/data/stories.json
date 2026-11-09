@@ -890,6 +890,7 @@
     "id": "friends-club-3",
     "titleEn": "Best Friends Club 3: Where Is Coco?",
     "titlePl": "Klub Przyjaciółek 3: Gdzie jest Coco?",
+    "coverImageUrl": "/images/stories/friends-club-3/p6.webp",
     "coverVisualConfig": {
       "backgroundTheme": "cafe",
       "primaryCharacter": "ruby",
@@ -913,6 +914,7 @@
           "props": ["girl-lena", "girl-amy", "balloon-pink", "balloon-yellow"],
           "characterMood": "excited"
         },
+        "imageUrl": "/images/stories/friends-club-3/p1.webp",
         "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby, Lena and Amy walk to a party in a small town with pink and yellow balloons.",
         "imageAltPl": "Ruby, Lena i Amy idą na imprezę z balonami.",
         "interactiveSoundText": "Let's go to the party!",
@@ -938,6 +940,7 @@
           "props": ["cake-pink"],
           "characterMood": "happy"
         },
+        "imageUrl": "/images/stories/friends-club-3/p2.webp",
         "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Amy proudly shows a very big pink cake in a cafe.",
         "imageAltPl": "Amy pokazuje bardzo duży różowy tort w kawiarni.",
         "interactiveSoundText": "Mmm! Look at my cake!",
@@ -963,6 +966,7 @@
           "props": ["girl-ruby", "girl-amy"],
           "characterMood": "worried"
         },
+        "imageUrl": "/images/stories/friends-club-3/p3.webp",
         "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Lena looks around worried in the town street, Ruby and Amy stand beside her.",
         "imageAltPl": "Lena rozgląda się z niepokojem, a Ruby i Amy stoją obok.",
         "interactiveSoundText": "Coco! Coco!",
@@ -989,6 +993,7 @@
           "props": ["girl-lena", "tree-green"],
           "characterMood": "curious"
         },
+        "imageUrl": "/images/stories/friends-club-3/p4.webp",
         "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby searches the park while Lena looks behind a green tree.",
         "imageAltPl": "Ruby szuka w parku, a Lena zagląda za drzewo.",
         "interactiveSoundText": "Is she here?",
@@ -1013,6 +1018,7 @@
           "props": ["table-tail"],
           "characterMood": "curious"
         },
+        "imageUrl": "/images/stories/friends-club-3/p5.webp",
         "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Amy points at a little tail sticking out from under a cafe table.",
         "imageAltPl": "Amy pokazuje mały ogonek wystający spod stołu.",
         "interactiveSoundText": "What is that?",
@@ -1039,6 +1045,7 @@
           "props": ["girl-lena", "girl-amy", "puppy-brown", "cake-bitten"],
           "characterMood": "excited"
         },
+        "imageUrl": "/images/stories/friends-club-3/p6.webp",
         "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: the puppy eats a piece of the pink cake while the three friends laugh.",
         "imageAltPl": "Szczeniak zjada kawałek tortu, a dziewczyny się śmieją.",
         "interactiveSoundText": "Oh, Coco!",

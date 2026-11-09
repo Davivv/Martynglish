@@ -109,7 +109,7 @@ Zlecone przez wujka 2026-11-06. Najpierw próbki, lider je ocenia, dopiero potem
 - [x] Przebudowa czytnika i biblioteki
 - [ ] Ilustracje pierwszych odcinków obu seriali na próbę: Neon Stars 1 gotowe (strony 5 i 6 do poprawy), Klub 1 ma stronę 1, reszta po odblokowaniu limitu
 - [ ] Wujek ocenia układ na stronie testowej
-- [ ] Ilustracje pozostałych odcinków i przegląd wszystkich stron
+- [x] Ilustracje pozostałych odcinków i przegląd wszystkich stron
 
 ## Faza 10: Publikacja (D41)
 
