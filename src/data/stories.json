@@ -714,6 +714,7 @@
     "id": "friends-club-2",
     "titleEn": "Best Friends Club 2: A Home for Coco",
     "titlePl": "Klub Przyjaciółek 2: Dom dla Coco",
+    "coverImageUrl": "/images/stories/friends-club-2/p6.webp",
     "coverVisualConfig": {
       "backgroundTheme": "clubhouse",
       "primaryCharacter": "lena",
@@ -737,6 +738,7 @@
           "props": ["puppy-brown", "milk-white"],
           "characterMood": "happy"
         },
+        "imageUrl": "/images/stories/friends-club-2/p1.webp",
         "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Amy gives a small brown puppy a bowl of white milk in a cafe.",
         "imageAltPl": "Amy podaje szczeniakowi mleko w kawiarni.",
         "interactiveSoundText": "Drink, little puppy!",
@@ -762,6 +764,7 @@
           "props": ["phone-purple", "puppy-brown"],
           "characterMood": "curious"
         },
+        "imageUrl": "/images/stories/friends-club-2/p2.webp",
         "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Lena takes a photo of the puppy with her purple phone in a cafe.",
         "imageAltPl": "Lena robi zdjęcie szczeniaka fioletowym telefonem.",
         "interactiveSoundText": "Smile, puppy!",
@@ -788,6 +791,7 @@
           "props": ["poster-blue"],
           "characterMood": "brave"
         },
+        "imageUrl": "/images/stories/friends-club-2/p3.webp",
         "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby holds up a big blue poster in the small town street.",
         "imageAltPl": "Ruby trzyma duży niebieski plakat na ulicy miasteczka.",
         "interactiveSoundText": "Is this your dog?",
@@ -813,6 +817,7 @@
           "props": ["girl-ruby", "girl-lena", "phone-purple"],
           "characterMood": "worried"
         },
+        "imageUrl": "/images/stories/friends-club-2/p4.webp",
         "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Amy looks worried at a purple phone in the clubhouse, Ruby and Lena wait beside her.",
         "imageAltPl": "Amy patrzy na telefon, a Ruby i Lena czekają obok.",
         "interactiveSoundText": "No call today.",
@@ -837,6 +842,7 @@
           "props": ["puppy-brown", "girl-lena", "girl-amy"],
           "characterMood": "curious"
         },
+        "imageUrl": "/images/stories/friends-club-2/p5.webp",
         "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: Ruby asks hopefully in the clubhouse, a brown puppy sits between her friends.",
         "imageAltPl": "Ruby prosi o zgodę, a szczeniak siedzi między dziewczynami.",
         "interactiveSoundText": "Please, please, please!",
@@ -863,6 +869,7 @@
           "props": ["puppy-brown", "heart-pink", "girl-ruby", "girl-amy"],
           "characterMood": "excited"
         },
+        "imageUrl": "/images/stories/friends-club-2/p6.webp",
         "imagePrompt": "Three modern best friends about ten years old in everyday clothes, warm hand-painted storybook illustration: Ruby with curly red hair, freckles and a denim jacket over a red T-shirt, Lena with dark skin, long black braids and a teal hoodie, Amy with a blonde bob, round glasses and an orange sweater. Scene: the three friends hug the brown puppy in the clubhouse, a pink heart floats above them.",
         "imageAltPl": "Dziewczyny przytulają szczeniaka, a nad nimi unosi się różowe serce.",
         "interactiveSoundText": "We love you, Coco!",
