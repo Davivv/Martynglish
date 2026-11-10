@@ -2439,5 +2439,2027 @@
         ]
       }
     ]
+  },
+  {
+    "id": "twinkle-hollow-1",
+    "titleEn": "Twinkle Hollow 1: Three Little Friends",
+    "titlePl": "Migocząca Dolina 1: Trójka małych przyjaciół",
+    "coverImageUrl": "/images/stories/twinkle-hollow-1/p1.webp",
+    "coverVisualConfig": {
+      "backgroundTheme": "dusk-valley",
+      "primaryCharacter": "nova",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#FBBF24",
+      "props": [
+        "owl-juniper",
+        "hedgehog-pepper",
+        "firefly-gold"
+      ],
+      "characterMood": "happy"
+    },
+    "characterVisualAnchor": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration.",
+    "themeColor": "#D97706",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "nova",
+          "primaryColor": "#EA580C",
+          "secondaryColor": "#FBBF24",
+          "props": [
+            "owl-juniper",
+            "hedgehog-pepper",
+            "firefly-gold"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Nova, Juniper and Pepper sit together happily in the glowing dusk valley, surrounded by golden fireflies.",
+        "imageUrl": "/images/stories/twinkle-hollow-1/p1.webp",
+        "imageAltPl": "Nova, Juniper i Pepper siedzą razem radośnie w migoczącej dolinie.",
+        "interactiveSoundText": "Hi! I am Nova!",
+        "sentenceEn": "Nova, Juniper and Pepper are friends.",
+        "phoneticsPl": "no-wa dżu-ni-per and pe-per ar frendz",
+        "sentencePl": "Nova, Juniper i Pepper są przyjaciółmi.",
+        "words": [
+          {
+            "word": "Nova",
+            "punctuation": ",",
+            "translationPl": "Nova",
+            "phoneticsPl": "no-wa",
+            "isKeyword": false
+          },
+          {
+            "word": "Juniper",
+            "translationPl": "Juniper",
+            "phoneticsPl": "dżu-ni-per",
+            "isKeyword": false
+          },
+          {
+            "word": "and",
+            "translationPl": "i",
+            "phoneticsPl": "and",
+            "isKeyword": false
+          },
+          {
+            "word": "Pepper",
+            "translationPl": "Pepper",
+            "phoneticsPl": "pe-per",
+            "isKeyword": false
+          },
+          {
+            "word": "are",
+            "translationPl": "są",
+            "phoneticsPl": "ar",
+            "isKeyword": false
+          },
+          {
+            "word": "friends",
+            "punctuation": ".",
+            "translationPl": "przyjaciółmi",
+            "phoneticsPl": "frendz",
+            "isKeyword": true,
+            "lemmaEn": "friend",
+            "lemmaPl": "przyjaciel",
+            "lemmaPhoneticsPl": "frend"
+          }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "nova",
+          "primaryColor": "#EA580C",
+          "secondaryColor": "#FBBF24",
+          "props": [
+            "firefly-gold",
+            "firefly-gold",
+            "firefly-gold"
+          ],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Nova wags her glowing tail and makes three little golden sparkles of light above the valley.",
+        "imageUrl": "/images/stories/twinkle-hollow-1/p2.webp",
+        "imageAltPl": "Nova macha ogonkiem i tworzy małe złote iskierki.",
+        "interactiveSoundText": "Look! Sparkles!",
+        "sentenceEn": "Nova can make little sparkles.",
+        "phoneticsPl": "no-wa kan mejk li-tl spar-klz",
+        "sentencePl": "Nova może tworzyć małe iskierki.",
+        "words": [
+          {
+            "word": "Nova",
+            "translationPl": "Nova",
+            "phoneticsPl": "no-wa",
+            "isKeyword": false
+          },
+          {
+            "word": "can",
+            "translationPl": "może",
+            "phoneticsPl": "kan",
+            "isKeyword": false
+          },
+          {
+            "word": "make",
+            "translationPl": "tworzyć",
+            "phoneticsPl": "mejk",
+            "isKeyword": true
+          },
+          {
+            "word": "little",
+            "translationPl": "małe",
+            "phoneticsPl": "li-tl",
+            "isKeyword": true,
+            "lemmaPl": "mały"
+          },
+          {
+            "word": "sparkles",
+            "punctuation": ".",
+            "translationPl": "iskierki",
+            "phoneticsPl": "spar-klz",
+            "isKeyword": true,
+            "lemmaEn": "sparkle",
+            "lemmaPl": "iskierka",
+            "lemmaPhoneticsPl": "spar-kl"
+          }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "juniper",
+          "primaryColor": "#A78BFA",
+          "secondaryColor": "#F8FAFC",
+          "props": [
+            "cloud-white",
+            "star-yellow"
+          ],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Juniper flies high above the dusk valley between soft clouds and early stars.",
+        "imageUrl": "/images/stories/twinkle-hollow-1/p3.webp",
+        "imageAltPl": "Juniper lata wysoko nad doliną między obłokami i gwiazdkami.",
+        "interactiveSoundText": "Whoosh! I can fly!",
+        "sentenceEn": "Juniper can fly very high.",
+        "phoneticsPl": "dżu-ni-per kan flaj we-ri haj",
+        "sentencePl": "Juniper może lecieć bardzo wysoko.",
+        "words": [
+          {
+            "word": "Juniper",
+            "translationPl": "Juniper",
+            "phoneticsPl": "dżu-ni-per",
+            "isKeyword": false
+          },
+          {
+            "word": "can",
+            "translationPl": "może",
+            "phoneticsPl": "kan",
+            "isKeyword": false
+          },
+          {
+            "word": "fly",
+            "translationPl": "lecieć",
+            "phoneticsPl": "flaj",
+            "isKeyword": true
+          },
+          {
+            "word": "very",
+            "translationPl": "bardzo",
+            "phoneticsPl": "we-ri",
+            "isKeyword": false
+          },
+          {
+            "word": "high",
+            "punctuation": ".",
+            "translationPl": "wysoko",
+            "phoneticsPl": "haj",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "pepper",
+          "primaryColor": "#D97706",
+          "secondaryColor": "#FBCFE8",
+          "props": [
+            "firefly-gold",
+            "firefly-gold"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Pepper glows with a warm golden light in the dusk valley, like a tiny lantern.",
+        "imageUrl": "/images/stories/twinkle-hollow-1/p4.webp",
+        "imageAltPl": "Pepper świeci ciepłym złotym blaskiem w dolinie.",
+        "interactiveSoundText": "I am warm and bright!",
+        "sentenceEn": "Pepper has a warm, golden glow.",
+        "phoneticsPl": "pe-per haz e łorm goul-den glou",
+        "sentencePl": "Pepper ma ciepły, złoty blask.",
+        "words": [
+          {
+            "word": "Pepper",
+            "translationPl": "Pepper",
+            "phoneticsPl": "pe-per",
+            "isKeyword": false
+          },
+          {
+            "word": "has",
+            "translationPl": "ma",
+            "phoneticsPl": "haz",
+            "isKeyword": false,
+            "lemmaEn": "have",
+            "lemmaPl": "mieć",
+            "lemmaPhoneticsPl": "haw"
+          },
+          {
+            "word": "a",
+            "translationPl": "jakiś",
+            "phoneticsPl": "e",
+            "isKeyword": false,
+            "ttsOverride": "uh"
+          },
+          {
+            "word": "warm",
+            "punctuation": ",",
+            "translationPl": "ciepły",
+            "phoneticsPl": "łorm",
+            "isKeyword": true
+          },
+          {
+            "word": "golden",
+            "translationPl": "złoty",
+            "phoneticsPl": "goul-den",
+            "isKeyword": true
+          },
+          {
+            "word": "glow",
+            "punctuation": ".",
+            "translationPl": "blask",
+            "phoneticsPl": "glou",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "nova",
+          "primaryColor": "#EA580C",
+          "secondaryColor": "#FBBF24",
+          "props": [
+            "owl-juniper",
+            "hedgehog-pepper",
+            "firefly-gold",
+            "firefly-gold"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Nova, Juniper and Pepper play together happily among golden fireflies in the valley at dusk.",
+        "imageUrl": "/images/stories/twinkle-hollow-1/p5.webp",
+        "imageAltPl": "Nova, Juniper i Pepper bawią się razem wśród złotych świetlików.",
+        "interactiveSoundText": "This is the best day!",
+        "sentenceEn": "They play together in the valley.",
+        "phoneticsPl": "dej plej tu-ge-der in de wa-li",
+        "sentencePl": "Oni bawią się razem w dolinie.",
+        "words": [
+          {
+            "word": "They",
+            "translationPl": "Oni",
+            "phoneticsPl": "dej",
+            "isKeyword": false
+          },
+          {
+            "word": "play",
+            "translationPl": "bawią się",
+            "phoneticsPl": "plej",
+            "isKeyword": true,
+            "lemmaPl": "bawić się"
+          },
+          {
+            "word": "together",
+            "translationPl": "razem",
+            "phoneticsPl": "tu-ge-der",
+            "isKeyword": true
+          },
+          {
+            "word": "in",
+            "translationPl": "w",
+            "phoneticsPl": "in",
+            "isKeyword": false
+          },
+          {
+            "word": "the",
+            "translationPl": "tę",
+            "phoneticsPl": "de",
+            "isKeyword": false
+          },
+          {
+            "word": "valley",
+            "punctuation": ".",
+            "translationPl": "dolinie",
+            "phoneticsPl": "wa-li",
+            "isKeyword": true,
+            "lemmaPl": "dolina"
+          }
+        ]
+      },
+      {
+        "pageNumber": 6,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "nova",
+          "primaryColor": "#EA580C",
+          "secondaryColor": "#FBBF24",
+          "props": [
+            "firefly-gold",
+            "firefly-gold",
+            "firefly-gold",
+            "star-yellow"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: The whole valley glows warmly at dusk, full of golden fireflies and soft stars, with Nova, Juniper and Pepper watching happily.",
+        "imageUrl": "/images/stories/twinkle-hollow-1/p6.webp",
+        "imageAltPl": "Cała dolina świeci ciepło o zmierzchu, pełna świetlików i gwiazdek.",
+        "interactiveSoundText": "Twinkle, twinkle, little light!",
+        "sentenceEn": "The valley shines every night.",
+        "phoneticsPl": "de wa-li szajnz ew-ri najt",
+        "sentencePl": "Dolina świeci każdej nocy.",
+        "words": [
+          {
+            "word": "The",
+            "translationPl": "Ta",
+            "phoneticsPl": "de",
+            "isKeyword": false
+          },
+          {
+            "word": "valley",
+            "translationPl": "dolina",
+            "phoneticsPl": "wa-li",
+            "isKeyword": true
+          },
+          {
+            "word": "shines",
+            "translationPl": "świeci",
+            "phoneticsPl": "szajnz",
+            "isKeyword": true,
+            "lemmaEn": "shine",
+            "lemmaPl": "świecić",
+            "lemmaPhoneticsPl": "szajn"
+          },
+          {
+            "word": "every",
+            "translationPl": "każdej",
+            "phoneticsPl": "ew-ri",
+            "isKeyword": false
+          },
+          {
+            "word": "night",
+            "punctuation": ".",
+            "translationPl": "nocy",
+            "phoneticsPl": "najt",
+            "isKeyword": true,
+            "lemmaPl": "noc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "twinkle-hollow-2",
+    "titleEn": "Twinkle Hollow 2: The Lights Go Dim",
+    "titlePl": "Migocząca Dolina 2: Światła przygasają",
+    "coverImageUrl": "/images/stories/twinkle-hollow-2/p1.webp",
+    "coverVisualConfig": {
+      "backgroundTheme": "dusk-valley",
+      "primaryCharacter": "nova",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#FBBF24",
+      "props": [
+        "owl-juniper",
+        "hedgehog-pepper",
+        "firefly-gold"
+      ],
+      "characterMood": "worried"
+    },
+    "characterVisualAnchor": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration.",
+    "themeColor": "#312E81",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "juniper",
+          "primaryColor": "#A78BFA",
+          "secondaryColor": "#F8FAFC",
+          "props": [
+            "firefly-gold",
+            "firefly-gold"
+          ],
+          "characterMood": "curious"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Juniper sits quietly and looks out at the dusk valley from a branch.",
+        "imageUrl": "/images/stories/twinkle-hollow-2/p1.webp",
+        "imageAltPl": "Juniper patrzy na dolinę z gałęzi drzewa.",
+        "interactiveSoundText": "Something looks different...",
+        "sentenceEn": "Juniper looks at the valley.",
+        "phoneticsPl": "dżu-ni-per luks at de wa-li",
+        "sentencePl": "Juniper patrzy na dolinę.",
+        "words": [
+          {
+            "word": "Juniper",
+            "translationPl": "Juniper",
+            "phoneticsPl": "dżu-ni-per",
+            "isKeyword": false
+          },
+          {
+            "word": "looks",
+            "translationPl": "patrzy",
+            "phoneticsPl": "luks",
+            "isKeyword": true,
+            "lemmaEn": "look",
+            "lemmaPl": "patrzeć",
+            "lemmaPhoneticsPl": "luk"
+          },
+          {
+            "word": "at",
+            "translationPl": "na",
+            "phoneticsPl": "at",
+            "isKeyword": false
+          },
+          {
+            "word": "the",
+            "translationPl": "tę",
+            "phoneticsPl": "de",
+            "isKeyword": false
+          },
+          {
+            "word": "valley",
+            "punctuation": ".",
+            "translationPl": "dolinę",
+            "phoneticsPl": "wa-li",
+            "isKeyword": true,
+            "lemmaPl": "dolina"
+          }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "nova",
+          "primaryColor": "#EA580C",
+          "secondaryColor": "#FBBF24",
+          "props": [
+            "owl-juniper",
+            "firefly-gold"
+          ],
+          "characterMood": "worried"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Nova and Juniper look worried as the fireflies and lights in the valley grow dim.",
+        "imageUrl": "/images/stories/twinkle-hollow-2/p2.webp",
+        "imageAltPl": "Nova i Juniper martwią się, bo światła w dolinie gasną.",
+        "interactiveSoundText": "Why are the lights so dim?",
+        "sentenceEn": "Oh no! The lights are not bright.",
+        "phoneticsPl": "ou nou de lajts ar not brajt",
+        "sentencePl": "Oj nie! Światła nie są jasne.",
+        "words": [
+          {
+            "word": "Oh",
+            "translationPl": "Och",
+            "phoneticsPl": "ou",
+            "isKeyword": false
+          },
+          {
+            "word": "no",
+            "punctuation": "!",
+            "translationPl": "nie",
+            "phoneticsPl": "nou",
+            "isKeyword": false
+          },
+          {
+            "word": "The",
+            "translationPl": "Te",
+            "phoneticsPl": "de",
+            "isKeyword": false
+          },
+          {
+            "word": "lights",
+            "translationPl": "światła",
+            "phoneticsPl": "lajts",
+            "isKeyword": true,
+            "lemmaEn": "light",
+            "lemmaPl": "światło",
+            "lemmaPhoneticsPl": "lajt"
+          },
+          {
+            "word": "are",
+            "translationPl": "są",
+            "phoneticsPl": "ar",
+            "isKeyword": false
+          },
+          {
+            "word": "not",
+            "translationPl": "nie",
+            "phoneticsPl": "not",
+            "isKeyword": false
+          },
+          {
+            "word": "bright",
+            "punctuation": ".",
+            "translationPl": "jasne",
+            "phoneticsPl": "brajt",
+            "isKeyword": true,
+            "lemmaPl": "jasny"
+          }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "pepper",
+          "primaryColor": "#D97706",
+          "secondaryColor": "#FBCFE8",
+          "props": [
+            "fox-nova",
+            "owl-juniper"
+          ],
+          "characterMood": "worried"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Pepper looks worried next to Nova and Juniper as the valley grows dim around them.",
+        "imageUrl": "/images/stories/twinkle-hollow-2/p3.webp",
+        "imageAltPl": "Pepper, Nova i Juniper są zmartwieni, bo światła w dolinie słabną.",
+        "interactiveSoundText": "We must find out why!",
+        "sentenceEn": "Pepper is worried. He wants to help.",
+        "phoneticsPl": "pe-per iz łor-rid hi łonts tu help",
+        "sentencePl": "Pepper jest zmartwiony. Chce pomóc.",
+        "words": [
+          {
+            "word": "Pepper",
+            "translationPl": "Pepper",
+            "phoneticsPl": "pe-per",
+            "isKeyword": false
+          },
+          {
+            "word": "is",
+            "translationPl": "jest",
+            "phoneticsPl": "iz",
+            "isKeyword": false
+          },
+          {
+            "word": "worried",
+            "punctuation": ".",
+            "translationPl": "zmartwiony",
+            "phoneticsPl": "łor-rid",
+            "isKeyword": true
+          },
+          {
+            "word": "He",
+            "translationPl": "On",
+            "phoneticsPl": "hi",
+            "isKeyword": false
+          },
+          {
+            "word": "wants",
+            "translationPl": "chce",
+            "phoneticsPl": "łonts",
+            "isKeyword": true,
+            "lemmaEn": "want",
+            "lemmaPl": "chcieć",
+            "lemmaPhoneticsPl": "łont"
+          },
+          {
+            "word": "to",
+            "translationPl": "aby",
+            "phoneticsPl": "tu",
+            "isKeyword": false
+          },
+          {
+            "word": "help",
+            "punctuation": ".",
+            "translationPl": "pomóc",
+            "phoneticsPl": "help",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "nova",
+          "primaryColor": "#EA580C",
+          "secondaryColor": "#FBBF24",
+          "props": [
+            "owl-juniper",
+            "hedgehog-pepper"
+          ],
+          "characterMood": "brave"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Nova, Juniper and Pepper stand bravely together, ready to explore the dim valley and find the missing light.",
+        "imageUrl": "/images/stories/twinkle-hollow-2/p4.webp",
+        "imageAltPl": "Nova, Juniper i Pepper stoją odważnie, gotowi szukać zgubionego światła.",
+        "interactiveSoundText": "Let's go and find out!",
+        "sentenceEn": "They are brave. They want to find light.",
+        "phoneticsPl": "dej ar brejw dej łont tu fajnd lajt",
+        "sentencePl": "Są dzielni. Chcą znaleźć światło.",
+        "words": [
+          {
+            "word": "They",
+            "translationPl": "Oni",
+            "phoneticsPl": "dej",
+            "isKeyword": false
+          },
+          {
+            "word": "are",
+            "translationPl": "są",
+            "phoneticsPl": "ar",
+            "isKeyword": false
+          },
+          {
+            "word": "brave",
+            "punctuation": ".",
+            "translationPl": "dzielni",
+            "phoneticsPl": "brejw",
+            "isKeyword": true,
+            "lemmaPl": "dzielny"
+          },
+          {
+            "word": "They",
+            "translationPl": "Oni",
+            "phoneticsPl": "dej",
+            "isKeyword": false
+          },
+          {
+            "word": "want",
+            "translationPl": "chcą",
+            "phoneticsPl": "łont",
+            "isKeyword": true,
+            "lemmaPl": "chcieć"
+          },
+          {
+            "word": "to",
+            "translationPl": "aby",
+            "phoneticsPl": "tu",
+            "isKeyword": false
+          },
+          {
+            "word": "find",
+            "translationPl": "znaleźć",
+            "phoneticsPl": "fajnd",
+            "isKeyword": true
+          },
+          {
+            "word": "light",
+            "punctuation": ".",
+            "translationPl": "światło",
+            "phoneticsPl": "lajt",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "nova",
+          "primaryColor": "#EA580C",
+          "secondaryColor": "#FBBF24",
+          "props": [
+            "owl-juniper",
+            "hedgehog-pepper",
+            "tree-green"
+          ],
+          "characterMood": "curious"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Nova, Juniper and Pepper walk together toward one big old tree at the edge of the dim valley.",
+        "imageUrl": "/images/stories/twinkle-hollow-2/p5.webp",
+        "imageAltPl": "Nova, Juniper i Pepper idą do wielkiego starego drzewa na skraju doliny.",
+        "interactiveSoundText": "What is near this old tree?",
+        "sentenceEn": "They walk to an old tree.",
+        "phoneticsPl": "dej łok tu en ould tri",
+        "sentencePl": "Idą do starego drzewa.",
+        "words": [
+          {
+            "word": "They",
+            "translationPl": "Oni",
+            "phoneticsPl": "dej",
+            "isKeyword": false
+          },
+          {
+            "word": "walk",
+            "translationPl": "idą",
+            "phoneticsPl": "łok",
+            "isKeyword": true
+          },
+          {
+            "word": "to",
+            "translationPl": "do",
+            "phoneticsPl": "tu",
+            "isKeyword": false
+          },
+          {
+            "word": "an",
+            "translationPl": "jakiegoś",
+            "phoneticsPl": "en",
+            "isKeyword": false
+          },
+          {
+            "word": "old",
+            "translationPl": "starego",
+            "phoneticsPl": "ould",
+            "isKeyword": true,
+            "lemmaPl": "stary"
+          },
+          {
+            "word": "tree",
+            "punctuation": ".",
+            "translationPl": "drzewa",
+            "phoneticsPl": "tri",
+            "isKeyword": true,
+            "lemmaPl": "drzewo"
+          }
+        ]
+      },
+      {
+        "pageNumber": 6,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "juniper",
+          "primaryColor": "#A78BFA",
+          "secondaryColor": "#F8FAFC",
+          "props": [
+            "tree-green"
+          ],
+          "characterMood": "worried"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Nova, Juniper and Pepper stand very still near the old tree, listening carefully in the quiet, dim valley.",
+        "imageUrl": "/images/stories/twinkle-hollow-2/p6.webp",
+        "imageAltPl": "Nova, Juniper i Pepper stoją cicho przy starym drzewie i nasłuchują.",
+        "interactiveSoundText": "Shh... do you hear that?",
+        "sentenceEn": "It is quiet. Something is here.",
+        "phoneticsPl": "it iz kła-jet sam-fing iz hir",
+        "sentencePl": "Jest cicho. Coś tu jest.",
+        "words": [
+          {
+            "word": "It",
+            "translationPl": "To",
+            "phoneticsPl": "it",
+            "isKeyword": false
+          },
+          {
+            "word": "is",
+            "translationPl": "jest",
+            "phoneticsPl": "iz",
+            "isKeyword": false
+          },
+          {
+            "word": "quiet",
+            "punctuation": ".",
+            "translationPl": "cicho",
+            "phoneticsPl": "kła-jet",
+            "isKeyword": true
+          },
+          {
+            "word": "Something",
+            "translationPl": "Coś",
+            "phoneticsPl": "sam-fing",
+            "isKeyword": false
+          },
+          {
+            "word": "is",
+            "translationPl": "jest",
+            "phoneticsPl": "iz",
+            "isKeyword": false
+          },
+          {
+            "word": "here",
+            "punctuation": ".",
+            "translationPl": "tutaj",
+            "phoneticsPl": "hir",
+            "isKeyword": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "twinkle-hollow-3",
+    "titleEn": "Twinkle Hollow 3: The Lonely Bat",
+    "titlePl": "Migocząca Dolina 3: Samotny nietoperzyk",
+    "coverImageUrl": "/images/stories/twinkle-hollow-3/p1.webp",
+    "coverVisualConfig": {
+      "backgroundTheme": "hollow-tree",
+      "primaryCharacter": "willow",
+      "primaryColor": "#6B7280",
+      "secondaryColor": "#C4B5FD",
+      "props": [
+        "fox-nova",
+        "owl-juniper",
+        "hedgehog-pepper"
+      ],
+      "characterMood": "worried"
+    },
+    "characterVisualAnchor": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration.",
+    "themeColor": "#6D28D9",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "visualConfig": {
+          "backgroundTheme": "hollow-tree",
+          "primaryCharacter": "nova",
+          "primaryColor": "#EA580C",
+          "secondaryColor": "#FBBF24",
+          "props": [
+            "owl-juniper",
+            "hedgehog-pepper"
+          ],
+          "characterMood": "curious"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Nova, Juniper and Pepper peek curiously inside the hollow old tree.",
+        "imageUrl": "/images/stories/twinkle-hollow-3/p1.webp",
+        "imageAltPl": "Nova, Juniper i Pepper zaglądają do wnętrza starego drzewa.",
+        "interactiveSoundText": "I see something inside!",
+        "sentenceEn": "They look inside the old tree.",
+        "phoneticsPl": "dej luk in-sajd de ould tri",
+        "sentencePl": "Zaglądają do wnętrza starego drzewa.",
+        "words": [
+          {
+            "word": "They",
+            "translationPl": "Oni",
+            "phoneticsPl": "dej",
+            "isKeyword": false
+          },
+          {
+            "word": "look",
+            "translationPl": "patrzą",
+            "phoneticsPl": "luk",
+            "isKeyword": true,
+            "lemmaPl": "patrzeć"
+          },
+          {
+            "word": "inside",
+            "translationPl": "do wnętrza",
+            "phoneticsPl": "in-sajd",
+            "isKeyword": false
+          },
+          {
+            "word": "the",
+            "translationPl": "tego",
+            "phoneticsPl": "de",
+            "isKeyword": false
+          },
+          {
+            "word": "old",
+            "translationPl": "starego",
+            "phoneticsPl": "ould",
+            "isKeyword": true,
+            "lemmaPl": "stary"
+          },
+          {
+            "word": "tree",
+            "punctuation": ".",
+            "translationPl": "drzewa",
+            "phoneticsPl": "tri",
+            "isKeyword": true,
+            "lemmaPl": "drzewo"
+          }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "visualConfig": {
+          "backgroundTheme": "hollow-tree",
+          "primaryCharacter": "willow",
+          "primaryColor": "#6B7280",
+          "secondaryColor": "#C4B5FD",
+          "props": [
+            "fox-nova",
+            "owl-juniper",
+            "hedgehog-pepper"
+          ],
+          "characterMood": "worried"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Willow the little bat sits alone inside the hollow tree, her wings pale and grey, while Nova, Juniper and Pepper look at her with surprise.",
+        "imageUrl": "/images/stories/twinkle-hollow-3/p2.webp",
+        "imageAltPl": "Willow, mały nietoperzyk, siedzi samotnie w drzewie z szarymi skrzydłami.",
+        "interactiveSoundText": "Oh! Hello, little bat!",
+        "sentenceEn": "There is a little bat.",
+        "phoneticsPl": "der iz e li-tl bat",
+        "sentencePl": "Jest tam mały nietoperzyk.",
+        "words": [
+          {
+            "word": "There",
+            "translationPl": "Tam",
+            "phoneticsPl": "der",
+            "isKeyword": false
+          },
+          {
+            "word": "is",
+            "translationPl": "jest",
+            "phoneticsPl": "iz",
+            "isKeyword": false
+          },
+          {
+            "word": "a",
+            "translationPl": "jakiś",
+            "phoneticsPl": "e",
+            "isKeyword": false,
+            "ttsOverride": "uh"
+          },
+          {
+            "word": "little",
+            "translationPl": "mały",
+            "phoneticsPl": "li-tl",
+            "isKeyword": true
+          },
+          {
+            "word": "bat",
+            "punctuation": ".",
+            "translationPl": "nietoperzyk",
+            "phoneticsPl": "bat",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "visualConfig": {
+          "backgroundTheme": "hollow-tree",
+          "primaryCharacter": "willow",
+          "primaryColor": "#6B7280",
+          "secondaryColor": "#C4B5FD",
+          "props": [
+            "star-white"
+          ],
+          "characterMood": "worried"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Willow sits alone with her grey, dim wings folded, inside the hollow tree, a single pale star visible through a crack above her.",
+        "imageUrl": "/images/stories/twinkle-hollow-3/p3.webp",
+        "imageAltPl": "Willow siedzi sama, jej skrzydła są szare i matowe.",
+        "interactiveSoundText": "I just want to be alone...",
+        "sentenceEn": "Willow is sad. Her wings are grey.",
+        "phoneticsPl": "łi-lou iz sad her łingz ar grej",
+        "sentencePl": "Willow jest smutna. Jej skrzydła są szare.",
+        "words": [
+          {
+            "word": "Willow",
+            "translationPl": "Willow",
+            "phoneticsPl": "łi-lou",
+            "isKeyword": false
+          },
+          {
+            "word": "is",
+            "translationPl": "jest",
+            "phoneticsPl": "iz",
+            "isKeyword": false
+          },
+          {
+            "word": "sad",
+            "punctuation": ".",
+            "translationPl": "smutna",
+            "phoneticsPl": "sad",
+            "isKeyword": true,
+            "lemmaPl": "smutny"
+          },
+          {
+            "word": "Her",
+            "translationPl": "Jej",
+            "phoneticsPl": "her",
+            "isKeyword": false
+          },
+          {
+            "word": "wings",
+            "translationPl": "skrzydła",
+            "phoneticsPl": "łingz",
+            "isKeyword": true,
+            "lemmaEn": "wing",
+            "lemmaPl": "skrzydło",
+            "lemmaPhoneticsPl": "łing"
+          },
+          {
+            "word": "are",
+            "translationPl": "są",
+            "phoneticsPl": "ar",
+            "isKeyword": false
+          },
+          {
+            "word": "grey",
+            "punctuation": ".",
+            "translationPl": "szare",
+            "phoneticsPl": "grej",
+            "isKeyword": true,
+            "lemmaPl": "szary"
+          }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "visualConfig": {
+          "backgroundTheme": "hollow-tree",
+          "primaryCharacter": "willow",
+          "primaryColor": "#6B7280",
+          "secondaryColor": "#C4B5FD",
+          "props": [
+            "star-white"
+          ],
+          "characterMood": "worried"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Willow looks down sadly with her dim grey wings, feeling alone inside the quiet hollow tree.",
+        "imageUrl": "/images/stories/twinkle-hollow-3/p4.webp",
+        "imageAltPl": "Willow czuje się samotna i smutna w swoim drzewie.",
+        "interactiveSoundText": "Nobody wants to play with me.",
+        "sentenceEn": "Willow feels alone and sad.",
+        "phoneticsPl": "łi-lou filz e-loun and sad",
+        "sentencePl": "Willow czuje się samotna i smutna.",
+        "words": [
+          {
+            "word": "Willow",
+            "translationPl": "Willow",
+            "phoneticsPl": "łi-lou",
+            "isKeyword": false
+          },
+          {
+            "word": "feels",
+            "translationPl": "czuje się",
+            "phoneticsPl": "filz",
+            "isKeyword": true,
+            "lemmaEn": "feel",
+            "lemmaPl": "czuć się",
+            "lemmaPhoneticsPl": "fil"
+          },
+          {
+            "word": "alone",
+            "translationPl": "samotna",
+            "phoneticsPl": "e-loun",
+            "isKeyword": true,
+            "lemmaPl": "samotny"
+          },
+          {
+            "word": "and",
+            "translationPl": "i",
+            "phoneticsPl": "and",
+            "isKeyword": false
+          },
+          {
+            "word": "sad",
+            "punctuation": ".",
+            "translationPl": "smutna",
+            "phoneticsPl": "sad",
+            "isKeyword": true,
+            "lemmaPl": "smutny"
+          }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "visualConfig": {
+          "backgroundTheme": "hollow-tree",
+          "primaryCharacter": "nova",
+          "primaryColor": "#EA580C",
+          "secondaryColor": "#FBBF24",
+          "props": [
+            "bat-willow",
+            "owl-juniper",
+            "hedgehog-pepper"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Nova smiles warmly at Willow inside the hollow tree, while Juniper and Pepper watch kindly.",
+        "imageUrl": "/images/stories/twinkle-hollow-3/p5.webp",
+        "imageAltPl": "Nova uśmiecha się ciepło do Willow, a Juniper i Pepper patrzą z sympatią.",
+        "interactiveSoundText": "Don't worry, we are your friends!",
+        "sentenceEn": "Nova is kind. She wants to help.",
+        "phoneticsPl": "no-wa iz kajnd szi łonts tu help",
+        "sentencePl": "Nova jest dobra. Chce pomóc.",
+        "words": [
+          {
+            "word": "Nova",
+            "translationPl": "Nova",
+            "phoneticsPl": "no-wa",
+            "isKeyword": false
+          },
+          {
+            "word": "is",
+            "translationPl": "jest",
+            "phoneticsPl": "iz",
+            "isKeyword": false
+          },
+          {
+            "word": "kind",
+            "punctuation": ".",
+            "translationPl": "dobra",
+            "phoneticsPl": "kajnd",
+            "isKeyword": true,
+            "lemmaPl": "dobry"
+          },
+          {
+            "word": "She",
+            "translationPl": "Ona",
+            "phoneticsPl": "szi",
+            "isKeyword": false
+          },
+          {
+            "word": "wants",
+            "translationPl": "chce",
+            "phoneticsPl": "łonts",
+            "isKeyword": true,
+            "lemmaEn": "want",
+            "lemmaPl": "chcieć",
+            "lemmaPhoneticsPl": "łont"
+          },
+          {
+            "word": "to",
+            "translationPl": "aby",
+            "phoneticsPl": "tu",
+            "isKeyword": false
+          },
+          {
+            "word": "help",
+            "punctuation": ".",
+            "translationPl": "pomóc",
+            "phoneticsPl": "help",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 6,
+        "visualConfig": {
+          "backgroundTheme": "hollow-tree",
+          "primaryCharacter": "willow",
+          "primaryColor": "#6B7280",
+          "secondaryColor": "#C4B5FD",
+          "props": [
+            "fox-nova",
+            "owl-juniper",
+            "hedgehog-pepper"
+          ],
+          "characterMood": "curious"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Willow looks up with curious hope as Nova, Juniper and Pepper invite her to play, her wings showing the faintest hint of sparkle.",
+        "imageUrl": "/images/stories/twinkle-hollow-3/p6.webp",
+        "imageAltPl": "Willow patrzy z nadzieją, a przyjaciele zapraszają ją do zabawy.",
+        "interactiveSoundText": "Really? You want to play with me?",
+        "sentenceEn": "Do you want to play with us?",
+        "phoneticsPl": "du ju łont tu plej łif as",
+        "sentencePl": "Czy chcesz bawić się z nami?",
+        "words": [
+          {
+            "word": "Do",
+            "translationPl": "Czy",
+            "phoneticsPl": "du",
+            "isKeyword": false
+          },
+          {
+            "word": "you",
+            "translationPl": "ty",
+            "phoneticsPl": "ju",
+            "isKeyword": false
+          },
+          {
+            "word": "want",
+            "translationPl": "chcesz",
+            "phoneticsPl": "łont",
+            "isKeyword": true,
+            "lemmaPl": "chcieć"
+          },
+          {
+            "word": "to",
+            "translationPl": "aby",
+            "phoneticsPl": "tu",
+            "isKeyword": false
+          },
+          {
+            "word": "play",
+            "translationPl": "bawić się",
+            "phoneticsPl": "plej",
+            "isKeyword": true
+          },
+          {
+            "word": "with",
+            "translationPl": "z",
+            "phoneticsPl": "łif",
+            "isKeyword": false
+          },
+          {
+            "word": "us",
+            "punctuation": "?",
+            "translationPl": "nami",
+            "phoneticsPl": "as",
+            "isKeyword": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "twinkle-hollow-4",
+    "titleEn": "Twinkle Hollow 4: A New Friend",
+    "titlePl": "Migocząca Dolina 4: Nowa przyjaciółka",
+    "coverImageUrl": "/images/stories/twinkle-hollow-4/p1.webp",
+    "coverVisualConfig": {
+      "backgroundTheme": "dusk-valley",
+      "primaryCharacter": "willow",
+      "primaryColor": "#A78BFA",
+      "secondaryColor": "#F8FAFC",
+      "props": [
+        "fox-nova",
+        "owl-juniper",
+        "hedgehog-pepper"
+      ],
+      "characterMood": "excited"
+    },
+    "characterVisualAnchor": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration.",
+    "themeColor": "#EA580C",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "willow",
+          "primaryColor": "#6B7280",
+          "secondaryColor": "#C4B5FD",
+          "props": [
+            "fox-nova",
+            "owl-juniper",
+            "hedgehog-pepper"
+          ],
+          "characterMood": "curious"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Willow steps out of the hollow tree into the dusk valley, looking shyly at Nova, Juniper and Pepper who wait for her.",
+        "imageUrl": "/images/stories/twinkle-hollow-4/p1.webp",
+        "imageAltPl": "Willow wychodzi z drzewa do doliny i patrzy nieśmiało na przyjaciół.",
+        "interactiveSoundText": "Okay... I will try.",
+        "sentenceEn": "Willow wants to play too.",
+        "phoneticsPl": "łi-lou łonts tu plej tu",
+        "sentencePl": "Willow też chce się bawić.",
+        "words": [
+          {
+            "word": "Willow",
+            "translationPl": "Willow",
+            "phoneticsPl": "łi-lou",
+            "isKeyword": false
+          },
+          {
+            "word": "wants",
+            "translationPl": "chce",
+            "phoneticsPl": "łonts",
+            "isKeyword": true,
+            "lemmaEn": "want",
+            "lemmaPl": "chcieć",
+            "lemmaPhoneticsPl": "łont"
+          },
+          {
+            "word": "to",
+            "translationPl": "aby",
+            "phoneticsPl": "tu",
+            "isKeyword": false
+          },
+          {
+            "word": "play",
+            "translationPl": "bawić się",
+            "phoneticsPl": "plej",
+            "isKeyword": true
+          },
+          {
+            "word": "too",
+            "punctuation": ".",
+            "translationPl": "też",
+            "phoneticsPl": "tu",
+            "isKeyword": false
+          }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "nova",
+          "primaryColor": "#EA580C",
+          "secondaryColor": "#FBBF24",
+          "props": [
+            "owl-juniper",
+            "hedgehog-pepper",
+            "bat-willow",
+            "firefly-gold"
+          ],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Nova, Juniper, Pepper and Willow play a fun game together in the valley as a golden firefly glows nearby.",
+        "imageUrl": "/images/stories/twinkle-hollow-4/p2.webp",
+        "imageAltPl": "Nova, Juniper, Pepper i Willow bawią się razem w dolinie.",
+        "interactiveSoundText": "This game is so much fun!",
+        "sentenceEn": "They play a fun game together.",
+        "phoneticsPl": "dej plej e fan gejm tu-ge-der",
+        "sentencePl": "Razem bawią się w wesołą grę.",
+        "words": [
+          {
+            "word": "They",
+            "translationPl": "Oni",
+            "phoneticsPl": "dej",
+            "isKeyword": false
+          },
+          {
+            "word": "play",
+            "translationPl": "bawią się",
+            "phoneticsPl": "plej",
+            "isKeyword": true,
+            "lemmaPl": "bawić się"
+          },
+          {
+            "word": "a",
+            "translationPl": "jakąś",
+            "phoneticsPl": "e",
+            "isKeyword": false,
+            "ttsOverride": "uh"
+          },
+          {
+            "word": "fun",
+            "translationPl": "wesołą",
+            "phoneticsPl": "fan",
+            "isKeyword": true,
+            "lemmaPl": "wesoły"
+          },
+          {
+            "word": "game",
+            "translationPl": "grę",
+            "phoneticsPl": "gejm",
+            "isKeyword": true,
+            "lemmaPl": "gra"
+          },
+          {
+            "word": "together",
+            "punctuation": ".",
+            "translationPl": "razem",
+            "phoneticsPl": "tu-ge-der",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "juniper",
+          "primaryColor": "#A78BFA",
+          "secondaryColor": "#F8FAFC",
+          "props": [
+            "firefly-gold",
+            "firefly-gold"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Juniper flaps her wings gently, making a soft wind that swirls golden fireflies around Willow.",
+        "imageUrl": "/images/stories/twinkle-hollow-4/p3.webp",
+        "imageAltPl": "Juniper tworzy delikatny wiatr, a świetliki wirują wokół Willow.",
+        "interactiveSoundText": "Whoosh! Feel the gentle wind!",
+        "sentenceEn": "Juniper makes a gentle wind.",
+        "phoneticsPl": "dżu-ni-per mejks e dżen-tl łind",
+        "sentencePl": "Juniper tworzy delikatny wiatr.",
+        "words": [
+          {
+            "word": "Juniper",
+            "translationPl": "Juniper",
+            "phoneticsPl": "dżu-ni-per",
+            "isKeyword": false
+          },
+          {
+            "word": "makes",
+            "translationPl": "robi",
+            "phoneticsPl": "mejks",
+            "isKeyword": true,
+            "lemmaEn": "make",
+            "lemmaPl": "tworzyć",
+            "lemmaPhoneticsPl": "mejk"
+          },
+          {
+            "word": "a",
+            "translationPl": "jakiś",
+            "phoneticsPl": "e",
+            "isKeyword": false,
+            "ttsOverride": "uh"
+          },
+          {
+            "word": "gentle",
+            "translationPl": "delikatny",
+            "phoneticsPl": "dżen-tl",
+            "isKeyword": true
+          },
+          {
+            "word": "wind",
+            "punctuation": ".",
+            "translationPl": "wiatr",
+            "phoneticsPl": "łind",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "pepper",
+          "primaryColor": "#D97706",
+          "secondaryColor": "#FBCFE8",
+          "props": [
+            "bat-willow",
+            "firefly-gold"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Pepper shares his warm golden glow with Willow, who starts to smile in the soft light.",
+        "imageUrl": "/images/stories/twinkle-hollow-4/p4.webp",
+        "imageAltPl": "Pepper dzieli się swoim ciepłym blaskiem z Willow, która zaczyna się uśmiechać.",
+        "interactiveSoundText": "Here, feel my warm glow!",
+        "sentenceEn": "Pepper shares his warm glow.",
+        "phoneticsPl": "pe-per szerz hiz łorm glou",
+        "sentencePl": "Pepper dzieli się swoim ciepłym blaskiem.",
+        "words": [
+          {
+            "word": "Pepper",
+            "translationPl": "Pepper",
+            "phoneticsPl": "pe-per",
+            "isKeyword": false
+          },
+          {
+            "word": "shares",
+            "translationPl": "dzieli się",
+            "phoneticsPl": "szerz",
+            "isKeyword": true,
+            "lemmaEn": "share",
+            "lemmaPl": "dzielić się",
+            "lemmaPhoneticsPl": "szer"
+          },
+          {
+            "word": "his",
+            "translationPl": "swoim",
+            "phoneticsPl": "hiz",
+            "isKeyword": false
+          },
+          {
+            "word": "warm",
+            "translationPl": "ciepłym",
+            "phoneticsPl": "łorm",
+            "isKeyword": true,
+            "lemmaPl": "ciepły"
+          },
+          {
+            "word": "glow",
+            "punctuation": ".",
+            "translationPl": "blaskiem",
+            "phoneticsPl": "glou",
+            "isKeyword": true,
+            "lemmaPl": "blask"
+          }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "willow",
+          "primaryColor": "#A78BFA",
+          "secondaryColor": "#F8FAFC",
+          "props": [
+            "fox-nova",
+            "owl-juniper",
+            "hedgehog-pepper"
+          ],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Willow smiles brightly as her lavender wings begin to shine with a starry sparkle pattern, surrounded by her happy new friends.",
+        "imageUrl": "/images/stories/twinkle-hollow-4/p5.webp",
+        "imageAltPl": "Willow się uśmiecha, a jej skrzydła znowu świecą gwiezdnym wzorem.",
+        "interactiveSoundText": "Look! My wings are shining!",
+        "sentenceEn": "Willow smiles. Her wings shine!",
+        "phoneticsPl": "łi-lou smajlz her łingz szajn",
+        "sentencePl": "Willow się uśmiecha. Jej skrzydła świecą!",
+        "words": [
+          {
+            "word": "Willow",
+            "translationPl": "Willow",
+            "phoneticsPl": "łi-lou",
+            "isKeyword": false
+          },
+          {
+            "word": "smiles",
+            "punctuation": ".",
+            "translationPl": "uśmiecha się",
+            "phoneticsPl": "smajlz",
+            "isKeyword": true,
+            "lemmaPl": "uśmiechać się",
+            "lemmaPhoneticsPl": "smajl"
+          },
+          {
+            "word": "Her",
+            "translationPl": "Jej",
+            "phoneticsPl": "her",
+            "isKeyword": false
+          },
+          {
+            "word": "wings",
+            "translationPl": "skrzydła",
+            "phoneticsPl": "łingz",
+            "isKeyword": true,
+            "lemmaEn": "wing",
+            "lemmaPl": "skrzydło",
+            "lemmaPhoneticsPl": "łing"
+          },
+          {
+            "word": "shine",
+            "punctuation": "!",
+            "translationPl": "świecą",
+            "phoneticsPl": "szajn",
+            "isKeyword": true,
+            "lemmaPl": "świecić"
+          }
+        ]
+      },
+      {
+        "pageNumber": 6,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "nova",
+          "primaryColor": "#EA580C",
+          "secondaryColor": "#FBBF24",
+          "props": [
+            "owl-juniper",
+            "hedgehog-pepper",
+            "bat-willow",
+            "firefly-gold"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Nova, Juniper, Pepper and Willow stand together happily as four good friends, with golden fireflies glowing softly around them in the valley.",
+        "imageUrl": "/images/stories/twinkle-hollow-4/p6.webp",
+        "imageAltPl": "Nova, Juniper, Pepper i Willow stoją razem jako czworo przyjaciół.",
+        "interactiveSoundText": "We are four friends now!",
+        "sentenceEn": "Now they are four good friends.",
+        "phoneticsPl": "nau dej ar for gud frendz",
+        "sentencePl": "Teraz są czworo dobrych przyjaciół.",
+        "words": [
+          {
+            "word": "Now",
+            "translationPl": "Teraz",
+            "phoneticsPl": "nau",
+            "isKeyword": false
+          },
+          {
+            "word": "they",
+            "translationPl": "oni",
+            "phoneticsPl": "dej",
+            "isKeyword": false
+          },
+          {
+            "word": "are",
+            "translationPl": "są",
+            "phoneticsPl": "ar",
+            "isKeyword": false
+          },
+          {
+            "word": "four",
+            "translationPl": "czworo",
+            "phoneticsPl": "for",
+            "isKeyword": true,
+            "lemmaPl": "cztery"
+          },
+          {
+            "word": "good",
+            "translationPl": "dobrych",
+            "phoneticsPl": "gud",
+            "isKeyword": true,
+            "lemmaPl": "dobry"
+          },
+          {
+            "word": "friends",
+            "punctuation": ".",
+            "translationPl": "przyjaciół",
+            "phoneticsPl": "frendz",
+            "isKeyword": true,
+            "lemmaEn": "friend",
+            "lemmaPl": "przyjaciel",
+            "lemmaPhoneticsPl": "frend"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "twinkle-hollow-5",
+    "titleEn": "Twinkle Hollow 5: The Festival of Light",
+    "titlePl": "Migocząca Dolina 5: Święto światła",
+    "coverImageUrl": "/images/stories/twinkle-hollow-5/p1.webp",
+    "coverVisualConfig": {
+      "backgroundTheme": "dusk-valley",
+      "primaryCharacter": "willow",
+      "primaryColor": "#A78BFA",
+      "secondaryColor": "#F8FAFC",
+      "props": [
+        "fox-nova",
+        "owl-juniper",
+        "hedgehog-pepper",
+        "firefly-gold",
+        "firefly-gold"
+      ],
+      "characterMood": "excited"
+    },
+    "characterVisualAnchor": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration.",
+    "themeColor": "#F59E0B",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "nova",
+          "primaryColor": "#EA580C",
+          "secondaryColor": "#FBBF24",
+          "props": [
+            "firefly-gold",
+            "firefly-gold",
+            "firefly-gold",
+            "star-yellow"
+          ],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: The valley sparkles with many golden fireflies and stars as everyone excitedly prepares for a big festival of light.",
+        "imageUrl": "/images/stories/twinkle-hollow-5/p1.webp",
+        "imageAltPl": "Dolina skrzy się mnóstwem świetlików przed wielkim świętem światła.",
+        "interactiveSoundText": "Tonight is going to be amazing!",
+        "sentenceEn": "Tonight is a big festival.",
+        "phoneticsPl": "tu-najt iz e big fes-ti-wal",
+        "sentencePl": "Dziś wieczorem jest wielkie święto.",
+        "words": [
+          {
+            "word": "Tonight",
+            "translationPl": "Dziś wieczorem",
+            "phoneticsPl": "tu-najt",
+            "isKeyword": false
+          },
+          {
+            "word": "is",
+            "translationPl": "jest",
+            "phoneticsPl": "iz",
+            "isKeyword": false
+          },
+          {
+            "word": "a",
+            "translationPl": "jakiś",
+            "phoneticsPl": "e",
+            "isKeyword": false,
+            "ttsOverride": "uh"
+          },
+          {
+            "word": "big",
+            "translationPl": "duże",
+            "phoneticsPl": "big",
+            "isKeyword": true,
+            "lemmaPl": "duży"
+          },
+          {
+            "word": "festival",
+            "punctuation": ".",
+            "translationPl": "święto",
+            "phoneticsPl": "fes-ti-wal",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "nova",
+          "primaryColor": "#EA580C",
+          "secondaryColor": "#FBBF24",
+          "props": [
+            "owl-juniper",
+            "hedgehog-pepper",
+            "bat-willow",
+            "firefly-gold",
+            "firefly-gold"
+          ],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Nova, Juniper, Pepper and Willow stand together, each glowing and sparkling, lighting up the whole valley.",
+        "imageUrl": "/images/stories/twinkle-hollow-5/p2.webp",
+        "imageAltPl": "Nova, Juniper, Pepper i Willow świecą razem i rozjaśniają całą dolinę.",
+        "interactiveSoundText": "Together, we shine so bright!",
+        "sentenceEn": "All four friends shine together.",
+        "phoneticsPl": "ol for frendz szajn tu-ge-der",
+        "sentencePl": "Czworo przyjaciół świeci razem.",
+        "words": [
+          {
+            "word": "All",
+            "translationPl": "Wszyscy",
+            "phoneticsPl": "ol",
+            "isKeyword": false
+          },
+          {
+            "word": "four",
+            "translationPl": "czworo",
+            "phoneticsPl": "for",
+            "isKeyword": true,
+            "lemmaPl": "cztery"
+          },
+          {
+            "word": "friends",
+            "translationPl": "przyjaciół",
+            "phoneticsPl": "frendz",
+            "isKeyword": true,
+            "lemmaEn": "friend",
+            "lemmaPl": "przyjaciel",
+            "lemmaPhoneticsPl": "frend"
+          },
+          {
+            "word": "shine",
+            "translationPl": "świeci",
+            "phoneticsPl": "szajn",
+            "isKeyword": true,
+            "lemmaPl": "świecić"
+          },
+          {
+            "word": "together",
+            "punctuation": ".",
+            "translationPl": "razem",
+            "phoneticsPl": "tu-ge-der",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "nova",
+          "primaryColor": "#EA580C",
+          "secondaryColor": "#FBBF24",
+          "props": [
+            "firefly-gold",
+            "firefly-gold",
+            "firefly-gold",
+            "star-yellow",
+            "moon-yellow"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: The whole valley glows brightly with countless golden fireflies, stars and a warm moon, brighter than ever before.",
+        "imageUrl": "/images/stories/twinkle-hollow-5/p3.webp",
+        "imageAltPl": "Cała dolina jaśnieje złotymi świetlikami, gwiazdkami i ciepłym księżycem.",
+        "interactiveSoundText": "Wow, look how bright it is!",
+        "sentenceEn": "The valley is bright and happy.",
+        "phoneticsPl": "de wa-li iz brajt and ha-pi",
+        "sentencePl": "Dolina jest jasna i wesoła.",
+        "words": [
+          {
+            "word": "The",
+            "translationPl": "Ta",
+            "phoneticsPl": "de",
+            "isKeyword": false
+          },
+          {
+            "word": "valley",
+            "translationPl": "dolina",
+            "phoneticsPl": "wa-li",
+            "isKeyword": true
+          },
+          {
+            "word": "is",
+            "translationPl": "jest",
+            "phoneticsPl": "iz",
+            "isKeyword": false
+          },
+          {
+            "word": "bright",
+            "translationPl": "jasna",
+            "phoneticsPl": "brajt",
+            "isKeyword": true,
+            "lemmaPl": "jasny"
+          },
+          {
+            "word": "and",
+            "translationPl": "i",
+            "phoneticsPl": "and",
+            "isKeyword": false
+          },
+          {
+            "word": "happy",
+            "punctuation": ".",
+            "translationPl": "wesoła",
+            "phoneticsPl": "ha-pi",
+            "isKeyword": true,
+            "lemmaPl": "wesoły"
+          }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "willow",
+          "primaryColor": "#A78BFA",
+          "secondaryColor": "#F8FAFC",
+          "props": [
+            "fox-nova",
+            "owl-juniper",
+            "hedgehog-pepper",
+            "firefly-gold"
+          ],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Willow, Nova, Juniper and Pepper sing and dance joyfully together under the bright, sparkling valley sky.",
+        "imageUrl": "/images/stories/twinkle-hollow-5/p4.webp",
+        "imageAltPl": "Willow, Nova, Juniper i Pepper śpiewają i tańczą radośnie pod rozświetlonym niebem.",
+        "interactiveSoundText": "La la la, we love this song!",
+        "sentenceEn": "They sing and dance with joy.",
+        "phoneticsPl": "dej sing and dans łif dżoj",
+        "sentencePl": "Śpiewają i tańczą z radością.",
+        "words": [
+          {
+            "word": "They",
+            "translationPl": "Oni",
+            "phoneticsPl": "dej",
+            "isKeyword": false
+          },
+          {
+            "word": "sing",
+            "translationPl": "śpiewają",
+            "phoneticsPl": "sing",
+            "isKeyword": true,
+            "lemmaPl": "śpiewać"
+          },
+          {
+            "word": "and",
+            "translationPl": "i",
+            "phoneticsPl": "and",
+            "isKeyword": false
+          },
+          {
+            "word": "dance",
+            "translationPl": "tańczą",
+            "phoneticsPl": "dans",
+            "isKeyword": true,
+            "lemmaPl": "tańczyć"
+          },
+          {
+            "word": "with",
+            "translationPl": "z",
+            "phoneticsPl": "łif",
+            "isKeyword": false
+          },
+          {
+            "word": "joy",
+            "punctuation": ".",
+            "translationPl": "radością",
+            "phoneticsPl": "dżoj",
+            "isKeyword": true,
+            "lemmaPl": "radość"
+          }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "willow",
+          "primaryColor": "#A78BFA",
+          "secondaryColor": "#F8FAFC",
+          "props": [
+            "fox-nova",
+            "owl-juniper",
+            "hedgehog-pepper",
+            "firefly-gold"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Willow smiles with her wings fully sparkling, standing happily with her three friends, feeling loved and never alone.",
+        "imageUrl": "/images/stories/twinkle-hollow-5/p5.webp",
+        "imageAltPl": "Willow uśmiecha się radośnie ze skrzącymi skrzydłami, otoczona przyjaciółmi.",
+        "interactiveSoundText": "I am so happy. Thank you, friends!",
+        "sentenceEn": "Willow is happy. She is not alone.",
+        "phoneticsPl": "łi-lou iz ha-pi szi iz not e-loun",
+        "sentencePl": "Willow jest szczęśliwa. Nie jest już samotna.",
+        "words": [
+          {
+            "word": "Willow",
+            "translationPl": "Willow",
+            "phoneticsPl": "łi-lou",
+            "isKeyword": false
+          },
+          {
+            "word": "is",
+            "translationPl": "jest",
+            "phoneticsPl": "iz",
+            "isKeyword": false
+          },
+          {
+            "word": "happy",
+            "punctuation": ".",
+            "translationPl": "wesoła",
+            "phoneticsPl": "ha-pi",
+            "isKeyword": true,
+            "lemmaPl": "wesoły"
+          },
+          {
+            "word": "She",
+            "translationPl": "Ona",
+            "phoneticsPl": "szi",
+            "isKeyword": false
+          },
+          {
+            "word": "is",
+            "translationPl": "jest",
+            "phoneticsPl": "iz",
+            "isKeyword": false
+          },
+          {
+            "word": "not",
+            "translationPl": "nie",
+            "phoneticsPl": "not",
+            "isKeyword": false
+          },
+          {
+            "word": "alone",
+            "punctuation": ".",
+            "translationPl": "samotna",
+            "phoneticsPl": "e-loun",
+            "isKeyword": true,
+            "lemmaPl": "samotny"
+          }
+        ]
+      },
+      {
+        "pageNumber": 6,
+        "visualConfig": {
+          "backgroundTheme": "dusk-valley",
+          "primaryCharacter": "willow",
+          "primaryColor": "#A78BFA",
+          "secondaryColor": "#F8FAFC",
+          "props": [
+            "fox-nova",
+            "owl-juniper",
+            "hedgehog-pepper",
+            "firefly-gold",
+            "firefly-gold",
+            "star-yellow",
+            "moon-yellow"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Four small forest friends in a glowing dusk valley, soft children's book watercolor style: Nova, a little fox cub with warm orange-rust fur and a bushy tail that sparkles like tiny stars when she is happy; Juniper, a young owl with soft lavender-grey feathers and big round eyes; Pepper, a small hedgehog with golden-brown spikes and rosy pink cheeks; Willow, a shy little bat with soft grey fur and pale lavender wings that shine with a starry pattern only when she is happy. Gentle pastel colors, hand-painted picture book art, soft brush strokes, warm cozy dusk lighting, whimsical and friendly, flat 2D storybook illustration. Scene: Willow, Nova, Juniper and Pepper stand together under a sky full of stars and fireflies, as the whole valley shines warmly forever.",
+        "imageUrl": "/images/stories/twinkle-hollow-5/p6.webp",
+        "imageAltPl": "Willow, Nova, Juniper i Pepper stoją razem pod niebem pełnym gwiazd i świetlików, a dolina świeci ciepło na zawsze.",
+        "interactiveSoundText": "Twinkle, twinkle, Twinkle Hollow!",
+        "sentenceEn": "Twinkle Hollow shines bright forever.",
+        "phoneticsPl": "tłin-kl ho-lou szajnz brajt for-e-wer",
+        "sentencePl": "Migocząca Dolina świeci jasno na zawsze.",
+        "words": [
+          {
+            "word": "Twinkle Hollow",
+            "translationPl": "Migocząca Dolina",
+            "phoneticsPl": "tłin-kl ho-lou",
+            "isKeyword": false
+          },
+          {
+            "word": "shines",
+            "translationPl": "świeci",
+            "phoneticsPl": "szajnz",
+            "isKeyword": true,
+            "lemmaEn": "shine",
+            "lemmaPl": "świecić",
+            "lemmaPhoneticsPl": "szajn"
+          },
+          {
+            "word": "bright",
+            "translationPl": "jasno",
+            "phoneticsPl": "brajt",
+            "isKeyword": true,
+            "lemmaPl": "jasny"
+          },
+          {
+            "word": "forever",
+            "punctuation": ".",
+            "translationPl": "na zawsze",
+            "phoneticsPl": "for-e-wer",
+            "isKeyword": true
+          }
+        ]
+      }
+    ]
   }
 ]

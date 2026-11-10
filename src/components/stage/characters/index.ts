@@ -1,12 +1,16 @@
 import type { ComponentType } from 'react'
 import type { PrimaryCharacter } from '../../../types/story'
 import type { CharacterProps } from '../types'
+import { Bat } from './Bat'
 import { Bunny } from './Bunny'
 import { Cat } from './Cat'
 import { Dino } from './Dino'
 import { Dog } from './Dog'
+import { Fox } from './Fox'
 import { girlCharacter } from './girlCharacter'
+import { Hedgehog } from './Hedgehog'
 import type { GirlLookKey } from './looks'
+import { Owl } from './Owl'
 import { Panda } from './Panda'
 import { PrincessPony } from './PrincessPony'
 
@@ -41,4 +45,8 @@ export const CHARACTER_DRAWINGS: Record<PrimaryCharacter, ComponentType<Characte
   ruby: girlCharacter('ruby'),
   lena: girlCharacter('lena'),
   amy: girlCharacter('amy'),
+  nova: Fox,
+  juniper: Owl,
+  pepper: Hedgehog,
+  willow: Bat,
 }

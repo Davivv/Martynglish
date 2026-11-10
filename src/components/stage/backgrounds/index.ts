@@ -6,6 +6,8 @@ import { Castle } from './Castle'
 import { Clubhouse } from './Clubhouse'
 import { Concert } from './Concert'
 import { DarkCity, NeonCity } from './City'
+import { DuskValley } from './DuskValley'
+import { HollowTree } from './HollowTree'
 import { IceCreamShop } from './IceCream'
 import { Meadow } from './Meadow'
 import { NightSky } from './NightSky'
@@ -28,4 +30,6 @@ export const BACKGROUND_DRAWINGS: Record<BackgroundTheme, ComponentType> = {
   town: Town,
   clubhouse: Clubhouse,
   cafe: Cafe,
+  'dusk-valley': DuskValley,
+  'hollow-tree': HollowTree,
 }

@@ -2,6 +2,7 @@ import type { ComponentType } from 'react'
 import type { PropProps } from '../types'
 import { Bird, Butterfly, Fish } from './animals'
 import { Apple, Banana, Chocolate, IceCream } from './food'
+import { BatWillow, FireflyGold, FoxNova, HedgehogPepper, OwlJuniper } from './forest'
 import { Flower, Shell, Tree } from './nature'
 import { Cloud, Moon, Rainbow, Star, Sun } from './sky'
 import { Ball, Balloon, Heart } from './toys'
@@ -25,20 +26,25 @@ export const PROP_DRAWINGS: Record<string, ComponentType<PropProps>> = {
   ball: Ball,
   balloon: Balloon,
   banana: Banana,
+  bat: BatWillow,
   bird: Bird,
   box: BoxBrown,
   butterfly: Butterfly,
   cake: Cake,
   chocolate: Chocolate,
   cloud: Cloud,
+  firefly: FireflyGold,
   fish: Fish,
   flower: Flower,
+  fox: FoxNova,
   girl: GirlFriend,
   heart: Heart,
+  hedgehog: HedgehogPepper,
   icecream: IceCream,
   microphone: MicrophoneGold,
   milk: MilkWhite,
   moon: Moon,
+  owl: OwlJuniper,
   phone: PhonePurple,
   poster: PosterBlue,
   puppy: PuppyBrown,

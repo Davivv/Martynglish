@@ -14,6 +14,9 @@ export const BACKGROUND_THEMES = /** @type {const} */ ([
   'town',
   'clubhouse',
   'cafe',
+  // Twinkle Hollow (D43): a glowing valley at dusk and the hollow tree inside it.
+  'dusk-valley',
+  'hollow-tree',
 ])
 
 export const PRIMARY_CHARACTERS = /** @type {const} */ ([
@@ -30,6 +33,11 @@ export const PRIMARY_CHARACTERS = /** @type {const} */ ([
   'ruby',
   'lena',
   'amy',
+  // Twinkle Hollow (D43): the four forest friends.
+  'nova',
+  'juniper',
+  'pepper',
+  'willow',
 ])
 
 export const CHARACTER_MOODS = /** @type {const} */ (['happy', 'sleepy', 'excited', 'curious', 'brave', 'worried'])
@@ -74,6 +82,14 @@ export const PROP_OBJECTS = {
   sun: ['yellow'],
   table: ['tail'],
   tree: ['green'],
+  // Twinkle Hollow (D43): the glowing valley needs its own little lights, and each
+  // forest friend needs to be able to stand beside another one as a named companion
+  // in the same scale, the same way `girl-hana` works for Klub Przyjaciółek (D38).
+  firefly: ['gold'],
+  fox: ['nova'],
+  owl: ['juniper'],
+  hedgehog: ['pepper'],
+  bat: ['willow'],
 }
 
 /** @returns {string[]} every allowed `props` value */
