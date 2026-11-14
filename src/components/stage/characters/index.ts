@@ -2,6 +2,8 @@ import type { ComponentType } from 'react'
 import type { PrimaryCharacter } from '../../../types/story'
 import type { CharacterProps } from '../types'
 import { Bat } from './Bat'
+import { boyCharacter } from './boyCharacter'
+import type { BoyLookKey } from './boyLooks'
 import { Bunny } from './Bunny'
 import { Cat } from './Cat'
 import { Dino } from './Dino'
@@ -23,11 +25,23 @@ export const GIRL_HEROES: Partial<Record<PrimaryCharacter, GirlLookKey>> = {
   ruby: 'ruby',
   lena: 'lena',
   amy: 'amy',
+  // Friends (D44): the crew's girls.
+  marti: 'marti',
+  rozyczka: 'rozyczka',
+  kredka: 'kredka',
+  iskierka: 'iskierka',
 }
 
-/** Half width of the ground shadow under a hero: a slim girl needs a narrower one than a round animal. */
+/** Boy heroes (D44, Friends) and the look-table row each one uses. */
+export const BOY_HEROES: Partial<Record<PrimaryCharacter, BoyLookKey>> = {
+  promyk: 'promyk',
+  figiel: 'figiel',
+  skrzat: 'skrzat',
+}
+
+/** Half width of the ground shadow under a hero: a slim human needs a narrower one than a round animal. */
 export function heroShadowRx(character: PrimaryCharacter): number {
-  return character in GIRL_HEROES ? 25 : 50
+  return character in GIRL_HEROES || character in BOY_HEROES ? 25 : 50
 }
 
 /** One drawing per `PRIMARY_CHARACTERS` entry. A test keeps this map complete. */
@@ -49,4 +63,12 @@ export const CHARACTER_DRAWINGS: Record<PrimaryCharacter, ComponentType<Characte
   juniper: Owl,
   pepper: Hedgehog,
   willow: Bat,
+  // Friends (D44): the crew's seven members, studio flat-illustration style (vector fallback).
+  marti: girlCharacter('marti'),
+  promyk: boyCharacter('promyk'),
+  figiel: boyCharacter('figiel'),
+  skrzat: boyCharacter('skrzat'),
+  rozyczka: girlCharacter('rozyczka'),
+  kredka: girlCharacter('kredka'),
+  iskierka: girlCharacter('iskierka'),
 }

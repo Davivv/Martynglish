@@ -1,7 +1,7 @@
 import type { ComponentType } from 'react'
 import type { PropProps } from '../types'
 import { Bird, Butterfly, Fish } from './animals'
-import { Apple, Banana, Chocolate, IceCream } from './food'
+import { Apple, Banana, Chocolate, IceCream, Pizza } from './food'
 import { BatWillow, FireflyGold, FoxNova, HedgehogPepper, OwlJuniper } from './forest'
 import { Flower, Shell, Tree } from './nature'
 import { Cloud, Moon, Rainbow, Star, Sun } from './sky'
@@ -19,6 +19,7 @@ import {
   SkateboardPink,
   TableTail,
 } from './scene'
+import { BlanketRed, BoyFriend, Bracelet, CameraBlack, HatYellow, HoodieOrange, LightWhite, SuitcaseBlue } from './studio'
 
 /** One drawing per `PROP_OBJECTS` key. A test keeps this map complete. */
 export const PROP_DRAWINGS: Record<string, ComponentType<PropProps>> = {
@@ -28,9 +29,17 @@ export const PROP_DRAWINGS: Record<string, ComponentType<PropProps>> = {
   banana: Banana,
   bat: BatWillow,
   bird: Bird,
+  // Friends (D45): the park picnic blanket.
+  blanket: BlanketRed,
+  // Friends (D44): boy friends standing beside the hero, same pattern as `girl` below.
+  boy: BoyFriend,
   box: BoxBrown,
+  // Friends (D45): friendship bracelets made in the art corner.
+  bracelet: Bracelet,
   butterfly: Butterfly,
   cake: Cake,
+  // Friends (D44): the studio's camera, hoodie, stage light and Marti's suitcase.
+  camera: CameraBlack,
   chocolate: Chocolate,
   cloud: Cloud,
   firefly: FireflyGold,
@@ -38,14 +47,20 @@ export const PROP_DRAWINGS: Record<string, ComponentType<PropProps>> = {
   flower: Flower,
   fox: FoxNova,
   girl: GirlFriend,
+  // Friends (D45): Iskierka's sun hat from the windy park day.
+  hat: HatYellow,
   heart: Heart,
   hedgehog: HedgehogPepper,
+  hoodie: HoodieOrange,
   icecream: IceCream,
+  light: LightWhite,
   microphone: MicrophoneGold,
   milk: MilkWhite,
   moon: Moon,
   owl: OwlJuniper,
   phone: PhonePurple,
+  // Friends (D45): the fruit pizza from the kitchen challenge.
+  pizza: Pizza,
   poster: PosterBlue,
   puppy: PuppyBrown,
   rainbow: Rainbow,
@@ -53,6 +68,7 @@ export const PROP_DRAWINGS: Record<string, ComponentType<PropProps>> = {
   shell: Shell,
   skateboard: SkateboardPink,
   star: Star,
+  suitcase: SuitcaseBlue,
   sun: Sun,
   table: TableTail,
   tree: Tree,

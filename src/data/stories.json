@@ -4461,5 +4461,1957 @@
         ]
       }
     ]
+  },
+  {
+    "id": "friends-crew-1",
+    "titleEn": "Friends 1: My First Day with the Crew",
+    "titlePl": "Przyjaciele 1: Mój pierwszy dzień z ekipą",
+    "coverImageUrl": "/images/stories/friends-crew-1/p6.webp",
+    "coverVisualConfig": {
+      "backgroundTheme": "studio",
+      "primaryCharacter": "marti",
+      "primaryColor": "#0EA5E9",
+      "secondaryColor": "#F97316",
+      "props": [
+        "boy-promyk",
+        "girl-rozyczka",
+        "girl-kredka"
+      ],
+      "characterMood": "happy"
+    },
+    "characterVisualAnchor": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism.",
+    "themeColor": "#F97316",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "imageUrl": "/images/stories/friends-crew-1/p1.webp",
+        "visualConfig": {
+          "backgroundTheme": "studio",
+          "primaryCharacter": "marti",
+          "primaryColor": "#0EA5E9",
+          "secondaryColor": "#F97316",
+          "props": [
+            "suitcase-blue"
+          ],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Marti stands outside the bright Friends studio building, holding her small blue suitcase, excited and curious.",
+        "imageAltPl": "Marti stoi przed studiem Friends z małą niebieską walizką.",
+        "interactiveSoundText": "Hi! I am Marti! I am so excited!",
+        "sentenceEn": "I visit my Friends today.",
+        "phoneticsPl": "aj wi-zit maj frendz tu-dej",
+        "sentencePl": "Dziś odwiedzam moją ekipę Friends.",
+        "words": [
+          {
+            "word": "I",
+            "translationPl": "Ja",
+            "phoneticsPl": "aj",
+            "isKeyword": false
+          },
+          {
+            "word": "visit",
+            "translationPl": "odwiedzam",
+            "phoneticsPl": "wi-zit",
+            "lemmaPl": "odwiedzać",
+            "isKeyword": true
+          },
+          {
+            "word": "my",
+            "translationPl": "moją",
+            "phoneticsPl": "maj",
+            "isKeyword": false
+          },
+          {
+            "word": "Friends",
+            "translationPl": "Friends",
+            "phoneticsPl": "frendz",
+            "isKeyword": false
+          },
+          {
+            "word": "today",
+            "punctuation": ".",
+            "translationPl": "dziś",
+            "phoneticsPl": "tu-dej",
+            "isKeyword": false
+          }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "imageUrl": "/images/stories/friends-crew-1/p2.webp",
+        "visualConfig": {
+          "backgroundTheme": "studio",
+          "primaryCharacter": "promyk",
+          "primaryColor": "#F59E0B",
+          "secondaryColor": "#0EA5E9",
+          "props": [
+            "girl-marti"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Promyk waves and smiles warmly at Marti by the studio entrance, both look happy to meet.",
+        "imageAltPl": "Promyk wita się z Mią przy wejściu do studia.",
+        "interactiveSoundText": "Hello, Marti! Welcome!",
+        "sentenceEn": "Promyk says hello to me.",
+        "phoneticsPl": "pro-myk sez he-lou tu mi",
+        "sentencePl": "Promyk mówi mi cześć.",
+        "words": [
+          {
+            "word": "Promyk",
+            "translationPl": "Promyk",
+            "phoneticsPl": "pro-myk",
+            "isKeyword": false
+          },
+          {
+            "word": "says",
+            "translationPl": "mówi",
+            "phoneticsPl": "sez",
+            "isKeyword": false
+          },
+          {
+            "word": "hello",
+            "translationPl": "cześć",
+            "phoneticsPl": "he-lou",
+            "isKeyword": true
+          },
+          {
+            "word": "to",
+            "translationPl": "do",
+            "phoneticsPl": "tu",
+            "isKeyword": false
+          },
+          {
+            "word": "me",
+            "punctuation": ".",
+            "translationPl": "mnie",
+            "phoneticsPl": "mi",
+            "isKeyword": false
+          }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "imageUrl": "/images/stories/friends-crew-1/p3.webp",
+        "visualConfig": {
+          "backgroundTheme": "studio",
+          "primaryCharacter": "marti",
+          "primaryColor": "#0EA5E9",
+          "secondaryColor": "#EC4899",
+          "props": [
+            "boy-figiel",
+            "boy-skrzat",
+            "girl-rozyczka",
+            "girl-kredka",
+            "girl-iskierka"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Marti smiles, a little shy, as Figiel, Skrzat, Różyczka, Kredka and Iskierka all stand together to welcome her warmly in the studio.",
+        "imageAltPl": "Figiel, Skrzat, Różyczka, Kredka i Iskierka witają Mię w studiu.",
+        "interactiveSoundText": "Hi, Marti! We are your new friends!",
+        "sentenceEn": "My new friends are here.",
+        "phoneticsPl": "maj niu frendz ar hir",
+        "sentencePl": "Moi nowi przyjaciele są tutaj.",
+        "words": [
+          {
+            "word": "My",
+            "translationPl": "Moi",
+            "phoneticsPl": "maj",
+            "isKeyword": false
+          },
+          {
+            "word": "new",
+            "translationPl": "nowi",
+            "phoneticsPl": "niu",
+            "lemmaPl": "nowy",
+            "isKeyword": true
+          },
+          {
+            "word": "friends",
+            "translationPl": "przyjaciele",
+            "phoneticsPl": "frendz",
+            "isKeyword": true,
+            "lemmaEn": "friend",
+            "lemmaPl": "przyjaciel",
+            "lemmaPhoneticsPl": "frend"
+          },
+          {
+            "word": "are",
+            "translationPl": "są",
+            "phoneticsPl": "ar",
+            "isKeyword": false
+          },
+          {
+            "word": "here",
+            "punctuation": ".",
+            "translationPl": "tutaj",
+            "phoneticsPl": "hir",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "imageUrl": "/images/stories/friends-crew-1/p4.webp",
+        "visualConfig": {
+          "backgroundTheme": "studio",
+          "primaryCharacter": "marti",
+          "primaryColor": "#0EA5E9",
+          "secondaryColor": "#F59E0B",
+          "props": [
+            "boy-promyk",
+            "camera-black",
+            "microphone-gold",
+            "light-white"
+          ],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Promyk shows Marti around the bright studio, pointing at a camera, a gold microphone and bright studio lights; Marti looks amazed.",
+        "imageAltPl": "Promyk pokazuje Mii studio z kamerą, mikrofonem i światłami.",
+        "interactiveSoundText": "Wow! Look at the camera and the lights!",
+        "sentenceEn": "We see the big studio.",
+        "phoneticsPl": "łi si de big stu-di-ou",
+        "sentencePl": "Widzimy duże studio.",
+        "words": [
+          {
+            "word": "We",
+            "translationPl": "My",
+            "phoneticsPl": "łi",
+            "isKeyword": false
+          },
+          {
+            "word": "see",
+            "translationPl": "widzimy",
+            "phoneticsPl": "si",
+            "lemmaPl": "widzieć",
+            "isKeyword": true
+          },
+          {
+            "word": "the",
+            "translationPl": "to",
+            "phoneticsPl": "de",
+            "isKeyword": false
+          },
+          {
+            "word": "big",
+            "translationPl": "duże",
+            "phoneticsPl": "big",
+            "lemmaPl": "duży",
+            "isKeyword": true
+          },
+          {
+            "word": "studio",
+            "punctuation": ".",
+            "translationPl": "studio",
+            "phoneticsPl": "stu-di-ou",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "imageUrl": "/images/stories/friends-crew-1/p5.webp",
+        "visualConfig": {
+          "backgroundTheme": "studio",
+          "primaryCharacter": "marti",
+          "primaryColor": "#F97316",
+          "secondaryColor": "#0EA5E9",
+          "props": [
+            "hoodie-orange",
+            "girl-rozyczka",
+            "girl-kredka"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Różyczka and Kredka happily give Marti her own orange Friends hoodie, Marti looks proud and moved.",
+        "imageAltPl": "Różyczka i Kredka wręczają Mii pomarańczową bluzę Friends.",
+        "interactiveSoundText": "Now you are one of us, Marti!",
+        "sentenceEn": "I get my Friends hoodie.",
+        "phoneticsPl": "aj get maj frendz hu-di",
+        "sentencePl": "Dostaję moją bluzę Friends.",
+        "words": [
+          {
+            "word": "I",
+            "translationPl": "Ja",
+            "phoneticsPl": "aj",
+            "isKeyword": false
+          },
+          {
+            "word": "get",
+            "translationPl": "dostaję",
+            "phoneticsPl": "get",
+            "lemmaPl": "dostawać",
+            "isKeyword": true
+          },
+          {
+            "word": "my",
+            "translationPl": "moją",
+            "phoneticsPl": "maj",
+            "isKeyword": false
+          },
+          {
+            "word": "Friends",
+            "translationPl": "Friends",
+            "phoneticsPl": "frendz",
+            "isKeyword": false
+          },
+          {
+            "word": "hoodie",
+            "punctuation": ".",
+            "translationPl": "bluzę",
+            "phoneticsPl": "hu-di",
+            "lemmaPl": "bluza",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 6,
+        "imageUrl": "/images/stories/friends-crew-1/p6.webp",
+        "visualConfig": {
+          "backgroundTheme": "studio",
+          "primaryCharacter": "promyk",
+          "primaryColor": "#F59E0B",
+          "secondaryColor": "#0EA5E9",
+          "props": [
+            "girl-marti",
+            "boy-figiel",
+            "boy-skrzat",
+            "girl-rozyczka",
+            "girl-kredka",
+            "girl-iskierka",
+            "camera-black"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: The whole Friends crew stands together in front of a camera in the studio, Marti stands proudly next to Promyk, everyone waves, ready to film.",
+        "imageAltPl": "Cała ekipa Friends stoi razem przed kamerą, Marti obok Promyka.",
+        "interactiveSoundText": "Yay! Welcome to Friends, Marti! Tomorrow: a crazy kitchen video!",
+        "sentenceEn": "We make a video together.",
+        "phoneticsPl": "łi mejk e wi-di-ou tu-ge-der",
+        "sentencePl": "Robimy razem film.",
+        "words": [
+          {
+            "word": "We",
+            "translationPl": "My",
+            "phoneticsPl": "łi",
+            "isKeyword": false
+          },
+          {
+            "word": "make",
+            "translationPl": "robimy",
+            "phoneticsPl": "mejk",
+            "lemmaPl": "tworzyć",
+            "isKeyword": true
+          },
+          {
+            "word": "a",
+            "translationPl": "jakiś",
+            "phoneticsPl": "e",
+            "ttsOverride": "uh",
+            "isKeyword": false
+          },
+          {
+            "word": "video",
+            "translationPl": "film",
+            "phoneticsPl": "wi-di-ou",
+            "isKeyword": true
+          },
+          {
+            "word": "together",
+            "punctuation": ".",
+            "translationPl": "razem",
+            "phoneticsPl": "tu-ge-der",
+            "isKeyword": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "friends-crew-2",
+    "titleEn": "Friends 2: The Crazy Kitchen Challenge",
+    "titlePl": "Przyjaciele 2: Szalone wyzwanie kuchenne",
+    "coverImageUrl": "/images/stories/friends-crew-2/p6.webp",
+    "coverVisualConfig": {
+      "backgroundTheme": "kitchen",
+      "primaryCharacter": "marti",
+      "primaryColor": "#F97316",
+      "secondaryColor": "#0EA5E9",
+      "props": [
+        "pizza-1",
+        "boy-promyk",
+        "girl-kredka"
+      ],
+      "characterMood": "happy"
+    },
+    "characterVisualAnchor": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism.",
+    "themeColor": "#F97316",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "imageUrl": "/images/stories/friends-crew-2/p1.webp",
+        "visualConfig": {
+          "backgroundTheme": "kitchen",
+          "primaryCharacter": "promyk",
+          "primaryColor": "#F59E0B",
+          "secondaryColor": "#0EA5E9",
+          "props": [
+            "boy-promyk",
+            "boy-figiel",
+            "boy-skrzat",
+            "girl-rozyczka",
+            "girl-kredka",
+            "girl-iskierka"
+          ],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Promyk happily announces a fun kitchen challenge, the whole crew gathers around him in the bright studio kitchen corner, everyone excited.",
+        "imageAltPl": "Promyk ogłasza kuchenne wyzwanie, cała ekipa jest w kuchni.",
+        "interactiveSoundText": "Yay! Let’s make pizza, everyone!",
+        "sentenceEn": "We make pizza in the kitchen!",
+        "phoneticsPl": "łi mejk pi-tse in de kit-czyn",
+        "sentencePl": "Robimy pizzę w tej kuchni!",
+        "words": [
+          {
+            "word": "We",
+            "translationPl": "My",
+            "phoneticsPl": "łi",
+            "isKeyword": false
+          },
+          {
+            "word": "make",
+            "translationPl": "robimy",
+            "phoneticsPl": "mejk",
+            "lemmaPl": "tworzyć",
+            "isKeyword": true
+          },
+          {
+            "word": "pizza",
+            "translationPl": "pizzę",
+            "phoneticsPl": "pi-tse",
+            "lemmaPl": "pizza",
+            "isKeyword": true
+          },
+          {
+            "word": "in",
+            "translationPl": "w",
+            "phoneticsPl": "in",
+            "isKeyword": false
+          },
+          {
+            "word": "the",
+            "translationPl": "tej",
+            "phoneticsPl": "de",
+            "isKeyword": false
+          },
+          {
+            "word": "kitchen",
+            "punctuation": "!",
+            "translationPl": "kuchni",
+            "phoneticsPl": "kit-czyn",
+            "lemmaPl": "kuchnia",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "imageUrl": "/images/stories/friends-crew-2/p2.webp",
+        "visualConfig": {
+          "backgroundTheme": "kitchen",
+          "primaryCharacter": "marti",
+          "primaryColor": "#0EA5E9",
+          "secondaryColor": "#F97316",
+          "props": [
+            "apple-red",
+            "banana-yellow"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Marti happily mixes red apple pieces and yellow banana pieces in a bowl in the studio kitchen.",
+        "imageAltPl": "Marti miesza czerwone i żółte owoce w misce.",
+        "interactiveSoundText": "Mixing is so much fun!",
+        "sentenceEn": "I mix red and yellow fruit.",
+        "phoneticsPl": "aj miks red and je-lou frut",
+        "sentencePl": "Mieszam czerwone i żółte owoce.",
+        "words": [
+          {
+            "word": "I",
+            "translationPl": "Ja",
+            "phoneticsPl": "aj",
+            "isKeyword": false
+          },
+          {
+            "word": "mix",
+            "translationPl": "mieszam",
+            "phoneticsPl": "miks",
+            "lemmaPl": "mieszać",
+            "isKeyword": true
+          },
+          {
+            "word": "red",
+            "translationPl": "czerwone",
+            "phoneticsPl": "red",
+            "lemmaPl": "czerwony",
+            "isKeyword": true
+          },
+          {
+            "word": "and",
+            "translationPl": "i",
+            "phoneticsPl": "and",
+            "isKeyword": false
+          },
+          {
+            "word": "yellow",
+            "translationPl": "żółte",
+            "phoneticsPl": "je-lou",
+            "lemmaPl": "żółty",
+            "isKeyword": true
+          },
+          {
+            "word": "fruit",
+            "punctuation": ".",
+            "translationPl": "owoce",
+            "phoneticsPl": "frut",
+            "lemmaPl": "owoc",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "imageUrl": "/images/stories/friends-crew-2/p3.webp",
+        "visualConfig": {
+          "backgroundTheme": "kitchen",
+          "primaryCharacter": "skrzat",
+          "primaryColor": "#0D9488",
+          "secondaryColor": "#F59E0B",
+          "props": [
+            "banana-yellow",
+            "girl-marti"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Skrzat accidentally drops a yellow banana on the kitchen floor, Marti and Skrzat both burst out laughing, no one is upset.",
+        "imageAltPl": "Skrzat upuszcza banana, a wszyscy się śmieją.",
+        "interactiveSoundText": "Oops! Ha ha ha!",
+        "sentenceEn": "Skrzat drops the banana! We laugh!",
+        "phoneticsPl": "skrzat drops de ba-na-na łi laf",
+        "sentencePl": "Skrzat upuszcza banan! Śmiejemy się!",
+        "words": [
+          {
+            "word": "Skrzat",
+            "translationPl": "Skrzat",
+            "phoneticsPl": "skrzat",
+            "isKeyword": false
+          },
+          {
+            "word": "drops",
+            "translationPl": "upuszcza",
+            "phoneticsPl": "drops",
+            "lemmaEn": "drop",
+            "lemmaPl": "upuszczać",
+            "lemmaPhoneticsPl": "drop",
+            "isKeyword": true
+          },
+          {
+            "word": "the",
+            "translationPl": "ten",
+            "phoneticsPl": "de",
+            "isKeyword": false
+          },
+          {
+            "word": "banana",
+            "punctuation": "!",
+            "translationPl": "banan",
+            "phoneticsPl": "ba-na-na",
+            "isKeyword": true
+          },
+          {
+            "word": "We",
+            "translationPl": "My",
+            "phoneticsPl": "łi",
+            "isKeyword": false
+          },
+          {
+            "word": "laugh",
+            "punctuation": "!",
+            "translationPl": "śmiejemy się",
+            "phoneticsPl": "laf",
+            "isKeyword": false
+          }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "imageUrl": "/images/stories/friends-crew-2/p4.webp",
+        "visualConfig": {
+          "backgroundTheme": "kitchen",
+          "primaryCharacter": "marti",
+          "primaryColor": "#0EA5E9",
+          "secondaryColor": "#F97316",
+          "props": [
+            "pizza-1",
+            "apple-red",
+            "banana-yellow",
+            "boy-promyk",
+            "girl-kredka"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Marti, Promyk and Kredka happily build a fruit pizza together on the kitchen counter.",
+        "imageAltPl": "Marti, Promyk i Kredka robią razem owocową pizzę.",
+        "interactiveSoundText": "Look, our pizza is almost ready!",
+        "sentenceEn": "We make a fruit pizza together.",
+        "phoneticsPl": "łi mejk e frut pi-tse tu-ge-der",
+        "sentencePl": "Robimy razem owocową pizzę.",
+        "words": [
+          {
+            "word": "We",
+            "translationPl": "My",
+            "phoneticsPl": "łi",
+            "isKeyword": false
+          },
+          {
+            "word": "make",
+            "translationPl": "robimy",
+            "phoneticsPl": "mejk",
+            "lemmaPl": "tworzyć",
+            "isKeyword": true
+          },
+          {
+            "word": "a",
+            "translationPl": "jakąś",
+            "phoneticsPl": "e",
+            "ttsOverride": "uh",
+            "isKeyword": false
+          },
+          {
+            "word": "fruit",
+            "translationPl": "owocową",
+            "phoneticsPl": "frut",
+            "lemmaPl": "owoc",
+            "isKeyword": true
+          },
+          {
+            "word": "pizza",
+            "translationPl": "pizzę",
+            "phoneticsPl": "pi-tse",
+            "lemmaPl": "pizza",
+            "isKeyword": true
+          },
+          {
+            "word": "together",
+            "punctuation": ".",
+            "translationPl": "razem",
+            "phoneticsPl": "tu-ge-der",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "imageUrl": "/images/stories/friends-crew-2/p5.webp",
+        "visualConfig": {
+          "backgroundTheme": "kitchen",
+          "primaryCharacter": "marti",
+          "primaryColor": "#F97316",
+          "secondaryColor": "#0EA5E9",
+          "props": [
+            "pizza-1",
+            "apple-red",
+            "banana-yellow",
+            "apple-green"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: A finished colorful fruit pizza sits on the counter, topped with red, yellow and green fruit, Marti looks proud.",
+        "imageAltPl": "Kolorowa owocowa pizza z czerwonymi, żółtymi i zielonymi owocami.",
+        "interactiveSoundText": "Wow, it looks so colorful!",
+        "sentenceEn": "Our pizza is red, yellow and green!",
+        "phoneticsPl": "au-er pi-tse iz red je-lou and grin",
+        "sentencePl": "Nasza pizza jest czerwona, żółta i zielona!",
+        "words": [
+          {
+            "word": "Our",
+            "translationPl": "Nasza",
+            "phoneticsPl": "au-er",
+            "isKeyword": false
+          },
+          {
+            "word": "pizza",
+            "translationPl": "pizza",
+            "phoneticsPl": "pi-tse",
+            "lemmaPl": "pizza",
+            "isKeyword": true
+          },
+          {
+            "word": "is",
+            "translationPl": "jest",
+            "phoneticsPl": "iz",
+            "isKeyword": false
+          },
+          {
+            "word": "red",
+            "punctuation": ",",
+            "translationPl": "czerwona",
+            "phoneticsPl": "red",
+            "lemmaPl": "czerwony",
+            "isKeyword": true
+          },
+          {
+            "word": "yellow",
+            "translationPl": "żółta",
+            "phoneticsPl": "je-lou",
+            "lemmaPl": "żółty",
+            "isKeyword": true
+          },
+          {
+            "word": "and",
+            "translationPl": "i",
+            "phoneticsPl": "and",
+            "isKeyword": false
+          },
+          {
+            "word": "green",
+            "punctuation": "!",
+            "translationPl": "zielona",
+            "phoneticsPl": "grin",
+            "lemmaPl": "zielony",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 6,
+        "imageUrl": "/images/stories/friends-crew-2/p6.webp",
+        "visualConfig": {
+          "backgroundTheme": "kitchen",
+          "primaryCharacter": "marti",
+          "primaryColor": "#F97316",
+          "secondaryColor": "#0EA5E9",
+          "props": [
+            "pizza-1",
+            "boy-promyk",
+            "boy-figiel",
+            "boy-skrzat",
+            "girl-rozyczka",
+            "girl-kredka",
+            "girl-iskierka"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: The whole crew sits together around the kitchen counter, happily eating slices of the colorful fruit pizza.",
+        "imageAltPl": "Cała ekipa razem je kolorową owocową pizzę.",
+        "interactiveSoundText": "Yummy! Tomorrow: Park Picnic Day!",
+        "sentenceEn": "We all eat pizza together!",
+        "phoneticsPl": "łi ol it pi-tse tu-ge-der",
+        "sentencePl": "Wszyscy jemy razem pizzę!",
+        "words": [
+          {
+            "word": "We",
+            "translationPl": "My",
+            "phoneticsPl": "łi",
+            "isKeyword": false
+          },
+          {
+            "word": "all",
+            "translationPl": "wszyscy",
+            "phoneticsPl": "ol",
+            "isKeyword": false
+          },
+          {
+            "word": "eat",
+            "translationPl": "jemy",
+            "phoneticsPl": "it",
+            "lemmaPl": "jeść",
+            "isKeyword": true
+          },
+          {
+            "word": "pizza",
+            "translationPl": "pizzę",
+            "phoneticsPl": "pi-tse",
+            "lemmaPl": "pizza",
+            "isKeyword": true
+          },
+          {
+            "word": "together",
+            "punctuation": "!",
+            "translationPl": "razem",
+            "phoneticsPl": "tu-ge-der",
+            "isKeyword": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "friends-crew-3",
+    "titleEn": "Friends 3: Park Picnic Day",
+    "titlePl": "Przyjaciele 3: Dzień pikniku w parku",
+    "coverImageUrl": "/images/stories/friends-crew-3/p6.webp",
+    "coverVisualConfig": {
+      "backgroundTheme": "park",
+      "primaryCharacter": "promyk",
+      "primaryColor": "#16A34A",
+      "secondaryColor": "#F97316",
+      "props": [
+        "blanket-red",
+        "ball-red"
+      ],
+      "characterMood": "happy"
+    },
+    "characterVisualAnchor": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism.",
+    "themeColor": "#16A34A",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "imageUrl": "/images/stories/friends-crew-3/p1.webp",
+        "visualConfig": {
+          "backgroundTheme": "park",
+          "primaryCharacter": "marti",
+          "primaryColor": "#0EA5E9",
+          "secondaryColor": "#16A34A",
+          "props": [
+            "boy-promyk",
+            "girl-kredka",
+            "girl-iskierka"
+          ],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Marti, Promyk, Kredka and Iskierka arrive at a sunny green park, excited for a picnic day together.",
+        "imageAltPl": "Ekipa przyjeżdża do parku na piknik.",
+        "interactiveSoundText": "Yay! Picnic time!",
+        "sentenceEn": "We have a picnic in the park.",
+        "phoneticsPl": "łi haw e pik-nik in de park",
+        "sentencePl": "Mamy piknik w parku.",
+        "words": [
+          {
+            "word": "We",
+            "translationPl": "My",
+            "phoneticsPl": "łi",
+            "isKeyword": false
+          },
+          {
+            "word": "have",
+            "translationPl": "mamy",
+            "phoneticsPl": "haw",
+            "lemmaPl": "mieć",
+            "isKeyword": true
+          },
+          {
+            "word": "a",
+            "translationPl": "jakiś",
+            "phoneticsPl": "e",
+            "ttsOverride": "uh",
+            "isKeyword": false
+          },
+          {
+            "word": "picnic",
+            "translationPl": "piknik",
+            "phoneticsPl": "pik-nik",
+            "isKeyword": true
+          },
+          {
+            "word": "in",
+            "translationPl": "w",
+            "phoneticsPl": "in",
+            "isKeyword": false
+          },
+          {
+            "word": "the",
+            "translationPl": "tym",
+            "phoneticsPl": "de",
+            "isKeyword": false
+          },
+          {
+            "word": "park",
+            "punctuation": ".",
+            "translationPl": "parku",
+            "phoneticsPl": "park",
+            "lemmaPl": "park",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "imageUrl": "/images/stories/friends-crew-3/p2.webp",
+        "visualConfig": {
+          "backgroundTheme": "park",
+          "primaryCharacter": "marti",
+          "primaryColor": "#0EA5E9",
+          "secondaryColor": "#16A34A",
+          "props": [
+            "ball-red",
+            "boy-figiel"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Marti and Figiel happily play together with a big red ball in the sunny green park.",
+        "imageAltPl": "Marti i Figiel bawią się dużą czerwoną piłką.",
+        "interactiveSoundText": "Catch the ball!",
+        "sentenceEn": "We play with a big ball.",
+        "phoneticsPl": "łi plej łif e big bol",
+        "sentencePl": "Bawimy się z dużą piłką.",
+        "words": [
+          {
+            "word": "We",
+            "translationPl": "My",
+            "phoneticsPl": "łi",
+            "isKeyword": false
+          },
+          {
+            "word": "play",
+            "translationPl": "bawimy się",
+            "phoneticsPl": "plej",
+            "lemmaPl": "bawić się",
+            "isKeyword": true
+          },
+          {
+            "word": "with",
+            "translationPl": "z",
+            "phoneticsPl": "łif",
+            "isKeyword": false
+          },
+          {
+            "word": "a",
+            "translationPl": "jakąś",
+            "phoneticsPl": "e",
+            "ttsOverride": "uh",
+            "isKeyword": false
+          },
+          {
+            "word": "big",
+            "translationPl": "dużą",
+            "phoneticsPl": "big",
+            "lemmaPl": "duży",
+            "isKeyword": true
+          },
+          {
+            "word": "ball",
+            "punctuation": ".",
+            "translationPl": "piłką",
+            "phoneticsPl": "bol",
+            "lemmaPl": "piłka",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "imageUrl": "/images/stories/friends-crew-3/p3.webp",
+        "visualConfig": {
+          "backgroundTheme": "park",
+          "primaryCharacter": "iskierka",
+          "primaryColor": "#EAB308",
+          "secondaryColor": "#16A34A",
+          "props": [
+            "hat-yellow"
+          ],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: A gust of wind playfully lifts Iskierka’s yellow hat off her head in the park, she looks surprised but amused.",
+        "imageAltPl": "Wiatr zabiera żółtą czapkę Iskierki.",
+        "interactiveSoundText": "Whoa! My hat!",
+        "sentenceEn": "The wind takes her yellow hat!",
+        "phoneticsPl": "de łind tejks her je-lou hat",
+        "sentencePl": "Wiatr zabiera jej żółtą czapkę!",
+        "words": [
+          {
+            "word": "The",
+            "translationPl": "Ten",
+            "phoneticsPl": "de",
+            "isKeyword": false
+          },
+          {
+            "word": "wind",
+            "translationPl": "wiatr",
+            "phoneticsPl": "łind",
+            "isKeyword": true
+          },
+          {
+            "word": "takes",
+            "translationPl": "zabiera",
+            "phoneticsPl": "tejks",
+            "isKeyword": false
+          },
+          {
+            "word": "her",
+            "translationPl": "jej",
+            "phoneticsPl": "her",
+            "isKeyword": false
+          },
+          {
+            "word": "yellow",
+            "translationPl": "żółtą",
+            "phoneticsPl": "je-lou",
+            "lemmaPl": "żółty",
+            "isKeyword": true
+          },
+          {
+            "word": "hat",
+            "punctuation": "!",
+            "translationPl": "czapkę",
+            "phoneticsPl": "hat",
+            "lemmaPl": "czapka",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "imageUrl": "/images/stories/friends-crew-3/p4.webp",
+        "visualConfig": {
+          "backgroundTheme": "park",
+          "primaryCharacter": "marti",
+          "primaryColor": "#0EA5E9",
+          "secondaryColor": "#EAB308",
+          "props": [
+            "hat-yellow",
+            "boy-figiel",
+            "girl-iskierka"
+          ],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Marti, Figiel and Iskierka happily run together across the park and catch the yellow hat.",
+        "imageAltPl": "Marti, Figiel i Iskierka biegną i łapią czapkę.",
+        "interactiveSoundText": "Got it! Ha ha!",
+        "sentenceEn": "We run and catch the hat!",
+        "phoneticsPl": "łi ran and kacz de hat",
+        "sentencePl": "Biegamy i łapiemy tę czapkę!",
+        "words": [
+          {
+            "word": "We",
+            "translationPl": "My",
+            "phoneticsPl": "łi",
+            "isKeyword": false
+          },
+          {
+            "word": "run",
+            "translationPl": "biegamy",
+            "phoneticsPl": "ran",
+            "lemmaPl": "biegać",
+            "isKeyword": true
+          },
+          {
+            "word": "and",
+            "translationPl": "i",
+            "phoneticsPl": "and",
+            "isKeyword": false
+          },
+          {
+            "word": "catch",
+            "translationPl": "łapiemy",
+            "phoneticsPl": "kacz",
+            "lemmaPl": "łapać",
+            "isKeyword": true
+          },
+          {
+            "word": "the",
+            "translationPl": "tę",
+            "phoneticsPl": "de",
+            "isKeyword": false
+          },
+          {
+            "word": "hat",
+            "punctuation": "!",
+            "translationPl": "czapkę",
+            "phoneticsPl": "hat",
+            "lemmaPl": "czapka",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "imageUrl": "/images/stories/friends-crew-3/p5.webp",
+        "visualConfig": {
+          "backgroundTheme": "park",
+          "primaryCharacter": "promyk",
+          "primaryColor": "#F59E0B",
+          "secondaryColor": "#16A34A",
+          "props": [
+            "blanket-red",
+            "apple-red",
+            "girl-marti",
+            "girl-rozyczka"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Promyk, Marti and Różyczka sit happily on a red picnic blanket in the park, sharing red apples.",
+        "imageAltPl": "Promyk, Marti i Różyczka jedzą piknik na czerwonym kocu.",
+        "interactiveSoundText": "This picnic is so nice!",
+        "sentenceEn": "We have a picnic on the blanket.",
+        "phoneticsPl": "łi haw e pik-nik on de blan-kit",
+        "sentencePl": "Mamy piknik na kocu.",
+        "words": [
+          {
+            "word": "We",
+            "translationPl": "My",
+            "phoneticsPl": "łi",
+            "isKeyword": false
+          },
+          {
+            "word": "have",
+            "translationPl": "mamy",
+            "phoneticsPl": "haw",
+            "lemmaPl": "mieć",
+            "isKeyword": true
+          },
+          {
+            "word": "a",
+            "translationPl": "jakiś",
+            "phoneticsPl": "e",
+            "ttsOverride": "uh",
+            "isKeyword": false
+          },
+          {
+            "word": "picnic",
+            "translationPl": "piknik",
+            "phoneticsPl": "pik-nik",
+            "isKeyword": true
+          },
+          {
+            "word": "on",
+            "translationPl": "na",
+            "phoneticsPl": "on",
+            "isKeyword": false
+          },
+          {
+            "word": "the",
+            "translationPl": "tym",
+            "phoneticsPl": "de",
+            "isKeyword": false
+          },
+          {
+            "word": "blanket",
+            "punctuation": ".",
+            "translationPl": "kocu",
+            "phoneticsPl": "blan-kit",
+            "lemmaPl": "koc",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 6,
+        "imageUrl": "/images/stories/friends-crew-3/p6.webp",
+        "visualConfig": {
+          "backgroundTheme": "park",
+          "primaryCharacter": "marti",
+          "primaryColor": "#16A34A",
+          "secondaryColor": "#0EA5E9",
+          "props": [
+            "boy-promyk",
+            "boy-figiel",
+            "boy-skrzat",
+            "girl-rozyczka",
+            "girl-kredka",
+            "girl-iskierka"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: The whole crew sits together happily in the park, smiling, a perfect sunny picnic day.",
+        "imageAltPl": "Cała ekipa jest razem szczęśliwa w parku.",
+        "interactiveSoundText": "Yay! Tomorrow: our Art Corner day!",
+        "sentenceEn": "We are happy friends together!",
+        "phoneticsPl": "łi ar ha-pi frendz tu-ge-der",
+        "sentencePl": "Jesteśmy wesołymi przyjaciółmi razem!",
+        "words": [
+          {
+            "word": "We",
+            "translationPl": "My",
+            "phoneticsPl": "łi",
+            "isKeyword": false
+          },
+          {
+            "word": "are",
+            "translationPl": "jesteśmy",
+            "phoneticsPl": "ar",
+            "isKeyword": false
+          },
+          {
+            "word": "happy",
+            "translationPl": "wesołymi",
+            "phoneticsPl": "ha-pi",
+            "lemmaPl": "wesoły",
+            "isKeyword": true
+          },
+          {
+            "word": "friends",
+            "translationPl": "przyjaciółmi",
+            "phoneticsPl": "frendz",
+            "lemmaEn": "friend",
+            "lemmaPl": "przyjaciel",
+            "lemmaPhoneticsPl": "frend",
+            "isKeyword": true
+          },
+          {
+            "word": "together",
+            "punctuation": "!",
+            "translationPl": "razem",
+            "phoneticsPl": "tu-ge-der",
+            "isKeyword": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "friends-crew-4",
+    "titleEn": "Friends 4: The Art Corner",
+    "titlePl": "Przyjaciele 4: Kącik twórczy",
+    "coverImageUrl": "/images/stories/friends-crew-4/p5.webp",
+    "coverVisualConfig": {
+      "backgroundTheme": "studio",
+      "primaryCharacter": "kredka",
+      "primaryColor": "#A855F7",
+      "secondaryColor": "#EC4899",
+      "props": [
+        "bracelet-pink",
+        "bracelet-yellow",
+        "heart-red"
+      ],
+      "characterMood": "happy"
+    },
+    "characterVisualAnchor": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism.",
+    "themeColor": "#A855F7",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "imageUrl": "/images/stories/friends-crew-4/p1.webp",
+        "visualConfig": {
+          "backgroundTheme": "studio",
+          "primaryCharacter": "kredka",
+          "primaryColor": "#A855F7",
+          "secondaryColor": "#EC4899",
+          "props": [
+            "bracelet-purple",
+            "bracelet-pink"
+          ],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Kredka happily shows off colorful handmade bracelets at a craft table in the bright studio art corner.",
+        "imageAltPl": "Kredka robi kolorowe bransoletki w kąciku twórczym.",
+        "interactiveSoundText": "Let’s make something fun!",
+        "sentenceEn": "Kredka makes fun bracelets today.",
+        "phoneticsPl": "kred-ka mejks fan brejs-lits tu-dej",
+        "sentencePl": "Kredka robi dziś wesołe bransoletki.",
+        "words": [
+          {
+            "word": "Kredka",
+            "translationPl": "Kredka",
+            "phoneticsPl": "kred-ka",
+            "isKeyword": false
+          },
+          {
+            "word": "makes",
+            "translationPl": "robi",
+            "phoneticsPl": "mejks",
+            "lemmaEn": "make",
+            "lemmaPl": "tworzyć",
+            "lemmaPhoneticsPl": "mejk",
+            "isKeyword": true
+          },
+          {
+            "word": "fun",
+            "translationPl": "wesołe",
+            "phoneticsPl": "fan",
+            "lemmaPl": "wesoły",
+            "isKeyword": true
+          },
+          {
+            "word": "bracelets",
+            "translationPl": "bransoletki",
+            "phoneticsPl": "brejs-lits",
+            "lemmaEn": "bracelet",
+            "lemmaPl": "bransoletka",
+            "lemmaPhoneticsPl": "brejs-lit",
+            "isKeyword": true
+          },
+          {
+            "word": "today",
+            "punctuation": ".",
+            "translationPl": "dziś",
+            "phoneticsPl": "tu-dej",
+            "isKeyword": false
+          }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "imageUrl": "/images/stories/friends-crew-4/p2.webp",
+        "visualConfig": {
+          "backgroundTheme": "studio",
+          "primaryCharacter": "marti",
+          "primaryColor": "#0EA5E9",
+          "secondaryColor": "#EC4899",
+          "props": [
+            "heart-red"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Marti happily draws a big red heart on paper at the craft table in the studio art corner.",
+        "imageAltPl": "Marti rysuje duże czerwone serce.",
+        "interactiveSoundText": "I love drawing hearts!",
+        "sentenceEn": "I draw a big heart.",
+        "phoneticsPl": "aj dro e big hart",
+        "sentencePl": "Rysuję duże serce.",
+        "words": [
+          {
+            "word": "I",
+            "translationPl": "Ja",
+            "phoneticsPl": "aj",
+            "isKeyword": false
+          },
+          {
+            "word": "draw",
+            "translationPl": "rysuję",
+            "phoneticsPl": "dro",
+            "lemmaPl": "rysować",
+            "isKeyword": true
+          },
+          {
+            "word": "a",
+            "translationPl": "jakieś",
+            "phoneticsPl": "e",
+            "ttsOverride": "uh",
+            "isKeyword": false
+          },
+          {
+            "word": "big",
+            "translationPl": "duże",
+            "phoneticsPl": "big",
+            "lemmaPl": "duży",
+            "isKeyword": true
+          },
+          {
+            "word": "heart",
+            "punctuation": ".",
+            "translationPl": "serce",
+            "phoneticsPl": "hart",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "imageUrl": "/images/stories/friends-crew-4/p3.webp",
+        "visualConfig": {
+          "backgroundTheme": "studio",
+          "primaryCharacter": "kredka",
+          "primaryColor": "#A855F7",
+          "secondaryColor": "#0EA5E9",
+          "props": [
+            "girl-marti",
+            "boy-figiel"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Kredka kindly helps Marti and Figiel draw their own pictures at the craft table in the studio.",
+        "imageAltPl": "Kredka pomaga Marti i Figielowi rysować.",
+        "interactiveSoundText": "You can draw anything you like!",
+        "sentenceEn": "Kredka helps us all draw.",
+        "phoneticsPl": "kred-ka helps as ol dro",
+        "sentencePl": "Kredka pomaga nam wszystkim rysować.",
+        "words": [
+          {
+            "word": "Kredka",
+            "translationPl": "Kredka",
+            "phoneticsPl": "kred-ka",
+            "isKeyword": false
+          },
+          {
+            "word": "helps",
+            "translationPl": "pomaga",
+            "phoneticsPl": "helps",
+            "lemmaEn": "help",
+            "lemmaPl": "pomóc",
+            "lemmaPhoneticsPl": "help",
+            "isKeyword": true
+          },
+          {
+            "word": "us",
+            "translationPl": "nam",
+            "phoneticsPl": "as",
+            "isKeyword": false
+          },
+          {
+            "word": "all",
+            "translationPl": "wszystkim",
+            "phoneticsPl": "ol",
+            "isKeyword": false
+          },
+          {
+            "word": "draw",
+            "punctuation": ".",
+            "translationPl": "rysować",
+            "phoneticsPl": "dro",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "imageUrl": "/images/stories/friends-crew-4/p4.webp",
+        "visualConfig": {
+          "backgroundTheme": "studio",
+          "primaryCharacter": "marti",
+          "primaryColor": "#EC4899",
+          "secondaryColor": "#A855F7",
+          "props": [
+            "bracelet-pink",
+            "bracelet-yellow",
+            "heart-red",
+            "heart-pink"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: The whole crew happily shows off their finished bracelets and heart drawings on the craft table.",
+        "imageAltPl": "Ekipa pokazuje swoje bransoletki i serca.",
+        "interactiveSoundText": "Look at all our art!",
+        "sentenceEn": "We make bracelets and hearts.",
+        "phoneticsPl": "łi mejk brejs-lits and harts",
+        "sentencePl": "Robimy bransoletki i serca.",
+        "words": [
+          {
+            "word": "We",
+            "translationPl": "My",
+            "phoneticsPl": "łi",
+            "isKeyword": false
+          },
+          {
+            "word": "make",
+            "translationPl": "robimy",
+            "phoneticsPl": "mejk",
+            "lemmaPl": "tworzyć",
+            "isKeyword": true
+          },
+          {
+            "word": "bracelets",
+            "translationPl": "bransoletki",
+            "phoneticsPl": "brejs-lits",
+            "lemmaEn": "bracelet",
+            "lemmaPl": "bransoletka",
+            "lemmaPhoneticsPl": "brejs-lit",
+            "isKeyword": true
+          },
+          {
+            "word": "and",
+            "translationPl": "i",
+            "phoneticsPl": "and",
+            "isKeyword": false
+          },
+          {
+            "word": "hearts",
+            "punctuation": ".",
+            "translationPl": "serca",
+            "phoneticsPl": "harts",
+            "lemmaEn": "heart",
+            "lemmaPl": "serce",
+            "lemmaPhoneticsPl": "hart",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "imageUrl": "/images/stories/friends-crew-4/p5.webp",
+        "visualConfig": {
+          "backgroundTheme": "studio",
+          "primaryCharacter": "marti",
+          "primaryColor": "#0EA5E9",
+          "secondaryColor": "#A855F7",
+          "props": [
+            "bracelet-purple",
+            "heart-red",
+            "boy-promyk",
+            "boy-figiel",
+            "boy-skrzat",
+            "girl-rozyczka",
+            "girl-kredka",
+            "girl-iskierka"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: The whole crew happily hands Marti their handmade bracelets and heart drawings as a gift, Marti looks moved.",
+        "imageAltPl": "Ekipa daje Marti swoje bransoletki i serca w prezencie.",
+        "interactiveSoundText": "These are for you, Marti!",
+        "sentenceEn": "We give our gifts to Marti.",
+        "phoneticsPl": "łi giw au-er gifts tu mar-ti",
+        "sentencePl": "Dajemy nasze prezenty Marti.",
+        "words": [
+          {
+            "word": "We",
+            "translationPl": "My",
+            "phoneticsPl": "łi",
+            "isKeyword": false
+          },
+          {
+            "word": "give",
+            "translationPl": "dajemy",
+            "phoneticsPl": "giw",
+            "lemmaPl": "dawać",
+            "isKeyword": true
+          },
+          {
+            "word": "our",
+            "translationPl": "nasze",
+            "phoneticsPl": "au-er",
+            "isKeyword": false
+          },
+          {
+            "word": "gifts",
+            "translationPl": "prezenty",
+            "phoneticsPl": "gifts",
+            "lemmaEn": "gift",
+            "lemmaPl": "prezent",
+            "lemmaPhoneticsPl": "gift",
+            "isKeyword": true
+          },
+          {
+            "word": "to",
+            "translationPl": "do",
+            "phoneticsPl": "tu",
+            "isKeyword": false
+          },
+          {
+            "word": "Marti",
+            "punctuation": ".",
+            "translationPl": "Marti",
+            "phoneticsPl": "mar-ti",
+            "isKeyword": false
+          }
+        ]
+      },
+      {
+        "pageNumber": 6,
+        "imageUrl": "/images/stories/friends-crew-4/p6.webp",
+        "visualConfig": {
+          "backgroundTheme": "studio",
+          "primaryCharacter": "marti",
+          "primaryColor": "#0EA5E9",
+          "secondaryColor": "#F97316",
+          "props": [
+            "bracelet-purple",
+            "heart-red",
+            "boy-promyk",
+            "girl-kredka"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Marti happily holds her new bracelets and heart drawings close, smiling warmly next to Promyk and Kredka.",
+        "imageAltPl": "Marti jest szczęśliwa z prezentami od przyjaciół.",
+        "interactiveSoundText": "Thank you, friends! Tomorrow: our talent show!",
+        "sentenceEn": "I am so happy today!",
+        "phoneticsPl": "aj am sou ha-pi tu-dej",
+        "sentencePl": "Jestem dziś bardzo wesoła!",
+        "words": [
+          {
+            "word": "I",
+            "translationPl": "Ja",
+            "phoneticsPl": "aj",
+            "isKeyword": false
+          },
+          {
+            "word": "am",
+            "translationPl": "jestem",
+            "phoneticsPl": "am",
+            "isKeyword": false
+          },
+          {
+            "word": "so",
+            "translationPl": "bardzo",
+            "phoneticsPl": "sou",
+            "isKeyword": false
+          },
+          {
+            "word": "happy",
+            "translationPl": "wesoła",
+            "phoneticsPl": "ha-pi",
+            "lemmaPl": "wesoły",
+            "isKeyword": true
+          },
+          {
+            "word": "today",
+            "punctuation": "!",
+            "translationPl": "dziś",
+            "phoneticsPl": "tu-dej",
+            "isKeyword": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "friends-crew-5",
+    "titleEn": "Friends 5: The Friends Talent Show",
+    "titlePl": "Przyjaciele 5: Pokaz talentów przyjaciół",
+    "coverImageUrl": "/images/stories/friends-crew-5/p5.webp",
+    "coverVisualConfig": {
+      "backgroundTheme": "clubhouse",
+      "primaryCharacter": "marti",
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#0EA5E9",
+      "props": [
+        "microphone-gold"
+      ],
+      "characterMood": "happy"
+    },
+    "characterVisualAnchor": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism.",
+    "themeColor": "#F59E0B",
+    "level": "Pre-A1",
+    "guardianVerified": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "imageUrl": "/images/stories/friends-crew-5/p1.webp",
+        "visualConfig": {
+          "backgroundTheme": "clubhouse",
+          "primaryCharacter": "promyk",
+          "primaryColor": "#F59E0B",
+          "secondaryColor": "#0EA5E9",
+          "props": [
+            "girl-marti",
+            "girl-kredka"
+          ],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Promyk happily announces a cozy talent day in the warm studio clubhouse, Marti and Kredka smile beside him.",
+        "imageAltPl": "Promyk ogłasza dzień talentów w klubowym kąciku.",
+        "interactiveSoundText": "Today is talent day, everyone!",
+        "sentenceEn": "Today is our talent day!",
+        "phoneticsPl": "tu-dej iz au-er ta-lent dej",
+        "sentencePl": "Dziś jest nasz dzień talentów!",
+        "words": [
+          {
+            "word": "Today",
+            "translationPl": "Dziś",
+            "phoneticsPl": "tu-dej",
+            "isKeyword": false
+          },
+          {
+            "word": "is",
+            "translationPl": "jest",
+            "phoneticsPl": "iz",
+            "isKeyword": false
+          },
+          {
+            "word": "our",
+            "translationPl": "nasz",
+            "phoneticsPl": "au-er",
+            "isKeyword": false
+          },
+          {
+            "word": "talent",
+            "translationPl": "talentów",
+            "phoneticsPl": "ta-lent",
+            "lemmaPl": "talent",
+            "isKeyword": true
+          },
+          {
+            "word": "day",
+            "punctuation": "!",
+            "translationPl": "dzień",
+            "phoneticsPl": "dej",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "imageUrl": "/images/stories/friends-crew-5/p2.webp",
+        "visualConfig": {
+          "backgroundTheme": "clubhouse",
+          "primaryCharacter": "promyk",
+          "primaryColor": "#F59E0B",
+          "secondaryColor": "#0EA5E9",
+          "props": [
+            "microphone-gold"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Promyk happily sings a cheerful song into a gold microphone in the cozy studio clubhouse.",
+        "imageAltPl": "Promyk śpiewa wesołą piosenkę do mikrofonu.",
+        "interactiveSoundText": "La la la! I love singing!",
+        "sentenceEn": "Promyk sings a happy song.",
+        "phoneticsPl": "pro-myk singz e ha-pi song",
+        "sentencePl": "Promyk śpiewa jakąś wesołą piosenkę.",
+        "words": [
+          {
+            "word": "Promyk",
+            "translationPl": "Promyk",
+            "phoneticsPl": "pro-myk",
+            "isKeyword": false
+          },
+          {
+            "word": "sings",
+            "translationPl": "śpiewa",
+            "phoneticsPl": "singz",
+            "lemmaEn": "sing",
+            "lemmaPl": "śpiewać",
+            "lemmaPhoneticsPl": "sing",
+            "isKeyword": true
+          },
+          {
+            "word": "a",
+            "translationPl": "jakąś",
+            "phoneticsPl": "e",
+            "ttsOverride": "uh",
+            "isKeyword": false
+          },
+          {
+            "word": "happy",
+            "translationPl": "wesołą",
+            "phoneticsPl": "ha-pi",
+            "lemmaPl": "wesoły",
+            "isKeyword": true
+          },
+          {
+            "word": "song",
+            "punctuation": ".",
+            "translationPl": "piosenkę",
+            "phoneticsPl": "song",
+            "lemmaPl": "piosenka",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 3,
+        "imageUrl": "/images/stories/friends-crew-5/p3.webp",
+        "visualConfig": {
+          "backgroundTheme": "clubhouse",
+          "primaryCharacter": "skrzat",
+          "primaryColor": "#0D9488",
+          "secondaryColor": "#16A34A",
+          "props": [
+            "boy-figiel"
+          ],
+          "characterMood": "excited"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Skrzat and Figiel happily dance together in the cozy studio clubhouse, everyone claps along.",
+        "imageAltPl": "Skrzat i Figiel tańczą razem.",
+        "interactiveSoundText": "Dance with us!",
+        "sentenceEn": "Skrzat and Figiel dance together.",
+        "phoneticsPl": "skrzat and fi-giel dans tu-ge-der",
+        "sentencePl": "Skrzat i Figiel tańczą razem.",
+        "words": [
+          {
+            "word": "Skrzat",
+            "translationPl": "Skrzat",
+            "phoneticsPl": "skrzat",
+            "isKeyword": false
+          },
+          {
+            "word": "and",
+            "translationPl": "i",
+            "phoneticsPl": "and",
+            "isKeyword": false
+          },
+          {
+            "word": "Figiel",
+            "translationPl": "Figiel",
+            "phoneticsPl": "fi-giel",
+            "isKeyword": false
+          },
+          {
+            "word": "dance",
+            "translationPl": "tańczą",
+            "phoneticsPl": "dans",
+            "lemmaPl": "tańczyć",
+            "isKeyword": true
+          },
+          {
+            "word": "together",
+            "punctuation": ".",
+            "translationPl": "razem",
+            "phoneticsPl": "tu-ge-der",
+            "isKeyword": true
+          }
+        ]
+      },
+      {
+        "pageNumber": 4,
+        "imageUrl": "/images/stories/friends-crew-5/p4.webp",
+        "visualConfig": {
+          "backgroundTheme": "clubhouse",
+          "primaryCharacter": "marti",
+          "primaryColor": "#0EA5E9",
+          "secondaryColor": "#F59E0B",
+          "props": [
+            "girl-rozyczka"
+          ],
+          "characterMood": "worried"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Marti stands a little nervously backstage in the studio clubhouse, Różyczka stays close beside her for comfort.",
+        "imageAltPl": "Marti czuje się trochę zestresowana przed swoim występem.",
+        "interactiveSoundText": "It is okay to feel nervous.",
+        "sentenceEn": "I feel nervous today.",
+        "phoneticsPl": "aj fil ner-wes tu-dej",
+        "sentencePl": "Czuję się dziś zestresowana.",
+        "words": [
+          {
+            "word": "I",
+            "translationPl": "Ja",
+            "phoneticsPl": "aj",
+            "isKeyword": false
+          },
+          {
+            "word": "feel",
+            "translationPl": "czuję się",
+            "phoneticsPl": "fil",
+            "lemmaPl": "czuć się",
+            "isKeyword": true
+          },
+          {
+            "word": "nervous",
+            "translationPl": "zestresowana",
+            "phoneticsPl": "ner-wes",
+            "lemmaPl": "zestresowany",
+            "isKeyword": true
+          },
+          {
+            "word": "today",
+            "punctuation": ".",
+            "translationPl": "dziś",
+            "phoneticsPl": "tu-dej",
+            "isKeyword": false
+          }
+        ]
+      },
+      {
+        "pageNumber": 5,
+        "imageUrl": "/images/stories/friends-crew-5/p5.webp",
+        "visualConfig": {
+          "backgroundTheme": "clubhouse",
+          "primaryCharacter": "marti",
+          "primaryColor": "#0EA5E9",
+          "secondaryColor": "#F59E0B",
+          "props": [
+            "boy-promyk",
+            "boy-figiel",
+            "boy-skrzat",
+            "girl-rozyczka",
+            "girl-kredka",
+            "girl-iskierka"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: The whole crew happily claps and cheers for Marti, encouraging her warmly before her turn.",
+        "imageAltPl": "Przyjaciele klaszczą dla Marti.",
+        "interactiveSoundText": "You can do it, Marti!",
+        "sentenceEn": "My friends clap for me.",
+        "phoneticsPl": "maj frendz klap for mi",
+        "sentencePl": "Moi przyjaciele klaszczą dla mnie.",
+        "words": [
+          {
+            "word": "My",
+            "translationPl": "Moi",
+            "phoneticsPl": "maj",
+            "isKeyword": false
+          },
+          {
+            "word": "friends",
+            "translationPl": "przyjaciele",
+            "phoneticsPl": "frendz",
+            "lemmaEn": "friend",
+            "lemmaPl": "przyjaciel",
+            "lemmaPhoneticsPl": "frend",
+            "isKeyword": true
+          },
+          {
+            "word": "clap",
+            "translationPl": "klaszczą",
+            "phoneticsPl": "klap",
+            "lemmaPl": "klaskać",
+            "isKeyword": true
+          },
+          {
+            "word": "for",
+            "translationPl": "dla",
+            "phoneticsPl": "for",
+            "isKeyword": false
+          },
+          {
+            "word": "me",
+            "punctuation": ".",
+            "translationPl": "mnie",
+            "phoneticsPl": "mi",
+            "isKeyword": false
+          }
+        ]
+      },
+      {
+        "pageNumber": 6,
+        "imageUrl": "/images/stories/friends-crew-5/p6.webp",
+        "visualConfig": {
+          "backgroundTheme": "clubhouse",
+          "primaryCharacter": "marti",
+          "primaryColor": "#F59E0B",
+          "secondaryColor": "#0EA5E9",
+          "props": [
+            "microphone-gold",
+            "boy-promyk",
+            "girl-kredka"
+          ],
+          "characterMood": "happy"
+        },
+        "imagePrompt": "Seven completely invented, fictional young content-creator characters for a children's show, cheerful flat-color digital illustration style, no real people, no celebrities and no photorealistic faces: Marti, the newest member, a cheerful girl with wavy brown hair in a ponytail, round rosy cheeks, wearing a cozy sky-blue hoodie, long dark pants and sporty sneakers, carrying a small blue suitcase; Promyk, the warm host boy with spiky golden-blond hair, a bright amber jacket and a big friendly grin; Figiel, a playful boy with messy brown hair, round glasses and a green striped T-shirt; Skrzat, a helpful boy with short curly hair and a teal zip-up hoodie; Różyczka, a caring girl with pink pigtails, freckles and a rose-pink cardigan; Kredka, a creative girl with a purple beret, paint-dot overalls and a big smile; Iskierka, a sociable girl with a short yellow bob, a yellow starry top and sparkly sneakers. Every outfit is fully covered and age-appropriate. Bright, colorful, energetic flat-illustration creator-studio style, bold clean outlines, big friendly eyes, warm sunny lighting, no 3D render, no photorealism. Scene: Marti happily sings her first little song into the gold microphone, the whole crew claps and smiles.",
+        "imageAltPl": "Marti śpiewa, a wszyscy klaszczą.",
+        "interactiveSoundText": "Yay! Thank you, Friends! See you tomorrow!",
+        "sentenceEn": "I sing, and everyone claps!",
+        "phoneticsPl": "aj sing and e-wri-łan klaps",
+        "sentencePl": "Śpiewam, a wszyscy klaszczą!",
+        "words": [
+          {
+            "word": "I",
+            "translationPl": "Ja",
+            "phoneticsPl": "aj",
+            "isKeyword": false
+          },
+          {
+            "word": "sing",
+            "punctuation": ",",
+            "translationPl": "śpiewam",
+            "phoneticsPl": "sing",
+            "lemmaPl": "śpiewać",
+            "isKeyword": true
+          },
+          {
+            "word": "and",
+            "translationPl": "i",
+            "phoneticsPl": "and",
+            "isKeyword": false
+          },
+          {
+            "word": "everyone",
+            "translationPl": "wszyscy",
+            "phoneticsPl": "e-wri-łan",
+            "isKeyword": false
+          },
+          {
+            "word": "claps",
+            "punctuation": "!",
+            "translationPl": "klaszczą",
+            "phoneticsPl": "klaps",
+            "lemmaEn": "clap",
+            "lemmaPl": "klaskać",
+            "lemmaPhoneticsPl": "klap",
+            "isKeyword": true
+          }
+        ]
+      }
+    ]
   }
 ]

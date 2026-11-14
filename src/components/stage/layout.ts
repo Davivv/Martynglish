@@ -62,9 +62,14 @@ const OBJECT_BOX: Record<string, readonly [number, number, number]> = {
   // half size and recentred on (0, 0) like `puppy`, so several friends fit beside a hero.
   bat: [50, 50, 24.5],
   bird: [46, 40, 21],
+  // Friends companion (D44): the same 100 x 100 box as `girl`, so a boy and a girl friend
+  // share the same foot line and scale beside the hero.
+  boy: [60, 100, 49],
   box: [54, 44, 22],
   butterfly: [42, 34, 18],
   cake: [50, 60, 30],
+  // Friends (D44): a small vlogging camera on a tripod.
+  camera: [34, 46, 23],
   chocolate: [38, 40, 21],
   cloud: [48, 28, 14],
   firefly: [20, 20, 10],
@@ -74,7 +79,11 @@ const OBJECT_BOX: Record<string, readonly [number, number, number]> = {
   girl: [60, 100, 49],
   heart: [38, 35, 17],
   hedgehog: [50, 50, 24.5],
+  // Friends (D44): Marti's own Friends hoodie, shown folded or held up.
+  hoodie: [44, 42, 21],
   icecream: [32, 48, 20],
+  // Friends (D44): a tall studio ring light on a stand.
+  light: [34, 62, 31],
   microphone: [30, 56, 28],
   // The bowl is drawn small inside a taller box, so it stays in scale next to a puppy.
   milk: [48, 44, 22],
@@ -89,9 +98,17 @@ const OBJECT_BOX: Record<string, readonly [number, number, number]> = {
   shell: [40, 37, 20],
   skateboard: [64, 34, 17],
   star: [38, 36, 17],
+  // Friends (D44): Marti's small blue travel suitcase.
+  suitcase: [40, 40, 20],
   sun: [44, 44, 22],
   table: [60, 52, 26],
   tree: [46, 46, 21],
+  // Friends (D45): the fruit pizza, Iskierka's sun hat, the park picnic blanket and the
+  // friendship bracelets from `friends-crew-2..4`.
+  pizza: [54, 34, 17],
+  hat: [48, 36, 18],
+  blanket: [62, 36, 19],
+  bracelet: [32, 32, 16],
 }
 
 type Box = readonly [number, number, number]
@@ -229,12 +246,12 @@ export function layoutProps(
   const trees = items.filter(({ object }) => object === 'tree')
   const inSea = ({ object }: Item) => theme === 'beach' && object === 'fish'
   const sea = items.filter(inSea)
-  const friends = items.filter(({ object }) => object === 'girl')
+  // `girl` and `boy` are companions drawn beside the hero at the same scale (D38, extended to boys by D44).
+  const isFriend = ({ object }: Item) => object === 'girl' || object === 'boy'
+  const friends = items.filter(isFriend)
   const bigShadows = items.filter((item) => isShadow(item) && item.variant !== 'small')
   const smallShadows = items.filter((item) => isShadow(item) && item.variant === 'small')
-  const ground = items.filter(
-    (item) => !isHigh(item) && !isShadow(item) && item.object !== 'tree' && item.object !== 'girl' && !inSea(item),
-  )
+  const ground = items.filter((item) => !isHigh(item) && !isShadow(item) && item.object !== 'tree' && !isFriend(item) && !inSea(item))
   const placed: PlacedProp[] = []
   const footY = hero.y + GIRL_FEET * hero.scale
   const heroHalf = GIRL_HALF_WIDTH * hero.scale
@@ -246,7 +263,15 @@ export function layoutProps(
   const friendHalf = GIRL_HALF_WIDTH * friendScale
   const near = (heroHalf + friendHalf) * 0.9
   const stride = friendHalf * 1.8
-  const offsets = [[], [-near], [-near, near], [-near, near, near + stride]][Math.min(friends.length, 3)]
+  // Up to three friends get the hand-placed spots used since D38. A crowd beyond that (D44's
+  // whole crew) keeps fanning out to alternating sides; `squeeze` below shrinks everyone to fit.
+  const offsets: number[] =
+    friends.length <= 3
+      ? [[], [-near], [-near, near], [-near, near, near + stride]][friends.length]
+      : [-near, near, near + stride, ...Array.from({ length: friends.length - 3 }, (_, i) => {
+          const side = i % 2 === 0 ? -1 : 1
+          return side * (near + stride * (2 + Math.floor(i / 2)))
+        })]
   const reach = Math.max(0, ...offsets.map(Math.abs))
   const room = Math.min(HERO_CENTER_X - safeL, safeR - HERO_CENTER_X) - friendHalf
   const squeeze = reach > room ? room / reach : 1
@@ -318,7 +343,7 @@ export function layoutProps(
     placed.push({
       ...item,
       x: friendXs[i] ?? HERO_CENTER_X,
-      y: footY - boxOf('girl')[2] * friendScale + (GIRL_FEET - 99) * friendScale,
+      y: footY - boxOf(item.object)[2] * friendScale + (GIRL_FEET - 99) * friendScale,
       scale: friendScale,
       behind: true,
     })

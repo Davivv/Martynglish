@@ -2,7 +2,7 @@ import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } fr
 import type { KeyboardEvent } from 'react'
 import type { SceneVisualConfig } from '../../types/story'
 import { BACKGROUND_DRAWINGS } from './backgrounds'
-import { CHARACTER_DRAWINGS, GIRL_HEROES, heroShadowRx } from './characters'
+import { BOY_HEROES, CHARACTER_DRAWINGS, GIRL_HEROES, heroShadowRx } from './characters'
 import { Cat } from './characters/Cat'
 import { layoutProps } from './layout'
 import type { StageMode } from './layout'
@@ -105,7 +105,7 @@ export function InteractiveStoryStage({
     }
   }
 
-  const slimHero = primaryCharacter in GIRL_HEROES
+  const slimHero = primaryCharacter in GIRL_HEROES || primaryCharacter in BOY_HEROES
   const layout = useMemo(
     () => layoutProps(props, mode, backgroundTheme, slimHero),
     [props, mode, backgroundTheme, slimHero],

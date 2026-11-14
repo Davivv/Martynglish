@@ -9,10 +9,12 @@ import { DarkCity, NeonCity } from './City'
 import { DuskValley } from './DuskValley'
 import { HollowTree } from './HollowTree'
 import { IceCreamShop } from './IceCream'
+import { Kitchen } from './Kitchen'
 import { Meadow } from './Meadow'
 import { NightSky } from './NightSky'
 import { Park } from './Park'
 import { Rooftop } from './Rooftop'
+import { Studio } from './Studio'
 import { Town } from './Town'
 
 /** One drawing per `BACKGROUND_THEMES` entry. A test keeps this map complete. */
@@ -32,4 +34,6 @@ export const BACKGROUND_DRAWINGS: Record<BackgroundTheme, ComponentType> = {
   cafe: Cafe,
   'dusk-valley': DuskValley,
   'hollow-tree': HollowTree,
+  studio: Studio,
+  kitchen: Kitchen,
 }

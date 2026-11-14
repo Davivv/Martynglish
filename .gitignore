@@ -23,6 +23,9 @@ CLAUDE.local.md
 *.keystore
 *.jks
 
+# Prywatne materiały referencyjne (prawdziwe zdjęcia osób, nigdy do publicznego repo)
+docs/Friendz/
+
 # Edytory i system
 .vscode/*
 !.vscode/extensions.json

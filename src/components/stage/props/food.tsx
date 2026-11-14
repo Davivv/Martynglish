@@ -114,3 +114,48 @@ export function IceCream({ variant }: PropProps) {
     </g>
   )
 }
+
+const PIZZA_TOPPINGS = ['#EF4444', '#FACC15', '#22C55E', '#EF4444', '#FACC15', '#22C55E']
+const PIZZA_FRUIT: ReadonlyArray<readonly [number, number]> = [
+  [-13, -5], [-4, -9], [7, -7], [15, -1], [-15, 3], [-2, 2], [9, 5], [-7, 8], [2, 9],
+]
+
+/** `pizza-1`: a round fruit pizza, cut into slices and topped with colourful fruit. */
+export function Pizza() {
+  const id = useGid()
+  return (
+    <g strokeLinejoin="round" strokeLinecap="round">
+      <defs>
+        <radialGradient id={id} cx="38%" cy="30%" r="80%">
+          <stop offset="0" stopColor="#FFE8A3" />
+          <stop offset="0.6" stopColor="#F7CE7E" />
+          <stop offset="1" stopColor="#C98A3A" />
+        </radialGradient>
+        <linearGradient id={`${id}c`} x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stopColor="#F2C06B" />
+          <stop offset="1" stopColor="#C98A3A" />
+        </linearGradient>
+      </defs>
+      <ellipse cx={0} cy={18} rx={27} ry={5} fill="#000" opacity={0.15} />
+      {/* crust ring */}
+      <ellipse cx={0} cy={0} rx={27} ry={17} fill={`url(#${id}c)`} stroke="#8a5420" strokeWidth={1.6} />
+      {/* dough base */}
+      <ellipse cx={0} cy={0.6} rx={22} ry={13.6} fill={`url(#${id})`} stroke="#B7791F" strokeWidth={1.2} />
+      {/* slice lines, so it reads as a shareable pizza */}
+      <g stroke="#B7791F" strokeWidth={1} opacity={0.5}>
+        <path d="M0 0.6 L0 -13" />
+        <path d="M0 0.6 L19 7.4" />
+        <path d="M0 0.6 L-19 7.4" />
+        <path d="M0 0.6 L12 -9.4" />
+        <path d="M0 0.6 L-12 -9.4" />
+        <path d="M0 0.6 L12 10.6" />
+        <path d="M0 0.6 L-12 10.6" />
+      </g>
+      {/* colourful fruit toppings: red, yellow and green, matching the story's pizza */}
+      {PIZZA_FRUIT.map(([x, y], i) => (
+        <circle key={`${x}-${y}`} cx={x} cy={y} r={2.3} fill={PIZZA_TOPPINGS[i % PIZZA_TOPPINGS.length]} stroke="#00000022" strokeWidth={0.5} />
+      ))}
+      <ellipse cx={-8} cy={-6} rx={6} ry={2.4} fill="#fff" opacity={0.35} transform="rotate(-20 -8 -6)" />
+    </g>
+  )
+}
